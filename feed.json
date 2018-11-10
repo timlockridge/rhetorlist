@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Rhetorlist Updates",
+    "home_page_url": "http://sandbox.timlockridge.com/rhetorlist/",
+    "feed_url": "http://sandbox.timlockridge.com/feed.json",
+    "items": [
+		{
+    		"id": "https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904",
+			 "content_html": "<h1>New book Added:</h1><p>Orwell’s “Politics and the English Language” in the Age of Pseudocracy by Hans Ostrom and William Haltom. Published on 03-26-2018.</p><p>Link to book: https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904</p>",
+    		"url": "https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3461-re-writing-the-center",
+			 "content_html": "<h1>New book Added:</h1><p>Re/Writing the Center: Approaches to Supporting Graduate Students in the Writing Center by Susan Lawrence and Terry Myers Zawacki. Published on 12-03-2018.</p><p>Link to book: https://upcolorado.com/utah-state-university-press/item/3461-re-writing-the-center</p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3461-re-writing-the-center"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies",
+			 "content_html": "<h1>New book Added:</h1><p>Re/Orienting Writing Studies: Queer Methods, Queer Projects by William P. Banks, Matthew B. Cox, and Caroline Dadas. Published on 11-15-2018.</p><p>Link to book: https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies</p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies"
+		},
+        {
+            "id": "http://intermezzo.enculturation.net/06-potts-et-al.htm",
+            "content_html": "<h1>New book added:</h1><p>Participatory Memory by Liza Potts et al., published by Enculturation Intermezzo.</p>",
+            "url": "http://intermezzo.enculturation.net/06-potts-et-al.htm"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rhetorlist</title>
+<meta name="viewport" content="initial-scale=1.0" />
+<link href="css/tabulator.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/hqg0trp.css">
+<link rel="stylesheet" href="css/style.css?v=0.87">
+<script type="text/javascript" src="js/tabulator.min.js"></script>
+</head>
+<body>
+    <section class="container">
+  <h1>Rhetorlist</h1>
+  <h2 style="max-width: 700px; margin: 0 auto">Tracking new books in Rhetoric & Writing, Composition Studies, Technical Communication, and related disciplines.</h2>
+  <p class="nav-links"><a href="about.htm">About this site</a> | <a href="submit.htm">Submit a book</a></p>
+
+
+<section class="table-container" style="max-width:1200px; margin: 0 auto;">
+        <h3>Books published in 2018:</h3>
+  <div id="book-list" style="width: 100%"></div>
+</section>
+
+<script type="text/javascript">
+var table = new Tabulator("#book-list", {
+    initialSort: [
+        {column:"publicationDate", dir:"desc"}
+    ],
+    layout:"fitColumns",
+    responsiveLayout:"collapse",
+    selectable:false,
+    columns:[ //Define Table Columns
+        {title:"Title", field:"title", align:"left", formatter:"link", formatterParams:{urlField:"publisherURL", target:"_blank"}, headerFilter:"input", reponsive:0, minWidth:400},
+        {title:"Author(s)", field:"author", align:"left", headerFilter:"input", minWidth:300, formatter:"textarea"},
+        {title:"Publisher", field:"publisher", align:"left", headerFilter:"select", minWidth:200, headerFilterParams:{
+   "":"All",
+   "ATTW Series in Technical and Professional Communication": "ATTW Series in Technical and Professional Communication",
+   "Computers and Composition Digital Press/Utah State University Press": "Computers and Composition Digital Press/Utah State University Press",
+   "Enculturation Intermezzo": "Enculturation Intermezzo",
+   "Ohio State University Press": "Ohio State University Press",
+   "Parlor Press": "Parlor Press",
+   "Routledge Studies in Rhetoric and Communication": "Routledge Studies in Rhetoric and Communication",
+   "RSA Series in Transdisciplinary Rhetoric/Penn State University Press": "RSA Series in Transdisciplinary Rhetoric/Penn State University Press",
+   "Southern Illinois University Press": "Southern Illinois University Press",
+   "Studies in Writing and Rhetoric": "Studies in Writing and Rhetoric",
+   "Sweetland Digital Rhetoric Collaborative/UMich Press": "Sweetland DRC/University of Michigan Press",
+   "University of Pittsburgh Press": "University of Pittsburgh Press",
+   "Utah State University Press": "Utah State University Press",
+   "WAC Clearinghouse/UP Colorado": "WAC Clearinghouse/UP Colorado"
+}, formatter:"textarea", variableHeight:true, responsive:4},
+       {title:"Date", field:"publicationDate", align:"left", minWidth:100, responsive: 3},
+   {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", minWidth:100, responsive:5, headerFilterParams:{
+       "":"all",
+        "yes":"yes",
+       "no":"no"
+   }
+}
+    ]
+});
+
+//load data into the table
+table.setData("2018.json");
+
+</script>
+</section>
+</body>
+</html>
