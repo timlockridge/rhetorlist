@@ -5,6 +5,11 @@
     "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
 		{
+    		"id": "https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action",
+			 "content_html": "<h1>New book Added:</h1><p>Writing for Engagement: Responsive Practice for Social Action by Edited by Mary P. Sheridan, Megan J. Bardolph, Megan Faver Hartline, and Drew Holladay. Published on 05-07-2018.</p><p>Link to book: https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action</p>",
+    		"url": "https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action"
+		},
+		{
     		"id": "https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904",
 			 "content_html": "<h1>New book Added:</h1><p>Orwell’s “Politics and the English Language” in the Age of Pseudocracy by Hans Ostrom and William Haltom. Published on 03-26-2018.</p><p>Link to book: https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904</p>",
     		"url": "https://www.routledge.com/Orwells-Politics-and-the-English-Language-in-the-Age-of-Pseudocracy/Ostrom-Haltom/p/book/9781138499904"
