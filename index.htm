@@ -39,7 +39,7 @@ var table = new Tabulator("#book-list", {
     responsiveLayout:"collapse",
     selectable:false,
     columns:[ //Define Table Columns
-        {title:"Title", field:"title", align:"left", formatter:"link", formatterParams:{urlField:"publisherURL", target:"_blank"}, headerFilter:"input", reponsive:0, minWidth:400},
+        {title:"Title", field:"title", align:"left", formatter:"link", formatterParams:{urlField:"publisherURL", target:"_blank"}, headerFilter:"input", reponsive:0, minWidth:350},
         {title:"Author(s)", field:"author", align:"left", headerFilter:"input", minWidth:300, formatter:"textarea"},
         {title:"Publisher", field:"publisher", align:"left", headerFilter:"select", minWidth:200, headerFilterParams:{
    "":"All",
@@ -57,8 +57,8 @@ var table = new Tabulator("#book-list", {
    "Utah State University Press": "Utah State University Press",
    "WAC Clearinghouse/UP Colorado": "WAC Clearinghouse/UP Colorado"
 }, formatter:"textarea", variableHeight:true, responsive:4},
-       {title:"Date", field:"publicationDate", align:"left", minWidth:100, responsive: 3},
-   {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", minWidth:100, responsive:5, headerFilterParams:{
+       {title:"Date", field:"publicationDate", align:"left", width:100, responsive:3},
+   {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", width:100, responsive:5, headerFilterParams:{
        "":"all",
         "yes":"yes",
        "no":"no"

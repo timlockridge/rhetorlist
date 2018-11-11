@@ -136,3 +136,26 @@ and (max-width : 675px)
         margin-top: 10%;
     }
 }
+
+/* iPhone SE breakpoints */
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px)
+{ 
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+    .about-page {
+        padding: .5% .75%;
+    }
+    .nav-links a {
+        padding: .75em 1.25em;
+    }
+    h3 {
+        margin-top: 10%;
+    }
+}
