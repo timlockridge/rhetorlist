@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Rhetorlist Updates",
-    "home_page_url": "http://sandbox.timlockridge.com/rhetorlist/",
-    "feed_url": "http://sandbox.timlockridge.com/feed.json",
+    "home_page_url": "https://rhetorlist.net/",
+    "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
     		"id": "https://www.routledge.com/Bruce-Springsteen-and-Popular-Music-Rhetoric-Social-Consciousness-and/Wolff/p/book/9781138943995",
