@@ -1,9 +1,29 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Rhetorlist Updates",
-    "home_page_url": "https://rhetorlist.net/",
-    "feed_url": "https://rhetorlist.net/feed.json",
+    "home_page_url": "http://sandbox.timlockridge.com/rhetorlist/",
+    "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
+		{
+    		"id": "https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language",
+			 "content_html": "<h1>New book Added:</h1><p>Speaking of Evil: Rhetoric and the Responsibility to and for Language by Matthew Boedy. Published on 10-25-2018.</p><p>Link to book: https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language</p>",
+    		"url": "https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language"
+		},
+		{
+    		"id": "https://wvupressonline.com/node/754",
+			 "content_html": "<h1>New book Added:</h1><p>The Politics of Appalachian Rhetoric by Amanda E. Hayes. Published on 09-12-2018.</p><p>Link to book: https://wvupressonline.com/node/754</p>",
+    		"url": "https://wvupressonline.com/node/754"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/66592",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetoric at the University of Chicago by James P. Beasley. Published on 08-30-2018.</p><p>Link to book: https://www.peterlang.com/view/title/66592</p>",
+    		"url": "https://www.peterlang.com/view/title/66592"
+		},
+		{
+    		"id": "https://www.palgrave.com/us/book/9783319657103",
+			 "content_html": "<h1>New book Added:</h1><p>Tracing Rhetoric and Material Life: Ecological Approaches by Bridie McGreavy, Justine Wells, George F. McHendry, and Samantha Senda-Cook. Published on 01-01-2018.</p><p>Link to book: https://www.palgrave.com/us/book/9783319657103</p>",
+    		"url": "https://www.palgrave.com/us/book/9783319657103"
+		},
 		{
     		"id": "https://www.springer.com/us/book/9783319695044",
 			 "content_html": "<h1>New book Added:</h1><p>Open-Access, Multimodality, and Writing Center Studies by Elisabeth H. Buck. Published on 01-01-2018.</p><p>Link to book: https://www.springer.com/us/book/9783319695044</p>",
