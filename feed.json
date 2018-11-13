@@ -5,6 +5,11 @@
     "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Bruce-Springsteen-and-Popular-Music-Rhetoric-Social-Consciousness-and/Wolff/p/book/9781138943995",
+			 "content_html": "<h1>New book Added:</h1><p>Bruce Springsteen and Popular Music: Rhetoric, Social Consciousness, and Contemporary Culture by William I. Wolff. Published on 01-01-2018.</p><p>Link to book: https://www.routledge.com/Bruce-Springsteen-and-Popular-Music-Rhetoric-Social-Consciousness-and/Wolff/p/book/9781138943995</p>",
+    		"url": "https://www.routledge.com/Bruce-Springsteen-and-Popular-Music-Rhetoric-Social-Consciousness-and/Wolff/p/book/9781138943995"
+		},
+		{
     		"id": "https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action",
 			 "content_html": "<h1>New book Added:</h1><p>Writing for Engagement: Responsive Practice for Social Action by Edited by Mary P. Sheridan, Megan J. Bardolph, Megan Faver Hartline, and Drew Holladay. Published on 05-07-2018.</p><p>Link to book: https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action</p>",
     		"url": "https://rowman.com/ISBN/9781498565561/Writing-for-Engagement-Responsive-Practice-for-Social-Action"
