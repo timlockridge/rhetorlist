@@ -5,6 +5,41 @@
     "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112",
+			 "content_html": "<h1>New book Added:</h1><p>Literacy Practices and Perceptions of Agency: Composing Identities by Bronwyn T. Williams. Published on 01-10-2018.</p><p>Link to book: https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112</p>",
+    		"url": "https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112"
+		},
+		{
+    		"id": "https://www.palgrave.com/us/book/9783319717241",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetoric and the Global Turn in Higher Education by Christopher Minnix. Published on 03-09-2018.</p><p>Link to book: https://www.palgrave.com/us/book/9783319717241</p>",
+    		"url": "https://www.palgrave.com/us/book/9783319717241"
+		},
+		{
+    		"id": "https://www.routledge.com/Rhetorical-Theory-and-Praxis-in-the-Business-Communication-Classroom/Getchell-Lentz/p/book/9780815354413",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetorical Theory and Praxis in the Business Communication Classroom by Kristen M. Getchell & Paula Lentz, eds.. Published on 09-04-2018.</p><p>Link to book: https://www.routledge.com/Rhetorical-Theory-and-Praxis-in-the-Business-Communication-Classroom/Getchell-Lentz/p/book/9780815354413</p>",
+    		"url": "https://www.routledge.com/Rhetorical-Theory-and-Praxis-in-the-Business-Communication-Classroom/Getchell-Lentz/p/book/9780815354413"
+		},
+		{
+    		"id": "http://uapress.ua.edu/product/Ancient-Rhetorics-and-Digital-Networks,6719.aspx",
+			 "content_html": "<h1>New book Added:</h1><p>Ancient Rhetorics & Digital Networks by Michele Kennerly and Damien Pfister. Published on 02-01-2018.</p><p>Link to book: http://uapress.ua.edu/product/Ancient-Rhetorics-and-Digital-Networks,6719.aspx</p>",
+    		"url": "http://uapress.ua.edu/product/Ancient-Rhetorics-and-Digital-Networks,6719.aspx"
+		},
+		{
+    		"id": "https://www.imprint.co.uk/product/trump/",
+			 "content_html": "<h1>New book Added:</h1><p>Faking the News: What Rhetoric Can Teach Us About Donald J. Trump by Ryan Skinnell. Published on 05-01-2018.</p><p>Link to book: https://www.imprint.co.uk/product/trump/</p>",
+    		"url": "https://www.imprint.co.uk/product/trump/"
+		},
+		{
+    		"id": "http://msupress.org/books/book/?id=50-1D0-44DC#.W-tJZhZOmEc",
+			 "content_html": "<h1>New book Added:</h1><p>Debating Women: Gender, Education, and Spaces for Argument, 1835-1945 by Carly S. Woods. Published on 10-01-2018.</p><p>Link to book: http://msupress.org/books/book/?id=50-1D0-44DC#.W-tJZhZOmEc</p>",
+    		"url": "http://msupress.org/books/book/?id=50-1D0-44DC#.W-tJZhZOmEc"
+		},
+		{
+    		"id": "https://www.routledge.com/The-Dynamics-of-Rhetorical-Performances-in-Late-Antiquity/Quiroga-Puertas/p/book/9781472474599",
+			 "content_html": "<h1>New book Added:</h1><p>The Dynamics of Rhetorical Performances in Late Antiquity by Alberto J. Quiroga Puertas. Published on 10-29-2018.</p><p>Link to book: https://www.routledge.com/The-Dynamics-of-Rhetorical-Performances-in-Late-Antiquity/Quiroga-Puertas/p/book/9781472474599</p>",
+    		"url": "https://www.routledge.com/The-Dynamics-of-Rhetorical-Performances-in-Late-Antiquity/Quiroga-Puertas/p/book/9781472474599"
+		},
+		{
     		"id": "https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language",
 			 "content_html": "<h1>New book Added:</h1><p>Speaking of Evil: Rhetoric and the Responsibility to and for Language by Matthew Boedy. Published on 10-25-2018.</p><p>Link to book: https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language</p>",
     		"url": "https://rowman.com/ISBN/9781498578431/Speaking-of-Evil-Rhetoric-and-the-Responsibility-to-and-for-Language"
