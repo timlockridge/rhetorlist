@@ -5,6 +5,11 @@
     "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
 		{
+    		"id": "https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning",
+			 "content_html": "<h1>New book Added:</h1><p>Occupying Memory: Rhetoric, Trauma, Mourning by Trevor Hoag. Published on 12-15-2018.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning\">https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning</a></p>",
+    		"url": "https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning"
+		},
+		{
     		"id": "https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112",
 			 "content_html": "<h1>New book Added:</h1><p>Literacy Practices and Perceptions of Agency: Composing Identities by Bronwyn T. Williams. Published on 01-10-2018.</p><p>Link to book: https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112</p>",
     		"url": "https://www.routledge.com/Literacy-Practices-and-Perceptions-of-Agency-Composing-Identities/Williams/p/book/9781138667112"
