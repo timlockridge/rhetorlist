@@ -5,6 +5,16 @@
     "feed_url": "http://sandbox.timlockridge.com/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854",
+			 "content_html": "<h1>New book Added:</h1><p>Posthuman Praxis in Technical Communication by Kristen R. Moore and Daniel P. Richards (Eds.). Published on 02-06-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854\">https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854</a></p>",
+    		"url": "https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3330-serendipity-in-rhetoric-writing-and-literacy-research",
+			 "content_html": "<h1>New book Added:</h1><p>Serendipity in Rhetoric, Writing, and Lieracy Research by Maureen Daly Goggin and Peter N. Goggin. Published on 04-01-2018.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3330-serendipity-in-rhetoric-writing-and-literacy-research\">https://upcolorado.com/utah-state-university-press/item/3330-serendipity-in-rhetoric-writing-and-literacy-research</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3330-serendipity-in-rhetoric-writing-and-literacy-research"
+		},
+		{
     		"id": "https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning",
 			 "content_html": "<h1>New book Added:</h1><p>Occupying Memory: Rhetoric, Trauma, Mourning by Trevor Hoag. Published on 12-15-2018.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning\">https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning</a></p>",
     		"url": "https://rowman.com/ISBN/9781498556576/Occupying-Memory-Rhetoric-Trauma-Mourning"
