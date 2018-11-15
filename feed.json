@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.sc.edu/uscpress/books/2018/7909.html",
+			 "content_html": "<h1>New book Added:</h1><p>Editorial Bodies: Perfection and Rejection in Ancient Rhetoric and Poetics by Michele Kennerly. Published on 10-24-2018.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2018/7909.html\">https://www.sc.edu/uscpress/books/2018/7909.html</a></p>",
+    		"url": "https://www.sc.edu/uscpress/books/2018/7909.html"
+		},
+		{
     		"id": "https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854",
 			 "content_html": "<h1>New book Added:</h1><p>Posthuman Praxis in Technical Communication by Kristen R. Moore and Daniel P. Richards (Eds.). Published on 02-06-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854\">https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854</a></p>",
     		"url": "https://www.routledge.com/Posthuman-Praxis-in-Technical-Communication/Moore-Richards/p/book/9780815384854"
