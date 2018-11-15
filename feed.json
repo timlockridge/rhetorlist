@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally",
+			 "content_html": "<h1>New book Added:</h1><p>Thinking Globally, Composing Locally: Rethinking Online Writing in the Age of the Global Internet by Rich Rice and Kirk St.Amant. Published on 05-01-2018.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally\">https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally"
+		},
+		{
     		"id": "https://www.sc.edu/uscpress/books/2018/7909.html",
 			 "content_html": "<h1>New book Added:</h1><p>Editorial Bodies: Perfection and Rejection in Ancient Rhetoric and Poetics by Michele Kennerly. Published on 10-24-2018.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2018/7909.html\">https://www.sc.edu/uscpress/books/2018/7909.html</a></p>",
     		"url": "https://www.sc.edu/uscpress/books/2018/7909.html"
