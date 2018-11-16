@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779",
+			 "content_html": "<h1>New book Added:</h1><p>Connections Between Neuroscience, Rhetoric, and Writing: A Plastic Pedagogy for the Digital Age by Edward Comstock. Published on 04-11-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779\">https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779</a></p>",
+    		"url": "https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally",
 			 "content_html": "<h1>New book Added:</h1><p>Thinking Globally, Composing Locally: Rethinking Online Writing in the Age of the Global Internet by Rich Rice and Kirk St.Amant. Published on 05-01-2018.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally\">https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3296-thinking-globally-composing-locally"
