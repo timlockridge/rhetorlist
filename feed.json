@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709",
+			 "content_html": "<h1>New book Added:</h1><p>Landmark Essays on Rhetorical Genre Studies by Carolyn R. Miller and Amy J. Devitt. Published on 09-24-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709\">https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709</a></p>",
+    		"url": "https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709"
+		},
+		{
     		"id": "https://www.press.umich.edu/10079890/developing_writers_in_higher_education",
 			 "content_html": "<h1>New book Added:</h1><p>Developing Writers in Higher Education: A Longitudinal Study by Anne Ruggles Gere. Published on 01-03-2019.</p><p>Link to book: <a href=\"https://www.press.umich.edu/10079890/developing_writers_in_higher_education\">https://www.press.umich.edu/10079890/developing_writers_in_higher_education</a></p>",
     		"url": "https://www.press.umich.edu/10079890/developing_writers_in_higher_education"
