@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.press.umich.edu/10079890/developing_writers_in_higher_education",
+			 "content_html": "<h1>New book Added:</h1><p>Developing Writers in Higher Education: A Longitudinal Study by Anne Ruggles Gere. Published on 01-03-2019.</p><p>Link to book: <a href=\"https://www.press.umich.edu/10079890/developing_writers_in_higher_education\">https://www.press.umich.edu/10079890/developing_writers_in_higher_education</a></p>",
+    		"url": "https://www.press.umich.edu/10079890/developing_writers_in_higher_education"
+		},
+		{
     		"id": "https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779",
 			 "content_html": "<h1>New book Added:</h1><p>Connections Between Neuroscience, Rhetoric, and Writing: A Plastic Pedagogy for the Digital Age by Edward Comstock. Published on 04-11-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779\">https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779</a></p>",
     		"url": "https://www.routledge.com/Connections-Between-Neuroscience-Rhetoric-and-Writing-A-Plastic-Pedagogy/Comstock/p/book/9780415791779"
