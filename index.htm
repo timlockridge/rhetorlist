@@ -7,6 +7,7 @@
 <link href="css/tabulator.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/hqg0trp.css">
 <link rel="stylesheet" href="css/style.css?v=0.87">
+<script type="text/javascript" src="js/moment.min.js"></script>
 <script type="text/javascript" src="js/tabulator.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
@@ -69,7 +70,7 @@ var table = new Tabulator("#book-list", {
    "WAC Clearinghouse/UP Colorado": "WAC Clearinghouse/UP Colorado",
    "West Virginia University Press": "West Virginia University Press"
 }, formatter:"textarea", variableHeight:true, width:250, responsive:4},
-       {title:"Date", field:"publicationDate", align:"left", width:100, responsive:3},
+       {title:"Date", field:"publicationDate", align:"left", width:100, responsive:3, sorter:"date", sorterParams:{format:"MM-DD-YYYY"}},
    {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", width:100, responsive:5, headerFilterParams:{
        "":"all",
         "yes":"yes",
