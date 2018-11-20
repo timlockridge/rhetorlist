@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://intermezzo.enculturation.net/08-hidalgo-et-al.htm",
+			 "content_html": "<h1>New book Added:</h1><p>Pixelating the Self: Digital Feminist Memoirs by Alexandra Hidalgo (ed.), Brooke Chambers, Les Hutchinson, Jaquetta Shade, Lauren Brentnell, Shewonda Leger, Mirabeth Braude, Naomi Sweo, and Suban Nur Cooley. Published on 11-20-2018.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/08-hidalgo-et-al.htm\">http://intermezzo.enculturation.net/08-hidalgo-et-al.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/08-hidalgo-et-al.htm"
+		},
+		{
     		"id": "https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709",
 			 "content_html": "<h1>New book Added:</h1><p>Landmark Essays on Rhetorical Genre Studies by Carolyn R. Miller and Amy J. Devitt. Published on 09-24-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709\">https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709</a></p>",
     		"url": "https://www.routledge.com/Landmark-Essays-on-Rhetorical-Genre-Studies/Miller-Devitt/p/book/9781138047709"
