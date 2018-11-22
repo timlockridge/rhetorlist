@@ -1,40 +1,14 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 html {
     background: #F1F0E2;
     font-size: 18px;
 }
-
-.nav-links {
-    text-align: center;
-    margin: 2.5em 0 4em 0;
-
-}
-
-.nav-links a {
-    background-color: #ED553B;
-    color: white;
-    text-decoration: none;
-    padding: 1em 1.5em;
-    border: 1px solid white;
-}
-
-.nav-links a:hover {
-    background-color: #F2B134;
-}
-
-h2, h3, h4 {
+header, nav, section {
     font-family: proxima-nova, sans-serif;
-    font-weight: 700;
-font-style: normal;
 }
 
 h1 {
@@ -49,12 +23,18 @@ h1 {
     margin-bottom: 0;
 }
 
+h2, h3, h4 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 h2,h3 {
     color: #3E4E59;
 }
 
 h2 {
-    max-width: 700px; 
+    max-width: 700px;
     margin: 0 auto
 }
 
@@ -66,6 +46,39 @@ a {
     color: #2E80BF;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 30px;
+}
+nav ul li a {
+    background-color: #ED553B;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em 1.25em;
+    border: 1px solid white;
+}
+nav ul li a:hover {
+    background-color: #F2B134;
+}
+@media only screen
+and (max-width : 515px)
+{
+  nav ul li {
+    margin-bottom: 35px;
+  }
+}
+
 #book-list, p, p a {
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
@@ -74,6 +87,20 @@ a {
 
 #book-list {
     width: 100%;
+}
+
+/* articles page */
+
+main section h2 {
+  margin-bottom:25px;
+  /* overwrite */
+  max-width: 100%;
+}
+section div > p {
+  margin-left: 0.5in;
+  text-indent: -0.5in;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 
 /* submit page */
@@ -117,7 +144,7 @@ a {
 }
 
 .table-container {
-    max-width:1200px; 
+    max-width:1200px;
     margin: 0 auto;
 }
 
@@ -130,10 +157,10 @@ a {
 
 }
 
-@media only screen 
-and (min-width : 375px) 
+@media only screen
+and (min-width : 375px)
 and (max-width : 675px)
-{ 
+{
     h1 {
         font-size: 5em;
     }
@@ -153,10 +180,10 @@ and (max-width : 675px)
 
 /* iPhone SE breakpoints */
 
-@media only screen 
-and (min-width : 320px) 
+@media only screen
+and (min-width : 320px)
 and (max-width : 568px)
-{ 
+{
     h1 {
         font-size: 3em;
     }
