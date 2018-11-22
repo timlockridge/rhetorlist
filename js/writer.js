@@ -100,75 +100,77 @@ async function rdfFeedParser(rURLs) {
             return pData;
           }
 
-          if (art.vol === null) {
+          if (art.title !== "Manuscript Reviewers" || art.title !== "Reviewers" || art.title !== "Editor’s Message") {
+            if (art.vol === null) {
 
-            if (art.journal == "Written Communication") {
-              var section = document.getElementById('articles-wc');
-              var wcArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', wcArticle);
-            }
-            else if (art.journal == "Rhetoric Review") {
-              var section = document.getElementById('articles-rr');
-              var rrArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', rrArticle);
-            }
-            else if (art.journal == "Rhetoric Society Quarterly") {
-              var section = document.getElementById('articles-rsq');
-              var rsqArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', rsqArticle);
-            }
-            else if (art.journal == "Technical Communication Quarterly") {
-              var section = document.getElementById('articles-tcq');
-              var tcqArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', tcqArticle);
-            }
-            else if (art.journal == "Journal of Technical Writing and Communication") {
-              var section = document.getElementById('articles-jtwc');
-              var jtwcArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', jtwcArticle);
-            }
-            else if (art.journal == "Journal of Business and Technical Communication") {
-              var section = document.getElementById('articles-jbtc');
-              var jbtcArticle = aheadOfPrint(art);
-              section.insertAdjacentHTML('beforeend', jbtcArticle);
-            }
+              if (art.journal == "Written Communication") {
+                var section = document.getElementById('articles-wc');
+                var wcArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', wcArticle);
+              }
+              else if (art.journal == "Rhetoric Review") {
+                var section = document.getElementById('articles-rr');
+                var rrArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', rrArticle);
+              }
+              else if (art.journal == "Rhetoric Society Quarterly") {
+                var section = document.getElementById('articles-rsq');
+                var rsqArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', rsqArticle);
+              }
+              else if (art.journal == "Technical Communication Quarterly") {
+                var section = document.getElementById('articles-tcq');
+                var tcqArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', tcqArticle);
+              }
+              else if (art.journal == "Journal of Technical Writing and Communication") {
+                var section = document.getElementById('articles-jtwc');
+                var jtwcArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', jtwcArticle);
+              }
+              else if (art.journal == "Journal of Business and Technical Communication") {
+                var section = document.getElementById('articles-jbtc');
+                var jbtcArticle = aheadOfPrint(art);
+                section.insertAdjacentHTML('beforeend', jbtcArticle);
+              }
 
+            }
+            else if (art.vol !== null) {
+
+              if (art.journal == "Written Communication") {
+                var section = document.getElementById('articles-wc');
+                var wcArticle = published(art);
+                section.insertAdjacentHTML('beforeend', wcArticle);
+              }
+              else if (art.journal == "Rhetoric Review") {
+                var section = document.getElementById('articles-rr');
+                var rrArticle = published(art);
+                section.insertAdjacentHTML('beforeend', rrArticle);
+              }
+              else if (art.journal == "Rhetoric Society Quarterly") {
+                var section = document.getElementById('articles-rsq');
+                var rsqArticle = published(art);
+                section.insertAdjacentHTML('beforeend', rsqArticle);
+              }
+              else if (art.journal == "Technical Communication Quarterly") {
+                var section = document.getElementById('articles-tcq');
+                var tcqArticle = published(art);
+                section.insertAdjacentHTML('beforeend', tcqArticle);
+              }
+              else if (art.journal == "Journal of Technical Writing and Communication") {
+                var section = document.getElementById('articles-jtwc');
+                var jtwcArticle = published(art);
+                section.insertAdjacentHTML('beforeend', jtwcArticle);
+              }
+              else if (art.journal == "Journal of Business and Technical Communication") {
+                var section = document.getElementById('articles-jbtc');
+                var jbtcArticle = published(art);
+                section.insertAdjacentHTML('beforeend', jbtcArticle);
+              }
+
+            }
+            resolve(console.log("Finished writing a URL."));
           }
-          else if (art.vol !== null) {
-
-            if (art.journal == "Written Communication") {
-              var section = document.getElementById('articles-wc');
-              var wcArticle = published(art);
-              section.insertAdjacentHTML('beforeend', wcArticle);
-            }
-            else if (art.journal == "Rhetoric Review") {
-              var section = document.getElementById('articles-rr');
-              var rrArticle = published(art);
-              section.insertAdjacentHTML('beforeend', rrArticle);
-            }
-            else if (art.journal == "Rhetoric Society Quarterly") {
-              var section = document.getElementById('articles-rsq');
-              var rsqArticle = published(art);
-              section.insertAdjacentHTML('beforeend', rsqArticle);
-            }
-            else if (art.journal == "Technical Communication Quarterly") {
-              var section = document.getElementById('articles-tcq');
-              var tcqArticle = published(art);
-              section.insertAdjacentHTML('beforeend', tcqArticle);
-            }
-            else if (art.journal == "Journal of Technical Writing and Communication") {
-              var section = document.getElementById('articles-jtwc');
-              var jtwcArticle = published(art);
-              section.insertAdjacentHTML('beforeend', jtwcArticle);
-            }
-            else if (art.journal == "Journal of Business and Technical Communication") {
-              var section = document.getElementById('articles-jbtc');
-              var jbtcArticle = published(art);
-              section.insertAdjacentHTML('beforeend', jbtcArticle);
-            }
-
-          }
-          resolve(console.log("Finished writing a URL."));
       }
 
         function getAuthors(s) {
