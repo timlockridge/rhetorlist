@@ -2,9 +2,14 @@
 * writer.js - Get rdf feeds and write to html
 * author: chris lindgren
 * notes:
-    - buggy, i.e., could use some error handling
-    - could also handle incoming rdf data better
-    - formatting is drafty too.
+    - Forgot that I need to handle the CORS
+      request issues. I originally wrote this
+      as a Node.js app, which I translated for
+      this site's idea. I used a Chrome extension
+      just to  test the parser.js lib.
+    - Buggy, i.e., could use some error handling
+    - Need to better handle incoming rdf data
+    - Formatting is drafty too.
 */
 var completeList = {};
 var requestURLs = [];
