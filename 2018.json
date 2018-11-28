@@ -1,5 +1,53 @@
 [
   {
+    "title": "Rhetoric, Technology, and the Virtues",
+    "author": "Jared S. Colton and Steve Holmes",
+    "publicationDate": "10-01-2018",
+    "publisher": "Utah State University Press",
+    "publisherURL": "https://upcolorado.com/utah-state-university-press/item/3479-rhetoric-technology-and-the-virtues",
+    "openAccess": "no"
+  },
+  {
+    "title": "Race and Radio: Pioneering Black Broadcasters in New Orleans",
+    "author": "Bala James Baptiste",
+    "publicationDate": "08-15-2019",
+    "publisher": "University Press of Mississippi",
+    "publisherURL": "https://www.amazon.com/Race-Radio-Pioneering-Broadcasters-Rhetoric/dp/1496822072/",
+    "openAccess": "no"
+  },
+  {
+    "title": "Lynching: Violence, Rhetoric, and American Identity",
+    "author": "Ersula J. Ore",
+    "publicationDate": "04-15-2019",
+    "publisher": "University Press of Mississippi",
+    "publisherURL": "https://www.amazon.com/Lynching-Violence-Rhetoric-American-Identity/dp/1496821599/",
+    "openAccess": "no"
+  },
+  {
+    "title": "The Routledge Reader of African American Rhetoric",
+    "author": "Vershawn Ashanti Young and Michelle Bachelor Robinson",
+    "publicationDate": "07-19-2018",
+    "publisher": "Routledge",
+    "publisherURL": "https://www.routledge.com/The-Routledge-Reader-of-African-American-Rhetoric-The-Longue-Duree-of/Young-Robinson/p/book/9780415731065",
+    "openAccess": "no"
+  },
+  {
+    "title": "On African-American Rhetoric",
+    "author": "Keith Gilyard & Adam J. Banks",
+    "publicationDate": "04-20-2018",
+    "publisher": "Routledge",
+    "publisherURL": "https://www.routledge.com/On-African-American-Rhetoric/Gilyard-Banks/p/book/9781138090446",
+    "openAccess": "no"
+  },
+  {
+    "title": "Creating Intelligent Content with Lightweight DITA",
+    "author": "Carlos Evia",
+    "publicationDate": "12-17-2018",
+    "publisher": "Routledge",
+    "publisherURL": "https://www.routledge.com/Creating-Intelligent-Content-with-Lightweight-DITA/Evia/p/book/9780815393825",
+    "openAccess": "no"
+  },
+  {
     "title": "Pixelating the Self: Digital Feminist Memoirs",
     "author": "Alexandra Hidalgo (ed.), Brooke Chambers, Les Hutchinson, Jaquetta Shade, Lauren Brentnell, Shewonda Leger, Mirabeth Braude, Naomi Sweo, and Suban Nur Cooley",
     "publicationDate": "11-20-2018",

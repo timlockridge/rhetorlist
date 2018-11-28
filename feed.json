@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3479-rhetoric-technology-and-the-virtues",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetoric, Technology, and the Virtues by Jared S. Colton and Steve Holmes. Published on 10-01-2018.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3479-rhetoric-technology-and-the-virtues\">https://upcolorado.com/utah-state-university-press/item/3479-rhetoric-technology-and-the-virtues</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3479-rhetoric-technology-and-the-virtues"
+		},
+		{
+    		"id": "https://www.amazon.com/Race-Radio-Pioneering-Broadcasters-Rhetoric/dp/1496822072/",
+			 "content_html": "<h1>New book Added:</h1><p>Race and Radio: Pioneering Black Broadcasters in New Orleans by Bala James Baptiste. Published on 08-15-2019.</p><p>Link to book: <a href=\"https://www.amazon.com/Race-Radio-Pioneering-Broadcasters-Rhetoric/dp/1496822072/\">https://www.amazon.com/Race-Radio-Pioneering-Broadcasters-Rhetoric/dp/1496822072/</a></p>",
+    		"url": "https://www.amazon.com/Race-Radio-Pioneering-Broadcasters-Rhetoric/dp/1496822072/"
+		},
+		{
+    		"id": "https://www.amazon.com/Lynching-Violence-Rhetoric-American-Identity/dp/1496821599/",
+			 "content_html": "<h1>New book Added:</h1><p>Lynching: Violence, Rhetoric, and American Identity by Ersula J. Ore. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://www.amazon.com/Lynching-Violence-Rhetoric-American-Identity/dp/1496821599/\">https://www.amazon.com/Lynching-Violence-Rhetoric-American-Identity/dp/1496821599/</a></p>",
+    		"url": "https://www.amazon.com/Lynching-Violence-Rhetoric-American-Identity/dp/1496821599/"
+		},
+		{
+    		"id": "https://www.routledge.com/The-Routledge-Reader-of-African-American-Rhetoric-The-Longue-Duree-of/Young-Robinson/p/book/9780415731065",
+			 "content_html": "<h1>New book Added:</h1><p>The Routledge Reader of African American Rhetoric by Vershawn Ashanti Young and Michelle Bachelor Robinson. Published on 07-19-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/The-Routledge-Reader-of-African-American-Rhetoric-The-Longue-Duree-of/Young-Robinson/p/book/9780415731065\">https://www.routledge.com/The-Routledge-Reader-of-African-American-Rhetoric-The-Longue-Duree-of/Young-Robinson/p/book/9780415731065</a></p>",
+    		"url": "https://www.routledge.com/The-Routledge-Reader-of-African-American-Rhetoric-The-Longue-Duree-of/Young-Robinson/p/book/9780415731065"
+		},
+		{
+    		"id": "https://www.routledge.com/On-African-American-Rhetoric/Gilyard-Banks/p/book/9781138090446",
+			 "content_html": "<h1>New book Added:</h1><p>On African-American Rhetoric by Keith Gilyard & Adam J. Banks. Published on 04-20-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/On-African-American-Rhetoric/Gilyard-Banks/p/book/9781138090446\">https://www.routledge.com/On-African-American-Rhetoric/Gilyard-Banks/p/book/9781138090446</a></p>",
+    		"url": "https://www.routledge.com/On-African-American-Rhetoric/Gilyard-Banks/p/book/9781138090446"
+		},
+		{
+    		"id": "https://www.routledge.com/Creating-Intelligent-Content-with-Lightweight-DITA/Evia/p/book/9780815393825",
+			 "content_html": "<h1>New book Added:</h1><p>Creating Intelligent Content with Lightweight DITA by Carlos Evia. Published on 12-17-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Creating-Intelligent-Content-with-Lightweight-DITA/Evia/p/book/9780815393825\">https://www.routledge.com/Creating-Intelligent-Content-with-Lightweight-DITA/Evia/p/book/9780815393825</a></p>",
+    		"url": "https://www.routledge.com/Creating-Intelligent-Content-with-Lightweight-DITA/Evia/p/book/9780815393825"
+		},
+		{
     		"id": "http://intermezzo.enculturation.net/08-hidalgo-et-al.htm",
 			 "content_html": "<h1>New book Added:</h1><p>Pixelating the Self: Digital Feminist Memoirs by Alexandra Hidalgo (ed.), Brooke Chambers, Les Hutchinson, Jaquetta Shade, Lauren Brentnell, Shewonda Leger, Mirabeth Braude, Naomi Sweo, and Suban Nur Cooley. Published on 11-20-2018.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/08-hidalgo-et-al.htm\">http://intermezzo.enculturation.net/08-hidalgo-et-al.htm</a></p>",
     		"url": "http://intermezzo.enculturation.net/08-hidalgo-et-al.htm"
