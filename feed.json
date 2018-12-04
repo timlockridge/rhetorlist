@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation",
+			 "content_html": "<h1>New book Added:</h1><p>Technofeminist Storiographies: Women, Information Technology, and Cultural Representation by Kristine L. Blair. Published on 12-15-2018.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation\">https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation</a></p>",
+    		"url": "https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation"
+		},
+		{
     		"id": "https://www.upress.pitt.edu/books/9780822965527/",
 			 "content_html": "<h1>New book Added:</h1><p>Nostalgic Design: Rhetoric, Memory, and Democratizing Technology by William C. Kurlinkus. Published on 01-15-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822965527/\">https://www.upress.pitt.edu/books/9780822965527/</a></p>",
     		"url": "https://www.upress.pitt.edu/books/9780822965527/"
