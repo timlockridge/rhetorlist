@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://intermezzo.enculturation.net/09-yarbrough.htm",
+			 "content_html": "<h1>New book Added:</h1><p>Levels of Ambience: An Introduction to Integrative Rhetoric by Stephen R. Yarbrough. Published on 12-05-2018.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/09-yarbrough.htm\">http://intermezzo.enculturation.net/09-yarbrough.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/09-yarbrough.htm"
+		},
+		{
     		"id": "https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation",
 			 "content_html": "<h1>New book Added:</h1><p>Technofeminist Storiographies: Women, Information Technology, and Cultural Representation by Kristine L. Blair. Published on 12-15-2018.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation\">https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation</a></p>",
     		"url": "https://rowman.com/ISBN/9781498593038/Technofeminist-Storiographies-Women-Information-Technology-and-Cultural-Representation"
