@@ -43,47 +43,42 @@ var table = new Tabulator("#book-list", {
     columns:[ //Define Table Columns
         {title:"Title", field:"title", align:"left", formatter:"link", formatterParams:{urlField:"publisherURL", target:"_blank"}, headerFilter:"input", reponsive:0, minWidth:300},
         {title:"Author(s)", field:"author", align:"left", headerFilter:"input", minWidth:300, formatter:"textarea"},
-        {title:"Publisher", field:"publisher", align:"left", headerFilter:"select", minWidth:200, headerFilterParams:{
-   "":"All",
-   "ATTW Series in Technical and Professional Communication": "ATTW Series in Technical and Professional Communication",
-   "Broadview Press": "Broadview Press",
-   "Computers and Composition Digital Press/Utah State University Press": "Computers and Composition Digital Press/Utah State University Press",
-   "Enculturation Intermezzo": "Enculturation Intermezzo",
-   "Lexington Books": "Lexington Books",
-   "Michigan State University Press": "Michigan State University Press",
-   "Ohio State University Press": "Ohio State University Press",
-   "Palgrave Macmillan": "Palgrave Macmillan",
-   "Parlor Press": "Parlor Press",
-   "Peter Lang": "Peter Lang",
-   "Routledge": "Routledge",
-   "Routledge Studies in Popular Music": "Routledge Studies in Popular Music",
-   "Routledge Studies in Rhetoric and Communication": "Routledge Studies in Rhetoric and Communication",
-   "RSA Series in Transdisciplinary Rhetoric/Penn State University Press": "RSA Series in Transdisciplinary Rhetoric/Penn State University Press",
-   "Rowman and Littlefield": "Rowman and Littlefield",
-   "Societas": "Societas",
-   "Southern Illinois University Press": "Southern Illinois University Press",
-   "Studies in Writing and Rhetoric": "Studies in Writing and Rhetoric",
-   "Sweetland Digital Rhetoric Collaborative/UMich Press": "Sweetland DRC/University of Michigan Press",
-   "University of Alabama Press": "University of Alabama Press",
-   "University of Pittsburgh Press": "University of Pittsburgh Press",
-   "University of South Carolina Press": "University of South Carolina Press",
-   "University Press of Mississippi": "University Press of Mississippi",
-   "Utah State University Press": "Utah State University Press",
-   "WAC Clearinghouse/UP Colorado": "WAC Clearinghouse/UP Colorado",
-   "West Virginia University Press": "West Virginia University Press"
-}, formatter:"textarea", variableHeight:true, width:250, responsive:4},
+        {title:"Publisher", field:"publisher", align:"left", headerFilter:"select", minWidth:200, headerFilterParams:paramBuilder, formatter:"textarea", variableHeight:true, width:250, responsive:4},
        {title:"Date", field:"publicationDate", align:"left", width:100, responsive:3, sorter:"date", sorterParams:{format:"MM-DD-YYYY"}},
-   {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", width:100, responsive:5, headerFilterParams:{
+    {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", width:100, responsive:5, headerFilterParams:{
        "":"all",
         "yes":"yes",
        "no":"no"
    }
 }
-    ]
+    ],
+
+    // reload publisher filter after table is built
+    dataLoaded:function(){
+        this.getColumn("publisher").reloadHeaderFilter();
+    }
 });
 
 //load data into the table
 table.setData("2018.json");
+
+//build publisher dropdown with parambuilder
+function paramBuilder(){
+    var list = {"":""};
+    var data = this.getData().map(a => a.publisher);
+
+    // alphabetize the array before building list
+    data.sort();
+
+    data.forEach(function(item){
+        if(typeof item !== "undefinded"){
+            list[item] = item;
+        }
+    });
+
+    return list;
+}
+
 
 </script>
 </section>
