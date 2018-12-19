@@ -11,6 +11,8 @@
 <script type="text/javascript" src="js/tabulator.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -27,7 +29,7 @@
 
 
 <section class="table-container">
-        <h3 style="font-size: 135%">&#x1F389 2019 releases listed below | Archives: <a href="2018.htm">2018</a></h3>
+        <h3>Archive of 2018 releases listed below | <a href="index.htm">Return to 2019</a></h3>
         <p class="mobile-headsup"><small><em>To filter data by all columns, please view the table in a desktop browser. Mobile browser sizes offer limited filtering.</em></small></p>
   <div id="book-list"></div>
 </section>
@@ -59,7 +61,7 @@ var table = new Tabulator("#book-list", {
     }
 });
 
-table.setData("2019.json");
+table.setData("2018.json");
 
 //build publisher dropdown with parambuilder
 function paramBuilder(){
