@@ -5,6 +5,46 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814213896.html",
+			 "content_html": "<h1>New book Added:</h1><p>Not One More! Feminicidio on the Border by Nina Maria Lozano. Published on 02-06-2019.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814213896.html\">https://ohiostatepress.org/books/titles/9780814213896.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814213896.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814213940.html",
+			 "content_html": "<h1>New book Added:</h1><p>Post-Digital Rhetoric and the New Aesthetic by Justin Hodgson. Published on 03-20-2019.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814213940.html\">https://ohiostatepress.org/books/titles/9780814213940.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814213940.html"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/68980",
+			 "content_html": "<h1>New book Added:</h1><p>Make America Meme Again: The Rhetoric of the Alt-Right by Heather Suzanne Woods and Leslie A. Hahner. Published on 01-01-2019.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/68980\">https://www.peterlang.com/view/title/68980</a></p>",
+    		"url": "https://www.peterlang.com/view/title/68980"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/64154",
+			 "content_html": "<h1>New book Added:</h1><p>Defining Literacy Standards: Essays on Assessment, Inclusion, Pedagogy and Civic Engagement by Ronald A. Sudol and Alice S. Horning. Published on 01-01-2019.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/64154\">https://www.peterlang.com/view/title/64154</a></p>",
+    		"url": "https://www.peterlang.com/view/title/64154"
+		},
+		{
+    		"id": "https://www.routledge.com/The-Rhetoric-of-Oil-in-the-Twenty-First-Century-Government-Corporate/Graves-Beard/p/book/9781138484375",
+			 "content_html": "<h1>New book Added:</h1><p>The Rhetoric of Oil in the Twenty-First Century: Government, Corporate, and Activist Discourses by Heather Graves and David Edward Beard. Published on 03-16-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/The-Rhetoric-of-Oil-in-the-Twenty-First-Century-Government-Corporate/Graves-Beard/p/book/9781138484375\">https://www.routledge.com/The-Rhetoric-of-Oil-in-the-Twenty-First-Century-Government-Corporate/Graves-Beard/p/book/9781138484375</a></p>",
+    		"url": "https://www.routledge.com/The-Rhetoric-of-Oil-in-the-Twenty-First-Century-Government-Corporate/Graves-Beard/p/book/9781138484375"
+		},
+		{
+    		"id": "https://www.upress.pitt.edu/books/9780822986515/",
+			 "content_html": "<h1>New book Added:</h1><p>On the End of Privacy: Dissolving Boundaries in a Screen-Centric World by Richard E. Miller. Published on 02-12-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822986515/\">https://www.upress.pitt.edu/books/9780822986515/</a></p>",
+    		"url": "https://www.upress.pitt.edu/books/9780822986515/"
+		},
+		{
+    		"id": "https://www.upress.pitt.edu/books/9780822965794/",
+			 "content_html": "<h1>New book Added:</h1><p>The Animal Who Writes: A Posthumanist Composition by Marilyn M. Cooper. Published on 03-12-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822965794/\">https://www.upress.pitt.edu/books/9780822965794/</a></p>",
+    		"url": "https://www.upress.pitt.edu/books/9780822965794/"
+		},
+		{
+    		"id": "https://www.routledge.com/Editing-in-the-Modern-Classroom/Albers-Flanagan/p/book/9780815354468",
+			 "content_html": "<h1>New book Added:</h1><p>Editing in the Modern Classroom by Suzan Flanagan and Michael J. Albers. Published on 02-12-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/Editing-in-the-Modern-Classroom/Albers-Flanagan/p/book/9780815354468\">https://www.routledge.com/Editing-in-the-Modern-Classroom/Albers-Flanagan/p/book/9780815354468</a></p>",
+    		"url": "https://www.routledge.com/Editing-in-the-Modern-Classroom/Albers-Flanagan/p/book/9780815354468"
+		},
+		{
     		"id": "http://intermezzo.enculturation.net/09-yarbrough.htm",
 			 "content_html": "<h1>New book Added:</h1><p>Levels of Ambience: An Introduction to Integrative Rhetoric by Stephen R. Yarbrough. Published on 12-05-2018.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/09-yarbrough.htm\">http://intermezzo.enculturation.net/09-yarbrough.htm</a></p>",
     		"url": "http://intermezzo.enculturation.net/09-yarbrough.htm"
