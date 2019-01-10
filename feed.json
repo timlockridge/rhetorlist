@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3571-rhetorical-speculations",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetorical Speculations: Emerging Technologies and the Future and Potential of Rhetoric by Scott Sundvall. Published on 02-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3571-rhetorical-speculations\">https://upcolorado.com/utah-state-university-press/item/3571-rhetorical-speculations</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3571-rhetorical-speculations"
+		},
+		{
     		"id": "https://www.routledge.com/We-Find-Ourselves-in-Other-Peoples-Stories-On-Narrative-Collapse-and/Robillard/p/book/9781138393288",
 			 "content_html": "<h1>New book Added:</h1><p>We Find Ourselves in Other People’s Stories: On Narrative Collapse and a Lifetime Search for Story by Amy E. Robillard. Published on 12-06-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/We-Find-Ourselves-in-Other-Peoples-Stories-On-Narrative-Collapse-and/Robillard/p/book/9781138393288\">https://www.routledge.com/We-Find-Ourselves-in-Other-Peoples-Stories-On-Narrative-Collapse-and/Robillard/p/book/9781138393288</a></p>",
     		"url": "https://www.routledge.com/We-Find-Ourselves-in-Other-Peoples-Stories-On-Narrative-Collapse-and/Robillard/p/book/9781138393288"
