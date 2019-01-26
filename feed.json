@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/labor/",
+			 "content_html": "<h1>New book Added:</h1><p>Labor-Based Grading Contracts: Building Equity and Inclusion in the Compassionate Writing Classroom by Asao B. Inoue. Published on 01-04-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/labor/\">https://wac.colostate.edu/books/perspectives/labor/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/labor/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/writing/cruel/",
 			 "content_html": "<h1>New book Added:</h1><p>Cruel Auteurism: Affective Digital Mediations toward Film-Composition by bonnie lenore kyburz. Published on 01-15-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/writing/cruel/\">https://wac.colostate.edu/books/writing/cruel/</a></p>",
     		"url": "https://wac.colostate.edu/books/writing/cruel/"
