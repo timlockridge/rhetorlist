@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ccdigitalpress.org/archive-as-classroom",
+			 "content_html": "<h1>New book Added:</h1><p>The Archive as Classroom: Pedagogical Approaches to the Digital Archive of Literacy Narratives by Kathryn Comer, Michael Harker, and Ben McCorkle (eds.). Published on 01-31-2019.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/archive-as-classroom\">https://ccdigitalpress.org/archive-as-classroom</a></p>",
+    		"url": "https://ccdigitalpress.org/archive-as-classroom"
+		},
+		{
+    		"id": "https://wlnjournal.org/digitaleditedcollection1/index.html",
+			 "content_html": "<h1>New book Added:</h1><p>How We Teach Writing Tutors by Karen Gabrielle Johnson and Ted Roggenbuck, Editors. Published on 01-15-2019.</p><p>Link to book: <a href=\"https://wlnjournal.org/digitaleditedcollection1/index.html\">https://wlnjournal.org/digitaleditedcollection1/index.html</a></p>",
+    		"url": "https://wlnjournal.org/digitaleditedcollection1/index.html"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/labor/",
 			 "content_html": "<h1>New book Added:</h1><p>Labor-Based Grading Contracts: Building Equity and Inclusion in the Compassionate Writing Classroom by Asao B. Inoue. Published on 01-04-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/labor/\">https://wac.colostate.edu/books/perspectives/labor/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/labor/"
