@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3551-provocations-of-virtue",
+			 "content_html": "<h1>New book Added:</h1><p>Provocations of Virtue: Rhetoric, Ethics, and the Teaching of Writing by John Duffy. Published on 03-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3551-provocations-of-virtue\">https://upcolorado.com/utah-state-university-press/item/3551-provocations-of-virtue</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3551-provocations-of-virtue"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3469-out-in-the-center",
 			 "content_html": "<h1>New book Added:</h1><p>Out in the Center: Public Controversies and Private Struggles by Harry Denny, Robert Mundy, Liliana M. Naydan, Richard Sévère, and Anna Sicari. Published on 03-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3469-out-in-the-center\">https://upcolorado.com/utah-state-university-press/item/3469-out-in-the-center</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3469-out-in-the-center"
