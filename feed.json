@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.siupress.com/books/978-0-8093-3717-0",
+			 "content_html": "<h1>New book Added:</h1><p>Domestic Occupations: Spatial Rhetorics and Women’s Work by Jessica Enoch. Published on 08-22-2019.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3717-0\">http://www.siupress.com/books/978-0-8093-3717-0</a></p>",
+    		"url": "http://www.siupress.com/books/978-0-8093-3717-0"
+		},
+		{
+    		"id": "http://www.parlorpress.com/afterlife_discarded_objects",
+			 "content_html": "<h1>New book Added:</h1><p>The Afterlife of Discarded Objects: Memory and Forgetting in a Culture of Waste by Andrei Guruianu and Natalia Andrievskikh. Published on 01-01-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/afterlife_discarded_objects\">http://www.parlorpress.com/afterlife_discarded_objects</a></p>",
+    		"url": "http://www.parlorpress.com/afterlife_discarded_objects"
+		},
+		{
+    		"id": "http://www.parlorpress.com/konsult",
+			 "content_html": "<h1>New book Added:</h1><p>KONSULT: Theopraxesis by Gregory L. Ulmer. Published on 02-02-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/konsult\">http://www.parlorpress.com/konsult</a></p>",
+    		"url": "http://www.parlorpress.com/konsult"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814213988.html",
+			 "content_html": "<h1>New book Added:</h1><p>Science Communication Online: Engaging Experts and Publics on the Internet by Ashley Rose Mehlenbacher. Published on 04-11-2019.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814213988.html\">https://ohiostatepress.org/books/titles/9780814213988.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814213988.html"
+		},
+		{
+    		"id": "https://www.routledge.com/Translation-and-Localization-A-Guide-for-Professional-and-Technical-Communicators/Maylath-StAmant/p/book/9781138319943",
+			 "content_html": "<h1>New book Added:</h1><p>Translation and Localization: A Guide for Professional and Technical Communicators by Bruce Maylath and Kirk St.Amant. Published on 06-12-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/Translation-and-Localization-A-Guide-for-Professional-and-Technical-Communicators/Maylath-StAmant/p/book/9781138319943\">https://www.routledge.com/Translation-and-Localization-A-Guide-for-Professional-and-Technical-Communicators/Maylath-StAmant/p/book/9781138319943</a></p>",
+    		"url": "https://www.routledge.com/Translation-and-Localization-A-Guide-for-Professional-and-Technical-Communicators/Maylath-StAmant/p/book/9781138319943"
+		},
+		{
+    		"id": "https://www.routledge.com/Technical-Communication-After-the-Social-Justice-Turn-Building-Coalitions/Walton-Moore-Jones/p/book/9780367188467",
+			 "content_html": "<h1>New book Added:</h1><p>Technical Communication After the Social Justice Turn by Rebecca Walton, Kristen Moore, and Natasha Jones. Published on 06-07-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/Technical-Communication-After-the-Social-Justice-Turn-Building-Coalitions/Walton-Moore-Jones/p/book/9780367188467\">https://www.routledge.com/Technical-Communication-After-the-Social-Justice-Turn-Building-Coalitions/Walton-Moore-Jones/p/book/9780367188467</a></p>",
+    		"url": "https://www.routledge.com/Technical-Communication-After-the-Social-Justice-Turn-Building-Coalitions/Walton-Moore-Jones/p/book/9780367188467"
+		},
+		{
     		"id": "https://ccdigitalpress.org/rhetoric-of-participation",
 			 "content_html": "<h1>New book Added:</h1><p>The Rhetoric of Participation: Interrogating Commonplaces In and Beyond the Classroom by Paige V. Banaji, Lisa Blankenship, Katherine DeLuca, Lauren Obermark, and Ryan Omizo (eds.). Published on 03-04-2019.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/rhetoric-of-participation\">https://ccdigitalpress.org/rhetoric-of-participation</a></p>",
 			"url": "https://ccdigitalpress.org/rhetoric-of-participation"
