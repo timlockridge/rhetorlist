@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene",
+			 "content_html": "<h1>New book Added:</h1><p>Planting the Anthropocene: Rhetorics of Natureculture by Jennifer Clary-Lemon. Published on 03-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene\">https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene"
+		},
+		{
     		"id": "http://www.siupress.com/books/978-0-8093-3717-0",
 			 "content_html": "<h1>New book Added:</h1><p>Domestic Occupations: Spatial Rhetorics and Women’s Work by Jessica Enoch. Published on 08-22-2019.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3717-0\">http://www.siupress.com/books/978-0-8093-3717-0</a></p>",
     		"url": "http://www.siupress.com/books/978-0-8093-3717-0"
