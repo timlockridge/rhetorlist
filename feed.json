@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies",
+			 "content_html": "<h1>New book Added:</h1><p>Re/Orienting Writing Studies: Queer Methods, Queer Projects by William P. Banks, Matthew B. Cox, and Caroline Dadas. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies\">https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene",
 			 "content_html": "<h1>New book Added:</h1><p>Planting the Anthropocene: Rhetorics of Natureculture by Jennifer Clary-Lemon. Published on 03-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene\">https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3590-planting-the-anthropocene"
