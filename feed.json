@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.upress.pitt.edu/books/9780822945888/",
+			 "content_html": "<h1>New book Added:</h1><p>Women at Work: Rhetorics of Gender and Labor by David Gold and Jessica Enoch. Published on 09-17-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822945888/\">https://www.upress.pitt.edu/books/9780822945888/</a></p>",
+    		"url": "https://www.upress.pitt.edu/books/9780822945888/"
+		},
+		{
     		"id": "https://www.upress.pitt.edu/books/9780822945895/",
 			 "content_html": "<h1>New book Added:</h1><p>Rhet Ops: Rhetoric and Information Warfare by Jim Ridolfo and William Hart-Davidson. Published on 10-15-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822945895/\">https://www.upress.pitt.edu/books/9780822945895/</a></p>",
     		"url": "https://www.upress.pitt.edu/books/9780822945895/"
