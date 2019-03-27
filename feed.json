@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.upress.pitt.edu/books/9780822945895/",
+			 "content_html": "<h1>New book Added:</h1><p>Rhet Ops: Rhetoric and Information Warfare by Jim Ridolfo and William Hart-Davidson. Published on 10-15-2019.</p><p>Link to book: <a href=\"https://www.upress.pitt.edu/books/9780822945895/\">https://www.upress.pitt.edu/books/9780822945895/</a></p>",
+    		"url": "https://www.upress.pitt.edu/books/9780822945895/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies",
 			 "content_html": "<h1>New book Added:</h1><p>Re/Orienting Writing Studies: Queer Methods, Queer Projects by William P. Banks, Matthew B. Cox, and Caroline Dadas. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies\">https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3518-re-orienting-writing-studies"
