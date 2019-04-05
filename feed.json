@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3588-next-steps",
+			 "content_html": "<h1>New book Added:</h1><p>Next Steps: New Directions for/in Writing about Writing by Barbara Bird, Doug Downs, I. Moriah McCracken, & Jan Rieman. Published on 04-04-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3588-next-steps\">https://upcolorado.com/utah-state-university-press/item/3588-next-steps</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3588-next-steps"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3529-defining-locating-and-addressing-bullying-in-the-wpa-workplace",
 			 "content_html": "<h1>New book Added:</h1><p>Defining, Locating, and Addressing Bullying in the WPA Workplace by Cristyn L. Elder and Bethany Davila. Published on 03-29-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3529-defining-locating-and-addressing-bullying-in-the-wpa-workplace\">https://upcolorado.com/utah-state-university-press/item/3529-defining-locating-and-addressing-bullying-in-the-wpa-workplace</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3529-defining-locating-and-addressing-bullying-in-the-wpa-workplace"
