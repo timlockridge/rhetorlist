@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures",
+			 "content_html": "<h1>New book Added:</h1><p>Sojourning in Disciplinary Cultures: A Case Study of Teaching Writing in Engineering by Maureen A. Mathison. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures\">https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3588-next-steps",
 			 "content_html": "<h1>New book Added:</h1><p>Next Steps: New Directions for/in Writing about Writing by Barbara Bird, Doug Downs, I. Moriah McCracken, & Jan Rieman. Published on 04-04-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3588-next-steps\">https://upcolorado.com/utah-state-university-press/item/3588-next-steps</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3588-next-steps"
