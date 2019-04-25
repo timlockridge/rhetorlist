@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing",
+			 "content_html": "<h1>New book Added:</h1><p>Multimodal Composing: Strategies for Twenty-First-Century Writing Consultations by Lindsay A. Sabatino and Brian Fallon. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing\">https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures",
 			 "content_html": "<h1>New book Added:</h1><p>Sojourning in Disciplinary Cultures: A Case Study of Teaching Writing in Engineering by Maureen A. Mathison. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures\">https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3593-sojourning-in-disciplinary-cultures"
