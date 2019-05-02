@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.taylorfrancis.com/books/9780429266140",
+			 "content_html": "<h1>New book Added:</h1><p>Digital Ethics: Rhetoric and Responsibility in Online Aggression by Jessica Reyman and Erika M. Sparby. Published on 07-19-2019.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/9780429266140\">https://www.taylorfrancis.com/books/9780429266140</a></p>",
+    		"url": "https://www.taylorfrancis.com/books/9780429266140"
+		},
+		{
+    		"id": "https://www.routledge.com/Multiliteracies-Emerging-Media-and-College-Writing-Instruction-1st-Edition/Khadka/p/book/9780367203160",
+			 "content_html": "<h1>New book Added:</h1><p>Multiliteracies, Emerging Media, and College Writing Instruction by Santosh Khadka. Published on 03-15-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/Multiliteracies-Emerging-Media-and-College-Writing-Instruction-1st-Edition/Khadka/p/book/9780367203160\">https://www.routledge.com/Multiliteracies-Emerging-Media-and-College-Writing-Instruction-1st-Edition/Khadka/p/book/9780367203160</a></p>",
+    		"url": "https://www.routledge.com/Multiliteracies-Emerging-Media-and-College-Writing-Instruction-1st-Edition/Khadka/p/book/9780367203160"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3553-bridging-the-multimodal-gap",
+			 "content_html": "<h1>New book Added:</h1><p>Bridging the Multimodal Gap: From Theory to Practice by Santosh Khadka and J. C. Lee. Published on 05-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3553-bridging-the-multimodal-gap\">https://upcolorado.com/utah-state-university-press/item/3553-bridging-the-multimodal-gap</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3553-bridging-the-multimodal-gap"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing",
 			 "content_html": "<h1>New book Added:</h1><p>Multimodal Composing: Strategies for Twenty-First-Century Writing Consultations by Lindsay A. Sabatino and Brian Fallon. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing\">https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3603-multimodal-composing"
