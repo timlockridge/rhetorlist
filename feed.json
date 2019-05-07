@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis",
+			 "content_html": "<h1>New book Added:</h1><p>Radical Writing Center Praxis: A Paradigm for Ethical Political Engagement by Laura Greenfield. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis\">https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis"
+		},
+		{
     		"id": "https://www.taylorfrancis.com/books/9780429266140",
 			 "content_html": "<h1>New book Added:</h1><p>Digital Ethics: Rhetoric and Responsibility in Online Aggression by Jessica Reyman and Erika M. Sparby. Published on 07-19-2019.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/9780429266140\">https://www.taylorfrancis.com/books/9780429266140</a></p>",
     		"url": "https://www.taylorfrancis.com/books/9780429266140"
