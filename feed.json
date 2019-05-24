@@ -5,6 +5,31 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.siupress.com/books/978-0-8093-3741-5",
+			 "content_html": "<h1>New book Added:</h1><p>Mestiza Rhetorics: An Anthology of Mexicana Activism in the Spanish-Language Press, 1887-1922 by Jessica Enoch and Cristina Devereaux Ramirez. Published on 09-23-2019.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3741-5\">http://www.siupress.com/books/978-0-8093-3741-5</a></p>",
+    		"url": "http://www.siupress.com/books/978-0-8093-3741-5"
+		},
+		{
+    		"id": "https://www.peterlang.com/abstract/title/69620?rskey=PbU2vE&result=1",
+			 "content_html": "<h1>New book Added:</h1><p>Netflix at the Nexus: Content, Practice, and Production in the Age of Streaming Television by Amber M. Buck and Theo Plothe. Published on 07-07-2019.</p><p>Link to book: <a href=\"https://www.peterlang.com/abstract/title/69620?rskey=PbU2vE&result=1\">https://www.peterlang.com/abstract/title/69620?rskey=PbU2vE&result=1</a></p>",
+    		"url": "https://www.peterlang.com/abstract/title/69620?rskey=PbU2vE&result=1"
+		},
+		{
+    		"id": "https://www.parlorpress.com/tracing_invisible_lines",
+			 "content_html": "<h1>New book Added:</h1><p>Tracing Invisible Lines: An Experiment in Mystoriography by David Prescott-Steed. Published on 02-28-2019.</p><p>Link to book: <a href=\"https://www.parlorpress.com/tracing_invisible_lines\">https://www.parlorpress.com/tracing_invisible_lines</a></p>",
+    		"url": "https://www.parlorpress.com/tracing_invisible_lines"
+		},
+		{
+    		"id": "https://www.parlorpress.com/exquisite",
+			 "content_html": "<h1>New book Added:</h1><p>Exquisite Corpse: Studio Art-Based Writing Practices in the Academy by Edited by Kate Hanzalik and Nathalie Virgintino. Published on 02-11-2019.</p><p>Link to book: <a href=\"https://www.parlorpress.com/exquisite\">https://www.parlorpress.com/exquisite</a></p>",
+    		"url": "https://www.parlorpress.com/exquisite"
+		},
+		{
+    		"id": "http://intermezzo.enculturation.net/10-stephens.htm",
+			 "content_html": "<h1>New book Added:</h1><p>Three Birds Sing a New Song: A Puerto Rican Trilogy on Dystopia, Precarity, and Resistance by Gregory Stephens. Published on 04-22-2019.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/10-stephens.htm\">http://intermezzo.enculturation.net/10-stephens.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/10-stephens.htm"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis",
 			 "content_html": "<h1>New book Added:</h1><p>Radical Writing Center Praxis: A Paradigm for Ethical Political Engagement by Laura Greenfield. Published on 04-15-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis\">https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3596-radical-writing-center-praxis"
