@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.psupress.org/books/titles/978-0-271-08468-8.html",
+			 "content_html": "<h1>New book Added:</h1><p>Ableist Rhetoric: How We Know, Value, and See Disability by James L. Cherney. Published on 11-07-2019.</p><p>Link to book: <a href=\"http://www.psupress.org/books/titles/978-0-271-08468-8.html\">http://www.psupress.org/books/titles/978-0-271-08468-8.html</a></p>",
+    		"url": "http://www.psupress.org/books/titles/978-0-271-08468-8.html"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3712-5",
+			 "content_html": "<h1>New book Added:</h1><p>Rhetoric and Demagoguery by Patricia Roberts-Miller. Published on 02-05-2019.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3712-5\">http://siupress.siu.edu/books/978-0-8093-3712-5</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3712-5"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3714-9",
+			 "content_html": "<h1>New book Added:</h1><p>Surrender: Feminist Rhetoric and Ethics in Love and Illness by Jessica Restaino. Published on 02-01-2019.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3714-9\">http://siupress.siu.edu/books/978-0-8093-3714-9</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3714-9"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3753-8",
+			 "content_html": "<h1>New book Added:</h1><p>Chain of Gold: Greek Rhetoric in the Roman Empire by Susan C. Jarratt. Published on 11-26-2019.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3753-8\">http://siupress.siu.edu/books/978-0-8093-3753-8</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3753-8"
+		},
+		{
+    		"id": "https://www.parlorpress.com/retellings",
+			 "content_html": "<h1>New book Added:</h1><p>Retellings: Opportunities for Feminist Research in Rhetoric and Composition Studies by Jessica Enoch and Jordynn Jack. Published on 06-13-2019.</p><p>Link to book: <a href=\"https://www.parlorpress.com/retellings\">https://www.parlorpress.com/retellings</a></p>",
+    		"url": "https://www.parlorpress.com/retellings"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214039.html",
+			 "content_html": "<h1>New book Added:</h1><p>Raveling the Brain: Toward a Transdisciplinary Neurorhetoric by Jordynn Jack. Published on 08-05-2019.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214039.html\">https://ohiostatepress.org/books/titles/9780814214039.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214039.html"
+		},
+		{
     		"id": "http://www.siupress.com/books/978-0-8093-3741-5",
 			 "content_html": "<h1>New book Added:</h1><p>Mestiza Rhetorics: An Anthology of Mexicana Activism in the Spanish-Language Press, 1887-1922 by Jessica Enoch and Cristina Devereaux Ramirez. Published on 09-23-2019.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3741-5\">http://www.siupress.com/books/978-0-8093-3741-5</a></p>",
     		"url": "http://www.siupress.com/books/978-0-8093-3741-5"
