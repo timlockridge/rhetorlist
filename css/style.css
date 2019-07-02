@@ -183,3 +183,15 @@ and (min-width: 1100px) {
         display: none;
     }
 }
+
+footer {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgba(143,197,183,.3);
+}
+
+footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: .75em;
+}
