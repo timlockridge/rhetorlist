@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures",
+			 "content_html": "<h1>New book Added:</h1><p>Writing Across Cultures by Robert Eddy and Amanda Espinosa-Aguilar. Published on 07-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures\">https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures"
+		},
+		{
     		"id": "http://www.psupress.org/books/titles/978-0-271-08468-8.html",
 			 "content_html": "<h1>New book Added:</h1><p>Ableist Rhetoric: How We Know, Value, and See Disability by James L. Cherney. Published on 11-07-2019.</p><p>Link to book: <a href=\"http://www.psupress.org/books/titles/978-0-271-08468-8.html\">http://www.psupress.org/books/titles/978-0-271-08468-8.html</a></p>",
     		"url": "http://www.psupress.org/books/titles/978-0-271-08468-8.html"
