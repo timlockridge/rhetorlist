@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.sc.edu/uscpress/books/2018/7874.html",
+			 "content_html": "<h1>New book Added:</h1><p>Introducing Science Through Images: Cases of Visual Popularization by Maria E. Gigante. Published on 05-01-2018.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2018/7874.html\">https://www.sc.edu/uscpress/books/2018/7874.html</a></p>",
+    		"url": "https://www.sc.edu/uscpress/books/2018/7874.html"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures",
 			 "content_html": "<h1>New book Added:</h1><p>Writing Across Cultures by Robert Eddy and Amanda Espinosa-Aguilar. Published on 07-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures\">https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3675-writing-across-cultures"
