@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.peterlang.com/view/title/70081?format=PBK",
+			 "content_html": "<h1>New book Added:</h1><p>How Stories Teach Us: Composition, Life Writing, and Blended Scholarship by Amy E. Robillard and D. Shane Combs. Published on 05-22-2019.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/70081?format=PBK\">https://www.peterlang.com/view/title/70081?format=PBK</a></p>",
+    		"url": "https://www.peterlang.com/view/title/70081?format=PBK"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3673-reformers-teachers-writers",
 			 "content_html": "<h1>New book Added:</h1><p>Reformers, Teachers, Writers: Curricular and Pedagogical Inquiries by Neal Lerner. Published on 06-03-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3673-reformers-teachers-writers\">https://upcolorado.com/utah-state-university-press/item/3673-reformers-teachers-writers</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3673-reformers-teachers-writers"
