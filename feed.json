@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm",
+			 "content_html": "<h1>New book Added:</h1><p>Weathering the Storm: Independent Writing Programs in the Age of Fiscal Austerity by Richard N. Matzen Jr. & Matthew Abraham. Published on 08-23-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm\">https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/situating/",
 			 "content_html": "<h1>New book Added:</h1><p>Situating Writing Processes by Hannah J. Rule. Published on 08-12-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/situating/\">https://wac.colostate.edu/books/perspectives/situating/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/situating/"
