@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3701-explanation-points",
+			 "content_html": "<h1>New book Added:</h1><p>Explanation Points: Publishing in Rhetoric and Composition by John R. Gallagher & Dànielle Nicole DeVoss. Published on 09-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3701-explanation-points\">https://upcolorado.com/utah-state-university-press/item/3701-explanation-points</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3701-explanation-points"
+		},
+		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-08383-4.html",
+			 "content_html": "<h1>New book Added:</h1><p>After Gun Violence: Deliberation and Memory in an Age of Political Gridlock by Craig Rood. Published on 05-20-2019.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-08383-4.html\">https://www.psupress.org/books/titles/978-0-271-08383-4.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-08383-4.html"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm",
 			 "content_html": "<h1>New book Added:</h1><p>Weathering the Storm: Independent Writing Programs in the Age of Fiscal Austerity by Richard N. Matzen Jr. & Matthew Abraham. Published on 08-23-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm\">https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3689-weathering-the-storm"
