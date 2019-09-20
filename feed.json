@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition",
+			 "content_html": "<h1>New Book Added:</h1><p>Toward Translingual Realities in Composition: (Re)Working Local Language Representations and Practices by Nancy Bou Ayash. Published on 09-17-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition\">https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3701-explanation-points",
 			 "content_html": "<h1>New book Added:</h1><p>Explanation Points: Publishing in Rhetoric and Composition by John R. Gallagher & Dànielle Nicole DeVoss. Published on 09-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3701-explanation-points\">https://upcolorado.com/utah-state-university-press/item/3701-explanation-points</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3701-explanation-points"
