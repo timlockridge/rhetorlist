@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.parlorpress.com/creolecomposition",
+			 "content_html": "<h1>New Book Added:</h1><p>Creole Composition: Academic Writing and Rhetoric in the Anglophone Caribbean by Vivette Milson-Whyte, Raymond Oenbring, and Brianne Jaquette. Published on 08-13-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/creolecomposition\">http://www.parlorpress.com/creolecomposition</a></p>",
+    		"url": "http://www.parlorpress.com/creolecomposition"
+		},
+		{
+    		"id": "https://www.routledge.com/Content-Strategy-in-Technical-Communication/Getto-Labriola-Ruszkiewicz/p/book/9780367192167",
+			 "content_html": "<h1>New Book Added:</h1><p>Content Strategy in Technical Communication by Guiseppe Getto, Jack Labriola, and Sheryl Ruszkiewicz. Published on 09-30-2019.</p><p>Link to book: <a href=\"https://www.routledge.com/Content-Strategy-in-Technical-Communication/Getto-Labriola-Ruszkiewicz/p/book/9780367192167\">https://www.routledge.com/Content-Strategy-in-Technical-Communication/Getto-Labriola-Ruszkiewicz/p/book/9780367192167</a></p>",
+    		"url": "https://www.routledge.com/Content-Strategy-in-Technical-Communication/Getto-Labriola-Ruszkiewicz/p/book/9780367192167"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/atd/performing/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing In and About the Performing and Visual Arts: Creating, Performing, and Teaching by Steven J. Corbett, Jennifer Lin LeMesurier, Teagan E. Decker, and Betsy Cooper. Published on 09-29-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/performing/\">https://wac.colostate.edu/books/atd/performing/</a></p>",
+    		"url": "https://wac.colostate.edu/books/atd/performing/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition",
 			 "content_html": "<h1>New Book Added:</h1><p>Toward Translingual Realities in Composition: (Re)Working Local Language Representations and Practices by Nancy Bou Ayash. Published on 09-17-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition\">https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3686-toward-translingual-realities-in-composition"
