@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies",
+			 "content_html": "<h1>New Book Added:</h1><p>Reinventing (with) Theory in Rhetoric and Writing Studies: Essays in Honor of Sharon Crowley by Andrea Alden, Kendall Gerdes, Judy Holiday, and Ryan Skinnell. Published on 10-21-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies\">https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies"
+		},
+		{
     		"id": "http://www.parlorpress.com/creolecomposition",
 			 "content_html": "<h1>New Book Added:</h1><p>Creole Composition: Academic Writing and Rhetoric in the Anglophone Caribbean by Vivette Milson-Whyte, Raymond Oenbring, and Brianne Jaquette. Published on 08-13-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/creolecomposition\">http://www.parlorpress.com/creolecomposition</a></p>",
     		"url": "http://www.parlorpress.com/creolecomposition"
