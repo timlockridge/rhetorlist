@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/codingstreams/",
+			 "content_html": "<h1>New Book Added:</h1><p>Coding Streams of Language: Techniques for the Systematic Coding of Text, Talk, and Other Verbal Data by Cheryl Geisler and Jason Swarts. Published on 10-21-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/codingstreams/\">https://wac.colostate.edu/books/practice/codingstreams/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/codingstreams/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies",
 			 "content_html": "<h1>New Book Added:</h1><p>Reinventing (with) Theory in Rhetoric and Writing Studies: Essays in Honor of Sharon Crowley by Andrea Alden, Kendall Gerdes, Judy Holiday, and Ryan Skinnell. Published on 10-21-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies\">https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3720-reinventing-with-theory-in-rhetoric-and-writing-studies"
