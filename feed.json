@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/pars/",
+			 "content_html": "<h1>New Book Added:</h1><p>Personal, Accessible, Responsive, Strategic: Resources and Strategies for Online Writing Instructors by Jessie Borgman and Casey McArdle. Published on 10-23-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/pars/\">https://wac.colostate.edu/books/practice/pars/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/pars/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/codingstreams/",
 			 "content_html": "<h1>New Book Added:</h1><p>Coding Streams of Language: Techniques for the Systematic Coding of Text, Talk, and Other Verbal Data by Cheryl Geisler and Jason Swarts. Published on 10-21-2019.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/codingstreams/\">https://wac.colostate.edu/books/practice/codingstreams/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/codingstreams/"
