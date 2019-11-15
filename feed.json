@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.parlorpress.com/lavazzi",
+			 "content_html": "<h1>New Book Added:</h1><p>Off the Page: Literary and Cultural Criticism as Multimedia Performance by Tom Lavazzie. Published on 10-31-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/lavazzi\">http://www.parlorpress.com/lavazzi</a></p>",
+    		"url": "http://www.parlorpress.com/lavazzi"
+		},
+		{
+    		"id": "http://www.parlorpress.com/vivanuestro",
+			 "content_html": "<h1>New Book Added:</h1><p>Viva Nuestro Caucus: Rewriting the Forgotten Pages of Our Caucus by Romeo García, Iris D. Ruiz, Anita Hernández and María Paz Carvajal Regidor. Published on 10-03-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/vivanuestro\">http://www.parlorpress.com/vivanuestro</a></p>",
+    		"url": "http://www.parlorpress.com/vivanuestro"
+		},
+		{
+    		"id": "http://www.parlorpress.com/best2019",
+			 "content_html": "<h1>New Book Added:</h1><p>Best of the Journals in Rhetoric and Composition 2019 by Edited by Jessica Pauszek, Kristi Girdharry, Charles Lesh, David Blakesley, and Steve Parks. Published on 10-15-2019.</p><p>Link to book: <a href=\"http://www.parlorpress.com/best2019\">http://www.parlorpress.com/best2019</a></p>",
+    		"url": "http://www.parlorpress.com/best2019"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3741-early-holistic-scoring-of-writing",
 			 "content_html": "<h1>New Book Added:</h1><p>Early Holistic Scoring of Writing: A Theory, a History, a Reflection by Richard Haswell & Norbert Elliot. Published on 11-01-2019.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3741-early-holistic-scoring-of-writing\">https://upcolorado.com/utah-state-university-press/item/3741-early-holistic-scoring-of-writing</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3741-early-holistic-scoring-of-writing"
