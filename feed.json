@@ -5,6 +5,26 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation",
+			 "content_html": "<h1>New Book Added:</h1><p>Immigrant Scholars in Rhetoric, Composition, and Communication: Memoirs of a First Generation by Letizia Guglielmo and Sergio C. Figueiredo. Published on 10-29-2019.</p><p>Link to book: <a href=\"https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation\">https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation</a></p>",
+    		"url": "https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation"
+		},
+		{
+    		"id": "https://store.ncte.org/book/black-perspectives-writing-program-administration-margins-center",
+			 "content_html": "<h1>New Book Added:</h1><p>Black Perspectives in Writing Program Administration: From the Margins to the Center by Staci M. Perryman-Clark. Published on 03-04-2019.</p><p>Link to book: <a href=\"https://store.ncte.org/book/black-perspectives-writing-program-administration-margins-center\">https://store.ncte.org/book/black-perspectives-writing-program-administration-margins-center</a></p>",
+    		"url": "https://store.ncte.org/book/black-perspectives-writing-program-administration-margins-center"
+		},
+		{
+    		"id": "https://store.ncte.org/book/rhetorics-elsewhere-and-otherwise-contested-modernities-decolonial-visions",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorics Elsewhere and Otherwise: Contested Modernities, Decolonial Visions by Romeo García and Damián Baca. Published on 03-04-2019.</p><p>Link to book: <a href=\"https://store.ncte.org/book/rhetorics-elsewhere-and-otherwise-contested-modernities-decolonial-visions\">https://store.ncte.org/book/rhetorics-elsewhere-and-otherwise-contested-modernities-decolonial-visions</a></p>",
+    		"url": "https://store.ncte.org/book/rhetorics-elsewhere-and-otherwise-contested-modernities-decolonial-visions"
+		},
+		{
+    		"id": "https://store.ncte.org/book/beyond-progress-prison-classroom-options-and-opportunities",
+			 "content_html": "<h1>New Book Added:</h1><p>Beyond Progress in the Prison Classroom: Options and Opportunities by Anna Plemons. Published on 11-05-2019.</p><p>Link to book: <a href=\"https://store.ncte.org/book/beyond-progress-prison-classroom-options-and-opportunities\">https://store.ncte.org/book/beyond-progress-prison-classroom-options-and-opportunities</a></p>",
+    		"url": "https://store.ncte.org/book/beyond-progress-prison-classroom-options-and-opportunities"
+		},
+		{
     		"id": "https://www.palgrave.com/gp/book/9783030263980",
 			 "content_html": "<h1>New Book Added:</h1><p>User Localization Strategies in the Face of Technological Breakdown: Biometric in Ghana’s Elections by Isidore Kafui Dorpenyo. Published on 08-21-2019.</p><p>Link to book: <a href=\"https://www.palgrave.com/gp/book/9783030263980\">https://www.palgrave.com/gp/book/9783030263980</a></p>",
     		"url": "https://www.palgrave.com/gp/book/9783030263980"
