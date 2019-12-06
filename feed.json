@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.palgrave.com/gp/book/9783030263980",
+			 "content_html": "<h1>New Book Added:</h1><p>User Localization Strategies in the Face of Technological Breakdown: Biometric in Ghana’s Elections by Isidore Kafui Dorpenyo. Published on 08-21-2019.</p><p>Link to book: <a href=\"https://www.palgrave.com/gp/book/9783030263980\">https://www.palgrave.com/gp/book/9783030263980</a></p>",
+    		"url": "https://www.palgrave.com/gp/book/9783030263980"
+		},
+		{
     		"id": "http://intermezzo.enculturation.net/11-ceraso.htm",
 			 "content_html": "<h1>New Book Added:</h1><p>Sound Never Tasted So Good: Teaching Sensory Rhetorics by Steph Ceraso. Published on 12-02-2019.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/11-ceraso.htm\">http://intermezzo.enculturation.net/11-ceraso.htm</a></p>",
     		"url": "http://intermezzo.enculturation.net/11-ceraso.htm"
