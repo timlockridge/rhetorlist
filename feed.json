@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.sc.edu/uscpress/books/2019/7990.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Queering Romantic Engagement in the Postal Age: A Rhetorical Education by Pamela VanHaitsma. Published on 09-01-2019.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2019/7990.html\">https://www.sc.edu/uscpress/books/2019/7990.html</a></p>",
+    		"url": "https://www.sc.edu/uscpress/books/2019/7990.html"
+		},
+		{
+    		"id": "https://www.sc.edu/uscpress/books/2019/7979.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Remembering Women Differently: Refiguring Rhetorical Work by Lynee Lewis Gaillet & Helen Gaillet Bailey. Published on 05-01-2019.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2019/7979.html\">https://www.sc.edu/uscpress/books/2019/7979.html</a></p>",
+    		"url": "https://www.sc.edu/uscpress/books/2019/7979.html"
+		},
+		{
     		"id": "https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation",
 			 "content_html": "<h1>New Book Added:</h1><p>Immigrant Scholars in Rhetoric, Composition, and Communication: Memoirs of a First Generation by Letizia Guglielmo and Sergio C. Figueiredo. Published on 10-29-2019.</p><p>Link to book: <a href=\"https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation\">https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation</a></p>",
     		"url": "https://store.ncte.org/book/immigrant-scholars-rhetoric-composition-and-communication-memoirs-first-generation"
