@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/talk/",
+			 "content_html": "<h1>New Book Added:</h1><p>Talk, Tools, and Texts: A Logic-in-Use for Studying Lifespan Literate Action Development by Ryan J. Dippre. Published on 12-16-19.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/talk/\">https://wac.colostate.edu/books/practice/talk/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/talk/"
+		},
+		{
     		"id": "https://www.sc.edu/uscpress/books/2019/7990.html",
 			 "content_html": "<h1>New Book Added:</h1><p>Queering Romantic Engagement in the Postal Age: A Rhetorical Education by Pamela VanHaitsma. Published on 09-01-2019.</p><p>Link to book: <a href=\"https://www.sc.edu/uscpress/books/2019/7990.html\">https://www.sc.edu/uscpress/books/2019/7990.html</a></p>",
     		"url": "https://www.sc.edu/uscpress/books/2019/7990.html"
