@@ -5,6 +5,46 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410",
+			 "content_html": "<h1>New Book Added:</h1><p>Sacred Rhetorical Education in 19th Century America: Austin Phelps at Andover Theological Seminary by Michael-John DePalma. Published on 02-14-2020.</p><p>Link to book: <a href=\"https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410\">https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410</a></p>",
+    		"url": "https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3742-2",
+			 "content_html": "<h1>New Book Added:</h1><p>A Shared History: Writing in the High School, College, and University, 1856-1886 by Amy J. Lueck. Published on 01-06-2020.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3742-2\">http://siupress.siu.edu/books/978-0-8093-3742-2</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3742-2"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822966135/",
+			 "content_html": "<h1>New Book Added:</h1><p>Persuasive Acts: Women’s Rhetorics in the Twenty-First Century by Shari J. Stenberg and Charlotte Hogg. Published on 03-03-2020.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822966135/\">https://upittpress.org/books/9780822966135/</a></p>",
+    		"url": "https://upittpress.org/books/9780822966135/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3773-the-work-of-teaching-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>The Work of Teaching Writing: Learning from Fiction, Film, and Drama by Joseph Harris. Published on 04-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3773-the-work-of-teaching-writing\">https://upcolorado.com/utah-state-university-press/item/3773-the-work-of-teaching-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3773-the-work-of-teaching-writing"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3763-more-than-a-moment",
+			 "content_html": "<h1>New Book Added:</h1><p>More than a Moment: Contextualizing the Past, Present, and Future of MOOCs by Steven D. Krause. Published on 01-02-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3763-more-than-a-moment\">https://upcolorado.com/utah-state-university-press/item/3763-more-than-a-moment</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3763-more-than-a-moment"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214343.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Ecologies of Harm: Rhetorics of Violence in the United States by Megan Eatman. Published on 02-14-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214343.html\">https://ohiostatepress.org/books/titles/9780814214343.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214343.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214336.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Vaccine Rhetorics by Heidi Yoston Lawrence. Published on 02-05-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214336.html\">https://ohiostatepress.org/books/titles/9780814214336.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214336.html"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/international/wrab2017/",
+			 "content_html": "<h1>New Book Added:</h1><p>Conocer la Escritura: Investigación Más Allá de las Frontera | Knowing Writing: Writing Research across Borders by Charles Bazerman, Blanca Yaneth González Pinzón, David Russell, Paul Rogers, Luis Bernardo Peña, Elizabeth Narváez, Paula Carlino, Montserrat Castelló and Mónica Tapia-Ladino. Published on 01-02-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/wrab2017/\">https://wac.colostate.edu/books/international/wrab2017/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/wrab2017/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/talk/",
 			 "content_html": "<h1>New Book Added:</h1><p>Talk, Tools, and Texts: A Logic-in-Use for Studying Lifespan Literate Action Development by Ryan J. Dippre. Published on 12-16-19.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/talk/\">https://wac.colostate.edu/books/practice/talk/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/talk/"
