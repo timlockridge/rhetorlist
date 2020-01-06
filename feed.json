@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships",
+			 "content_html": "<h1>New Book Added:</h1><p>Rewriting Partnerships: Community Perspectives on Community-Based Learning by Rachael W. Shah. Published on 03-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships\">https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships"
+		},
+		{
     		"id": "https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410",
 			 "content_html": "<h1>New Book Added:</h1><p>Sacred Rhetorical Education in 19th Century America: Austin Phelps at Andover Theological Seminary by Michael-John DePalma. Published on 02-14-2020.</p><p>Link to book: <a href=\"https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410\">https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410</a></p>",
     		"url": "https://www.routledge.com/Sacred-Rhetorical-Education-in-19th-Century-America-Austin-Phelps-at-Andover/DePalma/p/book/9780367418410"
