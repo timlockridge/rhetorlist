@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Update Culture and the Afterlife of Digital Writing by John R. Gallagher. Published on 01-27-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing\">https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3756-re-considering-what-we-know",
+			 "content_html": "<h1>New Book Added:</h1><p>(Re)Considering What We Know: Learning Thresholds in Writing, Composition, Rhetoric, and Literacy by Linda Adler-Kassner and Elizabeth Wardle. Published on 01-10-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3756-re-considering-what-we-know\">https://upcolorado.com/utah-state-university-press/item/3756-re-considering-what-we-know</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3756-re-considering-what-we-know"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships",
 			 "content_html": "<h1>New Book Added:</h1><p>Rewriting Partnerships: Community Perspectives on Community-Based Learning by Rachael W. Shah. Published on 03-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships\">https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3777-rewriting-partnerships"
