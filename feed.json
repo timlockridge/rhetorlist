@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.uapress.ua.edu/product/Cookery,7378.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Cookery: Food Rhetorics and Social Production by Donovan Conley and Justin Eckstein. Published on 04-21-2020.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Cookery,7378.aspx\">http://www.uapress.ua.edu/product/Cookery,7378.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Cookery,7378.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Sex-Panic-Rhetorics-Queer-Interventions,7380.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Sex Panic Rhetorics, Queer Interventions by Ian Barnard. Published on 04-07-2020.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Sex-Panic-Rhetorics-Queer-Interventions,7380.aspx\">http://www.uapress.ua.edu/product/Sex-Panic-Rhetorics-Queer-Interventions,7380.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Sex-Panic-Rhetorics-Queer-Interventions,7380.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Architects-of-Memory,7412.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Architects of Memory: Information and Rhetoric in a Networked Archival Age by Nathan R. Johnson. Published on 05-26-2020.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Architects-of-Memory,7412.aspx\">http://www.uapress.ua.edu/product/Architects-of-Memory,7412.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Architects-of-Memory,7412.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Writing-as-Punishment-in-Schools-Courts-and-Ever,7135.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing as Punishment in Schools, Courts, and Everyday Life by Spencer Schaffner. Published on 06-11-2019.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Writing-as-Punishment-in-Schools-Courts-and-Ever,7135.aspx\">http://www.uapress.ua.edu/product/Writing-as-Punishment-in-Schools-Courts-and-Ever,7135.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Writing-as-Punishment-in-Schools-Courts-and-Ever,7135.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Rhetorical-Machines,7155.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorical Machines: Writing, Code, and Computational Ethics by John Jones and Lavinia Hirsu. Published on 07-02-2019.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Rhetorical-Machines,7155.aspx\">http://www.uapress.ua.edu/product/Rhetorical-Machines,7155.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Rhetorical-Machines,7155.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Lives-Letters-and-Quilts,7301.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Lives, Letters, and Quilts: Women and Everyday Rhetorics of Resistance by Vanessa Kraemer Sohan. Published on 12-10-2019.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Lives-Letters-and-Quilts,7301.aspx\">http://www.uapress.ua.edu/product/Lives-Letters-and-Quilts,7301.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Lives-Letters-and-Quilts,7301.aspx"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing",
 			 "content_html": "<h1>New Book Added:</h1><p>Update Culture and the Afterlife of Digital Writing by John R. Gallagher. Published on 01-27-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing\">https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3765-update-culture-and-the-afterlife-of-digital-writing"
