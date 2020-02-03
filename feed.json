@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum",
+			 "content_html": "<h1>New Book Added:</h1><p>ePortfolio as Curriculum: Models and Practices for Developing Students’ ePortfolio  by Kathleen Blake Yancey. Published on 04-01-2019.</p><p>Link to book: <a href=\"https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum\">https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum</a></p>",
+    		"url": "https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3334-composition-rhetoric-and-disciplinarity",
+			 "content_html": "<h1>New Book Added:</h1><p>Composition, Rhetoric, and Disciplinarity by Rita Malenczyk, Susan Miller-Cochran, Elizabeth Wardle, and Kathleen Blake Yancey. Published on 04-02-2018.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3334-composition-rhetoric-and-disciplinarity\">https://upcolorado.com/utah-state-university-press/item/3334-composition-rhetoric-and-disciplinarity</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3334-composition-rhetoric-and-disciplinarity"
+		},
+		{
+    		"id": "https://nyupress.org/9781479835287/managing-diabetes/",
+			 "content_html": "<h1>New Book Added:</h1><p>Managing Diabetes: The Cultural Politics of Disease by Jeffrey A. Bennett. Published on 06-25-2019.</p><p>Link to book: <a href=\"https://nyupress.org/9781479835287/managing-diabetes/\">https://nyupress.org/9781479835287/managing-diabetes/</a></p>",
+    		"url": "https://nyupress.org/9781479835287/managing-diabetes/"
+		},
+		{
     		"id": "http://www.uapress.ua.edu/product/Cookery,7378.aspx",
 			 "content_html": "<h1>New Book Added:</h1><p>Cookery: Food Rhetorics and Social Production by Donovan Conley and Justin Eckstein. Published on 04-21-2020.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Cookery,7378.aspx\">http://www.uapress.ua.edu/product/Cookery,7378.aspx</a></p>",
     		"url": "http://www.uapress.ua.edu/product/Cookery,7378.aspx"
