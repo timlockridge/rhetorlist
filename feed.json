@@ -5,6 +5,46 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://msupress.org/books/book/?id=50-1D0-4602",
+			 "content_html": "<h1>New Book Added:</h1><p>The Manufacture of Consent: J. Edgar Hoover and the Rhetorical Rise of the FBI by Stephen M. Underhill. Published on 02-01-2020.</p><p>Link to book: <a href=\"http://msupress.org/books/book/?id=50-1D0-4602\">http://msupress.org/books/book/?id=50-1D0-4602</a></p>",
+    		"url": "http://msupress.org/books/book/?id=50-1D0-4602"
+		},
+		{
+    		"id": "http://msupress.org/books/book/?id=50-1D0-4608",
+			 "content_html": "<h1>New Book Added:</h1><p>Intellectual Populism: Rhetoric, Resistance, and the People in the Pursuit of Knowledge by Paul Stob. Published on 04-01-2020.</p><p>Link to book: <a href=\"http://msupress.org/books/book/?id=50-1D0-4608\">http://msupress.org/books/book/?id=50-1D0-4608</a></p>",
+    		"url": "http://msupress.org/books/book/?id=50-1D0-4608"
+		},
+		{
+    		"id": "http://www.parlorpress.com/equality_and_justice",
+			 "content_html": "<h1>New Book Added:</h1><p>Equality and Justice: An Engaged Generation, a Troubled World by Michael Chehade, Alex Granner, Ahmed Abdelhakim Hachelaf, Madhu Napa, Samantha Owens, and Steve Parks. Published on 01-05-2020.</p><p>Link to book: <a href=\"http://www.parlorpress.com/equality_and_justice\">http://www.parlorpress.com/equality_and_justice</a></p>",
+    		"url": "http://www.parlorpress.com/equality_and_justice"
+		},
+		{
+    		"id": "https://www.palgrave.com/gp/book/9783030365240",
+			 "content_html": "<h1>New Book Added:</h1><p>Platforms, Protests and the Challenge of Networked Democracy by John Jones and Michael Trice. Published on 06-13-2020.</p><p>Link to book: <a href=\"https://www.palgrave.com/gp/book/9783030365240\">https://www.palgrave.com/gp/book/9783030365240</a></p>",
+    		"url": "https://www.palgrave.com/gp/book/9783030365240"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214282.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Debating Rhetorical Narratology: On the Synthetic, Mimetic, and Thematic Aspects of Narrative by Matthew Clark and James Phelan. Published on 02-24-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214282.html\">https://ohiostatepress.org/books/titles/9780814214282.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214282.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214350.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Awful Archives: Conspiracy Theory, Rhetoric, and Acts of Evidence by Jenny Rice. Published on 04-21-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214350.html\">https://ohiostatepress.org/books/titles/9780814214350.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214350.html"
+		},
+		{
+    		"id": "https://rowman.com/ISBN/9781498528825/Climate-Consciousness-and-Environmental-Activism-in-Composition-Writing-to-Save-the-World",
+			 "content_html": "<h1>New Book Added:</h1><p>Climate Consciousness and Environmental Activism in Composition: Writing to Save the World by Joseph R. Lease. Published on 03-15-2020.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781498528825/Climate-Consciousness-and-Environmental-Activism-in-Composition-Writing-to-Save-the-World\">https://rowman.com/ISBN/9781498528825/Climate-Consciousness-and-Environmental-Activism-in-Composition-Writing-to-Save-the-World</a></p>",
+    		"url": "https://rowman.com/ISBN/9781498528825/Climate-Consciousness-and-Environmental-Activism-in-Composition-Writing-to-Save-the-World"
+		},
+		{
+    		"id": "https://www.routledge.com/Teaching-Content-Management-in-Technical-and-Professional-Communication/Bridgeford/p/book/9780367181260",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Content Management in Technical and Professional Communication by Tracy Bridgeford. Published on 02-21-2020.</p><p>Link to book: <a href=\"https://www.routledge.com/Teaching-Content-Management-in-Technical-and-Professional-Communication/Bridgeford/p/book/9780367181260\">https://www.routledge.com/Teaching-Content-Management-in-Technical-and-Professional-Communication/Bridgeford/p/book/9780367181260</a></p>",
+    		"url": "https://www.routledge.com/Teaching-Content-Management-in-Technical-and-Professional-Communication/Bridgeford/p/book/9780367181260"
+		},
+		{
     		"id": "https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum",
 			 "content_html": "<h1>New Book Added:</h1><p>ePortfolio as Curriculum: Models and Practices for Developing Students’ ePortfolio  by Kathleen Blake Yancey. Published on 04-01-2019.</p><p>Link to book: <a href=\"https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum\">https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum</a></p>",
     		"url": "https://styluspub.presswarehouse.com/browse/book/9781620367605/ePortfolio-as-Curriculum"
