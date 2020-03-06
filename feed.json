@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.upress.state.ms.us/Books/B/Black-Feelings",
+			 "content_html": "<h1>New Book Added:</h1><p>Black Feelings: Race and Affect in the Long Sixties by Lisa M. Corrigan. Published on 02-25-2020.</p><p>Link to book: <a href=\"https://www.upress.state.ms.us/Books/B/Black-Feelings\">https://www.upress.state.ms.us/Books/B/Black-Feelings</a></p>",
+    		"url": "https://www.upress.state.ms.us/Books/B/Black-Feelings"
+		},
+		{
     		"id": "http://msupress.org/books/book/?id=50-1D0-4602",
 			 "content_html": "<h1>New Book Added:</h1><p>The Manufacture of Consent: J. Edgar Hoover and the Rhetorical Rise of the FBI by Stephen M. Underhill. Published on 02-01-2020.</p><p>Link to book: <a href=\"http://msupress.org/books/book/?id=50-1D0-4602\">http://msupress.org/books/book/?id=50-1D0-4602</a></p>",
     		"url": "http://msupress.org/books/book/?id=50-1D0-4602"
