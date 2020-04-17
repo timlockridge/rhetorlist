@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/harassment/",
+			 "content_html": "<h1>New Book Added:</h1><p>Sexual Harassment and Cultural Change in Writing Studies by Patricia Freitag Ericsson. Published on 04-17-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/harassment/\">https://wac.colostate.edu/books/practice/harassment/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/harassment/"
+		},
+		{
     		"id": "https://www.upress.state.ms.us/Books/B/Black-Feelings",
 			 "content_html": "<h1>New Book Added:</h1><p>Black Feelings: Race and Affect in the Long Sixties by Lisa M. Corrigan. Published on 02-25-2020.</p><p>Link to book: <a href=\"https://www.upress.state.ms.us/Books/B/Black-Feelings\">https://www.upress.state.ms.us/Books/B/Black-Feelings</a></p>",
     		"url": "https://www.upress.state.ms.us/Books/B/Black-Feelings"
