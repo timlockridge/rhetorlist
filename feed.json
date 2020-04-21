@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/iwac2018/",
+			 "content_html": "<h1>New Book Added:</h1><p>Diverse Approaches to Teaching, Learning, and Writing Across the Curriculum: IWAC at 25 by Lesley Erin Bartlett, Sandra L. Tarabochia, Andrea R. Olinger, and Margaret J. Marshall. Published on 04-20-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/iwac2018/\">https://wac.colostate.edu/books/perspectives/iwac2018/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/iwac2018/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/harassment/",
 			 "content_html": "<h1>New Book Added:</h1><p>Sexual Harassment and Cultural Change in Writing Studies by Patricia Freitag Ericsson. Published on 04-17-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/harassment/\">https://wac.colostate.edu/books/practice/harassment/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/harassment/"
