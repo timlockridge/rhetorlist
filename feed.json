@@ -5,6 +5,31 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upittpress.org/books/9780822946205/",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorical Crossover: The Black Presence in White Culture by Cedric Burrows. Published on 10-27-2020.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946205/\">https://upittpress.org/books/9780822946205/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946205/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3785-learning-from-the-lived-experiences-of-graduate-student-writers",
+			 "content_html": "<h1>New Book Added:</h1><p>Learning from the Lived Experiences of Graduate Student Writers by Shannon Madden, Michele Eodice, Kirsten T. Edwards, and Alexandria Lockett. Published on 06-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3785-learning-from-the-lived-experiences-of-graduate-student-writers\">https://upcolorado.com/utah-state-university-press/item/3785-learning-from-the-lived-experiences-of-graduate-student-writers</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3785-learning-from-the-lived-experiences-of-graduate-student-writers"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3831-on-teacher-neutrality",
+			 "content_html": "<h1>New Book Added:</h1><p>On Teacher Neutrality: Praxis, Politics, and Performativity by Daniel P. Richards. Published on 08-03-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3831-on-teacher-neutrality\">https://upcolorado.com/utah-state-university-press/item/3831-on-teacher-neutrality</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3831-on-teacher-neutrality"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3790-sixteen-teachers-teaching",
+			 "content_html": "<h1>New Book Added:</h1><p>Sixteen Teachers Teaching: Two-Year College Perspectives by Patrick Sullivan. Published on 08-03-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3790-sixteen-teachers-teaching\">https://upcolorado.com/utah-state-university-press/item/3790-sixteen-teachers-teaching</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3790-sixteen-teachers-teaching"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3797-talking-back",
+			 "content_html": "<h1>New Book Added:</h1><p>Talking Back: Senior Scholars and Their Colleagues Deliberate the Past, Present, and Future of Writing Studies by Norbert Elliot and Alice S. Horning. Published on 05-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3797-talking-back\">https://upcolorado.com/utah-state-university-press/item/3797-talking-back</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3797-talking-back"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/iwac2018/",
 			 "content_html": "<h1>New Book Added:</h1><p>Diverse Approaches to Teaching, Learning, and Writing Across the Curriculum: IWAC at 25 by Lesley Erin Bartlett, Sandra L. Tarabochia, Andrea R. Olinger, and Margaret J. Marshall. Published on 04-20-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/iwac2018/\">https://wac.colostate.edu/books/perspectives/iwac2018/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/iwac2018/"
