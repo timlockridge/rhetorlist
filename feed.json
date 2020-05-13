@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy",
+			 "content_html": "<h1>New Book Added:</h1><p>Conceptions of Literacy: Graduate Instructors and the Teaching of First-Year Composition by Meaghan Brewer. Published on 05-13-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy\">https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy"
+		},
+		{
     		"id": "https://upittpress.org/books/9780822946205/",
 			 "content_html": "<h1>New Book Added:</h1><p>Rhetorical Crossover: The Black Presence in White Culture by Cedric Burrows. Published on 10-27-2020.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946205/\">https://upittpress.org/books/9780822946205/</a></p>",
     		"url": "https://upittpress.org/books/9780822946205/"
