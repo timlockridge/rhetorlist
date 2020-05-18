@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://intermezzo.enculturation.net/12-boedy.htm",
+			 "content_html": "<h1>New Book Added:</h1><p>May 1970 by Matthew Boedy. Published on 05-12-2020.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/12-boedy.htm\">http://intermezzo.enculturation.net/12-boedy.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/12-boedy.htm"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/stories/",
+			 "content_html": "<h1>New Book Added:</h1><p>Stories from First-Year Composition: Pedagogies that Foster Student Agency and Writing Identity by Jo-Anne Kerr and Ann N. Amicucci. Published on 05-01-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/stories/\">https://wac.colostate.edu/books/practice/stories/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/stories/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy",
 			 "content_html": "<h1>New Book Added:</h1><p>Conceptions of Literacy: Graduate Instructors and the Teaching of First-Year Composition by Meaghan Brewer. Published on 05-13-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy\">https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3775-conceptions-of-literacy"
