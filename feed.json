@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/atd/graduate/",
+			 "content_html": "<h1>New Book Added:</h1><p>Graduate Writing Across the Disciplines: Identifying, Teaching, and Supporting by Marilee Brooks-Gillies, Elena G. Garcia, Soo Hyon Kim, Katie Manthey, and Trixie G. Smith. Published on 05-15-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/graduate/\">https://wac.colostate.edu/books/atd/graduate/</a></p>",
+    		"url": "https://wac.colostate.edu/books/atd/graduate/"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814213766.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Precarious Rhetorics by Wendy S. Hesford, Adela C. Licona, and Christa Teston. Published on 08-01-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814213766.html\">https://ohiostatepress.org/books/titles/9780814213766.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814213766.html"
+		},
+		{
     		"id": "http://intermezzo.enculturation.net/12-boedy.htm",
 			 "content_html": "<h1>New Book Added:</h1><p>May 1970 by Matthew Boedy. Published on 05-12-2020.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/12-boedy.htm\">http://intermezzo.enculturation.net/12-boedy.htm</a></p>",
     		"url": "http://intermezzo.enculturation.net/12-boedy.htm"
