@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/translingual/",
+			 "content_html": "<h1>New Book Added:</h1><p>Translingual Dispositions: Globalized Approaches to the Teaching of Writing by Alanna Frost, Julia Kiernan, and Suzanne Blum Malley. Published on 06-02-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/translingual/\">https://wac.colostate.edu/books/international/translingual/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/translingual/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3789-metabolizing-capital",
+			 "content_html": "<h1>New Book Added:</h1><p>Metabolizing Capital: Writing, Information, and the Biophysical Environment by Christian J. Pulver. Published on 06-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3789-metabolizing-capital\">https://upcolorado.com/utah-state-university-press/item/3789-metabolizing-capital</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3789-metabolizing-capital"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3783-teaching-mindful-writers",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Mindful Writers by Brian Jackson. Published on 05-15-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3783-teaching-mindful-writers\">https://upcolorado.com/utah-state-university-press/item/3783-teaching-mindful-writers</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3783-teaching-mindful-writers"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/atd/graduate/",
 			 "content_html": "<h1>New Book Added:</h1><p>Graduate Writing Across the Disciplines: Identifying, Teaching, and Supporting by Marilee Brooks-Gillies, Elena G. Garcia, Soo Hyon Kim, Katie Manthey, and Trixie G. Smith. Published on 05-15-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/graduate/\">https://wac.colostate.edu/books/atd/graduate/</a></p>",
     		"url": "https://wac.colostate.edu/books/atd/graduate/"
