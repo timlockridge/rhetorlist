@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis",
+			 "content_html": "<h1>New Book Added:</h1><p>How Students Write: A Linguistic Analysis by Laura Louise Aull. Published on 04-20-2020.</p><p>Link to book: <a href=\"https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis\">https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis</a></p>",
+    		"url": "https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis"
+		},
+		{
+    		"id": "https://www.routledge.com/Linguistic-Justice-Black-Language-Literacy-Identity-and-Pedagogy/Baker-Bell/p/book/9781138551022",
+			 "content_html": "<h1>New Book Added:</h1><p>Linguistic Justice: Black Language, Literacy, Identity, and Pedagogy by April Baker-Bell. Published on 05-12-2020.</p><p>Link to book: <a href=\"https://www.routledge.com/Linguistic-Justice-Black-Language-Literacy-Identity-and-Pedagogy/Baker-Bell/p/book/9781138551022\">https://www.routledge.com/Linguistic-Justice-Black-Language-Literacy-Identity-and-Pedagogy/Baker-Bell/p/book/9781138551022</a></p>",
+    		"url": "https://www.routledge.com/Linguistic-Justice-Black-Language-Literacy-Identity-and-Pedagogy/Baker-Bell/p/book/9781138551022"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/translingual/",
 			 "content_html": "<h1>New Book Added:</h1><p>Translingual Dispositions: Globalized Approaches to the Teaching of Writing by Alanna Frost, Julia Kiernan, and Suzanne Blum Malley. Published on 06-02-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/translingual/\">https://wac.colostate.edu/books/international/translingual/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/translingual/"
