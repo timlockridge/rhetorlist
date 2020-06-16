@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ccdigitalpress.org/transfer-across-media",
+			 "content_html": "<h1>New Book Added:</h1><p>Transfer across Media: Using Digital Video in the Teaching of Writing by Crystal VanKooten. Published on 06-16-2020.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/transfer-across-media\">https://ccdigitalpress.org/transfer-across-media</a></p>",
+    		"url": "https://ccdigitalpress.org/transfer-across-media"
+		},
+		{
     		"id": "https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis",
 			 "content_html": "<h1>New Book Added:</h1><p>How Students Write: A Linguistic Analysis by Laura Louise Aull. Published on 04-20-2020.</p><p>Link to book: <a href=\"https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis\">https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis</a></p>",
     		"url": "https://www.mla.org/Publications/Bookstore/Nonseries/How-Students-Write-A-Linguistic-Analysis"
