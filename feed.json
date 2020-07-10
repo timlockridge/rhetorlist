@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Programs, Veterans Studies, and the Post-9/11 University: A Field Guide by Alexis D. Hart and Roger Thompson. Published on 03-05-2020.</p><p>Link to book: <a href=\"https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide\">https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide</a></p>",
+    		"url": "https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide"
+		},
+		{
+    		"id": "https://store.ncte.org/book/counterstory-rhetoric-and-writing-critical-race-theory",
+			 "content_html": "<h1>New Book Added:</h1><p>Counterstory: The Rhetoric and Writing of Critical Race Theory by Aja Martinez. Published on 05-28-2020.</p><p>Link to book: <a href=\"https://store.ncte.org/book/counterstory-rhetoric-and-writing-critical-race-theory\">https://store.ncte.org/book/counterstory-rhetoric-and-writing-critical-race-theory</a></p>",
+    		"url": "https://store.ncte.org/book/counterstory-rhetoric-and-writing-critical-race-theory"
+		},
+		{
+    		"id": "https://parlorpress.com/products/genre-analysis-of-social-change",
+			 "content_html": "<h1>New Book Added:</h1><p>A Genre Analysis of Social Change: Uptake of the Housing-First Solution to Homelessness in Canada by Diana Wegner. Published on 05-24-2020.</p><p>Link to book: <a href=\"https://parlorpress.com/products/genre-analysis-of-social-change\">https://parlorpress.com/products/genre-analysis-of-social-change</a></p>",
+    		"url": "https://parlorpress.com/products/genre-analysis-of-social-change"
+		},
+		{
     		"id": "https://wvupressonline.com/node/832",
 			 "content_html": "<h1>New Book Added:</h1><p>Storytelling in Queer Appalachia: Imagining and Writing the Unspeakable Other by Hillery Glasby, Sherrie Gradin, and Rachael Ryerson. Published on 05-11-2020.</p><p>Link to book: <a href=\"https://wvupressonline.com/node/832\">https://wvupressonline.com/node/832</a></p>",
     		"url": "https://wvupressonline.com/node/832"
