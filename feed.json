@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/lifespan/",
+			 "content_html": "<h1>New Book Added:</h1><p>Approaches to Lifespan Writing Research: Generating an Actionable Coherence by Ryan J. Dippre and Talinn Phillips. Published on 08-15-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/lifespan/\">https://wac.colostate.edu/books/perspectives/lifespan/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/lifespan/"
+		},
+		{
+    		"id": "https://press.uchicago.edu/ucp/books/book/chicago/I/bo50700010.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Institutional Literacies: Engaging Academic IT Contexts for Writing and Communication by Stuart A. Selber. Published on 09-04-2020.</p><p>Link to book: <a href=\"https://press.uchicago.edu/ucp/books/book/chicago/I/bo50700010.html\">https://press.uchicago.edu/ucp/books/book/chicago/I/bo50700010.html</a></p>",
+    		"url": "https://press.uchicago.edu/ucp/books/book/chicago/I/bo50700010.html"
+		},
+		{
     		"id": "https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing Programs, Veterans Studies, and the Post-9/11 University: A Field Guide by Alexis D. Hart and Roger Thompson. Published on 03-05-2020.</p><p>Link to book: <a href=\"https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide\">https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide</a></p>",
     		"url": "https://store.ncte.org/book/writing-programs-veterans-studies-and-post-911-university-field-guide"
