@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/writing/transient/",
+			 "content_html": "<h1>New Book Added:</h1><p>Transient Literacies in Action: Composing with the Mobile Surround by Stacey Pigg. Published on 08-19-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/writing/transient/\">https://wac.colostate.edu/books/writing/transient/</a></p>",
+    		"url": "https://wac.colostate.edu/books/writing/transient/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/lifespan/",
 			 "content_html": "<h1>New Book Added:</h1><p>Approaches to Lifespan Writing Research: Generating an Actionable Coherence by Ryan J. Dippre and Talinn Phillips. Published on 08-15-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/lifespan/\">https://wac.colostate.edu/books/perspectives/lifespan/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/lifespan/"
