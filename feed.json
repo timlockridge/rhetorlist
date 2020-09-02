@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "URL",
+			 "content_html": "<h1>New Book Added:</h1><p>Feminist Connections: Rhetoric and Activism across Time, Space, and Place by Katherine Fredlund, Kerri Hauman, and Jessica Ouellette. Published on 09-29-2020.</p><p>Link to book: <a href=\"URL\">URL</a></p>",
+    		"url": "URL"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/writing/transient/",
 			 "content_html": "<h1>New Book Added:</h1><p>Transient Literacies in Action: Composing with the Mobile Surround by Stacey Pigg. Published on 08-19-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/writing/transient/\">https://wac.colostate.edu/books/writing/transient/</a></p>",
     		"url": "https://wac.colostate.edu/books/writing/transient/"
