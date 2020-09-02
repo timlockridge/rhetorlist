@@ -6,8 +6,8 @@
     "items": [
 		{
     		"id": "URL",
-			 "content_html": "<h1>New Book Added:</h1><p>Feminist Connections: Rhetoric and Activism across Time, Space, and Place by Katherine Fredlund, Kerri Hauman, and Jessica Ouellette. Published on 09-29-2020.</p><p>Link to book: <a href=\"URL\">URL</a></p>",
-    		"url": "URL"
+			 "content_html": "<h1>New Book Added:</h1><p>Feminist Connections: Rhetoric and Activism across Time, Space, and Place by Katherine Fredlund, Kerri Hauman, and Jessica Ouellette. Published on 09-29-2020.</p><p>Link to book: <a href=\"http://uapress.ua.edu/product/Feminist-Connections,7484.aspx/\">http://uapress.ua.edu/product/Feminist-Connections,7484.aspx</a></p>",
+    		"url": "http://uapress.ua.edu/product/Feminist-Connections,7484.aspx"
 		},
 		{
     		"id": "https://wac.colostate.edu/books/writing/transient/",
