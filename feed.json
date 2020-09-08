@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies",
+			 "content_html": "<h1>New Book Added:</h1><p>Interrogating Gendered Pathologies by Erin A. Frost & Michelle F. Eble. Published on 09-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies\">https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies"
+		},
+		{
     		"id": "URL",
 			 "content_html": "<h1>New Book Added:</h1><p>Feminist Connections: Rhetoric and Activism across Time, Space, and Place by Katherine Fredlund, Kerri Hauman, and Jessica Ouellette. Published on 09-29-2020.</p><p>Link to book: <a href=\"http://uapress.ua.edu/product/Feminist-Connections,7484.aspx/\">http://uapress.ua.edu/product/Feminist-Connections,7484.aspx</a></p>",
     		"url": "http://uapress.ua.edu/product/Feminist-Connections,7484.aspx"
