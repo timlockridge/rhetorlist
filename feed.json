@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos",
+			 "content_html": "<h1>New Book Added:</h1><p>Transforming Ethos: Place and the Material in Rhetoric and Writing by Rosanne Carlo. Published on 09-21-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos\">https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies",
 			 "content_html": "<h1>New Book Added:</h1><p>Interrogating Gendered Pathologies by Erin A. Frost & Michelle F. Eble. Published on 09-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies\">https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3819-interrogating-gendered-pathologies"
