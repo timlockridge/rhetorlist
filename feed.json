@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214244.html",
+			 "content_html": "<h1>New Book Added:</h1><p>The Ethics of Persuasion: Derrida's Rhetorical Legacies by Brooke Rollins. Published on 04-01-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214244.html\">https://ohiostatepress.org/books/titles/9780814214244.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214244.html"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos",
 			 "content_html": "<h1>New Book Added:</h1><p>Transforming Ethos: Place and the Material in Rhetoric and Writing by Rosanne Carlo. Published on 09-21-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos\">https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3866-transforming-ethos"
