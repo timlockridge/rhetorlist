@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3869-the-things-we-carry",
+			 "content_html": "<h1>New Book Added:</h1><p>The Things We Carry: Strategies for Recognizing and Negotiating Emotional Labor in Writing Program Administration by Courtney Adams Wooten, Jacob Babb, Kristi Murray Costello & Kate Navickas. Published on 11-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3869-the-things-we-carry\">https://upcolorado.com/utah-state-university-press/item/3869-the-things-we-carry</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3869-the-things-we-carry"
+		},
+		{
     		"id": "https://ohiostatepress.org/books/titles/9780814214244.html",
 			 "content_html": "<h1>New Book Added:</h1><p>The Ethics of Persuasion: Derrida's Rhetorical Legacies by Brooke Rollins. Published on 04-01-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214244.html\">https://ohiostatepress.org/books/titles/9780814214244.html</a></p>",
     		"url": "https://ohiostatepress.org/books/titles/9780814214244.html"
