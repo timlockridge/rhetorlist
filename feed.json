@@ -5,6 +5,31 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upittpress.org/books/9780822946243/",
+			 "content_html": "<h1>New Book Added:</h1><p>Literacy as Conversation: Learning Networks in Urban and Rural Communities by Eli Goldblatt and David A. Jolliffe. Published on 12-22-2020.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946243/\">https://upittpress.org/books/9780822946243/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946243/"
+		},
+		{
+    		"id": "https://parlorpress.com/products/reinventing-rhetoric-scholarship",
+			 "content_html": "<h1>New Book Added:</h1><p>Reinventing Rhetoric Scholarship: Fifty Years of the Rhetoric Society of America by Roxanne Mountford, Dave Tell, and David Blakesley. Published on 06-17-2020.</p><p>Link to book: <a href=\"https://parlorpress.com/products/reinventing-rhetoric-scholarship\">https://parlorpress.com/products/reinventing-rhetoric-scholarship</a></p>",
+    		"url": "https://parlorpress.com/products/reinventing-rhetoric-scholarship"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214534.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Where's the Rhetoric? Imagining a Unified Field by S. Scott Graham. Published on 11-02-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214534.html\">https://ohiostatepress.org/books/titles/9780814214534.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214534.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214466.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric of Health and Medicine As/Is: Theories and Approaches for the Field by Lisa Melonçon, S. Scott Graham, Jenell Johnson, John A. Lynch, and Cynthia Ryan. Published on 09-01-2020.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214466.html\">https://ohiostatepress.org/books/titles/9780814214466.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214466.html"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/69667",
+			 "content_html": "<h1>New Book Added:</h1><p>Failure Pedagogies: Learning and Unlearning What it Means to Fail by Allison D. Carr and Laura R. Micciche. Published on 07-06-2020.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/69667\">https://www.peterlang.com/view/title/69667</a></p>",
+    		"url": "https://www.peterlang.com/view/title/69667"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/portfolios/",
 			 "content_html": "<h1>New Book Added:</h1><p>ePortfolios@edu: What We Know, What We Don't Know, and Everything In-Between by Mary Ann Dellinger and D. Alexis Hart. Published on 10-12-2020.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/portfolios/\">https://wac.colostate.edu/books/practice/portfolios/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/portfolios/"
