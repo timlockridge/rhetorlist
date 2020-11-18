@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies",
+			 "content_html": "<h1>New Book Added:</h1><p>Style and the Future of Composition Studies by Paul Butler, Brian Ray, & Star Medzerian Vanguri. Published on 11-15-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies\">https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies"
+		},
+		{
     		"id": "https://upittpress.org/books/9780822946243/",
 			 "content_html": "<h1>New Book Added:</h1><p>Literacy as Conversation: Learning Networks in Urban and Rural Communities by Eli Goldblatt and David A. Jolliffe. Published on 12-22-2020.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946243/\">https://upittpress.org/books/9780822946243/</a></p>",
     		"url": "https://upittpress.org/books/9780822946243/"
