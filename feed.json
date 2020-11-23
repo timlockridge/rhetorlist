@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3920-black-or-right",
+			 "content_html": "<h1>New Book Added:</h1><p>Black or Right: Anti/Racist Campus Rhetorics by Louis M. Maraj. Published on 12-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3920-black-or-right\">https://upcolorado.com/utah-state-university-press/item/3920-black-or-right</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3920-black-or-right"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies",
 			 "content_html": "<h1>New Book Added:</h1><p>Style and the Future of Composition Studies by Paul Butler, Brian Ray, & Star Medzerian Vanguri. Published on 11-15-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies\">https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3851-style-and-the-future-of-composition-studies"
