@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.digitalrhetoriccollaborative.org/books/writing-workflows/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Workflows: Beyond Word Processing by Tim Lockridge and Derek Van Ittersum. Published on 12-15-2020.</p><p>Link to book: <a href=\"https://www.digitalrhetoriccollaborative.org/books/writing-workflows/\">https://www.digitalrhetoriccollaborative.org/books/writing-workflows/</a></p>",
+    		"url": "https://www.digitalrhetoriccollaborative.org/books/writing-workflows/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/3920-black-or-right",
 			 "content_html": "<h1>New Book Added:</h1><p>Black or Right: Anti/Racist Campus Rhetorics by Louis M. Maraj. Published on 12-01-2020.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3920-black-or-right\">https://upcolorado.com/utah-state-university-press/item/3920-black-or-right</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/3920-black-or-right"
