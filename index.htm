@@ -23,11 +23,24 @@
     <section class="container">
   <h1>Rhetorlist</h1>
   <h2>Tracking new books in Rhetoric & Writing, Composition Studies, Technical Communication, and related disciplines.</h2>
-  <p class="nav-links"><a href="about.htm">About this site</a> | <a href="submit.htm">Submit a book</a></p>
+  <ul class="nav-links">
+    <li><a href="about.htm">About this site</a></li>
+    <li><a href="submit.htm">Submit a book</a></li>
+  </ul>
 
 
 <section class="table-container">
-        <h3 style="font-size: 135%">&#x1F389; 2020 releases | Archives: <a href="2019.htm">2019</a> | <a href="2018.htm">2018</a></h3>
+        <h3 style="font-size: 135%; display: inline">Select a year:</h3>
+
+        <select id="yearSelector" style="display:inline;">
+            <option value="2020.json">2020</option>
+            <option value="2019.json">2019</option>
+            <option value="2018.json">2018</option>
+        </select>
+
+        <br />
+        <br />
+
         <p class="mobile-headsup"><small><em>To filter data by all columns, please view the table in a desktop browser. Mobile browser sizes offer limited filtering.</em></small></p>
   <div id="book-list"></div>
 </section>
@@ -83,6 +96,18 @@ function paramBuilder(){
     return list;
 }
 
+// watch year selector and load json when new year is selected
+    document.getElementById("yearSelector").onchange = changeYear;
+
+    function changeYear(){
+        var value = this.value
+        console.log(value);
+        table.setData(value);
+    }
+
 </script>
+
+
+
 </body>
 </html>
