@@ -5,6 +5,46 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Heritage and Hate: Old South Rhetoric at Southern Universities by Stephen M. Monroe. Published on 06-01-2021.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx\">http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Decoding-the-Digital-Church,7639.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Decoding the Digital Church: Evangelical Storytelling and the Election of Donald J. Trump by Stephanie A. Martin. Published on 05-18-2021.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Decoding-the-Digital-Church,7639.aspx\">http://www.uapress.ua.edu/product/Decoding-the-Digital-Church,7639.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Decoding-the-Digital-Church,7639.aspx"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946700/",
+			 "content_html": "<h1>New Book Added:</h1><p>Authentic Writing by Jeffrey Rice. Published on 04-20-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946700/\">https://upittpress.org/books/9780822946700/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946700/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946687/",
+			 "content_html": "<h1>New Book Added:</h1><p>Translingual Inheritance: Language Diversity in Early National Philadelphia by Elizabeth Kimball. Published on 03-16-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946687/\">https://upittpress.org/books/9780822946687/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946687/"
+		},
+		{
+    		"id": "http://intermezzo.enculturation.net/13-long-et-al.htm",
+			 "content_html": "<h1>New Book Added:</h1><p>The Potentiality of Difference: Singular Rhythms of a Translational Humanities in Community Contexts by Elenore Long, Elizabeth Kimball, and Jennifer Clifton. Published on 01-13-2021.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/13-long-et-al.htm\">http://intermezzo.enculturation.net/13-long-et-al.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/13-long-et-al.htm"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3945-beyond-conversation",
+			 "content_html": "<h1>New Book Added:</h1><p>Beyond Conversation: Collaboration and the Production of Writing by William Duffy. Published on 01-04-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3945-beyond-conversation\">https://upcolorado.com/utah-state-university-press/item/3945-beyond-conversation</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3945-beyond-conversation"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/pars2/",
+			 "content_html": "<h1>New Book Added:</h1><p>PARS in Practice: More Resources and Strategies for Online Writing Instructors by Jessie Borgman and Casey McArdle. Published on 01-11-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/pars2/\">https://wac.colostate.edu/books/practice/pars2/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/pars2/"
+		},
+		{
+    		"id": "test",
+			 "content_html": "<h1>New Book Added:</h1><p>test by test. Published on test.</p><p>Link to book: <a href=\"test\">test</a></p>",
+    		"url": "test"
+		},
+		{
     		"id": "https://www.digitalrhetoriccollaborative.org/books/writing-workflows/",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing Workflows: Beyond Word Processing by Tim Lockridge and Derek Van Ittersum. Published on 12-15-2020.</p><p>Link to book: <a href=\"https://www.digitalrhetoriccollaborative.org/books/writing-workflows/\">https://www.digitalrhetoriccollaborative.org/books/writing-workflows/</a></p>",
     		"url": "https://www.digitalrhetoriccollaborative.org/books/writing-workflows/"
