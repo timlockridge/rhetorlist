@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.siupress.com/books/978-0-8093-3827-6",
+			 "content_html": "<h1>New Book Added:</h1><p>Wit, Virtue, and Emotion British Women's Enlightenment Rhetoric by Elizabeth Tasker Davis. Published on 08-09-2021.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3827-6\">http://www.siupress.com/books/978-0-8093-3827-6</a></p>",
+    		"url": "http://www.siupress.com/books/978-0-8093-3827-6"
+		},
+		{
     		"id": "http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx",
 			 "content_html": "<h1>New Book Added:</h1><p>Heritage and Hate: Old South Rhetoric at Southern Universities by Stephen M. Monroe. Published on 06-01-2021.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx\">http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx</a></p>",
     		"url": "http://www.uapress.ua.edu/product/Heritage-and-Hate,7671.aspx"
