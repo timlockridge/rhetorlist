@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ship.pressbooks.pub/writingcentersandwellness/",
+			 "content_html": "<h1>New Book Added:</h1><p>Wellness and Care in Writing Center Work by Genie Nicole Giaimo. Published on 01-27-2021.</p><p>Link to book: <a href=\"https://ship.pressbooks.pub/writingcentersandwellness/\">https://ship.pressbooks.pub/writingcentersandwellness/</a></p>",
+    		"url": "https://ship.pressbooks.pub/writingcentersandwellness/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3980-writing-their-bodies",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Their Bodies: Restoring Rhetorical Relations at the Carlisle Indian School by Sarah Klotz. Published on 02-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3980-writing-their-bodies\">https://upcolorado.com/utah-state-university-press/item/3980-writing-their-bodies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3980-writing-their-bodies"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/effective/",
+			 "content_html": "<h1>New Book Added:</h1><p>Effective Teaching of Technical Communication: Theory, Practice, and Application by Michael J. Klein. Published on 02-01-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/effective/\">https://wac.colostate.edu/books/tpc/effective/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/effective/"
+		},
+		{
     		"id": "http://www.siupress.com/books/978-0-8093-3827-6",
 			 "content_html": "<h1>New Book Added:</h1><p>Wit, Virtue, and Emotion British Women's Enlightenment Rhetoric by Elizabeth Tasker Davis. Published on 08-09-2021.</p><p>Link to book: <a href=\"http://www.siupress.com/books/978-0-8093-3827-6\">http://www.siupress.com/books/978-0-8093-3827-6</a></p>",
     		"url": "http://www.siupress.com/books/978-0-8093-3827-6"
