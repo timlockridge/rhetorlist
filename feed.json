@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.peterlang.com/view/title/73582",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric, Politics, and Hamilton: An American Musical by Jeffrey P. Mehltretter Drury and Sara A. Mehltretter Drury. Published on 04-01-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/73582\">https://www.peterlang.com/view/title/73582</a></p>",
+    		"url": "https://www.peterlang.com/view/title/73582"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4006-standing-at-the-threshold",
 			 "content_html": "<h1>New Book Added:</h1><p>Standing at the Threshold: Working through Liminality in the Composition and Rhetoric TAship by William J. Macauley Jr., Leslie R. Anglesey, Brady Edwards, Kathryn M. Lambrecht, and Phillip Lovas. Published on 06-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4006-standing-at-the-threshold\">https://upcolorado.com/utah-state-university-press/item/4006-standing-at-the-threshold</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4006-standing-at-the-threshold"
