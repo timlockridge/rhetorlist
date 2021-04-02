@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.digitalrhetoriccollaborative.org/books/100-years-of-new-media-pedagogy/",
+			 "content_html": "<h1>New Book Added:</h1><p>100 Years of New Media Pedagogy by Jason Palmeri and Ben McCorkle. Published on 03-29-2021.</p><p>Link to book: <a href=\"https://www.digitalrhetoriccollaborative.org/books/100-years-of-new-media-pedagogy/\">https://www.digitalrhetoriccollaborative.org/books/100-years-of-new-media-pedagogy/</a></p>",
+    		"url": "https://www.digitalrhetoriccollaborative.org/books/100-years-of-new-media-pedagogy/"
+		},
+		{
     		"id": "https://www.peterlang.com/view/title/73582",
 			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric, Politics, and Hamilton: An American Musical by Jeffrey P. Mehltretter Drury and Sara A. Mehltretter Drury. Published on 04-01-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/73582\">https://www.peterlang.com/view/title/73582</a></p>",
     		"url": "https://www.peterlang.com/view/title/73582"
