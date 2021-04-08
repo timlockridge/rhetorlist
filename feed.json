@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-08881-5.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Arguing with Numbers: The Intersections of Rhetoric and Mathematics by James Wynn and G. Mitchell Reyes. Published on 05-07-2021.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-08881-5.html\">https://www.psupress.org/books/titles/978-0-271-08881-5.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-08881-5.html"
+		},
+		{
     		"id": "https://www.fulcrum.org/concern/monographs/mp48sf86r",
 			 "content_html": "<h1>New Book Added:</h1><p>Video Scholarship and Screen Composing by Daniel Anderson. Published on 04-07-2021.</p><p>Link to book: <a href=\"https://www.fulcrum.org/concern/monographs/mp48sf86r\">https://www.fulcrum.org/concern/monographs/mp48sf86r</a></p>",
     		"url": "https://www.fulcrum.org/concern/monographs/mp48sf86r"
