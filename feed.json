@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/eac2018/",
+			 "content_html": "<h1>New Book Added:</h1><p>English Across the Curriculum: Voices from Around the World by Bruce Morrison, Julia Chen, Linda Lin, and Alan Urmston. Published on 04-13-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/eac2018/\">https://wac.colostate.edu/books/international/eac2018/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/eac2018/"
+		},
+		{
+    		"id": "https://parlorpress.com/collections/working-and-writing-for-change/products/literacy-and-pedagogy-in-an-age-of-misinformation-and-disinformation",
+			 "content_html": "<h1>New Book Added:</h1><p>Literacy and Pedagogy in an Age of Misinformation and Disinformation by Tara Lockhart, Brenda Glascott, Chris Warnick, Juli Parrish, and Justin Lewis. Published on 04-13-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/collections/working-and-writing-for-change/products/literacy-and-pedagogy-in-an-age-of-misinformation-and-disinformation\">https://parlorpress.com/collections/working-and-writing-for-change/products/literacy-and-pedagogy-in-an-age-of-misinformation-and-disinformation</a></p>",
+    		"url": "https://parlorpress.com/collections/working-and-writing-for-change/products/literacy-and-pedagogy-in-an-age-of-misinformation-and-disinformation"
+		},
+		{
     		"id": "https://www.psupress.org/books/titles/978-0-271-08881-5.html",
 			 "content_html": "<h1>New Book Added:</h1><p>Arguing with Numbers: The Intersections of Rhetoric and Mathematics by James Wynn and G. Mitchell Reyes. Published on 05-07-2021.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-08881-5.html\">https://www.psupress.org/books/titles/978-0-271-08881-5.html</a></p>",
     		"url": "https://www.psupress.org/books/titles/978-0-271-08881-5.html"
