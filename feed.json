@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/postprocess/",
+			 "content_html": "<h1>New Book Added:</h1><p>Postprocess Postmortem by Kristopher M. Lotier. Published on 04-14-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/postprocess/\">https://wac.colostate.edu/books/perspectives/postprocess/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/postprocess/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/eac2018/",
 			 "content_html": "<h1>New Book Added:</h1><p>English Across the Curriculum: Voices from Around the World by Bruce Morrison, Julia Chen, Linda Lin, and Alan Urmston. Published on 04-13-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/eac2018/\">https://wac.colostate.edu/books/international/eac2018/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/eac2018/"
