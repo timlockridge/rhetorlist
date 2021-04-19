@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/race/",
+			 "content_html": "<h1>New Book Added:</h1><p>Race, Rhetoric, and Research Methods by Alexandria L. Lockett, Iris D. Ruiz, James Chase Sanchez, and Christopher Carter. Published on 04-19-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/race/\">https://wac.colostate.edu/books/perspectives/race/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/race/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/postprocess/",
 			 "content_html": "<h1>New Book Added:</h1><p>Postprocess Postmortem by Kristopher M. Lotier. Published on 04-14-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/postprocess/\">https://wac.colostate.edu/books/perspectives/postprocess/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/postprocess/"
