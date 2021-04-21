@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251",
+			 "content_html": "<h1>New Book Added:</h1><p>A Writing Center Practitioner's Inquiry into Collaboration: Pedagogy, Practice, And Research by Georganne Nordstrom. Published on 02-02-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251\">https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251</a></p>",
+    		"url": "https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251"
+		},
+		{
+    		"id": "https://www.routledge.com/Arts-Based-Research-Methods-in-Writing-Studies-A-Primer/Hanzalik/p/book/9780367567064",
+			 "content_html": "<h1>New Book Added:</h1><p>Arts-Based Research Methods in Writing Studies: A Primer by Kate Hanzalik. Published on 02-09-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/Arts-Based-Research-Methods-in-Writing-Studies-A-Primer/Hanzalik/p/book/9780367567064\">https://www.routledge.com/Arts-Based-Research-Methods-in-Writing-Studies-A-Primer/Hanzalik/p/book/9780367567064</a></p>",
+    		"url": "https://www.routledge.com/Arts-Based-Research-Methods-in-Writing-Studies-A-Primer/Hanzalik/p/book/9780367567064"
+		},
+		{
+    		"id": "https://www.routledge.com/Engaging-Research-Communities-in-Writing-Studies-Ethics-Public-Policy/Phelps/p/book/9780367534585",
+			 "content_html": "<h1>New Book Added:</h1><p>Engaging Research Communities in Writing Studies: Ethics, Public Policy, and Research Design by Johanna Phelps. Published on 04-21-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/Engaging-Research-Communities-in-Writing-Studies-Ethics-Public-Policy/Phelps/p/book/9780367534585\">https://www.routledge.com/Engaging-Research-Communities-in-Writing-Studies-Ethics-Public-Policy/Phelps/p/book/9780367534585</a></p>",
+    		"url": "https://www.routledge.com/Engaging-Research-Communities-in-Writing-Studies-Ethics-Public-Policy/Phelps/p/book/9780367534585"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/race/",
 			 "content_html": "<h1>New Book Added:</h1><p>Race, Rhetoric, and Research Methods by Alexandria L. Lockett, Iris D. Ruiz, James Chase Sanchez, and Christopher Carter. Published on 04-19-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/race/\">https://wac.colostate.edu/books/perspectives/race/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/race/"
