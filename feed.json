@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379",
+			 "content_html": "<h1>New Book Added:</h1><p>The Profession and Practice of Technical Communication by Yvonne Cleary. Published on 07-30-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379\">https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379</a></p>",
+    		"url": "https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379"
+		},
+		{
+    		"id": "https://www.routledge.com/Design-Thinking-in-Technical-Communication-Solving-Problems-through-Making/Tham/p/book/9780367478216",
+			 "content_html": "<h1>New Book Added:</h1><p>Design Thinking in Technical Communication: Solving Problems through Making and Collaboration by Jason Tham. Published on 05-19-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/Design-Thinking-in-Technical-Communication-Solving-Problems-through-Making/Tham/p/book/9780367478216\">https://www.routledge.com/Design-Thinking-in-Technical-Communication-Solving-Problems-through-Making/Tham/p/book/9780367478216</a></p>",
+    		"url": "https://www.routledge.com/Design-Thinking-in-Technical-Communication-Solving-Problems-through-Making/Tham/p/book/9780367478216"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/3995-women-s-ways-of-making",
+			 "content_html": "<h1>New Book Added:</h1><p>Women’s Ways of Making by Maureen Daly Goggin & Shirley K. Rose. Published on 05-06-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/3995-women-s-ways-of-making\">https://upcolorado.com/utah-state-university-press/item/3995-women-s-ways-of-making</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/3995-women-s-ways-of-making"
+		},
+		{
     		"id": "https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251",
 			 "content_html": "<h1>New Book Added:</h1><p>A Writing Center Practitioner's Inquiry into Collaboration: Pedagogy, Practice, And Research by Georganne Nordstrom. Published on 02-02-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251\">https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251</a></p>",
     		"url": "https://www.routledge.com/A-Writing-Center-Practitioners-Inquiry-into-Collaboration-Pedagogy-Practice/Nordstrom/p/book/9780367510251"
