@@ -5,6 +5,20 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.digitalrhetoriccollaborative.org/books/beyond-the-makerspace",
+			 "content_html": "<h1>New Book Added:</h1><p>Beyond the Makerspace: Making and Relational Rhetorics by Ann Shivers-McNair. Published on 06-07-2021.</p><p>Link to book: <a href=\"https://www.digitalrhetoriccollaborative.org/books/beyond-the-makerspace\">https://www.digitalrhetoriccollaborative.org/books/beyond-the-makerspace</a></p>",
+    		"url": "https://www.digitalrhetoriccollaborative.org/books/beyond-the-makerspace"
+		},
+		{
+    		"id": "https://parlorpress.com/products/pedagogical-perspectives-on-cognition-and-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Pedagogical Perspectives on Cognition and Writing by J. Michael Rifenburg, Patricia Portanova, and Duane Roen. Published on 05-10-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/products/pedagogical-perspectives-on-cognition-and-writing\">https://parlorpress.com/products/pedagogical-perspectives-on-cognition-and-writing</a></p>",
+    		"url": "https://parlorpress.com/products/pedagogical-perspectives-on-cognition-and-writing"
+		},
+		{
+    		"id": "https://parlorpress.com/products/running-thinking-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Running, Thinking, Writing: Embodied Cognition in Composition by Jackie Hoermann-Elliott. Published on 05-12-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/products/running-thinking-writing\">https://parlorpress.com/products/running-thinking-writing</a></p>",
+    		"url": "https://parlorpress.com/products/running-thinking-writing"
+		},
     		"id": "https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379",
 			 "content_html": "<h1>New Book Added:</h1><p>The Profession and Practice of Technical Communication by Yvonne Cleary. Published on 07-30-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379\">https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379</a></p>",
     		"url": "https://www.routledge.com/The-Profession-and-Practice-of-Technical-Communication/Cleary/p/book/9780367557379"
