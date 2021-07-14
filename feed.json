@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.peterlang.com/view/title/74046",
+			 "content_html": "<h1>New Book Added:</h1><p>Invisible Effects: Rethinking Writing through Emergence by Chris Mays. Published on 06-29-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/74046\">https://www.peterlang.com/view/title/74046</a></p>",
+    		"url": "https://www.peterlang.com/view/title/74046"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4023-redefining-roles",
 			 "content_html": "<h1>New Book Added:</h1><p>Redefining Roles: The Professional, Faculty, and Graduate Consultant’s Guide to Writing Centers by Megan Swihart Jewell and Joseph Cheatle. Published on 06-17-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4023-redefining-roles\">https://upcolorado.com/utah-state-university-press/item/4023-redefining-roles</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4023-redefining-roles"
