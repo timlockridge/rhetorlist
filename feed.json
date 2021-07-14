@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.peterlang.com/view/title/69220",
+			 "content_html": "<h1>New Book Added:</h1><p>Literacy Heroines: Women and the Written Word by Alice S. Horning. Published on 05-31-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/69220\">https://www.peterlang.com/view/title/69220</a></p>",
+    		"url": "https://www.peterlang.com/view/title/69220"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/72594",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Critical Reading and Writing in the Era of Fake News by Ellen C. Carillo and Alice S. Horning. Published on 04-29-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/72594\">https://www.peterlang.com/view/title/72594</a></p>",
+    		"url": "https://www.peterlang.com/view/title/72594"
+		},
+		{
+    		"id": "https://www.peterlang.com/view/title/73440",
+			 "content_html": "<h1>New Book Added:</h1><p>Composing Legacies: Testimonial Rhetoric in Nineteenth-Century Composition by Christopher Carter and Russel K. Durst. Published on 06-30-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/73440\">https://www.peterlang.com/view/title/73440</a></p>",
+    		"url": "https://www.peterlang.com/view/title/73440"
+		},
+		{
     		"id": "https://www.peterlang.com/view/title/74046",
 			 "content_html": "<h1>New Book Added:</h1><p>Invisible Effects: Rethinking Writing through Emergence by Chris Mays. Published on 06-29-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/74046\">https://www.peterlang.com/view/title/74046</a></p>",
     		"url": "https://www.peterlang.com/view/title/74046"
