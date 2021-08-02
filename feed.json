@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century",
+			 "content_html": "<h1>New Book Added:</h1><p>Reading and Writing Instruction in the Twenty-First Century: Recovering and Transforming the Pedagogy of Robert Scholes by Ellen C. Carillo. Published on 08-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century\">https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century"
+		},
+		{
+    		"id": "https://upcolorado.com/the-wac-clearinghouse/item/4051-above-the-well",
+			 "content_html": "<h1>New Book Added:</h1><p>Above The Well: An Antiracist Argument From a Boy of Color by Asao B. Inoue. Published on 09-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/the-wac-clearinghouse/item/4051-above-the-well\">https://upcolorado.com/the-wac-clearinghouse/item/4051-above-the-well</a></p>",
+    		"url": "https://upcolorado.com/the-wac-clearinghouse/item/4051-above-the-well"
+		},
+		{
     		"id": "https://www.peterlang.com/view/title/69220",
 			 "content_html": "<h1>New Book Added:</h1><p>Literacy Heroines: Women and the Written Word by Alice S. Horning. Published on 05-31-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/view/title/69220\">https://www.peterlang.com/view/title/69220</a></p>",
     		"url": "https://www.peterlang.com/view/title/69220"
