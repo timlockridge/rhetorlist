@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy",
+			 "content_html": "<h1>New Book Added:</h1><p>From Military to Academy: The Writing and Learning Transitions of Student-Veterans by Mark Blaauw-Hara. Published on 09-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy\">https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/international/doctoral/",
+			 "content_html": "<h1>New Book Added:</h1><p>Re-imagining Doctoral Writing by Cecile Badenhorst, Brittany Amell, and James Burford. Published on 08-24-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/doctoral/\">https://wac.colostate.edu/books/international/doctoral/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/doctoral/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century",
 			 "content_html": "<h1>New Book Added:</h1><p>Reading and Writing Instruction in the Twenty-First Century: Recovering and Transforming the Pedagogy of Robert Scholes by Ellen C. Carillo. Published on 08-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century\">https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4025-reading-and-writing-instruction-in-the-twenty-first-century"
