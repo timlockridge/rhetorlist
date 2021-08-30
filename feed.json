@@ -5,6 +5,41 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://parlorpress.com/products/professionalizing-second-language-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Professionalizing Second Language Writing by Paul Kei Matsuda, Sarah Elizabeth Snyder, and Katherine Daily O'Meara. Published on 01-01-2018.</p><p>Link to book: <a href=\"https://parlorpress.com/products/professionalizing-second-language-writing\">https://parlorpress.com/products/professionalizing-second-language-writing</a></p>",
+    		"url": "https://parlorpress.com/products/professionalizing-second-language-writing"
+		},
+		{
+    		"id": "https://parlorpress.com/products/other-peoples-english-code-meshing-code-switching-and-african-american-literacy",
+			 "content_html": "<h1>New Book Added:</h1><p>Other People's English: Code-Meshing, Code-Switching, and African American Literacy by Vershawn Ashanti Young, Rusty Barrett, Y’Shanda Young-Rivera, and Kim Brian Lovejoy. Published on 01-01-2019.</p><p>Link to book: <a href=\"https://parlorpress.com/products/other-peoples-english-code-meshing-code-switching-and-african-american-literacy\">https://parlorpress.com/products/other-peoples-english-code-meshing-code-switching-and-african-american-literacy</a></p>",
+    		"url": "https://parlorpress.com/products/other-peoples-english-code-meshing-code-switching-and-african-american-literacy"
+		},
+		{
+    		"id": "https://parlorpress.com/products/the-naylor-report-on-undergraduate-research-in-writing-studies",
+			 "content_html": "<h1>New Book Added:</h1><p>The Naylor Report on Undergraduate Research in Writing Studies by Dominic DelliCarpini, Jenn Fishman, and Jane Greer. Published on 04-03-2020.</p><p>Link to book: <a href=\"https://parlorpress.com/products/the-naylor-report-on-undergraduate-research-in-writing-studies\">https://parlorpress.com/products/the-naylor-report-on-undergraduate-research-in-writing-studies</a></p>",
+    		"url": "https://parlorpress.com/products/the-naylor-report-on-undergraduate-research-in-writing-studies"
+		},
+		{
+    		"id": "https://parlorpress.com/products/internationalizing-the-writing-center",
+			 "content_html": "<h1>New Book Added:</h1><p>Internationalizing the Writing Center: A Guide for Developing a Multilingual Writing Center by Noreen Groover Lape. Published on 03-10-2020.</p><p>Link to book: <a href=\"https://parlorpress.com/products/internationalizing-the-writing-center\">https://parlorpress.com/products/internationalizing-the-writing-center</a></p>",
+    		"url": "https://parlorpress.com/products/internationalizing-the-writing-center"
+		},
+		{
+    		"id": "https://parlorpress.com/products/best-of-the-journals-in-rhetoric-and-composition-2020",
+			 "content_html": "<h1>New Book Added:</h1><p>Best of the Journals in Rhetoric and Composition 2020 by Jessica Pauszek, Kristi Girdharry, Charles Lesh, David Blakesley, and Steve Parks. Published on 04-14-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/products/best-of-the-journals-in-rhetoric-and-composition-2020\">https://parlorpress.com/products/best-of-the-journals-in-rhetoric-and-composition-2020</a></p>",
+    		"url": "https://parlorpress.com/products/best-of-the-journals-in-rhetoric-and-composition-2020"
+		},
+		{
+    		"id": "https://parlorpress.com/products/feminist-circulations",
+			 "content_html": "<h1>New Book Added:</h1><p>Feminist Circulations: Rhetorical Explorations across Space and Time by Jessica Enoch, Danielle Griffin, and Karen Nelson. Published on 06-04-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/products/feminist-circulations\">https://parlorpress.com/products/feminist-circulations</a></p>",
+    		"url": "https://parlorpress.com/products/feminist-circulations"
+		},
+		{
+    		"id": "https://parlorpress.com/products/english-studies-online",
+			 "content_html": "<h1>New Book Added:</h1><p>English Studies Online: Programs, Practices, Possibilities by William P. Banks and Susan Spangler. Published on 06-19-2021.</p><p>Link to book: <a href=\"https://parlorpress.com/products/english-studies-online\">https://parlorpress.com/products/english-studies-online</a></p>",
+    		"url": "https://parlorpress.com/products/english-studies-online"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy",
 			 "content_html": "<h1>New Book Added:</h1><p>From Military to Academy: The Writing and Learning Transitions of Student-Veterans by Mark Blaauw-Hara. Published on 09-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy\">https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4060-from-military-to-academy"
