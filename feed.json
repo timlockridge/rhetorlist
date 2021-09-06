@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives",
+			 "content_html": "<h1>New Book Added:</h1><p>Translingual Pedagogical Perspectives: Engaging Domestic and International Students in the Composition Classroom by Julia E. Kiernan, Alanna Frost and Suzanne Blum Malley. Published on 09-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives\">https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives"
+		},
+		{
+    		"id": "https://www.routledge.com/Unplugging-Popular-Culture-Reconsidering-Analog-Technology-Materiality/Howard/p/book/9780367663711",
+			 "content_html": "<h1>New Book Added:</h1><p>Unplugging Popular Culture: Reconsidering Analog Technology, Materiality, and the Digital Native by K. Shannon Howard. Published on 12-15-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Unplugging-Popular-Culture-Reconsidering-Analog-Technology-Materiality/Howard/p/book/9780367663711\">https://www.routledge.com/Unplugging-Popular-Culture-Reconsidering-Analog-Technology-Materiality/Howard/p/book/9780367663711</a></p>",
+    		"url": "https://www.routledge.com/Unplugging-Popular-Culture-Reconsidering-Analog-Technology-Materiality/Howard/p/book/9780367663711"
+		},
+		{
     		"id": "https://parlorpress.com/products/professionalizing-second-language-writing",
 			 "content_html": "<h1>New Book Added:</h1><p>Professionalizing Second Language Writing by Paul Kei Matsuda, Sarah Elizabeth Snyder, and Katherine Daily O'Meara. Published on 01-01-2018.</p><p>Link to book: <a href=\"https://parlorpress.com/products/professionalizing-second-language-writing\">https://parlorpress.com/products/professionalizing-second-language-writing</a></p>",
     		"url": "https://parlorpress.com/products/professionalizing-second-language-writing"
