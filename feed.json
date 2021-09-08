@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/wec/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing-Enriched Curricula: Models of Faculty-Driven and Departmental Transformation by Chris M. Anson and Pamela Flash. Published on 08-31-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/wec/\">https://wac.colostate.edu/books/perspectives/wec/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/wec/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives",
 			 "content_html": "<h1>New Book Added:</h1><p>Translingual Pedagogical Perspectives: Engaging Domestic and International Students in the Composition Classroom by Julia E. Kiernan, Alanna Frost and Suzanne Blum Malley. Published on 09-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives\">https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4026-translingual-pedagogical-perspectives"
