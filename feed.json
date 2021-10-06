@@ -5,6 +5,91 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ccdigitalpress.org/radiant-figures",
+			 "content_html": "<h1>New Book Added:</h1><p>Radiant Figures: Visual Rhetorics in Everyday Administrative Contexts by Rachel Gramer, Logan Bearden, and Derek Mueller. Published on 09-13-2021.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/radiant-figures\">https://ccdigitalpress.org/radiant-figures</a></p>",
+    		"url": "https://ccdigitalpress.org/radiant-figures"
+		},
+		{
+    		"id": "https://ccdigitalpress.org/arewethereyet",
+			 "content_html": "<h1>New Book Added:</h1><p>Are We There Yet? Computers and the Teaching of Writing in American Higher Education–Twenty Years Later by Jennifer Marlow and James P. Purdy. Published on 05-10-2021.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/arewethereyet\">https://ccdigitalpress.org/arewethereyet</a></p>",
+    		"url": "https://ccdigitalpress.org/arewethereyet"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Across Difference: Theory and Intervention by James Rushing Daniel, Katie Malcolm and Candice Rai. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference\">https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4102-the-hidden-inequities-in-labor-based-contract-grading",
+			 "content_html": "<h1>New Book Added:</h1><p>The Hidden Inequities in Labor-Based Contract Grading by Ellen C. Carillo. Published on 11-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4102-the-hidden-inequities-in-labor-based-contract-grading\">https://upcolorado.com/utah-state-university-press/item/4102-the-hidden-inequities-in-labor-based-contract-grading</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4102-the-hidden-inequities-in-labor-based-contract-grading"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4076-queerly-centered",
+			 "content_html": "<h1>New Book Added:</h1><p>Queerly Centered: LGBTQA Writing Center Directors Navigate the Workplace by Travis Webster. Published on 11-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4076-queerly-centered\">https://upcolorado.com/utah-state-university-press/item/4076-queerly-centered</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4076-queerly-centered"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center",
+			 "content_html": "<h1>New Book Added:</h1><p>CounterStories from the Writing Center by Wonderful Faison and Frankie Condon. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center\">https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4038-self-culture-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Self+Culture+Writing: Autoethnography for/as Writing Studies by Rebecca Jackson & Jackie Grutsch McKinney. Published on 09-15-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4038-self-culture-writing\">https://upcolorado.com/utah-state-university-press/item/4038-self-culture-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4038-self-culture-writing"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946731/",
+			 "content_html": "<h1>New Book Added:</h1><p>Ethics and Representation in Feminist Rhetorical Inquiry by Amy E. Dayton and Jennie L. Vaughn. Published on 09-21-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946731/\">https://upittpress.org/books/9780822946731/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946731/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946748/",
+			 "content_html": "<h1>New Book Added:</h1><p>Composition and Big Data by Amanda Licastro and Benjamin Miller. Published on 11-02-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946748/\">https://upittpress.org/books/9780822946748/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946748/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946724/",
+			 "content_html": "<h1>New Book Added:</h1><p>Like What We Imagine: Writing and the University by David Bartholomae. Published on 11-16-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946724/\">https://upittpress.org/books/9780822946724/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946724/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822946953/",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Black: The Craft of Teaching on Black Life and Literature by Ana-Maurine Lara and drea brown. Published on 12-14-2021.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822946953/\">https://upittpress.org/books/9780822946953/</a></p>",
+    		"url": "https://upittpress.org/books/9780822946953/"
+		},
+		{
+    		"id": "https://store.ncte.org/book/writing-accomplices-student-immigrant-rights-organizers",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Accomplices with Student Immigrant Rights Organizers by Glenn Hutchinson. Published on 04-02-2021.</p><p>Link to book: <a href=\"https://store.ncte.org/book/writing-accomplices-student-immigrant-rights-organizers\">https://store.ncte.org/book/writing-accomplices-student-immigrant-rights-organizers</a></p>",
+    		"url": "https://store.ncte.org/book/writing-accomplices-student-immigrant-rights-organizers"
+		},
+		{
+    		"id": "https://store.ncte.org/book/rhetorics-overcoming-rewriting-narratives-disability-and-accessibility-writing-studies",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorics of Overcoming: Rewriting Narratives of Disability and Accessibility in Writing Studies by Allison Harper Hitt. Published on 07-09-2021.</p><p>Link to book: <a href=\"https://store.ncte.org/book/rhetorics-overcoming-rewriting-narratives-disability-and-accessibility-writing-studies\">https://store.ncte.org/book/rhetorics-overcoming-rewriting-narratives-disability-and-accessibility-writing-studies</a></p>",
+    		"url": "https://store.ncte.org/book/rhetorics-overcoming-rewriting-narratives-disability-and-accessibility-writing-studies"
+		},
+		{
+    		"id": "https://store.ncte.org/book/salt-earth-rhetoric-preservation-and-white-supremacy",
+			 "content_html": "<h1>New Book Added:</h1><p>Salt of the Earth: Rhetoric, Preservation, and White Supremacy by James Chase Sanchez. Published on 08-17-2021.</p><p>Link to book: <a href=\"https://store.ncte.org/book/salt-earth-rhetoric-preservation-and-white-supremacy\">https://store.ncte.org/book/salt-earth-rhetoric-preservation-and-white-supremacy</a></p>",
+    		"url": "https://store.ncte.org/book/salt-earth-rhetoric-preservation-and-white-supremacy"
+		},
+		{
+    		"id": "https://www.routledge.com/American-Women-Activists-and-Autobiography-Rhetorical-Lives/Ostman/p/book/9781032050768",
+			 "content_html": "<h1>New Book Added:</h1><p>American Women Activists and Autobiography: Rhetorical Lives by Heather Ostman. Published on 11-05-2021.</p><p>Link to book: <a href=\"https://www.routledge.com/American-Women-Activists-and-Autobiography-Rhetorical-Lives/Ostman/p/book/9781032050768\">https://www.routledge.com/American-Women-Activists-and-Autobiography-Rhetorical-Lives/Ostman/p/book/9781032050768</a></p>",
+    		"url": "https://www.routledge.com/American-Women-Activists-and-Autobiography-Rhetorical-Lives/Ostman/p/book/9781032050768"
+		},
+		{
+    		"id": "https://www.peterlang.com/document/1062242",
+			 "content_html": "<h1>New Book Added:</h1><p>The Expanding Universe of Writing Studies: Higher Education Writing Research by Kelly Blewett, Tiane Donahue, and Cynthia Monroe. Published on 04-30-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/document/1062242\">https://www.peterlang.com/document/1062242</a></p>",
+    		"url": "https://www.peterlang.com/document/1062242"
+		},
+		{
+    		"id": "https://www.peterlang.com/document/1062276",
+			 "content_html": "<h1>New Book Added:</h1><p>Working with and against Shared Curricula: Perspectives from College Writing Teachers and Administrators by Connie Kendall Theado and Samantha NeCamp. Published on 09-10-2021.</p><p>Link to book: <a href=\"https://www.peterlang.com/document/1062276\">https://www.peterlang.com/document/1062276</a></p>",
+    		"url": "https://www.peterlang.com/document/1062276"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/wec/",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing-Enriched Curricula: Models of Faculty-Driven and Departmental Transformation by Chris M. Anson and Pamela Flash. Published on 08-31-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/wec/\">https://wac.colostate.edu/books/perspectives/wec/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/wec/"
