@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.multilingual-matters.com/page/detail/?K=9781788929486",
+			 "content_html": "<h1>New Book Added:</h1><p>Linguistic Justice on Campus: Pedagogy and Advocacy for Multilingual Students by Brooke R. Schreiber, Eunjeong Lee, Jennifer T. Johnson, and Norah Fahim. Published on 11-30-2021.</p><p>Link to book: <a href=\"https://www.multilingual-matters.com/page/detail/?K=9781788929486\">https://www.multilingual-matters.com/page/detail/?K=9781788929486</a></p>",
+    		"url": "https://www.multilingual-matters.com/page/detail/?K=9781788929486"
+		},
+		{
     		"id": "https://ccdigitalpress.org/radiant-figures",
 			 "content_html": "<h1>New Book Added:</h1><p>Radiant Figures: Visual Rhetorics in Everyday Administrative Contexts by Rachel Gramer, Logan Bearden, and Derek Mueller. Published on 09-13-2021.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/radiant-figures\">https://ccdigitalpress.org/radiant-figures</a></p>",
     		"url": "https://ccdigitalpress.org/radiant-figures"
