@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/la/multilingual/",
+			 "content_html": "<h1>New Book Added:</h1><p>Multilingual Contributions to Writing Research: Toward an Equal Academic Exchange by Natalia Ávila Reyes. Published on 11-01-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/la/multilingual/\">https://wac.colostate.edu/books/international/la/multilingual/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/la/multilingual/"
+		},
+		{
     		"id": "https://www.multilingual-matters.com/page/detail/?K=9781788929486",
 			 "content_html": "<h1>New Book Added:</h1><p>Linguistic Justice on Campus: Pedagogy and Advocacy for Multilingual Students by Brooke R. Schreiber, Eunjeong Lee, Jennifer T. Johnson, and Norah Fahim. Published on 11-30-2021.</p><p>Link to book: <a href=\"https://www.multilingual-matters.com/page/detail/?K=9781788929486\">https://www.multilingual-matters.com/page/detail/?K=9781788929486</a></p>",
     		"url": "https://www.multilingual-matters.com/page/detail/?K=9781788929486"
