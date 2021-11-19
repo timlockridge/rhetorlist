@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/emerging/",
+			 "content_html": "<h1>New Book Added:</h1><p>Emerging Writing Research from the Russian Federation by L. Ashley Squires. Published on 11-17-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/emerging/\">https://wac.colostate.edu/books/international/emerging/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/emerging/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4109-teaching-writing-through-the-immigrant-story",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Writing through the Immigrant Story by Heather Ostman, Howard Tinberg and Danizete Martínez. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4109-teaching-writing-through-the-immigrant-story\">https://upcolorado.com/utah-state-university-press/item/4109-teaching-writing-through-the-immigrant-story</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4109-teaching-writing-through-the-immigrant-story"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4037-civic-engagement-in-global-contexts",
+			 "content_html": "<h1>New Book Added:</h1><p>Civic Engagement in Global Contexts: International Education, Community Partnerships, and Higher Educatio by Jim Bowman and Jennifer deWinter. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4037-civic-engagement-in-global-contexts\">https://upcolorado.com/utah-state-university-press/item/4037-civic-engagement-in-global-contexts</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4037-civic-engagement-in-global-contexts"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/la/multilingual/",
 			 "content_html": "<h1>New Book Added:</h1><p>Multilingual Contributions to Writing Research: Toward an Equal Academic Exchange by Natalia Ávila Reyes. Published on 11-01-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/la/multilingual/\">https://wac.colostate.edu/books/international/la/multilingual/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/la/multilingual/"
