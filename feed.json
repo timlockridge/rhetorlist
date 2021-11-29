@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4064-transformations",
+			 "content_html": "<h1>New Book Added:</h1><p>Transformations: Change Work across Writing Programs, Pedagogies, and Practices by Holly Hassel and Kirsti Cole. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4064-transformations\">https://upcolorado.com/utah-state-university-press/item/4064-transformations</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4064-transformations"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/emerging/",
 			 "content_html": "<h1>New Book Added:</h1><p>Emerging Writing Research from the Russian Federation by L. Ashley Squires. Published on 11-17-2021.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/emerging/\">https://wac.colostate.edu/books/international/emerging/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/emerging/"
