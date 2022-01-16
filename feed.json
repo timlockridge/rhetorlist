@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Climate Politics on the Border: Environmental Justice Rhetorics by Kenneth Walker. Published on 02-22-2022.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx\">http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx"
+		},
+		{
+    		"id": "http://siupress.com/books/978-0-8093-3833-7",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorics of the Digital Nonhumanities by Alex Reid. Published on 01-31-2022.</p><p>Link to book: <a href=\"http://siupress.com/books/978-0-8093-3833-7\">http://siupress.com/books/978-0-8093-3833-7</a></p>",
+    		"url": "http://siupress.com/books/978-0-8093-3833-7"
+		},
+		{
+    		"id": "https://parlorpress.com/collections/new-releases-parlor-press/products/writing-in-the-clouds",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing in the Clouds: Inventing and Composing in Internetworked Writing Spaces by John Logie. Published on 01-14-2022.</p><p>Link to book: <a href=\"https://parlorpress.com/collections/new-releases-parlor-press/products/writing-in-the-clouds\">https://parlorpress.com/collections/new-releases-parlor-press/products/writing-in-the-clouds</a></p>",
+    		"url": "https://parlorpress.com/collections/new-releases-parlor-press/products/writing-in-the-clouds"
+		},
+		{
+    		"id": "http://intermezzo.enculturation.net/15-steudeman.htm",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching Demagoguery and Democracy: Rhetorical Pedagogy in Polarized Times by Michael Steudeman. Published on 11-11-2021.</p><p>Link to book: <a href=\"http://intermezzo.enculturation.net/15-steudeman.htm\">http://intermezzo.enculturation.net/15-steudeman.htm</a></p>",
+    		"url": "http://intermezzo.enculturation.net/15-steudeman.htm"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Blessed-Are-the-Peacemakers,7645.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>Blessed Are the Peacemakers: Small Histories during World War II, Letter Writing, and Family History Methodology by Suzanne Kesler Rumsey. Published on 05-01-2021.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Blessed-Are-the-Peacemakers,7645.aspx\">http://www.uapress.ua.edu/product/Blessed-Are-the-Peacemakers,7645.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Blessed-Are-the-Peacemakers,7645.aspx"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4094-stories-of-becoming",
+			 "content_html": "<h1>New Book Added:</h1><p>Stories of Becoming: Demystifying the Professoriate for Graduate Students in Composition and Rhetoric by Claire Lutkewitte, Juliette C. Kitchens and Molly J. Scanlon. Published on 01-03-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4094-stories-of-becoming\">https://upcolorado.com/utah-state-university-press/item/4094-stories-of-becoming</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4094-stories-of-becoming"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/4064-transformations",
 			 "content_html": "<h1>New Book Added:</h1><p>Transformations: Change Work across Writing Programs, Pedagogies, and Practices by Holly Hassel and Kirsti Cole. Published on 12-01-2021.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4064-transformations\">https://upcolorado.com/utah-state-university-press/item/4064-transformations</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/4064-transformations"
