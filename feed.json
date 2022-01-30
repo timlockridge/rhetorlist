@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/eataw2019/",
+			 "content_html": "<h1>New Book Added:</h1><p>Negotiating the Intersections of Writing and Writing Instruction by Magnus Gustafsson and Andreas Eriksson. Published on 01-18-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/eataw2019/\">https://wac.colostate.edu/books/international/eataw2019/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/eataw2019/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/assembling/",
+			 "content_html": "<h1>New Book Added:</h1><p>Assembling Critical Components: A Framework for Sustaining Technical and Professional Communication by Joanna Schreiber and Lisa Melonçon. Published on 01-27-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/assembling/\">https://wac.colostate.edu/books/tpc/assembling/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/assembling/"
+		},
+		{
     		"id": "http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx",
 			 "content_html": "<h1>New Book Added:</h1><p>Climate Politics on the Border: Environmental Justice Rhetorics by Kenneth Walker. Published on 02-22-2022.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx\">http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx</a></p>",
     		"url": "http://www.uapress.ua.edu/product/Climate-Politics-on-the-Border,7688.aspx"
