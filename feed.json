@@ -5,6 +5,96 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3846-7",
+			 "content_html": "<h1>New Book Added:</h1><p>Policy Regimes: College Writing and Public Education Policy in the United States by Tyler S. Branson. Published on 04-20-2022.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3846-7\">http://siupress.siu.edu/books/978-0-8093-3846-7</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3846-7"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3858-0",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching through the Archives: Text, Collaboration, and Activism by Tarez Samra Graban and Wendy Hayden. Published on 06-09-2022.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3858-0\">http://siupress.siu.edu/books/978-0-8093-3858-0</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3858-0"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214879.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Untimely Women: Radically Recasting Feminist Rhetorical History by Jason Barrett-Fox. Published on 04-14-2022.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214879.html\">https://ohiostatepress.org/books/titles/9780814214879.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214879.html"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4131-unlimited-players",
+			 "content_html": "<h1>New Book Added:</h1><p>Unlimited Players: The Intersections of Writing Center and Game Studies by Holly Ryan and Stephanie Vie. Published on 05-16-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4131-unlimited-players\">https://upcolorado.com/utah-state-university-press/item/4131-unlimited-players</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4131-unlimited-players"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6121-the-material-culture-of-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>The Material Culture of Writing by Cydney Alexis and Hannah J. Rule. Published on 05-16-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6121-the-material-culture-of-writing\">https://upcolorado.com/utah-state-university-press/item/6121-the-material-culture-of-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6121-the-material-culture-of-writing"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4162-rhetoric-and-guns",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric and Guns by Lydia Wilkes, Nate Kreuter and Ryan Skinnell. Published on 04-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4162-rhetoric-and-guns\">https://upcolorado.com/utah-state-university-press/item/4162-rhetoric-and-guns</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4162-rhetoric-and-guns"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work",
+			 "content_html": "<h1>New Book Added:</h1><p>Our Body of Work: Embodied Administration and Teaching by Melissa Nicolas and Anna Sicari. Published on 05-16-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work\">https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6075-making-matters",
+			 "content_html": "<h1>New Book Added:</h1><p>Making Matters: Craft, Ethics, and New Materialist Rhetorics by Leigh Gruwell. Published on 04-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6075-making-matters\">https://upcolorado.com/utah-state-university-press/item/6075-making-matters</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6075-making-matters"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4127-disrupting-the-center",
+			 "content_html": "<h1>New Book Added:</h1><p>Disrupting the Center: A Partnership Approach to Writing Across the University by Rebecca Hallman Martini. Published on 04-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4127-disrupting-the-center\">https://upcolorado.com/utah-state-university-press/item/4127-disrupting-the-center</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4127-disrupting-the-center"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4154-desegregation-state",
+			 "content_html": "<h1>New Book Added:</h1><p>Desegregation State: College Writing Programs after the Civil Rights Movement by Annie S. Mendenhall. Published on 04-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4154-desegregation-state\">https://upcolorado.com/utah-state-university-press/item/4154-desegregation-state</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4154-desegregation-state"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center",
+			 "content_html": "<h1>New Book Added:</h1><p>CounterStories from the Writing Center by Wonderful Faison and Frankie Condon. Published on 04-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center\">https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4074-counterstories-from-the-writing-center"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4152-bodies-of-knowledge",
+			 "content_html": "<h1>New Book Added:</h1><p>Bodies of Knowledge: Embodied Rhetorics in Theory and Practice by A. Abby Knoblauch and Marie E. Moelller. Published on 05-16-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4152-bodies-of-knowledge\">https://upcolorado.com/utah-state-university-press/item/4152-bodies-of-knowledge</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4152-bodies-of-knowledge"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6071-behind-the-curtain-of-scholarly-publishing",
+			 "content_html": "<h1>New Book Added:</h1><p>Behind the Curtain of Scholarly Publishing: Editors in Writing Studies by Greg Giberson, Megan Schoen and Christian Weisser. Published on 05-16-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6071-behind-the-curtain-of-scholarly-publishing\">https://upcolorado.com/utah-state-university-press/item/6071-behind-the-curtain-of-scholarly-publishing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6071-behind-the-curtain-of-scholarly-publishing"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4159-making-progress",
+			 "content_html": "<h1>New Book Added:</h1><p>Making Progress: Programmatic and Administrative Approaches for Multimodal Curricular Transformation by Logan Bearden. Published on 04-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4159-making-progress\">https://upcolorado.com/utah-state-university-press/item/4159-making-progress</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4159-making-progress"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing across Difference: Theory and Intervention by James Rushing Daniel, Katie Malcolm and Candice Rai. Published on 03-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference\">https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/4118-writing-across-difference"
+		},
+		{
+    		"id": "http://www.uapress.ua.edu/product/Practice-of-Rhetoric,7987.aspx",
+			 "content_html": "<h1>New Book Added:</h1><p>The Practice of Rhetoric: Poetics, Performance, Philosophy by Debra Hawhee and Vessela Valiavitcharska. Published on 10-18-2022.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/Practice-of-Rhetoric,7987.aspx\">http://www.uapress.ua.edu/product/Practice-of-Rhetoric,7987.aspx</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/Practice-of-Rhetoric,7987.aspx"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/innovative/",
+			 "content_html": "<h1>New Book Added:</h1><p>User Experience as Innovative Academic Practice by Kate Crane and Kelli Cargile Cook. Published on 03-11-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/innovative/\">https://wac.colostate.edu/books/tpc/innovative/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/innovative/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/community/",
+			 "content_html": "<h1>New Book Added:</h1><p>Community is the Way: Engaged Writing and Designing for Transformative Change by Aimée Knight. Published on 03-09-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/community/\">https://wac.colostate.edu/books/practice/community/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/community/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/eataw2019/",
 			 "content_html": "<h1>New Book Added:</h1><p>Negotiating the Intersections of Writing and Writing Instruction by Magnus Gustafsson and Andreas Eriksson. Published on 01-18-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/eataw2019/\">https://wac.colostate.edu/books/international/eataw2019/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/eataw2019/"
