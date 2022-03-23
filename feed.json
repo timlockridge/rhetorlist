@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/grounded/",
+			 "content_html": "<h1>New Book Added:</h1><p>Grounded Literacies in a Transnational WAC/WID Ecology: A Korean-U.S. Study by Jay Jordan. Published on 03-14-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/grounded/\">https://wac.colostate.edu/books/international/grounded/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/grounded/"
+		},
+		{
     		"id": "http://siupress.siu.edu/books/978-0-8093-3846-7",
 			 "content_html": "<h1>New Book Added:</h1><p>Policy Regimes: College Writing and Public Education Policy in the United States by Tyler S. Branson. Published on 04-20-2022.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3846-7\">http://siupress.siu.edu/books/978-0-8093-3846-7</a></p>",
     		"url": "http://siupress.siu.edu/books/978-0-8093-3846-7"
