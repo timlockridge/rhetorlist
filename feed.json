@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://parlorpress.com/products/emotions-and-affect-in-writing-centers",
+			 "content_html": "<h1>New Book Added:</h1><p>Emotions and Affect in Writing Centers by Janine Morris and Kelly Concannon. Published on 03-31-2022.</p><p>Link to book: <a href=\"https://parlorpress.com/products/emotions-and-affect-in-writing-centers\">https://parlorpress.com/products/emotions-and-affect-in-writing-centers</a></p>",
+    		"url": "https://parlorpress.com/products/emotions-and-affect-in-writing-centers"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/grounded/",
 			 "content_html": "<h1>New Book Added:</h1><p>Grounded Literacies in a Transnational WAC/WID Ecology: A Korean-U.S. Study by Jay Jordan. Published on 03-14-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/grounded/\">https://wac.colostate.edu/books/international/grounded/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/grounded/"
