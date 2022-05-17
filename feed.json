@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.ucpress.edu/book/9780520340466/being-moved",
+			 "content_html": "<h1>New Book Added:</h1><p>Being-Moved: Rhetoric as the Art of Listening by Daniel M. Gross. Published on 03-03-2020.</p><p>Link to book: <a href=\"https://www.ucpress.edu/book/9780520340466/being-moved\">https://www.ucpress.edu/book/9780520340466/being-moved</a></p>",
+    		"url": "https://www.ucpress.edu/book/9780520340466/being-moved"
+		},
+		{
+    		"id": "https://intermezzo.enculturation.net/16-gonzales-et-al.htm",
+			 "content_html": "<h1>New Book Added:</h1><p>Indigenous Language Interpreters and Translators / Intérpretes y Traductores de Lenguas Indígenas: Toward the Full Enactment of all Language Rights / Hacia un Ejercicio Pleno de los Derechos Lingüísticos by Abigail Castellanos García, Laura Gonzales , Cristina V. Kleinert, Tomás López Sarabia, Edith Matías Juan, Mónica Morales-Good, and Nora K. Rivera. Published on 04-26-2022.</p><p>Link to book: <a href=\"https://intermezzo.enculturation.net/16-gonzales-et-al.htm\">https://intermezzo.enculturation.net/16-gonzales-et-al.htm</a></p>",
+    		"url": "https://intermezzo.enculturation.net/16-gonzales-et-al.htm"
+		},
+		{
     		"id": "https://parlorpress.com/products/emotions-and-affect-in-writing-centers",
 			 "content_html": "<h1>New Book Added:</h1><p>Emotions and Affect in Writing Centers by Janine Morris and Kelly Concannon. Published on 03-31-2022.</p><p>Link to book: <a href=\"https://parlorpress.com/products/emotions-and-affect-in-writing-centers\">https://parlorpress.com/products/emotions-and-affect-in-writing-centers</a></p>",
     		"url": "https://parlorpress.com/products/emotions-and-affect-in-writing-centers"
