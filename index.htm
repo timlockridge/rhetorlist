@@ -8,7 +8,9 @@
 <link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
 <link rel="stylesheet" href="css/style.css?v=0.87">
 <script type="text/javascript" src="js/moment.min.js"></script>
-<script type="text/javascript" src="js/tabulator.min.js"></script>
+<script type="text/javascript" src="js/luxon.min.js"></script>
+<script type="text/javascript" src="js/tabulator.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
 <script>
@@ -33,6 +35,7 @@
         <h3 style="font-size: 135%; display: inline">Select a year:</h3>
 
         <select id="yearSelector" style="display:inline;">
+            <option value="books">All Years</option>
             <option value="2022.json">2022</option>
             <option value="2021.json">2021</option>
             <option value="2020.json">2020</option>
@@ -52,6 +55,77 @@
 <p>Email timlockridge@miamioh.edu with questions or comments about Rhetorlist. Use Rhetorlist's <a href="https://rhetorlist.net/feed.json">JSON Feed URL</a> to receive updates in your RSS reader of choice. (Need one? I recommend <a href="https://feedbin.com/">Feedbin</a>.) Want to make your own variation of Rhetorlist? The project source code is <a href="https://github.com/timlockridge/rhetorlist">available at Github.</a></p>
 </footer>
 
+<script type="text/javascript">
+
+ var books = [];
+ $.getJSON("2022.json", function(data) {
+     books = books.concat(data);
+     console.log(books);
+ });
+ 
+ $.getJSON("2021.json", function(data) {
+     books = books.concat(data);
+     console.log(books);
+ });
+ 
+ $.getJSON("2020.json", function(data) {
+      books = books.concat(data);
+      console.log(books);
+  });
+  
+  $.getJSON("2019.json", function(data) {
+       books = books.concat(data);
+       console.log(books);
+   });
+   
+   $.getJSON("2018.json", function(data) {
+        books = books.concat(data);
+        console.log(books);
+    });
+
+
+ //create Tabulator on DOM element with id "example-table"
+ var table = new Tabulator("#book-list", {
+//    data:books,
+    initialSort:[{column:"publicationDate", dir:"desc"}],
+    // ajaxURL:"2022.json",
+    height:"100%", // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+    layout:"fitColumns", //fit columns to width of table (optional)
+    columns:[ //Define Table Columns
+      {title:"Title", field:"title", headerFilter:true},
+      {title:"Author", field:"author", headerFilter:true},
+      {title:"Publisher", field:"publisher", headerFilter:"select", headerFilterParams:{values:true,sortValuesList:"asc"}},
+      {title:"Date", field:"publicationDate", sorter:"date",sorterParams:{format:"MM-dd-yyyy"}},
+      {title:"OA?", field:"openAccess",headerFilter:"select", headerFilterParams:{values:true,sortValuesList:"asc"}}
+    ],
+ });
+  
+ table.on("tableBuilt", () => {
+     table.setData(books);
+ });  
+  
+  
+ // *** need to change this so that it changes ajaxURL above rather than calling the deprecated setData method ***
+ // table.setData("2022.json");
+ 
+// watch year selector and load json when new year is selected
+ document.getElementById("yearSelector").onchange = changeYear;
+ 
+ function changeYear(){
+     var value = this.value
+     console.log(value);
+     table.setData(value);
+ }
+
+
+
+</script>
+
+
+
+
+<!-- commenting out old table setup
+  
 <script type="text/javascript">
 var table = new Tabulator("#book-list", {
     initialSort: [
@@ -108,6 +182,7 @@ function paramBuilder(){
     }
 
 </script>
+-->
 
 
 
