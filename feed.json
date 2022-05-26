@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494",
+			 "content_html": "<h1>New Book Added:</h1><p>Embodied Environmental Risk in Technical Communication: Problems and Solutions Toward Social Sustainability by Samuel Stinson and Mary Le Rouge. Published on 03-04-2022.</p><p>Link to book: <a href=\"https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494\">https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494</a></p>",
+    		"url": "https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494"
+		},
+		{
     		"id": "https://www.ucpress.edu/book/9780520340466/being-moved",
 			 "content_html": "<h1>New Book Added:</h1><p>Being-Moved: Rhetoric as the Art of Listening by Daniel M. Gross. Published on 03-03-2020.</p><p>Link to book: <a href=\"https://www.ucpress.edu/book/9780520340466/being-moved\">https://www.ucpress.edu/book/9780520340466/being-moved</a></p>",
     		"url": "https://www.ucpress.edu/book/9780520340466/being-moved"
