@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching",
+			 "content_html": "<h1>New Book Added:</h1><p>Materiality and Writing Studies: Aligning Labor, Scholarship, and Teaching by Holly Hassel and Cassandra Phillips. Published on 03-02-2022.</p><p>Link to book: <a href=\"https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching\">https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching</a></p>",
+    		"url": "https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching"
+		},
+		{
     		"id": "https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494",
 			 "content_html": "<h1>New Book Added:</h1><p>Embodied Environmental Risk in Technical Communication: Problems and Solutions Toward Social Sustainability by Samuel Stinson and Mary Le Rouge. Published on 03-04-2022.</p><p>Link to book: <a href=\"https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494\">https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494</a></p>",
     		"url": "https://www.routledge.com/Embodied-Environmental-Risk-in-Technical-Communication-Problems-and-Solutions/Stinson-Rouge/p/book/9781032155494"
