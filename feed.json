@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition",
+			 "content_html": "<h1>New Book Added:</h1><p>Racing Translingualism in Composition: Toward a Race-Conscious Translingualism by Tom Do and Karen Rowan. Published on 09-15-2022.</p><p>Link to book: <a href=\"https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition\">https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition</a></p>",
+    		"url": "https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition"
+		},
+		{
     		"id": "https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching",
 			 "content_html": "<h1>New Book Added:</h1><p>Materiality and Writing Studies: Aligning Labor, Scholarship, and Teaching by Holly Hassel and Cassandra Phillips. Published on 03-02-2022.</p><p>Link to book: <a href=\"https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching\">https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching</a></p>",
     		"url": "https://store.ncte.org/book/materiality-and-writing-studies-aligning-labor-scholarship-and-teaching"
