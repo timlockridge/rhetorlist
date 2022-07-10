@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Rhetorlist</title>
@@ -7,8 +7,10 @@
 <link href="css/tabulator.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
 <link rel="stylesheet" href="css/style.css?v=0.87">
-<script type="text/javascript" src="js/moment.min.js"></script>
-<script type="text/javascript" src="js/tabulator.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/luxon.min.js"></script>
+<script src="js/tabulator.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
 <script>
@@ -52,64 +54,35 @@
 <p>Email timlockridge@miamioh.edu with questions or comments about Rhetorlist. Use Rhetorlist's <a href="https://rhetorlist.net/feed.json">JSON Feed URL</a> to receive updates in your RSS reader of choice. (Need one? I recommend <a href="https://feedbin.com/">Feedbin</a>.) Want to make your own variation of Rhetorlist? The project source code is <a href="https://github.com/timlockridge/rhetorlist">available at Github.</a></p>
 </footer>
 
-<script type="text/javascript">
-var table = new Tabulator("#book-list", {
-    initialSort: [
-        {column:"publicationDate", dir:"desc"}
-    ],
+<script>
+
+ var table = new Tabulator("#book-list", {
+    initialSort:[{column:"publicationDate", dir:"desc"}],
+    height:"100%",
     layout:"fitColumns",
     responsiveLayout:"collapse",
-    selectable:false,
-    columns:[ //Define Table Columns
-        {title:"Title", field:"title", align:"left", formatter:"link", formatterParams:{urlField:"publisherURL", target:"_blank"}, headerFilter:"input", reponsive:0, minWidth:300},
-        {title:"Author(s)", field:"author", align:"left", headerFilter:"input", minWidth:300, formatter:"textarea"},
-        {title:"Publisher", field:"publisher", align:"left", headerFilter:"select", minWidth:200, headerFilterParams:paramBuilder, formatter:"textarea", variableHeight:true, width:250, responsive:4},
-       {title:"Date", field:"publicationDate", align:"left", width:100, responsive:3, sorter:"date", sorterParams:{format:"MM-DD-YYYY"}},
-    {title:"OA?", field:"openAccess", align:"left", headerFilter:"select", width:100, responsive:5, headerFilterParams:{
-       "":"all",
-        "yes":"yes",
-       "no":"no"
-   }
-}
+    columns:[ 
+      {title:"Title", field:"title", minWidth: 300, headerFilter:true, formatter:"link", formatterParams:{urlField:"publisherURL",target:"_blank"}},
+      {title:"Author", field:"author", minWidth: 200, formatter:"textarea", headerFilter:"input"},
+      {title:"Publisher", field:"publisher", minWidth: 200, formatter:"textarea",headerFilter:"list", headerFilterFunc:"=", headerFilterParams:{valuesLookup:true, valuesLookupField:"publisher",sort:"asc"}},
+      {title:"Date", field:"publicationDate", minWidth: 100, sorter:"date",sorterParams:{format:"MM-dd-yyyy"}},
+      {title:"OA?", field:"openAccess",  minWidth: 100, headerFilter:"list", headerFilterFunc:"=", headerFilterParams:{valuesLookup:true,valuesLookupField:"openAccess", sort:"desc"}}
     ],
-
-    // reload publisher filter after table is built
-    dataLoaded:function(){
-        this.getColumn("publisher").reloadHeaderFilter();
-    }
-});
-
-table.setData("2022.json");
-
-//build publisher dropdown with parambuilder
-function paramBuilder(){
-    var list = {"":""};
-    var data = this.getData().map(a => a.publisher);
-
-    // alphabetize the array before building list
-    data.sort();
-
-    data.forEach(function(item){
-        if(typeof item !== "undefinded"){
-            list[item] = item;
-        }
-    });
-
-    return list;
-}
-
+ });
+  
+ table.on("tableBuilt", function(){
+     table.setData("2022.json");
+ });  
+ 
 // watch year selector and load json when new year is selected
-    document.getElementById("yearSelector").onchange = changeYear;
-
-    function changeYear(){
-        var value = this.value
-        console.log(value);
-        table.setData(value);
-    }
+ document.getElementById("yearSelector").onchange = changeYear;
+ 
+ function changeYear(){
+     var value = this.value;
+     console.log(value);
+     table.setData(value);
+ }
 
 </script>
-
-
-
 </body>
 </html>

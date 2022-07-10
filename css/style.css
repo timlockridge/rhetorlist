@@ -215,3 +215,7 @@ select {
     width: 100px;
     margin-left: .5%;
 }
+
+.tabulator-edit-list-item {
+    font-family: proxima-nova, sans-serif;
+}
