@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/invisible/",
+			 "content_html": "<h1>New Book Added:</h1><p>The Invisible Professor: The Precarious Lives of the New Faculty Majority by Natalie M. Dorfeld. Published on 07-01-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/invisible/\">https://wac.colostate.edu/books/practice/invisible/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/invisible/"
+		},
+		{
     		"id": "https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition",
 			 "content_html": "<h1>New Book Added:</h1><p>Racing Translingualism in Composition: Toward a Race-Conscious Translingualism by Tom Do and Karen Rowan. Published on 09-15-2022.</p><p>Link to book: <a href=\"https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition\">https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition</a></p>",
     		"url": "https://www.upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition"
