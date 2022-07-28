@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition",
+			 "content_html": "<h1>New Book Added:</h1><p>Toward an Anti-Capitalist Composition by James Rushing Daniel. Published on 08-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition\">https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/two-year/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Placement in Two-Year Colleges: The Pursuit of Equity in Postsecondary Education by Jessica Nastal, Mya Poe, and Christie Toth. Published on 07-26-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/two-year/\">https://wac.colostate.edu/books/practice/two-year/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/two-year/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/invisible/",
 			 "content_html": "<h1>New Book Added:</h1><p>The Invisible Professor: The Precarious Lives of the New Faculty Majority by Natalie M. Dorfeld. Published on 07-01-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/invisible/\">https://wac.colostate.edu/books/practice/invisible/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/invisible/"
