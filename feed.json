@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices",
+			 "content_html": "<h1>New Book Added:</h1><p>Changing Conceptions, Changing Practices: Innovating Teaching across Disciplines by Angela Glotfelter, Caitlin Martin, Mandy Olejnik, Ann Updike and Elizabeth Wardle. Published on 12-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices\">https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition",
 			 "content_html": "<h1>New Book Added:</h1><p>Toward an Anti-Capitalist Composition by James Rushing Daniel. Published on 08-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition\">https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6155-toward-an-anti-capitalist-composition"
