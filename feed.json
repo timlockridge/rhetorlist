@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424",
+			 "content_html": "<h1>New Book Added:</h1><p>Geoengineering, Persuasion, and the Climate Crisis: A Geologic Rhetoric by Ehren Helmut Pflugfelder. Published on 12-13-2022.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424\">http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424</a></p>",
+    		"url": "http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices",
 			 "content_html": "<h1>New Book Added:</h1><p>Changing Conceptions, Changing Practices: Innovating Teaching across Disciplines by Angela Glotfelter, Caitlin Martin, Mandy Olejnik, Ann Updike and Elizabeth Wardle. Published on 12-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices\">https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6227-changing-conceptions-changing-practices"
