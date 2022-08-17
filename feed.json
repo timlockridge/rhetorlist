@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214923.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Decolonial Conversations in Posthuman and New Material Rhetorics by Jennifer Clary-Lemon and David M. Grant. Published on 08-18-2022.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214923.html\">https://ohiostatepress.org/books/titles/9780814214923.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214923.html"
+		},
+		{
     		"id": "http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424",
 			 "content_html": "<h1>New Book Added:</h1><p>Geoengineering, Persuasion, and the Climate Crisis: A Geologic Rhetoric by Ehren Helmut Pflugfelder. Published on 12-13-2022.</p><p>Link to book: <a href=\"http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424\">http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424</a></p>",
     		"url": "http://www.uapress.ua.edu/product/978-0-8173-9424-0-Geoengineering-Persuasion-and-the-Climate-Crisis,7994.aspx?skuid=4424"
