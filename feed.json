@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/value/",
+			 "content_html": "<h1>New Book Added:</h1><p>Adapting VALUEs: Tracing the Life of a Rubric through Institutional Ethnography by Jennifer Grouling. Published on 08-21-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/value/\">https://wac.colostate.edu/books/perspectives/value/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/value/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition",
 			 "content_html": "<h1>New Book Added:</h1><p>Racing Translingualism in Composition: Toward a Race-Conscious Translingualism by Tom Do and Karen Rowan. Published on 09-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition\">https://upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6169-racing-translingualism-in-composition"
