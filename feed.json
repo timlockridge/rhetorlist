@@ -4,6 +4,31 @@
     "home_page_url": "https://rhetorlist.net/",
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
+	    	{
+    		"id": "https://ccdigitalpress.org/ddvs",
+			 "content_html": "<h1>New Book Added:</h1><p>Doing Digital Visual Studies: One Image, Multiple Methodologies by Laurie E. Gries and Blake Hallinan. Published on 09-19-2022.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/ddvs\">https://ccdigitalpress.org/ddvs</a></p>",
+    		"url": "https://ccdigitalpress.org/ddvs"
+		},
+		{
+    		"id": "https://www.centerforengagedlearning.org/books/wbu/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Beyond the University: Preparing Lifelong Learners for Lifewide Writing by Julia Bleakney, Jessie L. Moore, and Paula Rosinski. Published on 10-03-2022.</p><p>Link to book: <a href=\"https://www.centerforengagedlearning.org/books/wbu/\">https://www.centerforengagedlearning.org/books/wbu/</a></p>",
+    		"url": "https://www.centerforengagedlearning.org/books/wbu/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6152-the-dual-enrollment-kaleidoscope",
+			 "content_html": "<h1>New Book Added:</h1><p>The Dual Enrollment Kaleidoscope: Reconfiguring Perceptions of First-Year Writing and Composition Studies by Christine Denecker and Casie Moreland. Published on 10-01-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6152-the-dual-enrollment-kaleidoscope\">https://upcolorado.com/utah-state-university-press/item/6152-the-dual-enrollment-kaleidoscope</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6152-the-dual-enrollment-kaleidoscope"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6211-drilled-to-write",
+			 "content_html": "<h1>New Book Added:</h1><p>Drilled to Write: Becoming a Cadet Writer at a Senior Military College by J. Michael Rifenburg. Published on 10-04-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6211-drilled-to-write\">https://upcolorado.com/utah-state-university-press/item/6211-drilled-to-write</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6211-drilled-to-write"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6237-violence-in-the-work-of-composition",
+			 "content_html": "<h1>New Book Added:</h1><p>Violence in the Work of Composition: Recognizing, Intervening, Ameliorating  by Scott Gage and Kristie S. Fleckenstein. Published on 10-07-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6237-violence-in-the-work-of-composition\">https://upcolorado.com/utah-state-university-press/item/6237-violence-in-the-work-of-composition</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6237-violence-in-the-work-of-composition"
+		},
 		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work",
 			 "content_html": "<h1>New Book Added:</h1><p>Our Body of Work: Embodied Administration and Teaching by Melissa Nicolas & Anna Sicari. Published on 09-15-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work\">https://upcolorado.com/utah-state-university-press/item/6123-our-body-of-work</a></p>",
