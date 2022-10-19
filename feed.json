@@ -4,6 +4,11 @@
     "home_page_url": "https://rhetorlist.net/",
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
+		{
+    		"id": "https://wac.colostate.edu/books/practice/masking/",
+			 "content_html": "<h1>New Book Added:</h1><p>Masking Inequality with Good Intentions: Systemic Bias, Counterspaces, and Discourse Acquisition in STEM Education by Heather M. Falconer. Published on 10-14-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/masking/\">https://wac.colostate.edu/books/practice/masking/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/masking/"
+		},
 	    	{
     		"id": "https://ccdigitalpress.org/ddvs",
 			 "content_html": "<h1>New Book Added:</h1><p>Doing Digital Visual Studies: One Image, Multiple Methodologies by Laurie E. Gries and Blake Hallinan. Published on 09-19-2022.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/ddvs\">https://ccdigitalpress.org/ddvs</a></p>",
