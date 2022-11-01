@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication",
+			 "content_html": "<h1>New Book Added:</h1><p>Designing Multilingual Experiences in Technical Communication by Laura Gonzales. Published on 10-31-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication\">https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication"
+		},
+		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-09343-7.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Responsible Pedagogy: Moving Beyond Authority and Mastery in Higher Education by Eric Detweiler. Published on 11-26-2022.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09343-7.html\">https://www.psupress.org/books/titles/978-0-271-09343-7.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-09343-7.html"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/masking/",
 			 "content_html": "<h1>New Book Added:</h1><p>Masking Inequality with Good Intentions: Systemic Bias, Counterspaces, and Discourse Acquisition in STEM Education by Heather M. Falconer. Published on 10-14-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/masking/\">https://wac.colostate.edu/books/practice/masking/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/masking/"
