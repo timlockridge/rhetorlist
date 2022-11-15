@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing the Classroom: Pedagogical Documents as Rhetorical Genres by Stephen E. Neaderhiser. Published on 11-09-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom\">https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication",
 			 "content_html": "<h1>New Book Added:</h1><p>Designing Multilingual Experiences in Technical Communication by Laura Gonzales. Published on 10-31-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication\">https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6207-designing-multilingual-experiences-in-technical-communication"
