@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/positionality2/",
+			 "content_html": "<h1>New Book Added:</h1><p>Methods and Methodologies for Research in Digital Writing and Rhetoric: Centering Positionality in Computers and Writing Scholarship, Volume 2 by Victor Del Hierro and Crystal VanKooten. Published on 11-17-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/positionality2/\">https://wac.colostate.edu/books/practice/positionality2/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/positionality2/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/positionality1/",
+			 "content_html": "<h1>New Book Added:</h1><p>Methods and Methodologies for Research in Digital Writing and Rhetoric: Centering Positionality in Computers and Writing Scholarship, Volume 1 by Crystal VanKooten and Victor Del Hierro. Published on 11-17-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/positionality1/\">https://wac.colostate.edu/books/practice/positionality1/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/positionality1/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing the Classroom: Pedagogical Documents as Rhetorical Genres by Stephen E. Neaderhiser. Published on 11-09-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom\">https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6230-writing-the-classroom"
