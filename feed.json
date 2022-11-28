@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/soundwriting/",
+			 "content_html": "<h1>New Book Added:</h1><p>Amplifying Soundwriting Pedagogies: Integrating Sound into Rhetoric and Writing by Michael J. Faris, Courtney S. Danforth, and Kyle D. Stedman. Published on 11-22-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/soundwriting/\">https://wac.colostate.edu/books/practice/soundwriting/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/soundwriting/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/positionality2/",
 			 "content_html": "<h1>New Book Added:</h1><p>Methods and Methodologies for Research in Digital Writing and Rhetoric: Centering Positionality in Computers and Writing Scholarship, Volume 2 by Victor Del Hierro and Crystal VanKooten. Published on 11-17-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/positionality2/\">https://wac.colostate.edu/books/practice/positionality2/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/positionality2/"
