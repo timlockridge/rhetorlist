@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814214886.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Constellating Home: Trans and Queer Asian American Rhetorics by V. Jo Hsu. Published on 08-24-2022.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214886.html\">https://ohiostatepress.org/books/titles/9780814214886.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814214886.html"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/soundwriting/",
 			 "content_html": "<h1>New Book Added:</h1><p>Amplifying Soundwriting Pedagogies: Integrating Sound into Rhetoric and Writing by Michael J. Faris, Courtney S. Danforth, and Kyle D. Stedman. Published on 11-22-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/soundwriting/\">https://wac.colostate.edu/books/practice/soundwriting/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/soundwriting/"
