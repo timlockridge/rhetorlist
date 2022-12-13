@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity",
+			 "content_html": "<h1>New Book Added:</h1><p>Distant Readings of Disciplinarity: Knowing and Doing in Composition/Rhetoric Dissertations by Benjamin Miller. Published on 12-09-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity\">https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/expertise/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Expertise: A Research-Based Approach to Writing and Learning Across Disciplines by Linda Adler-Kassner and Elizabeth Wardle. Published on 12-12-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/expertise/\">https://wac.colostate.edu/books/practice/expertise/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/expertise/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/design/",
+			 "content_html": "<h1>New Book Added:</h1><p>Keywords in Design Thinking: A Lexical Primer for Technical Communicators & Designers by Jason C. K. Tham. Published on 12-13-2022.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/design/\">https://wac.colostate.edu/books/tpc/design/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/design/"
+		},
+		{
     		"id": "https://ohiostatepress.org/books/titles/9780814214886.html",
 			 "content_html": "<h1>New Book Added:</h1><p>Constellating Home: Trans and Queer Asian American Rhetorics by V. Jo Hsu. Published on 08-24-2022.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814214886.html\">https://ohiostatepress.org/books/titles/9780814214886.html</a></p>",
     		"url": "https://ohiostatepress.org/books/titles/9780814214886.html"
