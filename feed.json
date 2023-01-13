@@ -5,6 +5,75 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/precarity/working/",
+			 "content_html": "<h1>New Book Added:</h1><p>A Working Model for Contingent Faculty by Robert Samuels. Published on 01-02-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/precarity/working/\">https://wac.colostate.edu/books/precarity/working/</a></p>",
+    		"url": "https://wac.colostate.edu/books/precarity/working/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6308-writing-centers-and-learning-commons",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Centers and Learning Commons: Staying Centered While Sharing Common Ground by Steven J. Corbett, Teagan E. Decker and Maria L. Soriano Young. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6308-writing-centers-and-learning-commons\">https://upcolorado.com/utah-state-university-press/item/6308-writing-centers-and-learning-commons</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6308-writing-centers-and-learning-commons"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6324-translingual-and-transnational-graduate-education-in-rhetoric-and-composition",
+			 "content_html": "<h1>New Book Added:</h1><p>Translingual and Transnational Graduate Education in Rhetoric and Composition by Nancy Bou Ayash and Carrie Byars Kilfoil. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6324-translingual-and-transnational-graduate-education-in-rhetoric-and-composition\">https://upcolorado.com/utah-state-university-press/item/6324-translingual-and-transnational-graduate-education-in-rhetoric-and-composition</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6324-translingual-and-transnational-graduate-education-in-rhetoric-and-composition"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6311-unwell-writing-centers",
+			 "content_html": "<h1>New Book Added:</h1><p>Unwell Writing Centers: Searching for Wellness in Neoliberal Educational Institutions and Beyond by Genie Nicole Giaimo. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6311-unwell-writing-centers\">https://upcolorado.com/utah-state-university-press/item/6311-unwell-writing-centers</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6311-unwell-writing-centers"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6261-strangely-rhetorical",
+			 "content_html": "<h1>New Book Added:</h1><p>Strangely Rhetorical: Composing Differently with Novelty Devices by Jimmy Butts. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6261-strangely-rhetorical\">https://upcolorado.com/utah-state-university-press/item/6261-strangely-rhetorical</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6261-strangely-rhetorical"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6312-making-administrative-work-visible",
+			 "content_html": "<h1>New Book Added:</h1><p>Making Administrative Work Visible: Data-Driven Advocacy for Understanding the Labor of Writing Program Administration by Leigh Graziano, Kay Halasek, Remi Hudgins, Susan Miller-Cochran, Frank Napolitano, and Natalie Szymanski. Published on 05-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6312-making-administrative-work-visible\">https://upcolorado.com/utah-state-university-press/item/6312-making-administrative-work-visible</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6312-making-administrative-work-visible"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6319-composing-place",
+			 "content_html": "<h1>New Book Added:</h1><p>Composing Place: Digital Rhetorics for a Mobile World by Jacob Greene. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6319-composing-place\">https://upcolorado.com/utah-state-university-press/item/6319-composing-place</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6319-composing-place"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822947554/",
+			 "content_html": "<h1>New Book Added:</h1><p>Unorganized Women: Repetitive Rhetorical Labor and Low-Wage Workers, 1834-1937 by Jane Greer. Published on 02-14-2023.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822947554/\">https://upittpress.org/books/9780822947554/</a></p>",
+    		"url": "https://upittpress.org/books/9780822947554/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822947776/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing and Desire: Queer Ways of Composing by Jonathan Alexander. Published on 05-16-2023.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822947776/\">https://upittpress.org/books/9780822947776/</a></p>",
+    		"url": "https://upittpress.org/books/9780822947776/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822967064/",
+			 "content_html": "<h1>New Book Added:</h1><p>Making the World a Better Place: African American Women Advocates, Activists, and Leaders, 1773-1900 by Jacqueline Jones Royster. Published on 05-23-2023.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822967064/\">https://upittpress.org/books/9780822967064/</a></p>",
+    		"url": "https://upittpress.org/books/9780822967064/"
+		},
+		{
+    		"id": "https://www.routledge.com/Assessing-Writing-to-Support-Learning-Turning-Accountability-Inside-Out/Murphy-ONeill/p/book/9781032268095",
+			 "content_html": "<h1>New Book Added:</h1><p>Assessing Writing to Support Learning: Turning Accountability Inside Out by Sandra Murphy and Peggy O'Neill. Published on 11-08-2022.</p><p>Link to book: <a href=\"https://www.routledge.com/Assessing-Writing-to-Support-Learning-Turning-Accountability-Inside-Out/Murphy-ONeill/p/book/9781032268095\">https://www.routledge.com/Assessing-Writing-to-Support-Learning-Turning-Accountability-Inside-Out/Murphy-ONeill/p/book/9781032268095</a></p>",
+    		"url": "https://www.routledge.com/Assessing-Writing-to-Support-Learning-Turning-Accountability-Inside-Out/Murphy-ONeill/p/book/9781032268095"
+		},
+		{
+    		"id": "https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing, Imitation, and Performance: Insights from Neuroscience Research by Irene L. Clark. Published on 12-02-2022.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987\">https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987</a></p>",
+    		"url": "https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987"
+		},
+    		"id": "https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism",
+			 "content_html": "<h1>New Book Added:</h1><p>Women's Voices in the BlueWave Resistance on Twitter: Cruel Optimism by Cynthia A. Davidson. Published on 01-15-2023.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism\">https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism</a></p>",
+    		"url": "https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism"
+		},
+		{
+    		"id": "https://manifold.as.uky.edu/projects/splat",
+			 "content_html": "<h1>New Book Added:</h1><p>Splat: On Throwing Things and the Messy Politics of Material Protest by David R. Gruber. Published on 10-31-2022.</p><p>Link to book: <a href=\"https://manifold.as.uky.edu/projects/splat\">https://manifold.as.uky.edu/projects/splat</a></p>",
+    		"url": "https://manifold.as.uky.edu/projects/splat"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity",
 			 "content_html": "<h1>New Book Added:</h1><p>Distant Readings of Disciplinarity: Knowing and Doing in Composition/Rhetoric Dissertations by Benjamin Miller. Published on 12-09-2022.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity\">https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6234-distant-readings-of-disciplinarity"
