@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/atd/transnational/",
+			 "content_html": "<h1>New Book Added:</h1><p>Toward a Transnational University: WAC/WID Across Borders of Language, Nation, and Discipline by Jonathan Hall and Bruce Horner. Published on 01-23-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/transnational/\">https://wac.colostate.edu/books/atd/transnational/</a></p>",
+    		"url": "https://wac.colostate.edu/books/atd/transnational/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/threshold/",
+			 "content_html": "<h1>New Book Added:</h1><p>Threshold Conscripts: Rhetoric and Composition Teaching Assistantships by William J. Macauley, Jr., Leslie R. Anglesey, Brady Edwards, Kathryn M. Lambrecht, and Phillip K. Lovas. Published on 01-19-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/threshold/\">https://wac.colostate.edu/books/perspectives/threshold/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/threshold/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/precarity/working/",
 			 "content_html": "<h1>New Book Added:</h1><p>A Working Model for Contingent Faculty by Robert Samuels. Published on 01-02-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/precarity/working/\">https://wac.colostate.edu/books/precarity/working/</a></p>",
     		"url": "https://wac.colostate.edu/books/precarity/working/"
