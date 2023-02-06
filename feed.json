@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://uscpress.com/Enduring-Shame",
+			 "content_html": "<h1>New Book Added:</h1><p>Enduring Shame: A Recent History of Unwed Pregnancy and Righteous Reproduction by Heather Brook Adams. Published on 05-05-2022.</p><p>Link to book: <a href=\"https://uscpress.com/Enduring-Shame\">https://uscpress.com/Enduring-Shame</a></p>",
+    		"url": "https://uscpress.com/Enduring-Shame"
+		},
+		{
+    		"id": "https://uscpress.com/The-Democratic-Ethos",
+			 "content_html": "<h1>New Book Added:</h1><p>The Democratic Ethos: Authenticity and Instrumentalism in US Movement Rhetoric after Occupy by A. Freya Thimsen. Published on 06-08-2022.</p><p>Link to book: <a href=\"https://uscpress.com/The-Democratic-Ethos\">https://uscpress.com/The-Democratic-Ethos</a></p>",
+    		"url": "https://uscpress.com/The-Democratic-Ethos"
+		},
+		{
+    		"id": "https://uscpress.com/Activist-Literacies",
+			 "content_html": "<h1>New Book Added:</h1><p>Activist Literacies: Transnational Feminisms and Social Media Rhetorics by Jennifer Nish. Published on 10-20-2022.</p><p>Link to book: <a href=\"https://uscpress.com/Activist-Literacies\">https://uscpress.com/Activist-Literacies</a></p>",
+    		"url": "https://uscpress.com/Activist-Literacies"
+		},
+		{
+    		"id": "https://uscpress.com/Liturgy-of-Change",
+			 "content_html": "<h1>New Book Added:</h1><p>Liturgy of Change: Rhetorics of the Civil Rights Mass Meeting by Elizabeth Ellis Miller. Published on 05-11-2023.</p><p>Link to book: <a href=\"https://uscpress.com/Liturgy-of-Change\">https://uscpress.com/Liturgy-of-Change</a></p>",
+    		"url": "https://uscpress.com/Liturgy-of-Change"
+		},
+		{
+    		"id": "https://uscpress.com/The-Rhetoric-of-Outrage",
+			 "content_html": "<h1>New Book Added:</h1><p>The Rhetoric of Outrage: Why Social Media Is Making Us Angry by Jeff Rice. Published on 05-25-2023.</p><p>Link to book: <a href=\"https://uscpress.com/The-Rhetoric-of-Outrage\">https://uscpress.com/The-Rhetoric-of-Outrage</a></p>",
+    		"url": "https://uscpress.com/The-Rhetoric-of-Outrage"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6259-toward-more-sustainable-metaphors-of-writing-program-administration",
+			 "content_html": "<h1>New Book Added:</h1><p>Toward More Sustainable Metaphors of Writing Program Administration by Lydia Wilkes, Lilian W. Mina, and Patti Poblete. Published on 02-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6259-toward-more-sustainable-metaphors-of-writing-program-administration\">https://upcolorado.com/utah-state-university-press/item/6259-toward-more-sustainable-metaphors-of-writing-program-administration</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6259-toward-more-sustainable-metaphors-of-writing-program-administration"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/atd/transnational/",
 			 "content_html": "<h1>New Book Added:</h1><p>Toward a Transnational University: WAC/WID Across Borders of Language, Nation, and Discipline by Jonathan Hall and Bruce Horner. Published on 01-23-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/transnational/\">https://wac.colostate.edu/books/atd/transnational/</a></p>",
     		"url": "https://wac.colostate.edu/books/atd/transnational/"
