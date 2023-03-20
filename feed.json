@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/swr/documentarian/",
+			 "content_html": "<h1>New Book Added:</h1><p>Recollections from an Uncommon Time: 4C20 Documentarian Tales by Julie Lindquist, Bree Straayer, and Bump Halbritter. Published on 01-25-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/swr/documentarian/\">https://wac.colostate.edu/books/swr/documentarian/</a></p>",
+    		"url": "https://wac.colostate.edu/books/swr/documentarian/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/swr/talking/",
+			 "content_html": "<h1>New Book Added:</h1><p>Teachers Talking Writing: Perspectives on Places, Pedagogies, and Programs by Shane A. Wood. Published on 01-25-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/swr/talking/\">https://wac.colostate.edu/books/swr/talking/</a></p>",
+    		"url": "https://wac.colostate.edu/books/swr/talking/"
+		},
+		{
     		"id": "https://uscpress.com/Enduring-Shame",
 			 "content_html": "<h1>New Book Added:</h1><p>Enduring Shame: A Recent History of Unwed Pregnancy and Righteous Reproduction by Heather Brook Adams. Published on 05-05-2022.</p><p>Link to book: <a href=\"https://uscpress.com/Enduring-Shame\">https://uscpress.com/Enduring-Shame</a></p>",
     		"url": "https://uscpress.com/Enduring-Shame"
