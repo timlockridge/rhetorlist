@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action",
+			 "content_html": "<h1>New Book Added:</h1><p>Technical Communication for Environmental Action by Sean D. Williams. Published on 01-01-2023.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action\">https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action</a></p>",
+    		"url": "https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action"
+		},
+		{
+    		"id": "https://sunypress.edu/Books/W/Working-through-Surveillance-and-Technical-Communication",
+			 "content_html": "<h1>New Book Added:</h1><p>Working through Surveillance and Technical Communication: Concepts and Connections by Sarah Young. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/W/Working-through-Surveillance-and-Technical-Communication\">https://sunypress.edu/Books/W/Working-through-Surveillance-and-Technical-Communication</a></p>",
+    		"url": "https://sunypress.edu/Books/W/Working-through-Surveillance-and-Technical-Communication"
+		},
+		{
+    		"id": "http://siupress.siu.edu/books/978-0-8093-3896-2",
+			 "content_html": "<h1>New Book Added:</h1><p>Unsettling Archival Research: Engaging Critical, Communal, and Digital Archives by Romeo García, Caitlin Burns Allen, and Walker P. Smith. Published on 03-22-2023.</p><p>Link to book: <a href=\"http://siupress.siu.edu/books/978-0-8093-3896-2\">http://siupress.siu.edu/books/978-0-8093-3896-2</a></p>",
+    		"url": "http://siupress.siu.edu/books/978-0-8093-3896-2"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/swr/documentarian/",
 			 "content_html": "<h1>New Book Added:</h1><p>Recollections from an Uncommon Time: 4C20 Documentarian Tales by Julie Lindquist, Bree Straayer, and Bump Halbritter. Published on 01-25-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/swr/documentarian/\">https://wac.colostate.edu/books/swr/documentarian/</a></p>",
     		"url": "https://wac.colostate.edu/books/swr/documentarian/"
