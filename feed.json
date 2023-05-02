@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.press.umich.edu/12207107/memetic_rhetorics",
+			 "content_html": "<h1>New Book Added:</h1><p>Memetic Rhetorics: Toward a Toolkit for Ethical Meming by Erika M. Sparby. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://www.press.umich.edu/12207107/memetic_rhetorics\">https://www.press.umich.edu/12207107/memetic_rhetorics</a></p>",
+    		"url": "https://www.press.umich.edu/12207107/memetic_rhetorics"
+		},
+		{
     		"id": "https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action",
 			 "content_html": "<h1>New Book Added:</h1><p>Technical Communication for Environmental Action by Sean D. Williams. Published on 01-01-2023.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action\">https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action</a></p>",
     		"url": "https://sunypress.edu/Books/T/Technical-Communication-for-Environmental-Action"
