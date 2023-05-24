@@ -5,6 +5,30 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-09530-1.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric in Debt by Kellie Sharp-Hoskins. Published on 06-13-2023.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09530-1.html\">https://www.psupress.org/books/titles/978-0-271-09530-1.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-09530-1.html"
+		},
+		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-09456-4.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Every Living Thing: The Politics of Life in Common by Jenell Johnson. Published on 02-28-2023.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09456-4.html\">https://www.psupress.org/books/titles/978-0-271-09456-4.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-09456-4.html"
+		},
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing on the Wall: Writing Education and Resistance to Isolationism by David S. Martins, Brooke R. Schreiber and Xiaoye You. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall\">https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6275-hashtag-activism-interrogated-and-embodied",
+			 "content_html": "<h1>New Book Added:</h1><p>Hashtag Activism Interrogated and Embodied: Case Studies on Social Justice Movements by Melissa Ames and Kristi McDuffie. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6275-hashtag-activism-interrogated-and-embodied\">https://upcolorado.com/utah-state-university-press/item/6275-hashtag-activism-interrogated-and-embodied</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6275-hashtag-activism-interrogated-and-embodied"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6349-failing-sideways",
+			 "content_html": "<h1>New Book Added:</h1><p>Failing Sideways: Queer Possibilities for Writing Assessment by Stephanie West-Puckett, Nicole I. Caswell and William P. Banks. Published on 05-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6349-failing-sideways\">https://upcolorado.com/utah-state-university-press/item/6349-failing-sideways</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6349-failing-sideways"
+		},
+		{
     		"id": "https://www.press.umich.edu/12207107/memetic_rhetorics",
 			 "content_html": "<h1>New Book Added:</h1><p>Memetic Rhetorics: Toward a Toolkit for Ethical Meming by Erika M. Sparby. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://www.press.umich.edu/12207107/memetic_rhetorics\">https://www.press.umich.edu/12207107/memetic_rhetorics</a></p>",
     		"url": "https://www.press.umich.edu/12207107/memetic_rhetorics"
