@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/jix/",
+			 "content_html": "<h1>New Book Added:</h1><p>Nonfiction, the Teaching of Writing, and the Influence of Richard Lloyd-Jones by Douglas Hesse and Laura Julier. Published on 06-03-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/jix/\">https://wac.colostate.edu/books/practice/jix/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/jix/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/pars3/",
+			 "content_html": "<h1>New Book Added:</h1><p>PARS in Charge: Resources and Strategies for Online Writing Program Leaders by Jessie Borgman and Casey McArdle. Published on 06-19-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/pars3/\">https://wac.colostate.edu/books/practice/pars3/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/pars3/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/peer/",
+			 "content_html": "<h1>New Book Added:</h1><p>Rethinking Peer Review: Critical Reflections on a Pedagogical Practice by Phoebe Jackson and Christopher Weaver. Published on 06-19-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/peer/\">https://wac.colostate.edu/books/perspectives/peer/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/peer/"
+		},
+		{
     		"id": "https://www.psupress.org/books/titles/978-0-271-09530-1.html",
 			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric in Debt by Kellie Sharp-Hoskins. Published on 06-13-2023.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09530-1.html\">https://www.psupress.org/books/titles/978-0-271-09530-1.html</a></p>",
     		"url": "https://www.psupress.org/books/titles/978-0-271-09530-1.html"
