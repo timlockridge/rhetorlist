@@ -5,6 +5,26 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy",
+			 "content_html": "<h1>New Book Added:</h1><p>Childfree and Happy: Transforming the Rhetoric of Women's Reproductive Choices by Courtney Adams Wooten. Published on 06-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy\">https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/iwac2020/",
+			 "content_html": "<h1>New Book Added:</h1><p>Adapting the Past to Reimagine Possible Futures: Celebrating and Critiquing WAC at 50 by Megan J. Kelly, Heather M. Falconer, Caleb L. González, and Jill Dahlman. Published on 05-24-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/iwac2020/\">https://wac.colostate.edu/books/perspectives/iwac2020/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/iwac2020/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/lwr/autoethnography/",
+			 "content_html": "<h1>New Book Added:</h1><p>How I Became the Kind of Writer I Became: An Experiment in Autoethnography by Charles Bazerman. Published on 04-10-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/lwr/autoethnography/\">https://wac.colostate.edu/books/lwr/autoethnography/</a></p>",
+    		"url": "https://wac.colostate.edu/books/lwr/autoethnography/"
+		},
+		{
+    		"id": "https://www.routledge.com/Augmentation-Technologies-and-Artificial-Intelligence-in-Technical-Communication/Duin-Pedersen/p/book/9781032263755",
+			 "content_html": "<h1>New Book Added:</h1><p>Augmentation Technologies and Artificial Intelligence in Technical Communication: Designing Ethical Futures by Ann Hill Duin and Isabel Pedersen. Published on 06-01-2023.</p><p>Link to book: <a href=\"https://www.routledge.com/Augmentation-Technologies-and-Artificial-Intelligence-in-Technical-Communication/Duin-Pedersen/p/book/9781032263755\">https://www.routledge.com/Augmentation-Technologies-and-Artificial-Intelligence-in-Technical-Communication/Duin-Pedersen/p/book/9781032263755</a></p>",
+    		"url": "https://www.routledge.com/Augmentation-Technologies-and-Artificial-Intelligence-in-Technical-Communication/Duin-Pedersen/p/book/9781032263755"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/jix/",
 			 "content_html": "<h1>New Book Added:</h1><p>Nonfiction, the Teaching of Writing, and the Influence of Richard Lloyd-Jones by Douglas Hesse and Laura Julier. Published on 06-03-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/jix/\">https://wac.colostate.edu/books/practice/jix/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/jix/"
