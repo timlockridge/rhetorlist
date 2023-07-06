@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Support for International Graduate Students: Enhancing Transition and Success by Shyam Sharma. Published on 08-16-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799\">https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799</a></p>",
+    		"url": "https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6392-sensemaking-for-writing-programs-and-writing-centers",
+			 "content_html": "<h1>New Book Added:</h1><p>Sensemaking for Writing Programs and Writing Centers by Rita Malenczyk. Published on 06-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6392-sensemaking-for-writing-programs-and-writing-centers\">https://upcolorado.com/utah-state-university-press/item/6392-sensemaking-for-writing-programs-and-writing-centers</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6392-sensemaking-for-writing-programs-and-writing-centers"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy",
 			 "content_html": "<h1>New Book Added:</h1><p>Childfree and Happy: Transforming the Rhetoric of Women's Reproductive Choices by Courtney Adams Wooten. Published on 06-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy\">https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6387-childfree-and-happy"
