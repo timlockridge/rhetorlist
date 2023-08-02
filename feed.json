@@ -5,6 +5,31 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://sunypress.edu/Books/G/Global-Rhetorics-of-Science",
+			 "content_html": "<h1>New Book Added:</h1><p>Global Rhetorics of Science by Lynda C. Olman. Published on 09-01-2023.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/G/Global-Rhetorics-of-Science\">https://sunypress.edu/Books/G/Global-Rhetorics-of-Science</a></p>",
+    		"url": "https://sunypress.edu/Books/G/Global-Rhetorics-of-Science"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822947837/",
+			 "content_html": "<h1>New Book Added:</h1><p>Habitual Rhetoric: Digital Writing before Digital Technology by Alex Mueller. Published on 09-01-2023.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822947837/\">https://upittpress.org/books/9780822947837/</a></p>",
+    		"url": "https://upittpress.org/books/9780822947837/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6420-k-for-the-way",
+			 "content_html": "<h1>New Book Added:</h1><p>K for the Way: DJ Rhetoric and Literacy for 21st Century Writing Studies by Todd Craig. Published on 08-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6420-k-for-the-way\">https://upcolorado.com/utah-state-university-press/item/6420-k-for-the-way</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6420-k-for-the-way"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6391-telling-stories",
+			 "content_html": "<h1>New Book Added:</h1><p>Telling Stories: Perspectives on Longitudinal Writing Research by Jenn Fishman and Amy C. Kimme Hea. Published on 07-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6391-telling-stories\">https://upcolorado.com/utah-state-university-press/item/6391-telling-stories</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6391-telling-stories"
+		},
+		{
+    		"id": "URLhttps://upcolorado.com/utah-state-university-press/item/6340-reconstructing-response-to-student-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Reconstructing Response to Student Writing: A National Study from across the Curriculum by Dan Melzer. Published on 07-01-2023.</p><p>Link to book: <a href=\"URLhttps://upcolorado.com/utah-state-university-press/item/6340-reconstructing-response-to-student-writing\">URLhttps://upcolorado.com/utah-state-university-press/item/6340-reconstructing-response-to-student-writing</a></p>",
+    		"url": "URLhttps://upcolorado.com/utah-state-university-press/item/6340-reconstructing-response-to-student-writing"
+		},
+		{
     		"id": "https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing Support for International Graduate Students: Enhancing Transition and Success by Shyam Sharma. Published on 08-16-2018.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799\">https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799</a></p>",
     		"url": "https://www.routledge.com/Writing-Support-for-International-Graduate-Students-Enhancing-Transition/Sharma/p/book/9780367586799"
