@@ -5,6 +5,56 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Emotional-Value-in-the-Composition-Classroom-Self-Agency-and-Neuroplasticity/Crawford/p/book/9781032513546",
+			 "content_html": "<h1>New Book Added:</h1><p>Emotional Value in the Composition Classroom: Self, Agency, and Neuroplasticity by Ryan Crawford. Published on 08-24-2023.</p><p>Link to book: <a href=\"https://www.routledge.com/Emotional-Value-in-the-Composition-Classroom-Self-Agency-and-Neuroplasticity/Crawford/p/book/9781032513546\">https://www.routledge.com/Emotional-Value-in-the-Composition-Classroom-Self-Agency-and-Neuroplasticity/Crawford/p/book/9781032513546</a></p>",
+    		"url": "https://www.routledge.com/Emotional-Value-in-the-Composition-Classroom-Self-Agency-and-Neuroplasticity/Crawford/p/book/9781032513546"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6427-the-new-work-of-writing-across-the-curriculum",
+			 "content_html": "<h1>New Book Added:</h1><p>The New Work of Writing Across the Curriculum: Diversity and Inclusion, Collaborative Partnerships, and Faculty Development by Staci M. Perryman-Clark. Published on 08-31-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6427-the-new-work-of-writing-across-the-curriculum\">https://upcolorado.com/utah-state-university-press/item/6427-the-new-work-of-writing-across-the-curriculum</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6427-the-new-work-of-writing-across-the-curriculum"
+		},
+		{
+    		"id": "https://wac.colostate.edu/repository/collections/textgened/",
+			 "content_html": "<h1>New Book Added:</h1><p>TextGenEd: An Introduction to Teaching with Text Generation Technologies by Tim Laquintano, Carly Schnitzler, and Annette Vee. Published on 08-28-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/repository/collections/textgened/\">https://wac.colostate.edu/repository/collections/textgened/</a></p>",
+    		"url": "https://wac.colostate.edu/repository/collections/textgened/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/human/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing as a Human Activity: Implications and Applications of the Work of Charles Bazerman by Paul M. Rogers, David R. Russell, Paula Carlino, and Jonathan M. Marine. Published on 02-14-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/human/\">https://wac.colostate.edu/books/perspectives/human/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/human/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/tpc/",
+			 "content_html": "<h1>New Book Added:</h1><p>Keywords in Technical and Professional Communication by Han Yu and Jonathan Buehl. Published on 08-04-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/tpc/\">https://wac.colostate.edu/books/tpc/tpc/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/tpc/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/precarity/rebels/",
+			 "content_html": "<h1>New Book Added:</h1><p>Rank-and-File Rebels: Theories of Power and Change in the 2018 Education Strikes by Erin Dyke and Brendan Muckian-Bates. Published on 08-11-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/precarity/rebels/\">https://wac.colostate.edu/books/precarity/rebels/</a></p>",
+    		"url": "https://wac.colostate.edu/books/precarity/rebels/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/institutional/",
+			 "content_html": "<h1>New Book Added:</h1><p>Institutional Ethnography as Writing Studies Practice by Michelle LaFrance and Melissa Nicolas. Published on 08-16-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/institutional/\">https://wac.colostate.edu/books/perspectives/institutional/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/institutional/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/murray/",
+			 "content_html": "<h1>New Book Added:</h1><p>A Writer Reforms (the Teaching of) Writing: Donald Murray and the Writing Process Movement, 1963–1987 by Michael J. Michaud. Published on 08-22-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/murray/\">https://wac.colostate.edu/books/perspectives/murray/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/murray/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/tpc/scale/",
+			 "content_html": "<h1>New Book Added:</h1><p>Text at Scale: Corpus Analysis in Technical Communication by Stephen Carradini and Jason Swarts. Published on 09-06-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/scale/\">https://wac.colostate.edu/books/tpc/scale/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/scale/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/systems/",
+			 "content_html": "<h1>New Book Added:</h1><p>Systems Shift: Creating and Navigating Change in Rhetoric and Composition Administration by Genesea M. Carter and Aurora Matzke. Published on 09-15-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/systems/\">https://wac.colostate.edu/books/perspectives/systems/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/systems/"
+		},
+		{
     		"id": "https://sunypress.edu/Books/G/Global-Rhetorics-of-Science",
 			 "content_html": "<h1>New Book Added:</h1><p>Global Rhetorics of Science by Lynda C. Olman. Published on 09-01-2023.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/G/Global-Rhetorics-of-Science\">https://sunypress.edu/Books/G/Global-Rhetorics-of-Science</a></p>",
     		"url": "https://sunypress.edu/Books/G/Global-Rhetorics-of-Science"
