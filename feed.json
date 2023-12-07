@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/tpc/rewriting/",
+			 "content_html": "<h1>New Book Added:</h1><p>Rewriting Work by Lora Anderson. Published on 12-06-2023.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/rewriting/\">https://wac.colostate.edu/books/tpc/rewriting/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/rewriting/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6456-writing-on-the-social-network",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing on the Social Network: Digital Literacy Practices in Social Media's First Decade by Amber M. Buck. Published on 12-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6456-writing-on-the-social-network\">https://upcolorado.com/utah-state-university-press/item/6456-writing-on-the-social-network</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6456-writing-on-the-social-network"
+		},
+		{
     		"id": "https://www.routledge.com/Sustainable-Crowdfunding-Research-Based-Analysis-for-Communication-Campaigns/Pope/p/book/9781032312736",
 			 "content_html": "<h1>New Book Added:</h1><p>Sustainable Crowdfunding: Research-Based Analysis for Communication Campaigns by Adam Pope. Published on 06-23-2023.</p><p>Link to book: <a href=\"https://www.routledge.com/Sustainable-Crowdfunding-Research-Based-Analysis-for-Communication-Campaigns/Pope/p/book/9781032312736\">https://www.routledge.com/Sustainable-Crowdfunding-Research-Based-Analysis-for-Communication-Campaigns/Pope/p/book/9781032312736</a></p>",
     		"url": "https://www.routledge.com/Sustainable-Crowdfunding-Research-Based-Analysis-for-Communication-Campaigns/Pope/p/book/9781032312736"
