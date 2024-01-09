@@ -19,10 +19,6 @@ html {
     list-style-type: none;
 }
 
-.nav-links li:first-child {
-    margin-right: 1%;
-}
-
 .nav-links li {
     display: inline;
 }
@@ -38,6 +34,24 @@ html {
 .nav-links a:hover {
     background-color: #F2B134;
 }
+
+.nav-links a.current {
+    background-color: #b71e03;
+}
+
+/* Collapsing the Nav on Mobile Devices */
+@media screen and (max-width: 768px) {
+    .nav-links li {
+        display: block; /* Stack the links vertically */
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 0.5em 0;
+        text-align: center;
+    }
+}
+
 
 h2, h3, h4 {
     font-family: proxima-nova, sans-serif;
@@ -218,4 +232,69 @@ select {
 
 .tabulator-edit-list-item {
     font-family: proxima-nova, sans-serif;
+}
+
+
+/* -- CSS for Search Results -- */
+
+.result-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.result-item h3 {
+    margin-top: 0;
+}
+.result-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.result-item li {
+    margin: 5px 0;
+}
+.result-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+.result-item a:hover {
+    text-decoration: underline;
+}
+/* Additional styles for year headings and titles */
+h2 {
+    color: #4a4a4a;
+}
+h3 {
+    color: #333333;
+}
+
+input.search {
+    width: 85%;
+    padding: 1%
+}
+
+button.search {
+    padding: 1%;
+}
+
+.results-count {
+    font-size: 80%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.results-year {
+ margin: 0 0 1% 0;   
+}
+
+.result-item {
+    margin-left: 1%;
+}
+
+#results ul li {
+    font-family: proxima-nova, sans-serif;
+}
+
+.search-intro {
+    padding-bottom: 2%;
 }

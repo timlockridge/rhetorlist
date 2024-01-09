@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rhetorlist | Search</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
+    <link rel="stylesheet" href="css/style.css?v=0.87">
+    <script src="js/moment.js"></script>
+    <script src="js/luxon.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9134554-3');
+    </script>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Rhetorlist</h1>
+        <h2>Tracking new books in Rhetoric & Writing, Composition Studies, Technical Communication, and related
+            disciplines.</h2>
+        <ul class="nav-links">
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="about.htm">About this site</a></li>
+            <li><a href="submit.htm">Submit a book</a></li>
+            <li><a href="search.htm" class="current">Search Rhetorlist</a></li>
+        </ul>
+
+        <section class="search-intro">
+            <p>You can now search Rhetorlist! Enter a search term below, and Rhetorlist will return all matching books
+                (sorted in reverse chronological order.)</p>
+        </section>
+
+        <section class="search-field">
+            <input class="search" type="text" id="searchInput" placeholder="Enter search text"
+                onkeypress="handleKeyPress(event)">
+            <button class="search" onclick="searchJson()">Search</button>
+        </section>
+
+        <div id="results"></div>
+
+        <script>
+            async function searchJson() {
+                var searchText = document.getElementById('searchInput').value.toLowerCase();
+                var searchTerms = searchText.split(" ");
+                var searchResults = [];
+                var fileNames = ['2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+
+                for (let file of fileNames) {
+                    try {
+                        let response = await fetch(file);
+                        let data = await response.json();
+                        searchResults = searchResults.concat(data.filter(item => {
+                            var itemText = Object.values(item).join(" ").toLowerCase();
+                            return searchTerms.every(term => itemText.includes(term));
+                        }));
+                    } catch (error) {
+                        console.error('Error loading file:', file, error);
+                    }
+                }
+                searchResults.sort((a, b) => {
+                    var dateA = parseDate(a.publicationDate);
+                    var dateB = parseDate(b.publicationDate);
+                    return dateB - dateA;
+                });
+
+                var sortedAndGroupedResults = groupResultsByYear(searchResults);
+                displayResults(sortedAndGroupedResults);
+            }
+
+            function parseDate(dateStr) {
+                var parts = dateStr.split("-");
+                return new Date(parts[2], parts[0] - 1, parts[1]);
+            }
+
+
+            function groupResultsByYear(results) {
+                var resultsByYear = {};
+                results.forEach(result => {
+                    var year = result.publicationDate.split("-")[2];
+                    if (!resultsByYear[year]) {
+                        resultsByYear[year] = [];
+                    }
+                    resultsByYear[year].push(result);
+                });
+
+                Object.keys(resultsByYear).forEach(year => {
+                    resultsByYear[year].sort((a, b) => {
+                        var dateA = parseDate(a.publicationDate);
+                        var dateB = parseDate(b.publicationDate);
+                        return dateB - dateA;
+                    });
+                });
+
+                return resultsByYear;
+            }
+
+            function displayResults(groupedResults) {
+                var resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+
+                var totalResults = Object.values(groupedResults).reduce((sum, yearResults) => sum + yearResults.length,
+                    0);
+
+                if (totalResults === 0) {
+                    resultsDiv.innerHTML = '<p>No results found</p>';
+                    return;
+                } else {
+                    var resultsCount = document.createElement('p');
+                    resultsCount.textContent = `Total results found: ${totalResults}`;
+                    resultsCount.classList.add('results-count');
+                    resultsDiv.appendChild(resultsCount);
+                }
+
+                var keyMapping = {
+                    'author': 'Author',
+                    'publicationDate': 'Publication Date',
+                    'publisher': 'Publisher',
+                    'openAccess': "Open Access?"
+                };
+
+                Object.keys(groupedResults).sort((a, b) => b - a).forEach(year => {
+                    var yearHeading = document.createElement('h2');
+                    yearHeading.classList.add('results-year');
+                    yearHeading.textContent = year;
+                    resultsDiv.appendChild(yearHeading);
+
+                    groupedResults[year].forEach(function (result) {
+                        var resultDiv = document.createElement('div');
+                        resultDiv.className = 'result-item';
+
+                        var title = document.createElement('h3');
+                        var titleLink = document.createElement('a');
+                        titleLink.href = result.publisherURL;
+                        titleLink.textContent = result.title;
+                        titleLink.target = "_blank";
+                        title.appendChild(titleLink);
+                        resultDiv.appendChild(title);
+
+                        var ul = document.createElement('ul');
+                        for (let key in result) {
+                            if (key !== 'title' && key !== 'publisherURL') {
+                                var li = document.createElement('li');
+                                var displayName = keyMapping[key] || key;
+                                li.innerHTML = `<strong>${displayName}:</strong> ${result[key]}`;
+                                ul.appendChild(li);
+                            }
+                        }
+
+                        resultDiv.appendChild(ul);
+                        resultsDiv.appendChild(resultDiv);
+                    });
+                });
+            }
+
+            function handleKeyPress(event) {
+                if (event.keyCode === 13) {
+                    searchJson();
+                }
+            }
+        </script>
+    </section>
+</body>
+
+</html>
