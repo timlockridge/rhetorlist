@@ -268,13 +268,24 @@ h3 {
     color: #333333;
 }
 
+/* search field */
+
+.search-field {
+    display: flex;
+    align-intems: center;
+    justify-content: space-between;
+}
+
 input.search {
-    width: 85%;
-    padding: 1%
+    padding: 1%;
+    font-size: 16px;
+    flex-grow: 1;
+    margin-right: 10px;
 }
 
 button.search {
     padding: 1%;
+    flex-shrink: 0;
 }
 
 .results-count {
@@ -298,3 +309,4 @@ button.search {
 .search-intro {
     padding-bottom: 2%;
 }
+
