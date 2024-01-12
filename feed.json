@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "www.cambridge.org/9781009278027",
+			 "content_html": "<h1>New Book Added:</h1><p>Making English Official: Writing and Resisting Local Language Policies by Katherine S. Flowers. Published on 01-18-2024.</p><p>Link to book: <a href=\"www.cambridge.org/9781009278027\">www.cambridge.org/9781009278027</a></p>",
+    		"url": "www.cambridge.org/9781009278027"
+		},
+		{
     		"id": "https://upittpress.org/books/9780822947974/",
 			 "content_html": "<h1>New Book Added:</h1><p>Changing Minds: Women and the Political Essay, 1960-2000 by Ann Jurečič. Published on 12-01-2023.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822947974/\">https://upittpress.org/books/9780822947974/</a></p>",
     		"url": "https://upittpress.org/books/9780822947974/"
@@ -339,6 +344,7 @@
 			 "content_html": "<h1>New Book Added:</h1><p>Every Living Thing: The Politics of Life in Common by Jenell Johnson. Published on 02-28-2023.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09456-4.html\">https://www.psupress.org/books/titles/978-0-271-09456-4.html</a></p>",
     		"url": "https://www.psupress.org/books/titles/978-0-271-09456-4.html"
 		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing on the Wall: Writing Education and Resistance to Isolationism by David S. Martins, Brooke R. Schreiber and Xiaoye You. Published on 04-01-2023.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall\">https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6269-writing-on-the-wall"
@@ -483,6 +489,7 @@
 			 "content_html": "<h1>New Book Added:</h1><p>Writing, Imitation, and Performance: Insights from Neuroscience Research by Irene L. Clark. Published on 12-02-2022.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987\">https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987</a></p>",
     		"url": "https://www.routledge.com/Writing-Imitation-and-Performance-Insights-from-Neuroscience-Research/Clark/p/book/9781032051987"
 		},
+		{
     		"id": "https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism",
 			 "content_html": "<h1>New Book Added:</h1><p>Women's Voices in the BlueWave Resistance on Twitter: Cruel Optimism by Cynthia A. Davidson. Published on 01-15-2023.</p><p>Link to book: <a href=\"https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism\">https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism</a></p>",
     		"url": "https://rowman.com/ISBN/9781793633361/Women's-Voices-in-the-BlueWave-Resistance-on-Twitter-Cruel-Optimism"
