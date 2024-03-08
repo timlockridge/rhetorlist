@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/nnest/",
+			 "content_html": "<h1>New Book Added:</h1><p>Nonnative English-Speaking Teachers of U.S. College Composition: Exploring Identities and Negotiating Difference by Mariya Tseptsura and Todd Ruecker. Published on 01-21-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/nnest/\">https://wac.colostate.edu/books/international/nnest/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/nnest/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6500-multimodal-composing-and-writing-transfer",
+			 "content_html": "<h1>New Book Added:</h1><p>Multimodal Composing and Writing Transfer by Kara Poe Alexander, Matthew Davis, Lilian W. Mina and Ryan P. Shepherd. Published on 02-16-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6500-multimodal-composing-and-writing-transfer\">https://upcolorado.com/utah-state-university-press/item/6500-multimodal-composing-and-writing-transfer</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6500-multimodal-composing-and-writing-transfer"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6535-reaching-all-writers",
+			 "content_html": "<h1>New Book Added:</h1><p>Reaching All Writers: A Pedagogical Guide for Evolving College Writing Classrooms by Joanne Baird Giordano, Holly Hassel, Jennifer Heinert, and Cassandra Phillips. Published on 02-13-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6535-reaching-all-writers\">https://upcolorado.com/utah-state-university-press/item/6535-reaching-all-writers</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6535-reaching-all-writers"
+		},
+		{
     		"id": "www.cambridge.org/9781009278027",
 			 "content_html": "<h1>New Book Added:</h1><p>Making English Official: Writing and Resisting Local Language Policies by Katherine S. Flowers. Published on 01-18-2024.</p><p>Link to book: <a href=\"www.cambridge.org/9781009278027\">www.cambridge.org/9781009278027</a></p>",
     		"url": "www.cambridge.org/9781009278027"
