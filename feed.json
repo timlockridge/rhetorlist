@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/better/",
+			 "content_html": "<h1>New Book Added:</h1><p>Better Practices: Exploring the Teaching of Writing in Online and Hybrid Spaces by Amy Cicchino and Troy Hicks. Published on 03-19-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/better/\">https://wac.colostate.edu/books/perspectives/better/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/better/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6544-environmental-preservation-and-the-grey-cliffs-conflict",
+			 "content_html": "<h1>New Book Added:</h1><p>Environmental Preservation and the Grey Cliffs Conflict: Negotiating Common Narratives, Values, and Ethos by Kristin D. Pickering. Published on 02-15-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6544-environmental-preservation-and-the-grey-cliffs-conflict\">https://upcolorado.com/utah-state-university-press/item/6544-environmental-preservation-and-the-grey-cliffs-conflict</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6544-environmental-preservation-and-the-grey-cliffs-conflict"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/nnest/",
 			 "content_html": "<h1>New Book Added:</h1><p>Nonnative English-Speaking Teachers of U.S. College Composition: Exploring Identities and Negotiating Difference by Mariya Tseptsura and Todd Ruecker. Published on 01-21-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/nnest/\">https://wac.colostate.edu/books/international/nnest/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/nnest/"
