@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.mla.org/Publications/Bookstore/Nonseries/Beyond-Fitting-In",
+			 "content_html": "<h1>New Book Added:</h1><p>Beyond Fitting In: Rethinking First-Generation Writing and Literacy Education by Kelly Ritter. Published on 02-01-2023.</p><p>Link to book: <a href=\"https://www.mla.org/Publications/Bookstore/Nonseries/Beyond-Fitting-In\">https://www.mla.org/Publications/Bookstore/Nonseries/Beyond-Fitting-In</a></p>",
+    		"url": "https://www.mla.org/Publications/Bookstore/Nonseries/Beyond-Fitting-In"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/better/",
 			 "content_html": "<h1>New Book Added:</h1><p>Better Practices: Exploring the Teaching of Writing in Online and Hybrid Spaces by Amy Cicchino and Troy Hicks. Published on 03-19-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/better/\">https://wac.colostate.edu/books/perspectives/better/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/better/"
