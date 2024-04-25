@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology",
+			 "content_html": "<h1>New Book Added:</h1><p>Mentorship/Methodology: Reflections, Praxis, Futures by Leigh Gruwell and Charles N. Lesh. Published on 04-23-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology\">https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/jwa1/",
+			 "content_html": "<h1>New Book Added:</h1><p>Considering Students, Teachers, and Writing Assessment: Volumes 1 and 2 by Diane Kelly-Riley, Ti Macklin, and Carl Whithaus. Published on 04-08-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/jwa1/\">https://wac.colostate.edu/books/perspectives/jwa1/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/jwa1/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6572-revising-moves",
 			 "content_html": "<h1>New Book Added:</h1><p>Revising Moves: Writing Stories of (Re)Making by Christina M. LaVecchia, Allison D. Carr, Laura R. Micciche, Hannah J. Rule, and Jayne E. O. Stone. Published on 04-01-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6572-revising-moves\">https://upcolorado.com/utah-state-university-press/item/6572-revising-moves</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6572-revising-moves"
