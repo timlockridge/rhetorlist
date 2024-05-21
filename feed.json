@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/narratives/",
+			 "content_html": "<h1>New Book Added:</h1><p>Narratives of Joy and Failure in Antiracist Assessment: Exploring Collaborative Writing by Asao B. Inoue and Kristin DeMint Bailey. Published on 05-10-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/narratives/\">https://wac.colostate.edu/books/practice/narratives/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/narratives/"
+		},
+		{
+    		"id": "https://cup.columbia.edu/book/programming-the-future/9780231198318",
+			 "content_html": "<h1>New Book Added:</h1><p>Programming the Future: Politics, Resistance, and Utopia in Contemporary Speculative TV by Sherryl Vint and Jonathan Alexander. Published on 11-01-2022.</p><p>Link to book: <a href=\"https://cup.columbia.edu/book/programming-the-future/9780231198318\">https://cup.columbia.edu/book/programming-the-future/9780231198318</a></p>",
+    		"url": "https://cup.columbia.edu/book/programming-the-future/9780231198318"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology",
 			 "content_html": "<h1>New Book Added:</h1><p>Mentorship/Methodology: Reflections, Praxis, Futures by Leigh Gruwell and Charles N. Lesh. Published on 04-23-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology\">https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6552-mentorship-methodology"
