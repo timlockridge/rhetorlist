@@ -5,6 +5,51 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upittpress.org/books/9780822948179/",
+			 "content_html": "<h1>New Book Added:</h1><p>Social Mediations: Writing for Digital Public Spheres by Donna LeCourt. Published on 06-01-2024.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822948179/\">https://upittpress.org/books/9780822948179/</a></p>",
+    		"url": "https://upittpress.org/books/9780822948179/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817361419/entitled-opinions/",
+			 "content_html": "<h1>New Book Added:</h1><p>Entitled Opinions: Doxa after Digitality by Caddie Alford. Published on 04-01-2024.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817361419/entitled-opinions/\">https://www.uapress.ua.edu/9780817361419/entitled-opinions/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817361419/entitled-opinions/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817361433/threshold/",
+			 "content_html": "<h1>New Book Added:</h1><p>Threshold: How Smart Homes Change Us Inside and Out by Heather Suzanne Woods. Published on 05-01-2024.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817361433/threshold/\">https://www.uapress.ua.edu/9780817361433/threshold/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817361433/threshold/"
+		},
+		{
+    		"id": "https://my.ncte.org/s/product-details?id=a1BPo0000010aWaMAI",
+			 "content_html": "<h1>New Book Added:</h1><p>Living English, Moving Literacies by Katie Silvester. Published on 04-02-2024.</p><p>Link to book: <a href=\"https://my.ncte.org/s/product-details?id=a1BPo0000010aWaMAI\">https://my.ncte.org/s/product-details?id=a1BPo0000010aWaMAI</a></p>",
+    		"url": "https://my.ncte.org/s/product-details?id=a1BPo0000010aWaMAI"
+		},
+		{
+    		"id": "https://my.ncte.org/s/product-details?id=a1BPo0000010aWkMAI",
+			 "content_html": "<h1>New Book Added:</h1><p>Queer Techné: Bodies, Rhetorics, and Desire in the History of Computing by Patricia Fancher. Published on 04-02-2024.</p><p>Link to book: <a href=\"https://my.ncte.org/s/product-details?id=a1BPo0000010aWkMAI\">https://my.ncte.org/s/product-details?id=a1BPo0000010aWkMAI</a></p>",
+    		"url": "https://my.ncte.org/s/product-details?id=a1BPo0000010aWkMAI"
+		},
+		{
+    		"id": "https://my.ncte.org/s/product-details?id=a1BPo0000010aSmMAI",
+			 "content_html": "<h1>New Book Added:</h1><p>The Hands of God at Work: Islamic Gender Justice through Translingual Praxis by Amber Engelson. Published on 04-30-2024.</p><p>Link to book: <a href=\"https://my.ncte.org/s/product-details?id=a1BPo0000010aSmMAI\">https://my.ncte.org/s/product-details?id=a1BPo0000010aSmMAI</a></p>",
+    		"url": "https://my.ncte.org/s/product-details?id=a1BPo0000010aSmMAI"
+		},
+		{
+    		"id": "https://www.routledge.com/Evangelical-Writing-in-a-Secular-Imaginary-The-Academic-Writing-of-Christian-Undergraduates-at-a-Public-University/Cope/p/book/9781032494616",
+			 "content_html": "<h1>New Book Added:</h1><p>Evangelical Writing in a Secular Imaginary: The Academic Writing of Christian Undergraduates at a Public University by Emily Murphy Cope. Published on 02-13-2024.</p><p>Link to book: <a href=\"https://www.routledge.com/Evangelical-Writing-in-a-Secular-Imaginary-The-Academic-Writing-of-Christian-Undergraduates-at-a-Public-University/Cope/p/book/9781032494616\">https://www.routledge.com/Evangelical-Writing-in-a-Secular-Imaginary-The-Academic-Writing-of-Christian-Undergraduates-at-a-Public-University/Cope/p/book/9781032494616</a></p>",
+    		"url": "https://www.routledge.com/Evangelical-Writing-in-a-Secular-Imaginary-The-Academic-Writing-of-Christian-Undergraduates-at-a-Public-University/Cope/p/book/9781032494616"
+		},
+		{
+    		"id": "https://parlorpress.com/products/inclusive-aims-rhetoric-reproductive-justice",
+			 "content_html": "<h1>New Book Added:</h1><p>Inclusive Aims: Rhetoric’s Role in Reproductive Justice by Heather Brook Adams and Nancy Myers. Published on 03-02-2024.</p><p>Link to book: <a href=\"https://parlorpress.com/products/inclusive-aims-rhetoric-reproductive-justice\">https://parlorpress.com/products/inclusive-aims-rhetoric-reproductive-justice</a></p>",
+    		"url": "https://parlorpress.com/products/inclusive-aims-rhetoric-reproductive-justice"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215586.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Trafficking Rhetoric: Race, Migration, and the Making of Modern-Day Slavery by Annie Hill. Published on 05-01-2024.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215586.html\">https://ohiostatepress.org/books/titles/9780814215586.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215586.html"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/narratives/",
 			 "content_html": "<h1>New Book Added:</h1><p>Narratives of Joy and Failure in Antiracist Assessment: Exploring Collaborative Writing by Asao B. Inoue and Kristin DeMint Bailey. Published on 05-10-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/narratives/\">https://wac.colostate.edu/books/practice/narratives/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/narratives/"
