@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/improvisations/",
+			 "content_html": "<h1>New Book Added:</h1><p>Improvisations: Methods and Methodologies in Lifespan Writing Research by Ryan J. Dippre and Talinn Phillips. Published on 06-18-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/improvisations/\">https://wac.colostate.edu/books/perspectives/improvisations/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/improvisations/"
+		},
+		{
     		"id": "https://upittpress.org/books/9780822948179/",
 			 "content_html": "<h1>New Book Added:</h1><p>Social Mediations: Writing for Digital Public Spheres by Donna LeCourt. Published on 06-01-2024.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822948179/\">https://upittpress.org/books/9780822948179/</a></p>",
     		"url": "https://upittpress.org/books/9780822948179/"
