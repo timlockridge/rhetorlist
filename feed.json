@@ -5,6 +5,26 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://parlorpress.com/products/keywords-in-making",
+			 "content_html": "<h1>New Book Added:</h1><p>Keywords in Making: A Rhetorical Primer by Jason Tham. Published on 06-25-2024.</p><p>Link to book: <a href=\"https://parlorpress.com/products/keywords-in-making\">https://parlorpress.com/products/keywords-in-making</a></p>",
+    		"url": "https://parlorpress.com/products/keywords-in-making"
+		},
+		{
+    		"id": "https://uen.pressbooks.pub/teachingandgenerativeai",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching and Generative AI: Pedagogical Possibilities and Productive Tensions by Beth Buyserie and Travis N. Thurston. Published on 04-18-2024.</p><p>Link to book: <a href=\"https://uen.pressbooks.pub/teachingandgenerativeai\">https://uen.pressbooks.pub/teachingandgenerativeai</a></p>",
+    		"url": "https://uen.pressbooks.pub/teachingandgenerativeai"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/unfinished/",
+			 "content_html": "<h1>New Book Added:</h1><p>Unfinished Business: Thoughts on the Past, Present, Future, and Nurturing of Homo Scribens by Charles Bazerman. Published on 06-21-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/unfinished/\">https://wac.colostate.edu/books/practice/unfinished/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/unfinished/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6505-disruptive-stories",
+			 "content_html": "<h1>New Book Added:</h1><p>Disruptive Stories by Elizabeth Kleinfeld, Sohui Lee, and Julie Prebel. Published on 06-21-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6505-disruptive-stories\">https://upcolorado.com/utah-state-university-press/item/6505-disruptive-stories</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6505-disruptive-stories"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/improvisations/",
 			 "content_html": "<h1>New Book Added:</h1><p>Improvisations: Methods and Methodologies in Lifespan Writing Research by Ryan J. Dippre and Talinn Phillips. Published on 06-18-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/improvisations/\">https://wac.colostate.edu/books/perspectives/improvisations/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/improvisations/"
