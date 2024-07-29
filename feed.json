@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies",
+			 "content_html": "<h1>New Book Added:</h1><p>Pivotal Strategies: Claiming Writing Studies as Discipline by Lynn C. Lewis. Published on 07-15-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies\">https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/swr/assemblages/",
+			 "content_html": "<h1>New Book Added:</h1><p>Transnational Assemblages: Social Justice and Crisis Communication during Disaster by Sweta Baniya. Published on 07-24-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/swr/assemblages/\">https://wac.colostate.edu/books/swr/assemblages/</a></p>",
+    		"url": "https://wac.colostate.edu/books/swr/assemblages/"
+		},
+		{
     		"id": "https://parlorpress.com/products/keywords-in-making",
 			 "content_html": "<h1>New Book Added:</h1><p>Keywords in Making: A Rhetorical Primer by Jason Tham. Published on 06-25-2024.</p><p>Link to book: <a href=\"https://parlorpress.com/products/keywords-in-making\">https://parlorpress.com/products/keywords-in-making</a></p>",
     		"url": "https://parlorpress.com/products/keywords-in-making"
