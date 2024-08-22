@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/outcomes/",
+			 "content_html": "<h1>New Book Added:</h1><p>Outcomes of Engaged Education: From Transfer to Transformation by Linda Flower. Published on 06-21-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/outcomes/\">https://wac.colostate.edu/books/practice/outcomes/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/outcomes/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6619-doing-difference-differently",
+			 "content_html": "<h1>New Book Added:</h1><p>Doing Difference Differently: Chinese International Students' Literacy Practices and Affordances by Zhaozhe Wang. Published on 08-07-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6619-doing-difference-differently\">https://upcolorado.com/utah-state-university-press/item/6619-doing-difference-differently</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6619-doing-difference-differently"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies",
 			 "content_html": "<h1>New Book Added:</h1><p>Pivotal Strategies: Claiming Writing Studies as Discipline by Lynn C. Lewis. Published on 07-15-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies\">https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6613-pivotal-strategies"
