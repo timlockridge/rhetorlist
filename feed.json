@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/practice/graff/",
+			 "content_html": "<h1>New Book Added:</h1><p>My Life With Literacy: The Continuing Education of a Historian by Harvey J. Graff. Published on 08-27-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/graff/\">https://wac.colostate.edu/books/practice/graff/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/graff/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/outcomes/",
 			 "content_html": "<h1>New Book Added:</h1><p>Outcomes of Engaged Education: From Transfer to Transformation by Linda Flower. Published on 06-21-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/outcomes/\">https://wac.colostate.edu/books/practice/outcomes/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/outcomes/"
