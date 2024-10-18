@@ -5,6 +5,36 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215609.html",
+			 "content_html": "<h1>New Book Added:</h1><p>The Erotic as Rhetorical Power: Archives of Romantic Friendship between Women Teachers by Pamela VanHaitsma. Published on 10-01-2024.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215609.html\">https://ohiostatepress.org/books/titles/9780814215609.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215609.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215340.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Trespassing Natures: Species Migration and the Right to Space by Donnie Johnson Sackey. Published on 08-01-2024.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215340.html\">https://ohiostatepress.org/books/titles/9780814215340.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215340.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215456.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Sanctuary: Exclusion, Violence, and Indigenous Migrants in the East Bay by Cruz Medina. Published on 09-01-2024.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215456.html\">https://ohiostatepress.org/books/titles/9780814215456.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215456.html"
+		},
+		{
+    		"id": "https://ccdigitalpress.org/ldm",
+			 "content_html": "<h1>New Book Added:</h1><p>Living Digital Media: Rhetorical-affective practices in circulation by Rich Shivener. Published on 10-18-2024.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/ldm\">https://ccdigitalpress.org/ldm</a></p>",
+    		"url": "https://ccdigitalpress.org/ldm"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/practice/wrong/",
+			 "content_html": "<h1>New Book Added:</h1><p>The Wrong Side of Privilege: Advocacy, Community, and Politics: The Collected Essays of Stephen J. Parks, 2000-2020 by Stephen J. Parks. Published on 10-14-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/wrong/\">https://wac.colostate.edu/books/practice/wrong/</a></p>",
+    		"url": "https://wac.colostate.edu/books/practice/wrong/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/atd/inclusive/",
+			 "content_html": "<h1>New Book Added:</h1><p>Inclusive STEM: Transforming Disciplinary Writing Instruction for a Socially Just Future by Heather M. Falconer and LaKeisha McClary. Published on 09-23-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/atd/inclusive/\">https://wac.colostate.edu/books/atd/inclusive/</a></p>",
+    		"url": "https://wac.colostate.edu/books/atd/inclusive/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/storying/",
 			 "content_html": "<h1>New Book Added:</h1><p>Storying Writing Center Labor for Anti-Capitalist Futures by Genie Nicole Giaimo and Daniel Lawson. Published on 09-04-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/storying/\">https://wac.colostate.edu/books/practice/storying/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/storying/"
