@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces",
+			 "content_html": "<h1>New Book Added:</h1><p>Indigenous Voices in Digital Spaces by Cindy Tekobbe. Published on 10-22-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces\">https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces"
+		},
+		{
     		"id": "https://ohiostatepress.org/books/titles/9780814215609.html",
 			 "content_html": "<h1>New Book Added:</h1><p>The Erotic as Rhetorical Power: Archives of Romantic Friendship between Women Teachers by Pamela VanHaitsma. Published on 10-01-2024.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215609.html\">https://ohiostatepress.org/books/titles/9780814215609.html</a></p>",
     		"url": "https://ohiostatepress.org/books/titles/9780814215609.html"
