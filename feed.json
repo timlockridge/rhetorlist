@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802",
+			 "content_html": "<h1>New Book Added:</h1><p>White Sororities and the Cultural Work of Belonging by Charlotte Hogg. Published on 12-19-2023.</p><p>Link to book: <a href=\"https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802\">https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802</a></p>",
+    		"url": "https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces",
 			 "content_html": "<h1>New Book Added:</h1><p>Indigenous Voices in Digital Spaces by Cindy Tekobbe. Published on 10-22-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces\">https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6611-indigenous-voices-in-digital-spaces"
