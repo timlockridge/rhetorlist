@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>Tracing the Impact of First-Year Writing: Identity, Process, and Transfer at a Public University by Laura Wilder. Published on 11-15-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing\">https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing"
+		},
+		{
     		"id": "https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802",
 			 "content_html": "<h1>New Book Added:</h1><p>White Sororities and the Cultural Work of Belonging by Charlotte Hogg. Published on 12-19-2023.</p><p>Link to book: <a href=\"https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802\">https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802</a></p>",
     		"url": "https://www.routledge.com/White-Sororities-and-the-Cultural-Work-of-Belonging/Hogg/p/book/9781032457802"
