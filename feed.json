@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/succeed/",
+			 "content_html": "<h1>New Book Added:</h1><p>If at First You Don't Succeed? Writing, Rhetoric, and the Question of Failure by Steven J. Corbett. Published on 12-09-2024.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/succeed/\">https://wac.colostate.edu/books/perspectives/succeed/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/succeed/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing",
 			 "content_html": "<h1>New Book Added:</h1><p>Tracing the Impact of First-Year Writing: Identity, Process, and Transfer at a Public University by Laura Wilder. Published on 11-15-2024.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing\">https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6647-tracing-the-impact-of-first-year-writing"
