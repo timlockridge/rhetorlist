@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253",
+			 "content_html": "<h1>New Book Added:</h1><p>Case Study Research in the Digital Age by John R. Gallagher. Published on 03-04-2024.</p><p>Link to book: <a href=\"https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253\">https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253</a></p>",
+    		"url": "https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253"
+		},
+		{
     		"id": "https://www.routledge.com/Generative-AI-in-the-English-Composition-Classroom-Practical-and-Adaptable-Strategies/Plate-Melick-Hutson-Edele/p/book/9781032831350",
 			 "content_html": "<h1>New Book Added:</h1><p>Generative AI in the English Composition Classroom: Practical and Adaptable Strategies by Daniel Plate, Elizabeth Melick, James Hutson, and Susan Edele. Published on 09-18-2024.</p><p>Link to book: <a href=\"https://www.routledge.com/Generative-AI-in-the-English-Composition-Classroom-Practical-and-Adaptable-Strategies/Plate-Melick-Hutson-Edele/p/book/9781032831350\">https://www.routledge.com/Generative-AI-in-the-English-Composition-Classroom-Practical-and-Adaptable-Strategies/Plate-Melick-Hutson-Edele/p/book/9781032831350</a></p>",
     		"url": "https://www.routledge.com/Generative-AI-in-the-English-Composition-Classroom-Practical-and-Adaptable-Strategies/Plate-Melick-Hutson-Edele/p/book/9781032831350"
