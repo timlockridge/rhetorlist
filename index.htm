@@ -42,6 +42,7 @@
         <h3 style="font-size: 135%; display: inline">Select a year:</h3>
 
         <select id="yearSelector" style="display:inline;">
+            <option value="2025.json">2025</option>
             <option value="2024.json">2024</option>
             <option value="2023.json">2023</option>
             <option value="2022.json">2022</option>
@@ -80,7 +81,7 @@
  });
   
  table.on("tableBuilt", function(){
-     table.setData("2024.json");
+     table.setData("2025.json");
  });  
  
 // watch year selector and load json when new year is selected

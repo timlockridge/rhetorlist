@@ -5,6 +5,38 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upittpress.org/books/9780822947950/",
+			 "content_html": "<h1>New Book Added:</h1><p>Swarms, Viral Writing, and the Local: Rhetorical Dynamics across Networked Publics by Carl Whithaus. Published on 03-01-2025.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822947950/\">https://upittpress.org/books/9780822947950/</a></p>",
+    		"url": "https://upittpress.org/books/9780822947950/"
+		},
+		{
+    		"id": "https://upittpress.org/books/9780822948568/",
+			 "content_html": "<h1>New Book Added:</h1><p>Achy Affects: Crisis and Compositions of Selfhood by CE Mackenzie. Published on 06-01-2025.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822948568/\">https://upittpress.org/books/9780822948568/</a></p>",
+    		"url": "https://upittpress.org/books/9780822948568/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817361846/algorithmic-worldmaking/",
+			 "content_html": "<h1>New Book Added:</h1><p>
+Algorithmic Worldmaking: The Rhetorical Craft of Networked Order by Jeremy David Johnson. Published on 02-01-2025.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817361846/algorithmic-worldmaking/\">https://www.uapress.ua.edu/9780817361846/algorithmic-worldmaking/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817361846/algorithmic-worldmaking/"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215876.html",
+			 "content_html": "<h1>New Book Added:</h1><p>
+Recreational Colonialism and the Rhetorical Landscapes of the Outdoors by Kyle Boggs. Published on 05-01-2025.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215876.html\">https://ohiostatepress.org/books/titles/9780814215876.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215876.html"
+		},
+		{
+    		"id": "https://www.kentuckypress.com/9781985902428/reading-writing-and-queer-survival/",
+			 "content_html": "<h1>New Book Added:</h1><p>Affects, Matterings, and Literacies across Appalachia by Caleb Pendygraft. Published on 06-10-2025.</p><p>Link to book: <a href=\"https://www.kentuckypress.com/9781985902428/reading-writing-and-queer-survival/\">https://www.kentuckypress.com/9781985902428/reading-writing-and-queer-survival/</a></p>",
+    		"url": "https://www.kentuckypress.com/9781985902428/reading-writing-and-queer-survival/"
+		},
+		{
+    		"id": "https://www.peterlang.com/document/1446367",
+			 "content_html": "<h1>New Book Added:</h1><p>Confronting Toxic Rhetoric: Writing Teachers’ Experiences of Rupture, Resistance, and Resilience by Jamie White-Farnham, Cathryn Molloy, and Bryna Siegel Finer. Published on 01-01-2025.</p><p>Link to book: <a href=\"https://www.peterlang.com/document/1446367\">https://www.peterlang.com/document/1446367</a></p>",
+    		"url": "https://www.peterlang.com/document/1446367"
+		},
+		{
     		"id": "https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253",
 			 "content_html": "<h1>New Book Added:</h1><p>Case Study Research in the Digital Age by John R. Gallagher. Published on 03-04-2024.</p><p>Link to book: <a href=\"https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253\">https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253</a></p>",
     		"url": "https://www.routledge.com/Case-Study-Research-in-the-Digital-Age/Gallagher/p/book/9781032514253"
