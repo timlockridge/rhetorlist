@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/listening/",
+			 "content_html": "<h1>New Book Added:</h1><p>Community Listening: Stories, Hauntings, Possibilities by Jenn Fishman, Romeo García, and Lauren Rosenberg. Published on 01-16-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/listening/\">https://wac.colostate.edu/books/perspectives/listening/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/listening/"
+		},
+		{
     		"id": "https://msupress.org/9781611865325/deliberating-ghana/",
 			 "content_html": "<h1>New Book Added:</h1><p>Deliberating Ghana: Postcolonial Rhetorics, Culture, and Democracy by Stephen Kwame Dadugblor. Published on 05-01-2025.</p><p>Link to book: <a href=\"https://msupress.org/9781611865325/deliberating-ghana/\">https://msupress.org/9781611865325/deliberating-ghana/</a></p>",
     		"url": "https://msupress.org/9781611865325/deliberating-ghana/"
