@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing and Other Familiar Things: Autoethnographic Possibilities by Ronald J. Pelias. Published on 03-11-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773\">https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773</a></p>",
+    		"url": "https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/perspectives/listening/",
 			 "content_html": "<h1>New Book Added:</h1><p>Community Listening: Stories, Hauntings, Possibilities by Jenn Fishman, Romeo García, and Lauren Rosenberg. Published on 01-16-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/listening/\">https://wac.colostate.edu/books/perspectives/listening/</a></p>",
     		"url": "https://wac.colostate.edu/books/perspectives/listening/"
