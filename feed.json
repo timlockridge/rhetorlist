@@ -5,6 +5,21 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/tpc/ux/",
+			 "content_html": "<h1>New Book Added:</h1><p>Collaborations and Partnerships in User Experience by Joy Robinson and Ryan Weber. Published on 04-07-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/tpc/ux/\">https://wac.colostate.edu/books/tpc/ux/</a></p>",
+    		"url": "https://wac.colostate.edu/books/tpc/ux/"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/perspectives/faculty-writing/",
+			 "content_html": "<h1>New Book Added:</h1><p>Faculty Writing Support: Emerging Research from Rhetoric and Composition Studies by Jaclyn Wells, Lars Söderlund, and Christine Tulley. Published on 04-05-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/faculty-writing/\">https://wac.colostate.edu/books/perspectives/faculty-writing/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/faculty-writing/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6709-wpaing-in-a-pandemic-and-beyond",
+			 "content_html": "<h1>New Book Added:</h1><p>WPAing in a Pandemic and Beyond: Revision, Innovation, and Advocacy by Todd Ruecker and Shelia Carter-Tod. Published on 04-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6709-wpaing-in-a-pandemic-and-beyond\">https://upcolorado.com/utah-state-university-press/item/6709-wpaing-in-a-pandemic-and-beyond</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6709-wpaing-in-a-pandemic-and-beyond"
+		},
+		{
     		"id": "https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing and Other Familiar Things: Autoethnographic Possibilities by Ronald J. Pelias. Published on 03-11-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773\">https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773</a></p>",
     		"url": "https://www.routledge.com/Writing-and-Other-Familiar-Things-Autoethnographic-Possibilities/Pelias/p/book/9781032971773"
