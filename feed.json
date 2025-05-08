@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/perspectives/gere/",
+			 "content_html": "<h1>New Book Added:</h1><p>Sites of Writing: Essays in Honor of Anne Ruggles Gere by James Edward Beitler and Sarah Ruffing Robbins. Published on 05-05-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/perspectives/gere/\">https://wac.colostate.edu/books/perspectives/gere/</a></p>",
+    		"url": "https://wac.colostate.edu/books/perspectives/gere/"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/writing/ecosystems/",
 			 "content_html": "<h1>New Book Added:</h1><p>Black Tech Ecosystems: How Black Adult Learners Use Computer Code Bootcamps for Liberation by Antonio Byrd. Published on 04-28-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/writing/ecosystems/\">https://wac.colostate.edu/books/writing/ecosystems/</a></p>",
     		"url": "https://wac.colostate.edu/books/writing/ecosystems/"
