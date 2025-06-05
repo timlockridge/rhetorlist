@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out",
+			 "content_html": "<h1>New Book Added:</h1><p>There Is No Making It Out: Stories-So-Far and the Possibilities of New Stories by Romeo García. Published on 06-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out\">https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out"
+		},
+		{
     		"id": "https://publicationsncte.org/content/books/9780814101919",
 			 "content_html": "<h1>New Book Added:</h1><p>Rhetorical Ecologies by Sidney I. Dobrin and Madison Jones. Published on 09-10-2024.</p><p>Link to book: <a href=\"https://publicationsncte.org/content/books/9780814101919\">https://publicationsncte.org/content/books/9780814101919</a></p>",
     		"url": "https://publicationsncte.org/content/books/9780814101919"
