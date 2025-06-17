@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/",
+			 "content_html": "<h1>New Book Added:</h1><p>Triangles and Tribulations: Translations, Betrayals, and the Making of Cultural-Historical Activity Theory by Clay Spinuzzi. Published on 06-17-2025.</p><p>Link to book: <a href=\"https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/\">https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/</a></p>",
+    		"url": "https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out",
 			 "content_html": "<h1>New Book Added:</h1><p>There Is No Making It Out: Stories-So-Far and the Possibilities of New Stories by Romeo García. Published on 06-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out\">https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6666-there-is-no-making-it-out"
