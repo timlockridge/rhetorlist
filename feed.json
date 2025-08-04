@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://link.springer.com/book/9783031987922",
+			 "content_html": "<h1>New Book Added:</h1><p>Inventing Ecosystems: The Rhetoric of Science in an Ecological Age by Madison Jones. Published on 08-25-2025.</p><p>Link to book: <a href=\"https://link.springer.com/book/9783031987922\">https://link.springer.com/book/9783031987922</a></p>",
+    		"url": "https://link.springer.com/book/9783031987922"
+		},
+		{
+    		"id": "https://wac.colostate.edu/books/international/supporting/",
+			 "content_html": "<h1>New Book Added:</h1><p>Supporting International Writing Studies Research: Cultivating Capacity through International Exchanges by Tiane Donahue and Cinthia Gannett. Published on 07-23-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/supporting/\">https://wac.colostate.edu/books/international/supporting/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/supporting/"
+		},
+		{
     		"id": "https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/",
 			 "content_html": "<h1>New Book Added:</h1><p>Triangles and Tribulations: Translations, Betrayals, and the Making of Cultural-Historical Activity Theory by Clay Spinuzzi. Published on 06-17-2025.</p><p>Link to book: <a href=\"https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/\">https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/</a></p>",
     		"url": "https://mitpress.mit.edu/9780262552172/triangles-and-tribulations/"
