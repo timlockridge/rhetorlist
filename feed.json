@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom",
+			 "content_html": "<h1>New Book Added:</h1><p>Critical Data Storytelling in the Composition Classroom by Angela Laflen. Published on 08-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom\">https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/practice/artificial/",
 			 "content_html": "<h1>New Book Added:</h1><p>Artificial Infrastructures by Michael J. Salvo and John T. Sherrill. Published on 07-27-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/practice/artificial/\">https://wac.colostate.edu/books/practice/artificial/</a></p>",
     		"url": "https://wac.colostate.edu/books/practice/artificial/"
