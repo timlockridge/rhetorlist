@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wac.colostate.edu/books/international/imagined/",
+			 "content_html": "<h1>New Book Added:</h1><p>An Imagined America: Language, Literacy, Identity, and Coloniality at Syrian Protestant College, 1866–1920 by Lisa R. Arnold. Published on 08-27-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/imagined/\">https://wac.colostate.edu/books/international/imagined/</a></p>",
+    		"url": "https://wac.colostate.edu/books/international/imagined/"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom",
 			 "content_html": "<h1>New Book Added:</h1><p>Critical Data Storytelling in the Composition Classroom by Angela Laflen. Published on 08-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom\">https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6763-critical-data-storytelling-in-the-composition-classroom"
