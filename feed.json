@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing",
+			 "content_html": "<h1>New Book Added:</h1><p>The Radical Case for Teaching Skim Reading in First-Year Writing by Ellen C. Carillo. Published on 10-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing\">https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing"
+		},
+		{
     		"id": "https://wac.colostate.edu/books/international/imagined/",
 			 "content_html": "<h1>New Book Added:</h1><p>An Imagined America: Language, Literacy, Identity, and Coloniality at Syrian Protestant College, 1866–1920 by Lisa R. Arnold. Published on 08-27-2025.</p><p>Link to book: <a href=\"https://wac.colostate.edu/books/international/imagined/\">https://wac.colostate.edu/books/international/imagined/</a></p>",
     		"url": "https://wac.colostate.edu/books/international/imagined/"
