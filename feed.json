@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia",
+			 "content_html": "<h1>New Book Added:</h1><p>Technical Communication and the Discipline of Content: Considerations for Research, Training, and Career Readiness by Rebekka Andersen and Carlos Evia. Published on 09-21-2025.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia\">https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia</a></p>",
+    		"url": "https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia"
+		},
+		{
     		"id": "https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing",
 			 "content_html": "<h1>New Book Added:</h1><p>The Radical Case for Teaching Skim Reading in First-Year Writing by Ellen C. Carillo. Published on 10-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing\">https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing</a></p>",
     		"url": "https://upcolorado.com/utah-state-university-press/item/6778-the-radical-case-for-teaching-skim-reading-in-first-year-writing"
