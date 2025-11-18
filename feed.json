@@ -5,6 +5,16 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wacclearinghouse.org/books/practice/coi/",
+			 "content_html": "<h1>New Book Added:</h1><p>The Community of Inquiry Framework in Writing Studies: Designing for Learning with Peer Review by Jennifer M. Cunningham, Mary K. Stewart, Natalie Stillman-Webb, and Lyra Hilliard. Published on 11-09-2025.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/coi/\">https://wacclearinghouse.org/books/practice/coi/</a></p>",
+    		"url": "https://wacclearinghouse.org/books/practice/coi/"
+		},
+		{
+    		"id": "https://upcolorado.com/utah-state-university-press/item/6786-writing-groups-in-the-writing-center",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Groups in the Writing Center: Negotiating Authority and Expertise in Collaborative Learning by Sara Wilder. Published on 11-13-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/item/6786-writing-groups-in-the-writing-center\">https://upcolorado.com/utah-state-university-press/item/6786-writing-groups-in-the-writing-center</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/item/6786-writing-groups-in-the-writing-center"
+		},
+		{
     		"id": "https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia",
 			 "content_html": "<h1>New Book Added:</h1><p>Technical Communication and the Discipline of Content: Considerations for Research, Training, and Career Readiness by Rebekka Andersen and Carlos Evia. Published on 09-21-2025.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia\">https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia</a></p>",
     		"url": "https://www.taylorfrancis.com/books/mono/10.4324/9781003451730/technical-communication-discipline-content-rebekka-andersen-carlos-evia"
