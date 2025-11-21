@@ -5,6 +5,136 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upittpress.org/books/9780822967712/",
+			 "content_html": "<h1>New Book Added:</h1><p>Immigrants, Brokers, and Literacy as Affinity by Ligia A. Mihut. Published on 11-01-2025.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822967712/\">https://upittpress.org/books/9780822967712/</a></p>",
+    		"url": "https://upittpress.org/books/9780822967712/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817362072/manifesting-violence/",
+			 "content_html": "<h1>New Book Added:</h1><p>Manifesting Violence: White Terrorism, Digital Culture, and the Rhetoric of Replacement by Casey Ryan Kelly and William Joseph Sipe. Published on 05-01-2025.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817362072/manifesting-violence/\">https://www.uapress.ua.edu/9780817362072/manifesting-violence/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817362072/manifesting-violence/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817362478/field-rhetoric/",
+			 "content_html": "<h1>New Book Added:</h1><p>Field Rhetoric: Ethnography, Ecology, and Engagement in the Places of Persuasion by Candice Rai and Caroline Gottschalk Druschke. Published on 09-01-2025.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817362478/field-rhetoric/\">https://www.uapress.ua.edu/9780817362478/field-rhetoric/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817362478/field-rhetoric/"
+		},
+		{
+    		"id": "https://www.uapress.ua.edu/9780817362195/enduring-digital-damage/",
+			 "content_html": "<h1>New Book Added:</h1><p>Enduring Digital Damage: Rhetorical Reckonings for Planetary Survival by Dustin Edwards. Published on 11-01-2025.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817362195/enduring-digital-damage/\">https://www.uapress.ua.edu/9780817362195/enduring-digital-damage/</a></p>",
+    		"url": "https://www.uapress.ua.edu/9780817362195/enduring-digital-damage/"
+		},
+		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-10023-4.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Disinventions: Rhetorics of Undocumented Immigration in the Deterrence Era by José Manuel Cortez. Published on 09-09-2025.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-10023-4.html\">https://www.psupress.org/books/titles/978-0-271-10023-4.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-10023-4.html"
+		},
+		{
+    		"id": "https://www.psupress.org/books/titles/978-0-271-09937-8.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Sound Tactics: Auditory Power in Political Protests by Justin Eckstein. Published on 05-20-2025.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-09937-8.html\">https://www.psupress.org/books/titles/978-0-271-09937-8.html</a></p>",
+    		"url": "https://www.psupress.org/books/titles/978-0-271-09937-8.html"
+		},
+		{
+    		"id": "https://www.routledge.com/Productivity-Professionalism-and-Parenting-in-Academia-Rhet-Comp-Moms/Tulley/p/book/9781032857718",
+			 "content_html": "<h1>New Book Added:</h1><p>Productivity, Professionalism, and Parenting in Academia: Rhet Comp Moms by Christine E. Tulley. Published on 04-29-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Productivity-Professionalism-and-Parenting-in-Academia-Rhet-Comp-Moms/Tulley/p/book/9781032857718\">https://www.routledge.com/Productivity-Professionalism-and-Parenting-in-Academia-Rhet-Comp-Moms/Tulley/p/book/9781032857718</a></p>",
+    		"url": "https://www.routledge.com/Productivity-Professionalism-and-Parenting-in-Academia-Rhet-Comp-Moms/Tulley/p/book/9781032857718"
+		},
+		{
+    		"id": "https://www.routledge.com/The-Routledge-Handbook-of-Social-Justice-in-Technical-and-Professional-Communication/Jones-Gonzales-Haas-Williams/p/book/9781032595566",
+			 "content_html": "<h1>New Book Added:</h1><p>The Routledge Handbook of Social Justice in Technical and Professional Communication by Natasha N. Jones, Laura Gonzales, Angela M. Haas, and Miriam F. Williams. Published on 03-19-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/The-Routledge-Handbook-of-Social-Justice-in-Technical-and-Professional-Communication/Jones-Gonzales-Haas-Williams/p/book/9781032595566\">https://www.routledge.com/The-Routledge-Handbook-of-Social-Justice-in-Technical-and-Professional-Communication/Jones-Gonzales-Haas-Williams/p/book/9781032595566</a></p>",
+    		"url": "https://www.routledge.com/The-Routledge-Handbook-of-Social-Justice-in-Technical-and-Professional-Communication/Jones-Gonzales-Haas-Williams/p/book/9781032595566"
+		},
+		{
+    		"id": "https://www.routledge.com/Rethinking-Writing-Education-in-the-Age-of-Generative-AI/Wang-Tian/p/book/9781032727653",
+			 "content_html": "<h1>New Book Added:</h1><p>Rethinking Writing Education in the Age of Generative AI by Chaoran Wang and Zhongfeng Tian. Published on 03-22-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Rethinking-Writing-Education-in-the-Age-of-Generative-AI/Wang-Tian/p/book/9781032727653\">https://www.routledge.com/Rethinking-Writing-Education-in-the-Age-of-Generative-AI/Wang-Tian/p/book/9781032727653</a></p>",
+    		"url": "https://www.routledge.com/Rethinking-Writing-Education-in-the-Age-of-Generative-AI/Wang-Tian/p/book/9781032727653"
+		},
+		{
+    		"id": "https://www.routledge.com/Decolonizing-Academic-Writing-through-Translingualism-Walking-the-Talk/Christiansen-TianTianZhongFeng-Canagarajah/p/book/9781032764351",
+			 "content_html": "<h1>New Book Added:</h1><p>Decolonizing Academic Writing through Translingualism: Walking the Talk by M. Sidury Christiansen, Zhongfeng Tian, and Suresh Canagarajah. Published on 09-29-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Decolonizing-Academic-Writing-through-Translingualism-Walking-the-Talk/Christiansen-TianTianZhongFeng-Canagarajah/p/book/9781032764351\">https://www.routledge.com/Decolonizing-Academic-Writing-through-Translingualism-Walking-the-Talk/Christiansen-TianTianZhongFeng-Canagarajah/p/book/9781032764351</a></p>",
+    		"url": "https://www.routledge.com/Decolonizing-Academic-Writing-through-Translingualism-Walking-the-Talk/Christiansen-TianTianZhongFeng-Canagarajah/p/book/9781032764351"
+		},
+		{
+    		"id": "https://www.routledge.com/Writing-as-Inquiry-Towards-Being-and-Becoming/Yoo/p/book/9781032455709",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing as Inquiry Towards Being and Becoming by Joanne Yoo. Published on 03-04-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Writing-as-Inquiry-Towards-Being-and-Becoming/Yoo/p/book/9781032455709\">https://www.routledge.com/Writing-as-Inquiry-Towards-Being-and-Becoming/Yoo/p/book/9781032455709</a></p>",
+    		"url": "https://www.routledge.com/Writing-as-Inquiry-Towards-Being-and-Becoming/Yoo/p/book/9781032455709"
+		},
+		{
+    		"id": "https://www.peterlang.com/document/1470069",
+			 "content_html": "<h1>New Book Added:</h1><p>Two-Year College Teaching Careers: Preparing Graduate Students for Success by Joseph Janangelo and Erin Lehman. Published on 11-13-2025.</p><p>Link to book: <a href=\"https://www.peterlang.com/document/1470069\">https://www.peterlang.com/document/1470069</a></p>",
+    		"url": "https://www.peterlang.com/document/1470069"
+		},
+		{
+    		"id": "https://parlorpress.com/products/rhetorical-reception",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetorical Reception: One Hundred and Fifty Years of Arguing with Sex in Education by Carolyn Skinner. Published on 06-18-2025.</p><p>Link to book: <a href=\"https://parlorpress.com/products/rhetorical-reception\">https://parlorpress.com/products/rhetorical-reception</a></p>",
+    		"url": "https://parlorpress.com/products/rhetorical-reception"
+		},
+		{
+    		"id": "https://parlorpress.com/products/storied-objects",
+			 "content_html": "<h1>New Book Added:</h1><p>Storied Objects: A Graphic Narrative Reflection on Material Metaphors and Digital Writing by Erin Kathleen Bahl. Published on 10-02-2025.</p><p>Link to book: <a href=\"https://parlorpress.com/products/storied-objects\">https://parlorpress.com/products/storied-objects</a></p>",
+    		"url": "https://parlorpress.com/products/storied-objects"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215913.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Patient Sense: Rhetorical Body Work in the Age of Technology by Lillian Campbell. Published on 07-01-2025.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215913.html\">https://ohiostatepress.org/books/titles/9780814215913.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215913.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215937.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Olfactory Rhetoric: Sniffing Out Environmental Problems by Lisa L. Phillips. Published on 08-01-2025.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215937.html\">https://ohiostatepress.org/books/titles/9780814215937.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215937.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215937.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Olfactory Rhetoric: Sniffing Out Environmental Problems by Lisa L. Phillips. Published on 08-01-2025.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215937.html\">https://ohiostatepress.org/books/titles/9780814215937.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215937.html"
+		},
+		{
+    		"id": "https://ohiostatepress.org/books/titles/9780814215937.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Olfactory Rhetoric: Sniffing Out Environmental Problems by Lisa L. Phillips. Published on 08-01-2025.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814215937.html\">https://ohiostatepress.org/books/titles/9780814215937.html</a></p>",
+    		"url": "https://ohiostatepress.org/books/titles/9780814215937.html"
+		},
+		{
+    		"id": "https://www.bloomsbury.com/us/rhetoric-of-dystopia-9781666941487/",
+			 "content_html": "<h1>New Book Added:</h1><p>The Rhetoric of Dystopia: Prophecies and Provocations in the Anthropocene by Christopher Carter. Published on 08-12-204.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/rhetoric-of-dystopia-9781666941487/\">https://www.bloomsbury.com/us/rhetoric-of-dystopia-9781666941487/</a></p>",
+    		"url": "https://www.bloomsbury.com/us/rhetoric-of-dystopia-9781666941487/"
+		},
+		{
+    		"id": "https://www.bloomsbury.com/us/rhetoric-intersectionality-and-black-women-in-pittsburgh-9781666961966/",
+			 "content_html": "<h1>New Book Added:</h1><p>Rhetoric, Intersectionality, and Black Women in Pittsburgh: Living Enough for the City by Tahirah J. Walker. Published on 08-07-2025.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/rhetoric-intersectionality-and-black-women-in-pittsburgh-9781666961966/\">https://www.bloomsbury.com/us/rhetoric-intersectionality-and-black-women-in-pittsburgh-9781666961966/</a></p>",
+    		"url": "https://www.bloomsbury.com/us/rhetoric-intersectionality-and-black-women-in-pittsburgh-9781666961966/"
+		},
+		{
+    		"id": "https://www.bloomsbury.com/us/from-surviving-to-metaviving-9781666973105/",
+			 "content_html": "<h1>New Book Added:</h1><p>From Surviving to Metaviving: A New Rhetorical Formation in Metastatic Breast Cancer Patient Discourse by Julie Mengert. Published on 09-04-2025.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/from-surviving-to-metaviving-9781666973105/\">https://www.bloomsbury.com/us/from-surviving-to-metaviving-9781666973105/</a></p>",
+    		"url": "https://www.bloomsbury.com/us/from-surviving-to-metaviving-9781666973105/"
+		},
+		{
+    		"id": "https://www.bloomsbury.com/us/food-justice-rhetorics-and-literacies-9781666974300/",
+			 "content_html": "<h1>New Book Added:</h1><p>Food Justice Rhetorics and Literacies by Eileen E. Schell. Published on 10-30-2025.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/food-justice-rhetorics-and-literacies-9781666974300/\">https://www.bloomsbury.com/us/food-justice-rhetorics-and-literacies-9781666974300/</a></p>",
+    		"url": "https://www.bloomsbury.com/us/food-justice-rhetorics-and-literacies-9781666974300/"
+		},
+		{
+    		"id": "https://www.bloomsbury.com/us/human-bodies-virtual-spaces-9798765158180/",
+			 "content_html": "<h1>New Book Added:</h1><p>Human Bodies, Virtual Spaces: Persuading Presence in Virtual Reality Games by Elizabeth Caravella. Published on 12-11-2025.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/human-bodies-virtual-spaces-9798765158180/\">https://www.bloomsbury.com/us/human-bodies-virtual-spaces-9798765158180/</a></p>",
+    		"url": "https://www.bloomsbury.com/us/human-bodies-virtual-spaces-9798765158180/"
+		},
+		{
+    		"id": "https://www.routledge.com/Teaching-User-Experience-A-Process-Approach/Turner-Rose/p/book/9781032952055",
+			 "content_html": "<h1>New Book Added:</h1><p>Teaching User Experience: A Process Approach by Heather Turner and Emma Rose. Published on 10-26-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Teaching-User-Experience-A-Process-Approach/Turner-Rose/p/book/9781032952055\">https://www.routledge.com/Teaching-User-Experience-A-Process-Approach/Turner-Rose/p/book/9781032952055</a></p>",
+    		"url": "https://www.routledge.com/Teaching-User-Experience-A-Process-Approach/Turner-Rose/p/book/9781032952055"
+		},
+		{
+    		"id": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo252400796.html",
+			 "content_html": "<h1>New Book Added:</h1><p>Listening to Beauty: Rhetorics of Science in Sea and Sound by Megan Poole. Published on 09-12-2025.</p><p>Link to book: <a href=\"https://press.uchicago.edu/ucp/books/book/chicago/L/bo252400796.html\">https://press.uchicago.edu/ucp/books/book/chicago/L/bo252400796.html</a></p>",
+    		"url": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo252400796.html"
+		},
+		{
+    		"id": "https://parlorpress.com/products/city-housekeeping?srsltid=AfmBOor5uAntD0leZaHxlgVht3lvK_5LW25CRw2-tBTRGznqUY25W7_r",
+			 "content_html": "<h1>New Book Added:</h1><p>City Housekeeping: Women's Labor Rhetorics and Spaces for Solidarity, 1886–1911 by Liane Malinowski. Published on 05-31-2025.</p><p>Link to book: <a href=\"https://parlorpress.com/products/city-housekeeping?srsltid=AfmBOor5uAntD0leZaHxlgVht3lvK_5LW25CRw2-tBTRGznqUY25W7_r\">https://parlorpress.com/products/city-housekeeping?srsltid=AfmBOor5uAntD0leZaHxlgVht3lvK_5LW25CRw2-tBTRGznqUY25W7_r</a></p>",
+    		"url": "https://parlorpress.com/products/city-housekeeping?srsltid=AfmBOor5uAntD0leZaHxlgVht3lvK_5LW25CRw2-tBTRGznqUY25W7_r"
+		},
+		{
     		"id": "https://wacclearinghouse.org/books/practice/coi/",
 			 "content_html": "<h1>New Book Added:</h1><p>The Community of Inquiry Framework in Writing Studies: Designing for Learning with Peer Review by Jennifer M. Cunningham, Mary K. Stewart, Natalie Stillman-Webb, and Lyra Hilliard. Published on 11-09-2025.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/coi/\">https://wacclearinghouse.org/books/practice/coi/</a></p>",
     		"url": "https://wacclearinghouse.org/books/practice/coi/"
