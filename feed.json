@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://wacclearinghouse.org/books/international/la/seminal/",
+			 "content_html": "<h1>New Book Added:</h1><p>Writing Studies in Latin America: Seminal Works by  Federico Navarro, Valentina Fahler, and Jonathan Marine. Published on 11-29-2025.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/international/la/seminal/\">https://wacclearinghouse.org/books/international/la/seminal/</a></p>",
+    		"url": "https://wacclearinghouse.org/books/international/la/seminal/"
+		},
+		{
     		"id": "https://upittpress.org/books/9780822967712/",
 			 "content_html": "<h1>New Book Added:</h1><p>Immigrants, Brokers, and Literacy as Affinity by Ligia A. Mihut. Published on 11-01-2025.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822967712/\">https://upittpress.org/books/9780822967712/</a></p>",
     		"url": "https://upittpress.org/books/9780822967712/"
