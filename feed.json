@@ -5,6 +5,11 @@
     "feed_url": "https://rhetorlist.net/feed.json",
     "items": [
 		{
+    		"id": "https://upcolorado.com/utah-state-university-press/coauthoring-with-undergraduates-in-writing-studies",
+			 "content_html": "<h1>New Book Added:</h1><p>Coauthoring with Undergraduates in Writing Studies: Revising Identities and Institutions by Laurie Grobman and Jane Greer. Published on 12-01-2025.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/coauthoring-with-undergraduates-in-writing-studies\">https://upcolorado.com/utah-state-university-press/coauthoring-with-undergraduates-in-writing-studies</a></p>",
+    		"url": "https://upcolorado.com/utah-state-university-press/coauthoring-with-undergraduates-in-writing-studies"
+		},
+		{
     		"id": "https://wacclearinghouse.org/books/international/la/seminal/",
 			 "content_html": "<h1>New Book Added:</h1><p>Writing Studies in Latin America: Seminal Works by  Federico Navarro, Valentina Fahler, and Jonathan Marine. Published on 11-29-2025.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/international/la/seminal/\">https://wacclearinghouse.org/books/international/la/seminal/</a></p>",
     		"url": "https://wacclearinghouse.org/books/international/la/seminal/"
