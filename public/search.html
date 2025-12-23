@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rhetorlist | Search</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
+    <link rel="stylesheet" href="css/style.css?v=0.88">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9134554-3');
+    </script>
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="top-nav-container">
+            <a href="index.html" class="site-name">Rhetorlist</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="submit.html">Submit a book</a></li>
+                <li><a href="search.html" class="current">Search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero hero-with-margin">
+        <div class="hero-content">
+            <h1>Rhetorlist</h1>
+            <h2>Tracking new books in Rhetoric & Writing, Composition Studies, Technical Communication, and related disciplines.</h2>
+        </div>
+    </section>
+
+    <section class="container">
+
+        <section class="search-intro">
+            <p>Enter a search term below, and Rhetorlist will return all matching books (sorted in reverse chronological order).</p>
+        </section>
+
+        <section class="search-field">
+            <input class="search" type="text" id="searchInput" placeholder="Enter search text"
+                onkeypress="handleKeyPress(event)">
+            <button class="search" onclick="searchJson()">Search</button>
+        </section>
+
+        <section class="search-options">
+            <p>Search in:</p>
+            <div>
+                <label>
+                    <input type="checkbox" id="searchTitle" checked>
+                    <span>Title</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="searchAuthor" checked>
+                    <span>Author</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="searchPublisher">
+                    <span>Publisher</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="searchDescription">
+                    <span>Description</span>
+                </label>
+            </div>
+        </section>
+
+        <div id="results"></div>
+
+        <script>
+            var currentGroupedResults = null;
+            var resultsPerPage = 75;
+            var displayedCount = 0;
+
+            // Format date from MM-DD-YYYY to "Month D, YYYY"
+            function formatDate(dateStr) {
+                if (!dateStr) return '';
+                const parts = dateStr.split('-');
+                if (parts.length !== 3) return dateStr;
+
+                const month = parseInt(parts[0], 10);
+                const day = parseInt(parts[1], 10);
+                const year = parts[2];
+
+                const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                    'July', 'August', 'September', 'October', 'November', 'December'];
+
+                return `${monthNames[month - 1]} ${day}, ${year}`;
+            }
+
+            async function searchJson() {
+                var searchText = document.getElementById('searchInput').value.toLowerCase();
+                var searchTerms = searchText.split(" ");
+                var searchResults = [];
+                var fileNames = ['2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+
+                // Get search field preferences
+                var searchInTitle = document.getElementById('searchTitle').checked;
+                var searchInAuthor = document.getElementById('searchAuthor').checked;
+                var searchInPublisher = document.getElementById('searchPublisher').checked;
+                var searchInDescription = document.getElementById('searchDescription').checked;
+
+                // If no fields are selected, default to title and author
+                if (!searchInTitle && !searchInAuthor && !searchInPublisher && !searchInDescription) {
+                    searchInTitle = true;
+                    searchInAuthor = true;
+                }
+
+                for (let file of fileNames) {
+                    try {
+                        let response = await fetch(file);
+                        let data = await response.json();
+                        searchResults = searchResults.concat(data.filter(item => {
+                            // Build searchable text based on selected fields
+                            var searchableText = '';
+
+                            if (searchInTitle && item.title) {
+                                searchableText += ' ' + item.title;
+                            }
+                            if (searchInAuthor && item.author) {
+                                searchableText += ' ' + item.author;
+                            }
+                            if (searchInPublisher && item.publisher) {
+                                searchableText += ' ' + item.publisher;
+                            }
+                            if (searchInDescription && item.description) {
+                                if (Array.isArray(item.description)) {
+                                    searchableText += ' ' + item.description.join(' ');
+                                } else {
+                                    searchableText += ' ' + item.description;
+                                }
+                            }
+
+                            searchableText = searchableText.toLowerCase();
+                            return searchTerms.every(term => searchableText.includes(term));
+                        }));
+                    } catch (error) {
+                        console.error('Error loading file:', file, error);
+                    }
+                }
+                searchResults.sort((a, b) => {
+                    var dateA = parseDate(a.publicationDate);
+                    var dateB = parseDate(b.publicationDate);
+                    return dateB - dateA;
+                });
+
+                currentGroupedResults = groupResultsByYear(searchResults);
+                displayedCount = 0;
+                displayResults();
+            }
+
+            function parseDate(dateStr) {
+                var parts = dateStr.split("-");
+                return new Date(parts[2], parts[0] - 1, parts[1]);
+            }
+
+
+            function groupResultsByYear(results) {
+                var resultsByYear = {};
+                results.forEach(result => {
+                    var year = result.publicationDate.split("-")[2];
+                    if (!resultsByYear[year]) {
+                        resultsByYear[year] = [];
+                    }
+                    resultsByYear[year].push(result);
+                });
+
+                Object.keys(resultsByYear).forEach(year => {
+                    resultsByYear[year].sort((a, b) => {
+                        var dateA = parseDate(a.publicationDate);
+                        var dateB = parseDate(b.publicationDate);
+                        return dateB - dateA;
+                    });
+                });
+
+                return resultsByYear;
+            }
+
+            function displayResults() {
+                var resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+
+                if (!currentGroupedResults) return;
+
+                var totalResults = Object.values(currentGroupedResults).reduce((sum, yearResults) => sum + yearResults.length, 0);
+
+                if (totalResults === 0) {
+                    resultsDiv.innerHTML = '<p class="results-count">No results found.</p>';
+                    return;
+                }
+
+                // Show total results count
+                var resultsCount = document.createElement('p');
+                resultsCount.textContent = `Total results found: ${totalResults}`;
+                resultsCount.classList.add('results-count');
+                resultsDiv.appendChild(resultsCount);
+
+                // Calculate how many to show this time
+                var targetCount = displayedCount + resultsPerPage;
+                var itemsRendered = 0;
+                var currentYear = null;
+
+                // Iterate through years and results
+                var years = Object.keys(currentGroupedResults).sort((a, b) => b - a);
+
+                for (let year of years) {
+                    var yearResults = currentGroupedResults[year];
+                    var yearHeading = null;
+
+                    for (let result of yearResults) {
+                        if (itemsRendered >= targetCount) break;
+
+                        // Add year heading if we're showing items from this year
+                        if (currentYear !== year) {
+                            currentYear = year;
+                            yearHeading = document.createElement('h2');
+                            yearHeading.classList.add('results-year');
+                            yearHeading.textContent = year;
+                            resultsDiv.appendChild(yearHeading);
+                        }
+                        var resultDiv = document.createElement('div');
+                        resultDiv.className = 'result-item';
+
+                        // Create cover container with link
+                        var coverLink = document.createElement('a');
+                        coverLink.href = result.publisherURL;
+                        coverLink.target = "_blank";
+                        coverLink.className = 'result-cover-link';
+                        coverLink.setAttribute('aria-label', `View ${result.title} on publisher website`);
+
+                        var coverContainer = document.createElement('div');
+                        coverContainer.className = 'result-cover';
+
+                        if (result.coverImage && result.coverImage.trim() !== '') {
+                            var img = document.createElement('img');
+                            img.src = result.coverImage;
+                            img.alt = `Cover of ${result.title}`;
+                            img.loading = 'lazy';
+                            coverContainer.appendChild(img);
+                        } else {
+                            // Placeholder if no cover
+                            var placeholder = document.createElement('div');
+                            placeholder.className = 'result-cover-placeholder';
+                            coverContainer.appendChild(placeholder);
+                        }
+
+                        coverLink.appendChild(coverContainer);
+                        resultDiv.appendChild(coverLink);
+
+                        // Create content container
+                        var contentContainer = document.createElement('div');
+                        contentContainer.className = 'result-content';
+
+                        // Title
+                        var title = document.createElement('h3');
+                        var titleLink = document.createElement('a');
+                        titleLink.href = result.publisherURL;
+                        titleLink.textContent = result.title;
+                        titleLink.target = "_blank";
+                        title.appendChild(titleLink);
+                        contentContainer.appendChild(title);
+
+                        // Author
+                        if (result.author) {
+                            var authorPara = document.createElement('p');
+                            authorPara.className = 'result-author';
+                            authorPara.textContent = `by ${result.author}`;
+                            contentContainer.appendChild(authorPara);
+                        }
+
+                        // Publication info
+                        if (result.publisher || result.publicationDate) {
+                            var pubPara = document.createElement('p');
+                            pubPara.className = 'result-publication';
+
+                            var pubText = 'Published';
+                            if (result.publisher) {
+                                pubText += ` by ${result.publisher}`;
+                            }
+                            if (result.publicationDate) {
+                                pubText += ` on ${formatDate(result.publicationDate)}`;
+                            }
+                            pubText += '.';
+
+                            pubPara.textContent = pubText;
+                            contentContainer.appendChild(pubPara);
+                        }
+
+                        // Description paragraphs
+                        if (result.description && Array.isArray(result.description) && result.description.length > 0) {
+                            var descContainer = document.createElement('div');
+                            descContainer.className = 'result-description';
+
+                            result.description.forEach(function(paragraph) {
+                                if (paragraph && paragraph.trim()) {
+                                    var para = document.createElement('p');
+                                    para.className = 'result-description-paragraph';
+                                    para.textContent = paragraph;
+                                    descContainer.appendChild(para);
+                                }
+                            });
+
+                            contentContainer.appendChild(descContainer);
+                        }
+
+                        // Open Access (only show if yes)
+                        if (result.openAccess && result.openAccess.toLowerCase() === 'yes') {
+                            var oaPara = document.createElement('p');
+                            oaPara.className = 'result-open-access';
+                            oaPara.textContent = 'This is an open access book.';
+                            contentContainer.appendChild(oaPara);
+                        }
+
+                        resultDiv.appendChild(contentContainer);
+                        resultsDiv.appendChild(resultDiv);
+
+                        itemsRendered++;
+                    }
+
+                    if (itemsRendered >= targetCount) break;
+                }
+
+                // Update displayed count
+                displayedCount = itemsRendered;
+
+                // Add Load More button if there are more results
+                if (displayedCount < totalResults) {
+                    var loadMoreContainer = document.createElement('div');
+                    loadMoreContainer.style.textAlign = 'center';
+                    loadMoreContainer.style.margin = '2rem 0';
+
+                    var loadMoreBtn = document.createElement('button');
+                    loadMoreBtn.textContent = `Load More (${displayedCount} of ${totalResults} shown)`;
+                    loadMoreBtn.className = 'search';
+                    loadMoreBtn.onclick = function() {
+                        displayResults();
+                    };
+
+                    loadMoreContainer.appendChild(loadMoreBtn);
+                    resultsDiv.appendChild(loadMoreContainer);
+                }
+            }
+
+            function handleKeyPress(event) {
+                if (event.keyCode === 13) {
+                    searchJson();
+                }
+            }
+        </script>
+    </section>
+
+    <footer>
+        <p>Email timlockridge@miamioh.edu with questions or comments about Rhetorlist. Use Rhetorlist's <a href="https://rhetorlist.net/feed.json">JSON Feed URL</a> to receive updates in your RSS reader of choice. (Need one? I recommend <a href="https://feedbin.com/">Feedbin</a>.) Want to make your own variation of Rhetorlist? The project source code is <a href="https://github.com/timlockridge/rhetorlist">available at Github.</a></p>
+    </footer>
+</body>
+
+</html>

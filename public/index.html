@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rhetorlist</title>
+<meta name="viewport" content="initial-scale=1.0" />
+<link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
+<link rel="stylesheet" href="css/style.css?v=0.88">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9134554-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-9134554-3');
+</script>
+<!-- open graph metadata-->
+<meta property="og:title" content="Rhetorlist" />
+<meta property="og:description" content="Tracking new books in Rhetoric and Writing, Composition Studies, Technical Communication, and related disciplines." />
+<meta property="og:url" content="https://www.rhetorlist.net" />
+<meta property="og:image" content="https://www.rhetorlist.net/rhetorlist-og.png" />
+</head>
+<body id="top">
+    <nav class="top-nav">
+        <div class="top-nav-container">
+            <a href="index.html" class="site-name">Rhetorlist</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="submit.html">Submit a book</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Rhetorlist</h1>
+            <h2>Tracking new books in Rhetoric & Writing, Composition Studies, Technical Communication, and related disciplines.</h2>
+        </div>
+    </section>
+
+    <section class="container">
+        <section class="covers-container">
+            <div class="filter-section">
+                <div class="filter-header-bar">
+                    <svg class="filter-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+                    </svg>
+                    <span class="filter-label">Filters</span>
+                </div>
+                <div class="filter-content">
+                    <div class="filter-controls">
+                        <div class="filter-item">
+                        <label for="yearSelector">Year:</label>
+                        <select id="yearSelector">
+                            <option value="2025.json">2025</option>
+                            <option value="2024.json">2024</option>
+                            <option value="2023.json">2023</option>
+                            <option value="2022.json">2022</option>
+                            <option value="2021.json">2021</option>
+                            <option value="2020.json">2020</option>
+                            <option value="2019.json">2019</option>
+                            <option value="2018.json">2018</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="publisherFilter">Publisher:</label>
+                        <select id="publisherFilter">
+                            <option value="">All Publishers</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="oaFilter">Availability:</label>
+                        <select id="oaFilter">
+                            <option value="">Show All Books</option>
+                            <option value="yes">Show OA Only</option>
+                        </select>
+                    </div>
+                    <div class="filter-item search-item">
+                        <label for="searchInput">Title or Author:</label>
+                        <input type="text" id="searchInput" placeholder="Filter by title or author">
+                    </div>
+                    <div class="filter-item">
+                        <button id="clearFilters">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                            </svg>
+                            Clear Filters
+                        </button>
+                    </div>
+                </div>
+                <div class="filter-results">
+                    <p id="resultsCount"></p>
+                </div>
+                </div>
+            </div>
+
+            <div class="sort-control">
+                <button id="sortToggle" class="sort-toggle" data-direction="desc" aria-label="Toggle sort order">
+                    <span class="sort-icon">
+                        <span class="sort-arrow up"></span>
+                        <span class="sort-arrow down"></span>
+                    </span>
+                    <span id="sortLabel">Sorting by publication date (newest to oldest)</span>
+                </button>
+            </div>
+
+            <div id="book-grid" class="book-grid"></div>
+        </section>
+    </section>
+
+    <footer>
+        <p>Email timlockridge@miamioh.edu with questions or comments about Rhetorlist. Use Rhetorlist's <a href="https://rhetorlist.net/feed.json">JSON Feed URL</a> to receive updates in your RSS reader of choice. (Need one? I recommend <a href="https://feedbin.com/">Feedbin</a>.) Want to make your own variation of Rhetorlist? The project source code is <a href="https://github.com/timlockridge/rhetorlist">available at Github.</a></p>
+    </footer>
+
+    <script>
+        let currentBooks = [];
+        let filteredBooks = [];
+        let currentDetailPanel = null;
+
+        // Filter state
+        let filters = {
+            search: '',
+            publisher: '',
+            openAccess: ''
+        };
+
+        // Sort state (desc = newest to oldest, asc = oldest to newest)
+        let sortDirection = 'desc';
+
+        // Format date from MM-DD-YYYY to "Month D, YYYY"
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            const parts = dateStr.split('-');
+            if (parts.length !== 3) return dateStr;
+
+            const month = parseInt(parts[0], 10);
+            const day = parseInt(parts[1], 10);
+            const year = parts[2];
+
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                'July', 'August', 'September', 'October', 'November', 'December'];
+
+            return `${monthNames[month - 1]} ${day}, ${year}`;
+        }
+
+        // Load initial data
+        document.addEventListener('DOMContentLoaded', function() {
+            loadBooks('2025.json');
+            setupFilterListeners();
+            setupSortListener();
+            updateClearButtonState();
+        });
+
+        // Year selector change handler
+        document.getElementById('yearSelector').addEventListener('change', function(e) {
+            loadBooks(e.target.value);
+        });
+
+        // Setup filter event listeners
+        function setupFilterListeners() {
+            document.getElementById('searchInput').addEventListener('input', function(e) {
+                filters.search = e.target.value.toLowerCase();
+                applyFilters();
+            });
+
+            document.getElementById('publisherFilter').addEventListener('change', function(e) {
+                filters.publisher = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('oaFilter').addEventListener('change', function(e) {
+                filters.openAccess = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('clearFilters').addEventListener('click', function() {
+                clearAllFilters();
+            });
+        }
+
+        // Setup sort toggle listener
+        function setupSortListener() {
+            document.getElementById('sortToggle').addEventListener('click', function() {
+                toggleSortDirection();
+            });
+        }
+
+        // Toggle sort direction
+        function toggleSortDirection() {
+            sortDirection = sortDirection === 'desc' ? 'asc' : 'desc';
+            updateSortButton();
+            sortBooks();
+            renderBookGrid(filteredBooks);
+        }
+
+        // Update sort button appearance and label
+        function updateSortButton() {
+            const button = document.getElementById('sortToggle');
+            const label = document.getElementById('sortLabel');
+
+            button.setAttribute('data-direction', sortDirection);
+
+            if (sortDirection === 'desc') {
+                label.textContent = 'Sorting by publication date (newest to oldest)';
+            } else {
+                label.textContent = 'Sorting by publication date (oldest to newest)';
+            }
+        }
+
+        // Sort books by publication date
+        function sortBooks() {
+            filteredBooks.sort((a, b) => {
+                const dateA = parseDate(a.publicationDate);
+                const dateB = parseDate(b.publicationDate);
+
+                if (sortDirection === 'desc') {
+                    return dateB - dateA; // Newest first
+                } else {
+                    return dateA - dateB; // Oldest first
+                }
+            });
+        }
+
+        // Parse date from MM-DD-YYYY format
+        function parseDate(dateStr) {
+            if (!dateStr) return new Date(0); // Default to epoch if no date
+            const parts = dateStr.split('-');
+            if (parts.length !== 3) return new Date(0);
+
+            const month = parseInt(parts[0], 10) - 1; // JS months are 0-indexed
+            const day = parseInt(parts[1], 10);
+            const year = parseInt(parts[2], 10);
+
+            return new Date(year, month, day);
+        }
+
+        // Clear all filters
+        function clearAllFilters() {
+            filters.search = '';
+            filters.publisher = '';
+            filters.openAccess = '';
+            document.getElementById('searchInput').value = '';
+            document.getElementById('publisherFilter').value = '';
+            document.getElementById('oaFilter').value = '';
+            applyFilters();
+        }
+
+        // Apply all filters
+        function applyFilters() {
+            filteredBooks = currentBooks.filter(book => {
+                // Search filter (title or author)
+                if (filters.search) {
+                    const searchLower = filters.search;
+                    const titleMatch = book.title.toLowerCase().includes(searchLower);
+                    const authorMatch = book.author.toLowerCase().includes(searchLower);
+                    if (!titleMatch && !authorMatch) return false;
+                }
+
+                // Publisher filter
+                if (filters.publisher && book.publisher !== filters.publisher) {
+                    return false;
+                }
+
+                // Open Access filter
+                if (filters.openAccess && book.openAccess !== filters.openAccess) {
+                    return false;
+                }
+
+                return true;
+            });
+
+            sortBooks();
+            renderBookGrid(filteredBooks);
+            updateResultsCount();
+            updateClearButtonState();
+        }
+
+        // Update clear button state based on active filters
+        function updateClearButtonState() {
+            const clearButton = document.getElementById('clearFilters');
+            const hasActiveFilters = filters.search || filters.publisher || filters.openAccess;
+            clearButton.disabled = !hasActiveFilters;
+        }
+
+        // Update results count
+        function updateResultsCount() {
+            const count = filteredBooks.length;
+            const total = currentBooks.length;
+            const resultsEl = document.getElementById('resultsCount');
+
+            // Get the year from the selected file
+            const selectedFile = document.getElementById('yearSelector').value;
+            const year = selectedFile.replace('.json', '');
+
+            if (count === total) {
+                resultsEl.textContent = `Showing ${total} books published in ${year}`;
+            } else {
+                resultsEl.textContent = `Showing ${count} of ${total} books published in ${year}`;
+            }
+        }
+
+        // Populate publisher dropdown
+        function populatePublisherFilter() {
+            const publishers = [...new Set(currentBooks.map(book => book.publisher))].sort();
+            const select = document.getElementById('publisherFilter');
+
+            // Clear existing options except "All Publishers"
+            select.innerHTML = '<option value="">All Publishers</option>';
+
+            publishers.forEach(publisher => {
+                const option = document.createElement('option');
+                option.value = publisher;
+                option.textContent = publisher;
+                select.appendChild(option);
+            });
+        }
+
+        // Load books from JSON file
+        async function loadBooks(fileName) {
+            try {
+                const response = await fetch(fileName);
+                const data = await response.json();
+                currentBooks = data;
+                filteredBooks = data;
+                populatePublisherFilter();
+                clearAllFilters();
+                renderBookGrid(filteredBooks);
+                updateResultsCount();
+            } catch (error) {
+                console.error('Error loading books:', error);
+            }
+        }
+
+        // Render the book grid
+        function renderBookGrid(books) {
+            const grid = document.getElementById('book-grid');
+            grid.innerHTML = '';
+            currentDetailPanel = null;
+
+            books.forEach((book, index) => {
+                const bookItem = createBookCoverElement(book, index);
+                grid.appendChild(bookItem);
+            });
+        }
+
+        // Create a book cover element
+        function createBookCoverElement(book, index) {
+            // Use a button for semantic HTML and keyboard accessibility
+            const item = document.createElement('button');
+            item.className = 'book-cover-item';
+            item.dataset.index = index;
+            item.type = 'button';
+
+            // Add accessible label
+            const ariaLabel = `${book.title} by ${book.author}. Click for details.`;
+            item.setAttribute('aria-label', ariaLabel);
+
+            const cover = document.createElement('div');
+            cover.className = 'book-cover';
+            cover.setAttribute('aria-hidden', 'true'); // Hide decorative visual from screen readers
+
+            // Check if book has a cover image
+            if (book.coverImage && book.coverImage.trim() !== '') {
+                // Use actual img element with alt text instead of background image
+                const img = document.createElement('img');
+                img.src = book.coverImage;
+                img.alt = `Cover of ${book.title}`;
+                img.className = 'book-cover-image';
+                img.loading = 'lazy';
+                cover.appendChild(img);
+                cover.classList.add('has-image');
+            } else {
+                // Vary the gradient colors slightly for visual interest
+                const colors = [
+                    'linear-gradient(135deg, #068587 0%, #2E80BF 100%)',
+                    'linear-gradient(135deg, #2E80BF 0%, #068587 100%)',
+                    'linear-gradient(135deg, #068587 0%, #3E4E59 100%)',
+                    'linear-gradient(135deg, #1B64BA 0%, #068587 100%)'
+                ];
+                cover.style.background = colors[index % colors.length];
+
+                const title = document.createElement('div');
+                title.className = 'book-cover-title';
+                title.textContent = book.title;
+
+                const author = document.createElement('div');
+                author.className = 'book-cover-author';
+                author.textContent = book.author;
+
+                cover.appendChild(title);
+                cover.appendChild(author);
+            }
+
+            item.appendChild(cover);
+
+            // Click handler (also works for Enter/Space with button element)
+            item.addEventListener('click', function() {
+                handleBookClick(book, index, this);
+            });
+
+            return item;
+        }
+
+        // Handle book click
+        function handleBookClick(book, index, clickedElement) {
+            const grid = document.getElementById('book-grid');
+            const bookItems = grid.querySelectorAll('.book-cover-item');
+
+            // If clicking the same book, close the panel
+            if (currentDetailPanel && currentDetailPanel.dataset.bookIndex == index) {
+                closeDetailPanel();
+                return;
+            }
+
+            // Calculate which row this book is in
+            const gridComputedStyle = window.getComputedStyle(grid);
+            const gridColumnCount = gridComputedStyle.getPropertyValue('grid-template-columns').split(' ').length;
+            const rowIndex = Math.floor(index / gridColumnCount);
+            const lastItemInRow = Math.min((rowIndex + 1) * gridColumnCount - 1, bookItems.length - 1);
+
+            // Check if we have an existing panel and if it's in the same row
+            let sameRow = false;
+            if (currentDetailPanel) {
+                const currentBookIndex = parseInt(currentDetailPanel.dataset.bookIndex);
+                const currentRowIndex = Math.floor(currentBookIndex / gridColumnCount);
+                sameRow = (currentRowIndex === rowIndex);
+            }
+
+            if (currentDetailPanel && sameRow) {
+                // Update existing panel content in place
+                const newContent = createDetailPanel(book, index);
+                currentDetailPanel.innerHTML = newContent.innerHTML;
+                currentDetailPanel.dataset.bookIndex = index;
+
+                // Update active states
+                document.querySelectorAll('.book-cover-item.active').forEach(item => {
+                    item.classList.remove('active');
+                });
+                clickedElement.classList.add('active');
+            } else {
+                // Store scroll position and clicked element position
+                const scrollY = window.pageYOffset;
+                const clickedRect = clickedElement.getBoundingClientRect();
+                const clickedOffsetFromTop = clickedRect.top;
+
+                // Remove existing panel if in different row
+                if (currentDetailPanel) {
+                    closeDetailPanel();
+                }
+
+                // Create and insert detail panel
+                const detailPanel = createDetailPanel(book, index);
+
+                // Insert after the last item in the row
+                const insertAfter = bookItems[lastItemInRow];
+                insertAfter.insertAdjacentElement('afterend', detailPanel);
+
+                currentDetailPanel = detailPanel;
+
+                // Add active class to clicked item
+                clickedElement.classList.add('active');
+
+                // Immediately restore scroll position to prevent flicker
+                const newClickedRect = clickedElement.getBoundingClientRect();
+                const newOffsetFromTop = newClickedRect.top;
+                const scrollAdjustment = newOffsetFromTop - clickedOffsetFromTop;
+
+                if (Math.abs(scrollAdjustment) > 1) {
+                    window.scrollTo(0, scrollY + scrollAdjustment);
+                }
+            }
+        }
+
+        // Create detail panel
+        function createDetailPanel(book, bookIndex) {
+            const panel = document.createElement('div');
+            panel.className = 'detail-panel';
+            panel.dataset.bookIndex = bookIndex;
+
+            const content = document.createElement('div');
+            content.className = 'detail-panel-content';
+            content.style.position = 'relative';
+
+            // Close button
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'close-button';
+            closeBtn.innerHTML = '&times;';
+            closeBtn.setAttribute('aria-label', 'Close book details');
+            closeBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                closeDetailPanel();
+            });
+            content.appendChild(closeBtn);
+
+            // Cover (same as grid)
+            const coverContainer = document.createElement('div');
+            coverContainer.className = 'detail-panel-cover';
+            const cover = document.createElement('div');
+            cover.className = 'book-cover';
+            cover.setAttribute('aria-hidden', 'true'); // Decorative, info is in text
+
+            // Check if book has a cover image
+            if (book.coverImage && book.coverImage.trim() !== '') {
+                // Use actual img element with alt text
+                const img = document.createElement('img');
+                img.src = book.coverImage;
+                img.alt = `Cover of ${book.title}`;
+                img.className = 'book-cover-image';
+                img.loading = 'lazy';
+                cover.appendChild(img);
+                cover.classList.add('has-image');
+            } else {
+                // Use same color logic
+                const colors = [
+                    'linear-gradient(135deg, #068587 0%, #2E80BF 100%)',
+                    'linear-gradient(135deg, #2E80BF 0%, #068587 100%)',
+                    'linear-gradient(135deg, #068587 0%, #3E4E59 100%)',
+                    'linear-gradient(135deg, #1B64BA 0%, #068587 100%)'
+                ];
+                cover.style.background = colors[bookIndex % colors.length];
+
+                const title = document.createElement('div');
+                title.className = 'book-cover-title';
+                title.textContent = book.title;
+
+                const author = document.createElement('div');
+                author.className = 'book-cover-author';
+                author.textContent = book.author;
+
+                cover.appendChild(title);
+                cover.appendChild(author);
+            }
+
+            coverContainer.appendChild(cover);
+            content.appendChild(coverContainer);
+
+            // Info section
+            const info = document.createElement('div');
+            info.className = 'detail-panel-info';
+
+            // Title
+            const bookTitle = document.createElement('h3');
+            const titleLink = document.createElement('a');
+            titleLink.href = book.publisherURL;
+            titleLink.target = '_blank';
+            titleLink.textContent = book.title;
+            bookTitle.appendChild(titleLink);
+            info.appendChild(bookTitle);
+
+            // Author
+            if (book.author) {
+                const authorPara = document.createElement('p');
+                authorPara.className = 'book-author';
+                authorPara.textContent = `by ${book.author}`;
+                info.appendChild(authorPara);
+            }
+
+            // Publication info
+            if (book.publisher || book.publicationDate) {
+                const pubPara = document.createElement('p');
+                pubPara.className = 'book-publication';
+
+                let pubText = 'Published';
+                if (book.publisher) {
+                    pubText += ` by ${book.publisher}`;
+                }
+                if (book.publicationDate) {
+                    pubText += ` on ${formatDate(book.publicationDate)}`;
+                }
+                pubText += '.';
+
+                pubPara.textContent = pubText;
+                info.appendChild(pubPara);
+            }
+
+            // Description paragraphs
+            if (book.description && Array.isArray(book.description) && book.description.length > 0) {
+                const descriptionContainer = document.createElement('div');
+                descriptionContainer.className = 'book-description';
+
+                book.description.forEach(paragraph => {
+                    if (paragraph && paragraph.trim()) {
+                        const para = document.createElement('p');
+                        para.className = 'book-description-paragraph';
+                        para.textContent = paragraph;
+                        descriptionContainer.appendChild(para);
+                    }
+                });
+
+                info.appendChild(descriptionContainer);
+            }
+
+            // Open Access (only show if yes)
+            if (book.openAccess && book.openAccess.toLowerCase() === 'yes') {
+                const oaPara = document.createElement('p');
+                oaPara.className = 'book-open-access';
+                oaPara.textContent = 'This is an open access book.';
+                info.appendChild(oaPara);
+            }
+
+            // Publisher website link
+            if (book.publisherURL) {
+                const linkPara = document.createElement('p');
+                const link = document.createElement('a');
+                link.href = book.publisherURL;
+                link.target = '_blank';
+
+                if (book.publisherURL.includes('bookshop.org')) {
+                    link.textContent = 'bookshop.org';
+                    linkPara.appendChild(document.createTextNode('View this book on '));
+                    linkPara.appendChild(link);
+                    linkPara.appendChild(document.createTextNode('.'));
+                } else if (book.publisherURL.includes('amazon.com')) {
+                    link.textContent = 'Amazon';
+                    linkPara.appendChild(document.createTextNode('View this book on '));
+                    linkPara.appendChild(link);
+                    linkPara.appendChild(document.createTextNode('.'));
+                } else {
+                    link.textContent = book.publisher + ' website';
+                    linkPara.appendChild(document.createTextNode('View this book on the '));
+                    linkPara.appendChild(link);
+                    linkPara.appendChild(document.createTextNode('.'));
+                }
+
+                info.appendChild(linkPara);
+            }
+
+            content.appendChild(info);
+            panel.appendChild(content);
+
+            return panel;
+        }
+
+        // Close detail panel
+        function closeDetailPanel() {
+            if (currentDetailPanel) {
+                currentDetailPanel.remove();
+                currentDetailPanel = null;
+            }
+
+            // Remove active class from all items
+            document.querySelectorAll('.book-cover-item.active').forEach(item => {
+                item.classList.remove('active');
+            });
+        }
+
+        // Close panel when window is resized (to handle grid reflow)
+        // Track initial window dimensions to avoid false positives from mobile browser chrome
+        let resizeTimeout;
+        let lastWidth = window.innerWidth;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(function() {
+                // Only close if width actually changed (not just mobile browser chrome showing/hiding)
+                if (currentDetailPanel && window.innerWidth !== lastWidth) {
+                    closeDetailPanel();
+                    lastWidth = window.innerWidth;
+                }
+            }, 250);
+        });
+    </script>
+</body>
+</html>

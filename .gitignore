@@ -1,7 +1,8 @@
+# Node modules
+node_modules/
+
+# Development files
+to-process/
+
+# OS files
 .DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini

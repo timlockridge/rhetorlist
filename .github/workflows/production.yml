@@ -1,0 +1,28 @@
+name: Deploy public folder to production branch
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-to-production-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Fetch all history for all branches
+
+    - name: Configure git
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+
+    - name: Deploy using git subtree
+      run: |
+        # Push the public folder to production branch using subtree
+        git subtree push --prefix public origin production

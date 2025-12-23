@@ -1,0 +1,1810 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rhetorlist | Book Manager</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/ubq1yoi.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Navigation styling */
+        .top-nav {
+            background-color: #068587;
+            padding: 0;
+            margin: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .top-nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .top-nav .site-name {
+            font-family: proxima-nova, sans-serif;
+            font-weight: 700;
+            color: white;
+            font-size: 16px;
+            padding: 12px 0;
+            text-decoration: none;
+        }
+
+        /* Mode switcher */
+        .mode-switcher {
+            display: flex;
+            gap: 0;
+            background-color: rgba(143,197,183,.2);
+            border-radius: 8px;
+            padding: 4px;
+            margin-bottom: 30px;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 12px 24px;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: transparent;
+            color: #3E4E59;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .mode-btn.active {
+            background-color: #068587;
+            color: white;
+        }
+
+        .mode-btn:not(.active):hover {
+            background-color: rgba(143,197,183,.4);
+        }
+
+        /* Editor container */
+        .editor-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .editor-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .editor-panel, .preview-panel {
+            background-color: rgba(143,197,183,.2);
+            border-radius: 8px;
+            padding: 25px;
+        }
+
+        .section-title {
+            font-family: proxima-nova, sans-serif;
+            font-weight: 700;
+            color: #068587;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        /* Form fields */
+        .form-section {
+            margin-bottom: 25px;
+        }
+
+        .form-section h3 {
+            font-family: proxima-nova, sans-serif;
+            font-weight: 700;
+            color: #068587;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .form-field {
+            margin-bottom: 20px;
+        }
+
+        .form-field label {
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            color: #3E4E59;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-field label .required {
+            color: #ED553B;
+        }
+
+        .form-field input[type="text"],
+        .form-field input[type="url"],
+        .form-field select,
+        .form-field textarea {
+            width: 100%;
+            padding: 10px;
+            font-family: proxima-nova, sans-serif;
+            font-size: 16px;
+            border: 2px solid #068587;
+            border-radius: 4px;
+            background-color: white;
+            box-sizing: border-box;
+        }
+
+        .form-field input:focus,
+        .form-field select:focus,
+        .form-field textarea:focus {
+            outline: none;
+            border-color: #2E80BF;
+        }
+
+        .form-field input.error,
+        .form-field select.error,
+        .form-field textarea.error {
+            border-color: #ED553B;
+        }
+
+        .form-field .help-text, .help-text {
+            font-size: 13px;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .form-field .error-message {
+            font-size: 13px;
+            color: #ED553B;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+
+        .field-action {
+            font-family: proxima-nova, sans-serif;
+            font-size: 14px;
+            color: #068587;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .field-action:hover {
+            color: #2E80BF;
+        }
+
+        .description-textarea {
+            min-width: 100%;
+            min-height: 200px;
+            resize: vertical;
+            line-height: 1.6;
+        }
+
+        .paragraph-count {
+            font-size: 14px;
+            color: #068587;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .help-text {
+            font-family: proxima-nova, sans-serif;
+        }
+
+        /* Book selector */
+        .book-selector {
+            margin-bottom: 25px;
+        }
+
+        .book-selector-with-nav {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+        }
+
+        .book-selector-with-nav .book-selector {
+            flex: 1;
+            margin-bottom: 0;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 5px;
+        }
+
+        .btn-nav {
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            font-size: 18px;
+            background-color: #068587;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-nav:hover:not(:disabled) {
+            background-color: #2E80BF;
+        }
+
+        .btn-nav:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        /* Cover upload section */
+        .cover-section {
+            margin-top: 20px;
+        }
+
+        .cover-upload-empty,
+        .cover-matching,
+        .cover-matches,
+        .cover-processing,
+        .cover-set {
+            display: none;
+        }
+
+        .cover-upload-empty.active,
+        .cover-matching.active,
+        .cover-matches.active,
+        .cover-processing.active,
+        .cover-set.active {
+            display: block;
+        }
+
+        .upload-dropzone {
+            border: 2px dashed #068587;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            background-color: white;
+            transition: all 0.2s;
+        }
+
+        .upload-dropzone:hover {
+            border-color: #2E80BF;
+            background-color: rgba(143,197,183,.1);
+        }
+
+        .upload-dropzone button {
+            padding: 12px 24px;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: #068587;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .upload-dropzone button:hover {
+            background-color: #2E80BF;
+        }
+
+        .upload-dropzone p {
+            margin: 10px 0 5px;
+            color: #666;
+        }
+
+        .uploaded-preview {
+            position: relative;
+            max-width: 200px;
+            margin: 0 auto 20px;
+        }
+
+        .uploaded-preview img {
+            width: 100%;
+            border-radius: 4px;
+            border: 2px solid #068587;
+        }
+
+        .uploaded-preview .remove-btn {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 30px;
+            height: 30px;
+            background-color: #ED553B;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        .uploaded-preview .remove-btn:hover {
+            background-color: #c44133;
+        }
+
+        .matching-status,
+        .processing-status {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 3px solid rgba(6,133,135,.2);
+            border-top: 3px solid #068587;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .match-list {
+            margin: 15px 0;
+        }
+
+        .match-item {
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .match-item:hover {
+            border-color: #068587;
+            background-color: rgba(143,197,183,.1);
+        }
+
+        .match-item input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .match-item label {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .match-item .match-meta {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .match-item .match-score {
+            font-size: 12px;
+            color: #068587;
+            font-weight: 600;
+        }
+
+        .match-item.manual-entry {
+            background-color: rgba(237,85,59,.1);
+            border-color: #ED553B;
+        }
+
+        .match-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .cover-preview {
+            max-width: 200px;
+            margin: 0 auto 15px;
+        }
+
+        .cover-preview img {
+            width: 100%;
+            border-radius: 4px;
+            border: 2px solid #068587;
+        }
+
+        .cover-info {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .cover-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            flex: 1;
+            padding: 12px 24px;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: #068587;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary:hover {
+            background-color: #2E80BF;
+        }
+
+        .btn-primary:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            flex: 1;
+            padding: 12px 24px;
+            font-family: proxima-nova, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: white;
+            color: #3E4E59;
+            border: 2px solid #3E4E59;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-secondary:hover {
+            background-color: #3E4E59;
+            color: white;
+        }
+
+        /* Preview panel */
+        .preview-code {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .action-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-buttons .btn-primary:first-child {
+            grid-column: 1 / -1;
+        }
+
+        .success-message {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 15px;
+            text-align: center;
+            display: none;
+        }
+
+        .error-message-box {
+            background-color: #ED553B;
+            color: white;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 15px;
+            text-align: center;
+            display: none;
+        }
+
+        @media screen and (max-width: 968px) {
+            .editor-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .mode-switcher {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="top-nav-container">
+            <a href="index.html" class="site-name">Rhetorlist</a>
+        </div>
+    </nav>
+
+    <div class="editor-container">
+        <!-- Mode Switcher -->
+        <div class="mode-switcher">
+            <button class="mode-btn" data-mode="edit" onclick="BookManager.switchMode('edit')">
+                Edit Existing Book
+            </button>
+            <button class="mode-btn active" data-mode="add" onclick="BookManager.switchMode('add')">
+                Add New Book
+            </button>
+        </div>
+
+        <!-- Year Selector (Edit Mode Only) -->
+        <div id="yearSelectorContainer" class="book-selector" style="display: none;">
+            <label for="yearSelect">Select Year:</label>
+            <select id="yearSelect">
+                <option value="">-- Choose Year --</option>
+                <option value="2025.json" selected>2025</option>
+                <option value="2024.json">2024</option>
+                <option value="2023.json">2023</option>
+                <option value="2022.json">2022</option>
+                <option value="2021.json">2021</option>
+                <option value="2020.json">2020</option>
+                <option value="2019.json">2019</option>
+                <option value="2018.json">2018</option>
+            </select>
+        </div>
+
+        <!-- Book Selector (Edit Mode Only) -->
+        <div id="bookSelectorContainer" class="book-selector-with-nav" style="display: none;">
+            <div class="book-selector">
+                <label for="bookSelect">Select Book:</label>
+                <select id="bookSelect" disabled>
+                    <option value="">-- First select a year --</option>
+                </select>
+            </div>
+            <div class="nav-buttons">
+                <button id="prevBookBtn" class="btn-nav" onclick="BookManager.navigateBook(-1)" disabled title="Previous book">←</button>
+                <button id="nextBookBtn" class="btn-nav" onclick="BookManager.navigateBook(1)" disabled title="Next book">→</button>
+            </div>
+        </div>
+
+        <div class="editor-layout">
+            <!-- Left Panel: Form Editor -->
+            <div class="editor-panel">
+                <h2 class="section-title">Book Information</h2>
+
+                <!-- Book Information Fields -->
+                <div class="form-section">
+                    <div class="form-field">
+                        <label for="bookTitle">Title <span class="required">*</span></label>
+                        <input type="text" id="bookTitle" maxlength="500">
+                        <span class="help-text" id="titleHint" style="display:none; color:#ED553B; font-style:normal;">⚠️ A book with this title already exists - will be confirmed before saving</span>
+                        <span class="error-message" id="titleError"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="bookAuthor">Author <span class="required">*</span></label>
+                        <input type="text" id="bookAuthor" maxlength="300">
+                        <span class="help-text">Format: First Last (use "and" for multiple authors)</span>
+                        <span class="error-message" id="authorError"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="bookPubDate">Publication Date <span class="required">*</span></label>
+                        <input type="text" id="bookPubDate" placeholder="MM-DD-YYYY">
+                        <span class="help-text">Format: MM-DD-YYYY</span>
+                        <span class="error-message" id="pubDateError"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="bookPublisher">Publisher <span class="required">*</span></label>
+                        <input type="text" id="bookPublisher" maxlength="200" list="publisherList" autocomplete="off">
+                        <datalist id="publisherList">
+                            <!-- Publishers will be populated here -->
+                        </datalist>
+                        <span class="help-text" id="publisherHint" style="display:none; color:#ED553B; font-style:normal;">⚠️ New publisher - will be confirmed before saving</span>
+                        <span class="error-message" id="publisherError"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="bookPublisherURL">
+                            Publisher URL <span class="required">*</span>
+                            <a id="visitPublisherURL" href="" target="_blank" class="field-action" style="display:none;">Visit →</a>
+                        </label>
+                        <input type="url" id="bookPublisherURL">
+                        <span class="error-message" id="publisherURLError"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="bookOpenAccess">Open Access <span class="required">*</span></label>
+                        <select id="bookOpenAccess">
+                            <option value="">-- Select --</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                        <span class="error-message" id="openAccessError"></span>
+                    </div>
+                </div>
+
+                <!-- Cover Image Section -->
+                <div class="form-section cover-section">
+                    <h3>Cover Image (Optional)</h3>
+                    <div id="coverSection">
+                        <!-- State 1: Empty -->
+                        <div class="cover-upload-empty active">
+                            <div class="upload-dropzone">
+                                <input type="file" id="coverUpload" accept="image/*" hidden>
+                                <button onclick="document.getElementById('coverUpload').click()">
+                                    Choose Cover Image
+                                </button>
+                                <p>or drag and drop</p>
+                                <p class="help-text">JPG, PNG, WebP, or AVIF</p>
+                            </div>
+                        </div>
+
+                        <!-- State 2: Matching -->
+                        <div class="cover-matching">
+                            <div class="uploaded-preview">
+                                <img id="matchingPreview" src="" alt="Preview">
+                                <button class="remove-btn" onclick="CoverUploader.cancelUpload()">×</button>
+                            </div>
+                            <div class="matching-status">
+                                <div class="spinner"></div>
+                                <p>Finding matches...</p>
+                            </div>
+                        </div>
+
+                        <!-- State 3: Matches Found -->
+                        <div class="cover-matches">
+                            <div class="uploaded-preview">
+                                <img id="matchesPreview" src="" alt="Preview">
+                            </div>
+                            <div class="match-suggestions">
+                                <h4 style="margin-bottom: 10px;">Suggested Matches:</h4>
+                                <div class="match-list" id="matchList">
+                                    <!-- Matches will be inserted here -->
+                                </div>
+                                <div class="match-actions">
+                                    <button class="btn-primary" onclick="CoverUploader.confirmMatch()">Use This Match</button>
+                                    <button class="btn-secondary" onclick="CoverUploader.cancelUpload()">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- State 4: Processing -->
+                        <div class="cover-processing">
+                            <div class="uploaded-preview">
+                                <img id="processingPreview" src="" alt="Preview">
+                            </div>
+                            <div class="processing-status">
+                                <div class="spinner"></div>
+                                <p>Processing image...</p>
+                                <p class="help-text">Resizing, optimizing, and saving</p>
+                            </div>
+                        </div>
+
+                        <!-- State 5: Cover Set -->
+                        <div class="cover-set">
+                            <div class="cover-preview">
+                                <img id="coverPreview" src="" alt="Book cover">
+                            </div>
+                            <div class="cover-info">
+                                <p><strong id="coverFilename"></strong></p>
+                                <p id="coverDimensions"></p>
+                            </div>
+                            <div class="cover-actions">
+                                <button class="btn-secondary" onclick="CoverUploader.replaceCover()">Replace Cover</button>
+                                <button class="btn-secondary" onclick="CoverUploader.removeCover()">Remove Cover</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Description Section -->
+                <div class="form-section">
+                    <h3>Description (Optional)</h3>
+                    <textarea id="descriptionTextarea" class="description-textarea" placeholder="Enter book description. Separate paragraphs with blank lines.
+
+Example:
+
+This is the first paragraph of the description.
+
+This is the second paragraph."></textarea>
+                    <div class="help-text" style="display: block; margin-top: 8px;">Separate paragraphs with one or more blank lines</div>
+                    <div id="paragraphCount" class="paragraph-count"></div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Preview -->
+            <div class="preview-panel">
+                <h2 class="section-title">JSON Preview</h2>
+                <pre id="jsonPreview" class="preview-code">Fill in book information to see JSON output...</pre>
+                <div class="action-buttons">
+                    <button id="saveBtn" class="btn-primary" onclick="BookManager.save()">Create Book</button>
+                    <button class="btn-primary" onclick="BookManager.copyJSON()">Copy JSON</button>
+                    <button class="btn-secondary" onclick="BookManager.clearForm()">Clear Form</button>
+                </div>
+                <div id="successMessage" class="success-message"></div>
+                <div id="errorMessageBox" class="error-message-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== FORM VALIDATOR =====
+        const FormValidator = {
+            rules: {
+                title: {
+                    required: true,
+                    maxLength: 500,
+                    message: 'Title is required (max 500 characters)'
+                },
+                author: {
+                    required: true,
+                    maxLength: 300,
+                    message: 'Author is required (max 300 characters)'
+                },
+                publicationDate: {
+                    required: true,
+                    pattern: /^\d{2}-\d{2}-\d{4}$/,
+                    message: 'Publication date must be in MM-DD-YYYY format'
+                },
+                publisher: {
+                    required: true,
+                    maxLength: 200,
+                    message: 'Publisher is required (max 200 characters)'
+                },
+                publisherURL: {
+                    required: true,
+                    url: true,
+                    message: 'Valid publisher URL is required'
+                },
+                openAccess: {
+                    required: true,
+                    values: ['yes', 'no'],
+                    message: 'Open access selection is required'
+                }
+            },
+
+            validate(fieldName, value) {
+                const rule = this.rules[fieldName];
+                if (!rule) return { valid: true };
+
+                // Required check
+                if (rule.required && (!value || value.trim() === '')) {
+                    return { valid: false, message: rule.message };
+                }
+
+                // Skip other checks if value is empty and not required
+                if (!value || value.trim() === '') {
+                    return { valid: true };
+                }
+
+                // Max length check
+                if (rule.maxLength && value.length > rule.maxLength) {
+                    return { valid: false, message: rule.message };
+                }
+
+                // Pattern check
+                if (rule.pattern && !rule.pattern.test(value)) {
+                    return { valid: false, message: rule.message };
+                }
+
+                // Values check
+                if (rule.values && !rule.values.includes(value)) {
+                    return { valid: false, message: rule.message };
+                }
+
+                // URL check
+                if (rule.url) {
+                    try {
+                        new URL(value);
+                    } catch {
+                        return { valid: false, message: rule.message };
+                    }
+                }
+
+                return { valid: true };
+            },
+
+            validateAll() {
+                const fields = {
+                    title: document.getElementById('bookTitle').value,
+                    author: document.getElementById('bookAuthor').value,
+                    publicationDate: document.getElementById('bookPubDate').value,
+                    publisher: document.getElementById('bookPublisher').value,
+                    publisherURL: document.getElementById('bookPublisherURL').value,
+                    openAccess: document.getElementById('bookOpenAccess').value
+                };
+
+                let isValid = true;
+                const errors = {};
+
+                for (const [field, value] of Object.entries(fields)) {
+                    const result = this.validate(field, value);
+                    if (!result.valid) {
+                        isValid = false;
+                        errors[field] = result.message;
+                        this.showError(field, result.message);
+                    } else {
+                        this.clearError(field);
+                    }
+                }
+
+                return { valid: isValid, errors };
+            },
+
+            showError(field, message) {
+                const errorMap = {
+                    title: 'titleError',
+                    author: 'authorError',
+                    publicationDate: 'pubDateError',
+                    publisher: 'publisherError',
+                    publisherURL: 'publisherURLError',
+                    openAccess: 'openAccessError'
+                };
+
+                const inputMap = {
+                    title: 'bookTitle',
+                    author: 'bookAuthor',
+                    publicationDate: 'bookPubDate',
+                    publisher: 'bookPublisher',
+                    publisherURL: 'bookPublisherURL',
+                    openAccess: 'bookOpenAccess'
+                };
+
+                const errorEl = document.getElementById(errorMap[field]);
+                const inputEl = document.getElementById(inputMap[field]);
+
+                if (errorEl) {
+                    errorEl.textContent = message;
+                }
+                if (inputEl) {
+                    inputEl.classList.add('error');
+                }
+            },
+
+            clearError(field) {
+                const errorMap = {
+                    title: 'titleError',
+                    author: 'authorError',
+                    publicationDate: 'pubDateError',
+                    publisher: 'publisherError',
+                    publisherURL: 'publisherURLError',
+                    openAccess: 'openAccessError'
+                };
+
+                const inputMap = {
+                    title: 'bookTitle',
+                    author: 'bookAuthor',
+                    publicationDate: 'bookPubDate',
+                    publisher: 'bookPublisher',
+                    publisherURL: 'bookPublisherURL',
+                    openAccess: 'bookOpenAccess'
+                };
+
+                const errorEl = document.getElementById(errorMap[field]);
+                const inputEl = document.getElementById(inputMap[field]);
+
+                if (errorEl) {
+                    errorEl.textContent = '';
+                }
+                if (inputEl) {
+                    inputEl.classList.remove('error');
+                }
+            },
+
+            clearAllErrors() {
+                ['title', 'author', 'publicationDate', 'publisher', 'publisherURL', 'openAccess'].forEach(field => {
+                    this.clearError(field);
+                });
+            }
+        };
+
+        // ===== COVER UPLOADER =====
+        const CoverUploader = {
+            state: 'empty', // 'empty', 'matching', 'matches', 'processing', 'set'
+            uploadedFile: null,
+            uploadedFileData: null,
+            matches: [],
+            tempFilename: null,
+            currentCoverImage: null,
+
+            setState(newState) {
+                this.state = newState;
+                this.renderState();
+            },
+
+            renderState() {
+                // Hide all states
+                document.querySelectorAll('#coverSection > div').forEach(el => {
+                    el.classList.remove('active');
+                });
+
+                // Show current state
+                const stateMap = {
+                    empty: '.cover-upload-empty',
+                    matching: '.cover-matching',
+                    matches: '.cover-matches',
+                    processing: '.cover-processing',
+                    set: '.cover-set'
+                };
+
+                const activeEl = document.querySelector(stateMap[this.state]);
+                if (activeEl) {
+                    activeEl.classList.add('active');
+                }
+
+                // Re-setup drag and drop when showing empty state
+                if (this.state === 'empty') {
+                    setTimeout(() => {
+                        if (typeof setupDragAndDrop === 'function') {
+                            setupDragAndDrop();
+                        }
+                    }, 0);
+                }
+            },
+
+            async handleFileSelect(file) {
+                this.uploadedFile = file;
+
+                // Create preview
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    this.uploadedFileData = e.target.result;
+                    document.getElementById('matchingPreview').src = e.target.result;
+                    document.getElementById('matchesPreview').src = e.target.result;
+                    document.getElementById('processingPreview').src = e.target.result;
+                    document.getElementById('coverPreview').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+
+                // In Add mode, just upload and preview - no matching needed
+                if (BookManager.mode === 'add') {
+                    this.setState('matching');
+
+                    try {
+                        // Upload to server
+                        const formData = new FormData();
+                        formData.append('cover', file);
+
+                        const uploadRes = await fetch('/api/covers/upload', {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        if (!uploadRes.ok) {
+                            throw new Error('Upload failed');
+                        }
+
+                        const uploadData = await uploadRes.json();
+                        this.tempFilename = uploadData.filename;
+                        this.currentCoverImage = 'temp'; // Mark as temporary
+
+                        // Show preview without processing (will process when book is created)
+                        document.getElementById('coverFilename').textContent = file.name;
+                        document.getElementById('coverDimensions').textContent = 'Will be processed when book is saved';
+                        this.setState('set');
+
+                    } catch (error) {
+                        console.error('Cover upload error:', error);
+                        BookManager.showError('Failed to upload cover: ' + error.message);
+                        this.setState('empty');
+                    }
+                    return;
+                }
+
+                // Edit mode: upload and find matches
+                this.setState('matching');
+
+                try {
+                    // Upload to server
+                    const formData = new FormData();
+                    formData.append('cover', file);
+
+                    const uploadRes = await fetch('/api/covers/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (!uploadRes.ok) {
+                        throw new Error('Upload failed');
+                    }
+
+                    const uploadData = await uploadRes.json();
+                    this.tempFilename = uploadData.filename;
+
+                    // Find matches
+                    const matchRes = await fetch('/api/covers/match', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            originalFilename: uploadData.originalFilename
+                        })
+                    });
+
+                    if (!matchRes.ok) {
+                        throw new Error('Matching failed');
+                    }
+
+                    const matchData = await matchRes.json();
+                    this.matches = matchData.matches || [];
+
+                    // Show matches
+                    this.showMatches();
+
+                } catch (error) {
+                    console.error('Cover upload error:', error);
+                    BookManager.showError('Failed to upload cover: ' + error.message);
+                    this.setState('empty');
+                }
+            },
+
+            showMatches() {
+                const matchList = document.getElementById('matchList');
+                matchList.innerHTML = '';
+
+                if (this.matches.length === 0) {
+                    matchList.innerHTML = '<p style="text-align:center; color:#666;">No automatic matches found. Please enter book information manually.</p>';
+                    // In Add mode, just go back to empty state
+                    if (BookManager.mode === 'add') {
+                        setTimeout(() => this.setState('empty'), 3000);
+                    }
+                    return;
+                }
+
+                // Add each match
+                this.matches.forEach((match, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'match-item';
+                    div.innerHTML = `
+                        <input type="radio" name="bookMatch" id="match${index}" value="${index}">
+                        <label for="match${index}">
+                            <strong>${match.title}</strong>
+                            <span class="match-meta">by ${match.author} • ${match.publisher} • ${match.publicationDate}</span>
+                            <span class="match-score">Match Score: ${match.score}/10</span>
+                        </label>
+                    `;
+                    matchList.appendChild(div);
+                });
+
+                // Add manual entry option
+                const manualDiv = document.createElement('div');
+                manualDiv.className = 'match-item manual-entry';
+                manualDiv.innerHTML = `
+                    <input type="radio" name="bookMatch" id="matchManual" value="manual">
+                    <label for="matchManual">
+                        <strong>None of these - enter manually</strong>
+                    </label>
+                `;
+                matchList.appendChild(manualDiv);
+
+                // Pre-select first match
+                if (this.matches.length > 0) {
+                    document.getElementById('match0').checked = true;
+                }
+
+                this.setState('matches');
+            },
+
+            async confirmMatch() {
+                const selected = document.querySelector('input[name="bookMatch"]:checked');
+                if (!selected) {
+                    alert('Please select a match');
+                    return;
+                }
+
+                if (selected.value === 'manual') {
+                    // Manual entry - clear the temp file and go back
+                    await this.cleanupTemp();
+                    this.setState('empty');
+                    return;
+                }
+
+                const matchIndex = parseInt(selected.value);
+                const match = this.matches[matchIndex];
+
+                // If in Edit mode, process the cover for current book
+                if (BookManager.mode === 'edit' && BookManager.currentBookIndex !== null) {
+                    await this.processForCurrentBook();
+                } else {
+                    // If in Add mode, populate form with matched book data
+                    BookManager.populateFormFromMatch(match);
+                    // Keep temp file for later processing
+                    this.setState('empty');
+                }
+            },
+
+            async processForCurrentBook() {
+                this.setState('processing');
+
+                try {
+                    const res = await fetch('/api/covers/process', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            tempFilename: this.tempFilename,
+                            yearFile: BookManager.currentYearFile,
+                            bookIndex: BookManager.currentBookIndex
+                        })
+                    });
+
+                    if (!res.ok) {
+                        throw new Error('Processing failed');
+                    }
+
+                    const data = await res.json();
+                    this.currentCoverImage = data.coverImage;
+
+                    // Update form field
+                    document.getElementById('bookTitle').value = BookManager.currentBook.title;
+
+                    // Show cover
+                    document.getElementById('coverPreview').src = data.coverImage + '?' + Date.now();
+                    document.getElementById('coverFilename').textContent = data.coverImage.split('/').pop();
+                    document.getElementById('coverDimensions').textContent = data.processed.newSize + ' • ' + data.processed.fileSize;
+
+                    // Update current book
+                    BookManager.currentBook.coverImage = data.coverImage;
+                    BookManager.books[BookManager.currentBookIndex].coverImage = data.coverImage;
+
+                    this.setState('set');
+                    BookManager.updatePreview();
+
+                } catch (error) {
+                    console.error('Cover processing error:', error);
+                    BookManager.showError('Failed to process cover: ' + error.message);
+                    this.setState('empty');
+                }
+            },
+
+            async cancelUpload() {
+                await this.cleanupTemp();
+                this.setState('empty');
+            },
+
+            async cleanupTemp() {
+                if (this.tempFilename) {
+                    try {
+                        await fetch(`/api/covers/temp/${this.tempFilename}`, {
+                            method: 'DELETE'
+                        });
+                    } catch (err) {
+                        console.warn('Failed to cleanup temp file:', err);
+                    }
+                    this.tempFilename = null;
+                    this.currentCoverImage = null;
+                }
+            },
+
+            async replaceCover() {
+                // Clean up existing temp file if in Add mode
+                if (BookManager.mode === 'add') {
+                    await this.cleanupTemp();
+                }
+
+                this.setState('empty');
+                setTimeout(() => {
+                    document.getElementById('coverUpload').click();
+                }, 100);
+            },
+
+            async removeCover() {
+                if (confirm('Remove the cover image from this book?')) {
+                    // Clean up temp file if in Add mode
+                    if (BookManager.mode === 'add') {
+                        await this.cleanupTemp();
+                    }
+
+                    this.currentCoverImage = null;
+                    if (BookManager.currentBook) {
+                        BookManager.currentBook.coverImage = '';
+                    }
+                    this.setState('empty');
+                    BookManager.updatePreview();
+                }
+            },
+
+            loadExistingCover(coverImage) {
+                if (coverImage && coverImage.trim()) {
+                    this.currentCoverImage = coverImage;
+                    document.getElementById('coverPreview').src = coverImage + '?' + Date.now();
+                    document.getElementById('coverFilename').textContent = coverImage.split('/').pop();
+                    document.getElementById('coverDimensions').textContent = '';
+                    this.setState('set');
+                } else {
+                    this.currentCoverImage = null;
+                    this.setState('empty');
+                }
+            }
+        };
+
+        // ===== BOOK MANAGER =====
+        const BookManager = {
+            mode: 'add', // 'edit' or 'add' - default to add mode
+            currentBook: null,
+            currentBookIndex: null,
+            currentYearFile: null,
+            books: [],
+            allPublishers: new Set(),
+            allTitles: new Set(),
+
+            async switchMode(newMode) {
+                this.mode = newMode;
+
+                // Update mode button states
+                document.querySelectorAll('.mode-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.mode === newMode);
+                });
+
+                // Show/hide year selector and book selector
+                document.getElementById('yearSelectorContainer').style.display =
+                    newMode === 'edit' ? 'block' : 'none';
+                document.getElementById('bookSelectorContainer').style.display =
+                    newMode === 'edit' ? 'flex' : 'none';
+
+                // Update save button text
+                document.getElementById('saveBtn').textContent =
+                    newMode === 'edit' ? 'Update Book' : 'Create Book';
+
+                // Clear form
+                await this.clearForm();
+            },
+
+            async loadAllPublishers() {
+                const jsonFiles = ['2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+                this.allPublishers = new Set();
+                this.allTitles = new Set();
+
+                for (const file of jsonFiles) {
+                    try {
+                        const response = await fetch(file);
+                        const books = await response.json();
+                        books.forEach(book => {
+                            if (book.publisher && book.publisher.trim()) {
+                                this.allPublishers.add(book.publisher.trim());
+                            }
+                            if (book.title && book.title.trim()) {
+                                this.allTitles.add(book.title.trim().toLowerCase());
+                            }
+                        });
+                    } catch (error) {
+                        console.warn(`Failed to load publishers from ${file}:`, error);
+                    }
+                }
+
+                this.populatePublisherList();
+            },
+
+            populatePublisherList() {
+                const datalist = document.getElementById('publisherList');
+                datalist.innerHTML = '';
+
+                const sortedPublishers = Array.from(this.allPublishers).sort((a, b) =>
+                    a.toLowerCase().localeCompare(b.toLowerCase())
+                );
+
+                sortedPublishers.forEach(publisher => {
+                    const option = document.createElement('option');
+                    option.value = publisher;
+                    datalist.appendChild(option);
+                });
+            },
+
+            isNewPublisher(publisherName) {
+                if (!publisherName || !publisherName.trim()) return false;
+                return !this.allPublishers.has(publisherName.trim());
+            },
+
+            checkPublisherStatus() {
+                const publisherInput = document.getElementById('bookPublisher');
+                const hint = document.getElementById('publisherHint');
+                const publisher = publisherInput.value.trim();
+
+                if (publisher && this.isNewPublisher(publisher)) {
+                    hint.style.display = 'block';
+                } else {
+                    hint.style.display = 'none';
+                }
+            },
+
+            isDuplicateTitle(title) {
+                if (!title || !title.trim()) return false;
+                return this.allTitles.has(title.trim().toLowerCase());
+            },
+
+            checkTitleStatus() {
+                const titleInput = document.getElementById('bookTitle');
+                const hint = document.getElementById('titleHint');
+                const title = titleInput.value.trim();
+
+                // Only check for duplicates in Add mode
+                if (this.mode === 'add' && title && this.isDuplicateTitle(title)) {
+                    hint.style.display = 'block';
+                } else {
+                    hint.style.display = 'none';
+                }
+            },
+
+            async loadBooks(yearFile) {
+                this.currentYearFile = yearFile;
+
+                if (!yearFile) {
+                    document.getElementById('bookSelect').disabled = true;
+                    document.getElementById('bookSelect').innerHTML = '<option value="">-- First select a year --</option>';
+                    return;
+                }
+
+                try {
+                    const response = await fetch(yearFile);
+                    this.books = await response.json();
+                    const bookSelect = document.getElementById('bookSelect');
+                    bookSelect.disabled = false;
+                    bookSelect.innerHTML = '<option value="">-- Choose a book --</option>';
+
+                    this.books.forEach((book, index) => {
+                        const option = document.createElement('option');
+                        option.value = index;
+                        option.textContent = `${book.title} by ${book.author}`;
+                        bookSelect.appendChild(option);
+                    });
+
+                } catch (error) {
+                    console.error('Error loading books:', error);
+                    alert('Error loading books for selected year');
+                }
+            },
+
+            loadBook(index) {
+                if (index === null || index === '') {
+                    this.currentBook = null;
+                    this.currentBookIndex = null;
+                    this.clearForm();
+                    this.updateNavButtons();
+                    return;
+                }
+
+                this.currentBookIndex = parseInt(index);
+                this.currentBook = this.books[this.currentBookIndex];
+
+                // Populate form
+                document.getElementById('bookTitle').value = this.currentBook.title || '';
+                document.getElementById('bookAuthor').value = this.currentBook.author || '';
+                document.getElementById('bookPubDate').value = this.currentBook.publicationDate || '';
+                document.getElementById('bookPublisher').value = this.currentBook.publisher || '';
+                document.getElementById('bookPublisherURL').value = this.currentBook.publisherURL || '';
+                document.getElementById('bookOpenAccess').value = this.currentBook.openAccess || '';
+
+                // Show publisher link
+                if (this.currentBook.publisherURL) {
+                    const link = document.getElementById('visitPublisherURL');
+                    link.href = this.currentBook.publisherURL;
+                    link.style.display = 'inline';
+                }
+
+                // Load description
+                const description = this.currentBook.description || [];
+                document.getElementById('descriptionTextarea').value =
+                    Array.isArray(description) ? description.join('\n\n') : '';
+
+                // Load cover
+                CoverUploader.loadExistingCover(this.currentBook.coverImage || '');
+
+                this.updatePreview();
+                this.updateNavButtons();
+            },
+
+            async clearForm() {
+                document.getElementById('bookTitle').value = '';
+                document.getElementById('bookAuthor').value = '';
+                document.getElementById('bookPubDate').value = '';
+                document.getElementById('bookPublisher').value = '';
+                document.getElementById('bookPublisherURL').value = '';
+                document.getElementById('bookOpenAccess').value = '';
+                document.getElementById('descriptionTextarea').value = '';
+                document.getElementById('visitPublisherURL').style.display = 'none';
+                document.getElementById('publisherHint').style.display = 'none';
+                document.getElementById('titleHint').style.display = 'none';
+
+                FormValidator.clearAllErrors();
+
+                // Clean up temp cover file if in Add mode
+                if (this.mode === 'add' && CoverUploader.tempFilename) {
+                    await CoverUploader.cleanupTemp();
+                }
+
+                CoverUploader.setState('empty');
+                this.currentBook = null;
+
+                if (this.mode === 'edit') {
+                    this.currentBookIndex = null;
+                    document.getElementById('bookSelect').value = '';
+                }
+
+                this.updatePreview();
+            },
+
+            populateFormFromMatch(match) {
+                // Populate form with matched book data
+                document.getElementById('bookTitle').value = match.title || '';
+                document.getElementById('bookAuthor').value = match.author || '';
+                document.getElementById('bookPubDate').value = match.publicationDate || '';
+                document.getElementById('bookPublisher').value = match.publisher || '';
+                // Don't populate URL or openAccess - user needs to enter these
+                this.updatePreview();
+            },
+
+            parseDescription() {
+                const text = document.getElementById('descriptionTextarea').value;
+                const paragraphs = text
+                    .split(/\n\s*\n+/)
+                    .map(p => p.trim())
+                    .filter(p => p.length > 0);
+                return paragraphs;
+            },
+
+            updatePreview() {
+                const preview = document.getElementById('jsonPreview');
+                const countDisplay = document.getElementById('paragraphCount');
+
+                const paragraphs = this.parseDescription();
+
+                if (paragraphs.length > 0) {
+                    countDisplay.textContent = `${paragraphs.length} paragraph${paragraphs.length !== 1 ? 's' : ''} detected`;
+                } else {
+                    countDisplay.textContent = '';
+                }
+
+                // Build book object
+                const book = {
+                    title: document.getElementById('bookTitle').value || '',
+                    author: document.getElementById('bookAuthor').value || '',
+                    publicationDate: document.getElementById('bookPubDate').value || '',
+                    publisher: document.getElementById('bookPublisher').value || '',
+                    publisherURL: document.getElementById('bookPublisherURL').value || '',
+                    openAccess: document.getElementById('bookOpenAccess').value || '',
+                    coverImage: CoverUploader.currentCoverImage || '',
+                    description: paragraphs
+                };
+
+                preview.textContent = JSON.stringify(book, null, 2);
+            },
+
+            async save() {
+                // Validate required fields
+                const validation = FormValidator.validateAll();
+                if (!validation.valid) {
+                    this.showError('Please fix validation errors before saving');
+                    return;
+                }
+
+                const book = {
+                    title: document.getElementById('bookTitle').value,
+                    author: document.getElementById('bookAuthor').value,
+                    publicationDate: document.getElementById('bookPubDate').value,
+                    publisher: document.getElementById('bookPublisher').value,
+                    publisherURL: document.getElementById('bookPublisherURL').value,
+                    openAccess: document.getElementById('bookOpenAccess').value,
+                    coverImage: CoverUploader.currentCoverImage || '',
+                    description: this.parseDescription()
+                };
+
+                // Check if title is duplicate in Add mode
+                if (this.mode === 'add' && this.isDuplicateTitle(book.title)) {
+                    const confirm = window.confirm(
+                        `A book with the title "${book.title}" already exists in the database.\n\n` +
+                        `Are you sure you want to add another book with this title?`
+                    );
+
+                    if (!confirm) {
+                        this.showError('Save cancelled. Please verify the book title.');
+                        return;
+                    }
+                }
+
+                // Check if publisher is new and confirm
+                if (this.isNewPublisher(book.publisher)) {
+                    const confirm = window.confirm(
+                        `"${book.publisher}" is a new publisher that doesn't exist in the current database.\n\n` +
+                        `Existing publishers (${this.allPublishers.size} total) include:\n` +
+                        `${Array.from(this.allPublishers).slice(0, 10).join(', ')}...\n\n` +
+                        `Do you want to add this new publisher?`
+                    );
+
+                    if (!confirm) {
+                        this.showError('Save cancelled. Please verify the publisher name or select from existing publishers.');
+                        return;
+                    }
+                }
+
+                try {
+                    if (this.mode === 'add') {
+                        await this.createBook(book);
+                    } else {
+                        await this.updateBook(book);
+                    }
+                } catch (error) {
+                    console.error('Save error:', error);
+                    this.showError('Failed to save: ' + error.message);
+                }
+            },
+
+            async createBook(book) {
+                // Extract year from publication date (format: MM-DD-YYYY)
+                const year = book.publicationDate.split('-')[2];
+                const yearFile = `${year}.json`;
+
+                const res = await fetch('/api/books/create', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        yearFile: yearFile,
+                        book: book
+                    })
+                });
+
+                if (!res.ok) {
+                    const error = await res.json();
+                    throw new Error(error.error || 'Failed to create book');
+                }
+
+                const data = await res.json();
+
+                // If there's a cover to process
+                if (CoverUploader.tempFilename) {
+                    await fetch('/api/covers/process', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            tempFilename: CoverUploader.tempFilename,
+                            yearFile: yearFile,
+                            bookIndex: data.bookIndex
+                        })
+                    });
+                    CoverUploader.tempFilename = null;
+                    CoverUploader.currentCoverImage = null;
+                }
+
+                // Add new publisher to the list if it doesn't exist
+                if (book.publisher && book.publisher.trim()) {
+                    this.allPublishers.add(book.publisher.trim());
+                    this.populatePublisherList();
+                }
+
+                // Add new title to the list
+                if (book.title && book.title.trim()) {
+                    this.allTitles.add(book.title.trim().toLowerCase());
+                }
+
+                this.showSuccess(`Book created successfully in ${yearFile}!`);
+                this.clearForm();
+            },
+
+            async updateBook(book) {
+                if (!this.currentYearFile || this.currentBookIndex === null) {
+                    this.showError('Please select a book first');
+                    return;
+                }
+
+                const res = await fetch('/api/books/update', {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        yearFile: this.currentYearFile,
+                        bookIndex: this.currentBookIndex,
+                        updates: book
+                    })
+                });
+
+                if (!res.ok) {
+                    const error = await res.json();
+                    throw new Error(error.error || 'Failed to update book');
+                }
+
+                const data = await res.json();
+
+                // Add new publisher to the list if it doesn't exist
+                if (book.publisher && book.publisher.trim()) {
+                    this.allPublishers.add(book.publisher.trim());
+                    this.populatePublisherList();
+                }
+
+                // Update local data
+                this.books[this.currentBookIndex] = data.book;
+                this.currentBook = data.book;
+
+                this.showSuccess('Book updated successfully!');
+            },
+
+            navigateBook(direction) {
+                if (!this.books || this.books.length === 0 || this.currentBookIndex === null) return;
+
+                const newIndex = this.currentBookIndex + direction;
+                if (newIndex < 0 || newIndex >= this.books.length) return;
+
+                document.getElementById('bookSelect').value = newIndex;
+                this.loadBook(newIndex);
+            },
+
+            updateNavButtons() {
+                const prevBtn = document.getElementById('prevBookBtn');
+                const nextBtn = document.getElementById('nextBookBtn');
+
+                if (!this.books || this.books.length === 0 || this.currentBookIndex === null) {
+                    prevBtn.disabled = true;
+                    nextBtn.disabled = true;
+                    return;
+                }
+
+                prevBtn.disabled = this.currentBookIndex <= 0;
+                nextBtn.disabled = this.currentBookIndex >= this.books.length - 1;
+            },
+
+            copyJSON() {
+                const jsonText = document.getElementById('jsonPreview').textContent;
+                navigator.clipboard.writeText(jsonText).then(() => {
+                    this.showSuccess('JSON copied to clipboard!');
+                }).catch(err => {
+                    console.error('Failed to copy:', err);
+                    this.showError('Failed to copy to clipboard');
+                });
+            },
+
+            showSuccess(message) {
+                const el = document.getElementById('successMessage');
+                el.textContent = message;
+                el.style.display = 'block';
+                setTimeout(() => {
+                    el.style.display = 'none';
+                }, 3000);
+            },
+
+            showError(message) {
+                const el = document.getElementById('errorMessageBox');
+                el.textContent = message;
+                el.style.display = 'block';
+                setTimeout(() => {
+                    el.style.display = 'none';
+                }, 5000);
+            }
+        };
+
+        // ===== EVENT LISTENERS =====
+
+        // Year selector
+        document.getElementById('yearSelect').addEventListener('change', (e) => {
+            BookManager.loadBooks(e.target.value);
+        });
+
+        // Book selector
+        document.getElementById('bookSelect').addEventListener('change', (e) => {
+            BookManager.loadBook(e.target.value);
+        });
+
+        // Form fields - update preview on change
+        ['bookTitle', 'bookAuthor', 'bookPubDate', 'bookPublisher', 'bookPublisherURL', 'bookOpenAccess', 'descriptionTextarea'].forEach(id => {
+            const el = document.getElementById(id);
+            el.addEventListener('input', () => {
+                BookManager.updatePreview();
+
+                // Check title for duplicates
+                if (id === 'bookTitle') {
+                    BookManager.checkTitleStatus();
+                }
+
+                // Check publisher status
+                if (id === 'bookPublisher') {
+                    BookManager.checkPublisherStatus();
+                }
+
+                // Show/hide publisher link
+                if (id === 'bookPublisherURL' && el.value) {
+                    const link = document.getElementById('visitPublisherURL');
+                    link.href = el.value;
+                    link.style.display = 'inline';
+                } else if (id === 'bookPublisherURL') {
+                    document.getElementById('visitPublisherURL').style.display = 'none';
+                }
+            });
+
+            // Real-time validation
+            if (id !== 'descriptionTextarea') {
+                el.addEventListener('blur', () => {
+                    const fieldMap = {
+                        bookTitle: 'title',
+                        bookAuthor: 'author',
+                        bookPubDate: 'publicationDate',
+                        bookPublisher: 'publisher',
+                        bookPublisherURL: 'publisherURL',
+                        bookOpenAccess: 'openAccess'
+                    };
+                    const field = fieldMap[id];
+                    const result = FormValidator.validate(field, el.value);
+                    if (!result.valid) {
+                        FormValidator.showError(field, result.message);
+                    } else {
+                        FormValidator.clearError(field);
+                    }
+                });
+            }
+        });
+
+        // Cover upload
+        document.getElementById('coverUpload').addEventListener('change', (e) => {
+            if (e.target.files && e.target.files[0]) {
+                CoverUploader.handleFileSelect(e.target.files[0]);
+            }
+        });
+
+        // Drag and drop for cover upload
+        function setupDragAndDrop() {
+            const dropzone = document.querySelector('.upload-dropzone');
+            if (!dropzone) return;
+
+            // Check if already set up to avoid duplicate listeners
+            if (dropzone.dataset.dragDropSetup === 'true') return;
+            dropzone.dataset.dragDropSetup = 'true';
+
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+
+            function highlight() {
+                dropzone.style.borderColor = '#2E80BF';
+                dropzone.style.backgroundColor = 'rgba(143,197,183,.3)';
+            }
+
+            function unhighlight() {
+                dropzone.style.borderColor = '#068587';
+                dropzone.style.backgroundColor = 'white';
+            }
+
+            function handleDrop(e) {
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    CoverUploader.handleFileSelect(files[0]);
+                }
+            }
+
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                dropzone.addEventListener(eventName, preventDefaults, false);
+            });
+
+            ['dragenter', 'dragover'].forEach(eventName => {
+                dropzone.addEventListener(eventName, highlight, false);
+            });
+
+            ['dragleave', 'drop'].forEach(eventName => {
+                dropzone.addEventListener(eventName, unhighlight, false);
+            });
+
+            dropzone.addEventListener('drop', handleDrop, false);
+        }
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', async () => {
+            BookManager.updatePreview();
+
+            // Setup drag and drop
+            setupDragAndDrop();
+
+            // Load all publishers for autocomplete
+            await BookManager.loadAllPublishers();
+
+            // Auto-load 2025
+            const yearSelect = document.getElementById('yearSelect');
+            if (yearSelect.value === '2025.json') {
+                BookManager.loadBooks('2025.json');
+            }
+        });
+    </script>
+</body>
+</html>
