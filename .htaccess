@@ -1,0 +1,6 @@
+# Redirect .htm files to .html files (301 permanent redirect)
+RewriteEngine On
+RewriteBase /
+
+# Redirect any .htm request to .html
+RewriteRule ^(.*)\.htm$ /$1.html [R=301,L]
