@@ -3,6 +3,7 @@ node_modules/
 
 # Development files
 to-process/
+.claude/
 
 # OS files
 .DS_Store
