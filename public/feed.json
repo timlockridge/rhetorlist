@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement",
+      "content_html": "<h1>New Book Added:</h1><p>Multilingual Writing in Entanglement: Becoming With Others Through Chronotopic Figuring and Unpredictable Encounters by Xiqiao Wang. Published on 01-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement\">https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement"
+    },
+    {
       "id": "https://ohiostatepress.org/books/titles/9780814216057.html",
       "content_html": "<h1>New Book Added:</h1><p>Sovereign, Settler, Leaker, Lie: Forms of the Secret in US Political Rhetoric by ATILLA HALLSBY. Published on 02-01-2026.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814216057.html\">https://ohiostatepress.org/books/titles/9780814216057.html</a></p>",
       "url": "https://ohiostatepress.org/books/titles/9780814216057.html"
