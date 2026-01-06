@@ -5,6 +5,36 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://ohiostatepress.org/books/titles/9780814216057.html",
+      "content_html": "<h1>New Book Added:</h1><p>Sovereign, Settler, Leaker, Lie: Forms of the Secret in US Political Rhetoric by ATILLA HALLSBY. Published on 02-01-2026.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814216057.html\">https://ohiostatepress.org/books/titles/9780814216057.html</a></p>",
+      "url": "https://ohiostatepress.org/books/titles/9780814216057.html"
+    },
+    {
+      "id": "https://www.bloomsbury.com/us/beyond-consensus-9781666980998/",
+      "content_html": "<h1>New Book Added:</h1><p>Beyond Consensus: How Everyday Citizens Advocate for Local Environmental Issues by Kelly Scarff. Published on 01-08-2026.</p><p>Link to book: <a href=\"https://www.bloomsbury.com/us/beyond-consensus-9781666980998/\">https://www.bloomsbury.com/us/beyond-consensus-9781666980998/</a></p>",
+      "url": "https://www.bloomsbury.com/us/beyond-consensus-9781666980998/"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/adequate",
+      "content_html": "<h1>New Book Added:</h1><p>Adequate: Rewriting the Logics of Success in Rhetoric and Composition by Timothy Oleksiak and Joshua Barsczewski. Published on 02-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/adequate\">https://upcolorado.com/utah-state-university-press/adequate</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/adequate"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/next-gen-perspectives-on-leadership",
+      "content_html": "<h1>New Book Added:</h1><p>Next-Gen Perspectives on Leadership: Coalitional Strategies for Launching Careers, Renewing Curricula, and Defending Democracy by Charles McMartin, Eric A. House, Sonia Arellano, and Thomas Miller. Published on 02-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/next-gen-perspectives-on-leadership\">https://upcolorado.com/utah-state-university-press/next-gen-perspectives-on-leadership</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/next-gen-perspectives-on-leadership"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/from-liberation-to-remediation",
+      "content_html": "<h1>New Book Added:</h1><p>From Liberation to Remediation: The Rhetoric of General Education by Kelly Ritter. Published on 02-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/from-liberation-to-remediation\">https://upcolorado.com/utah-state-university-press/from-liberation-to-remediation</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/from-liberation-to-remediation"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/the-talk-and-texts-of-teacher-development",
+      "content_html": "<h1>New Book Added:</h1><p>The Talk and Texts of Teacher Development: Values, the Practicum, and Programmatic Change in Writing Studies by Adrienne Jankens. Published on 01-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/the-talk-and-texts-of-teacher-development\">https://upcolorado.com/utah-state-university-press/the-talk-and-texts-of-teacher-development</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/the-talk-and-texts-of-teacher-development"
+    },
+    {
       "id": "https://www.routledge.com/Designing-for-Social-Justice-Community-Engaged-Approaches-in-Technical-and-Professional-Communication/Jiang-Tham/p/book/9781032745916",
       "content_html": "<h1>New Book Added:</h1><p>Designing for Social Justice: Community-Engaged Approaches in Technical and Professional Communication by Jialei Jiang and Jason C.K. Tham. Published on 03-30-2025.</p><p>Link to book: <a href=\"https://www.routledge.com/Designing-for-Social-Justice-Community-Engaged-Approaches-in-Technical-and-Professional-Communication/Jiang-Tham/p/book/9781032745916\">https://www.routledge.com/Designing-for-Social-Justice-Community-Engaged-Approaches-in-Technical-and-Professional-Communication/Jiang-Tham/p/book/9781032745916</a></p>",
       "url": "https://www.routledge.com/Designing-for-Social-Justice-Community-Engaged-Approaches-in-Technical-and-Professional-Communication/Jiang-Tham/p/book/9781032745916"
