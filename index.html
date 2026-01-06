@@ -131,20 +131,19 @@
         // Sort state (desc = newest to oldest, asc = oldest to newest)
         let sortDirection = 'desc';
 
-        // Format date from MM-DD-YYYY to "Month D, YYYY"
+        // Format date from MM-DD-YYYY to "Month YYYY"
         function formatDate(dateStr) {
             if (!dateStr) return '';
             const parts = dateStr.split('-');
             if (parts.length !== 3) return dateStr;
 
             const month = parseInt(parts[0], 10);
-            const day = parseInt(parts[1], 10);
             const year = parts[2];
 
             const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
                 'July', 'August', 'September', 'October', 'November', 'December'];
 
-            return `${monthNames[month - 1]} ${day}, ${year}`;
+            return `${monthNames[month - 1]} ${year}`;
         }
 
         // Load initial data
@@ -569,7 +568,7 @@
                     pubText += ` by ${book.publisher}`;
                 }
                 if (book.publicationDate) {
-                    pubText += ` on ${formatDate(book.publicationDate)}`;
+                    pubText += ` in ${formatDate(book.publicationDate)}`;
                 }
                 pubText += '.';
 
