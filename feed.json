@@ -5,6 +5,21 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/international/plurilingual/",
+      "content_html": "<h1>New Book Added:</h1><p>Plurilingual Perspectives on Scholarly Writing for Publication: Within, Através y au-delà des Frontières \"nas Américas\" by James N. Corcoran, Caroline Payant, Simone Sarmento, Laura Colombo, Mario E. López-Gopar, Lorena Córdova-Hernández, and Fiona Patterson. Published on 02-06-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/international/plurilingual/\">https://wacclearinghouse.org/books/international/plurilingual/</a></p>",
+      "url": "https://wacclearinghouse.org/books/international/plurilingual/"
+    },
+    {
+      "id": "https://uscpress.com/The-Patient-Empowerment-Paradox",
+      "content_html": "<h1>New Book Added:</h1><p>The Patient Empowerment Paradox: Lyme Disease Rhetoric and Contested Health Literacies by Sarah Ann Singer. Published on 02-19-2026.</p><p>Link to book: <a href=\"https://uscpress.com/The-Patient-Empowerment-Paradox\">https://uscpress.com/The-Patient-Empowerment-Paradox</a></p>",
+      "url": "https://uscpress.com/The-Patient-Empowerment-Paradox"
+    },
+    {
+      "id": "https://upittpress.org/books/9780822967903/",
+      "content_html": "<h1>New Book Added:</h1><p>The Language Movement in Bangladesh: Translingualism and a Struggle for Rhetorical Sovereignty by Shakil Rabbi. Published on 06-01-2026.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822967903/\">https://upittpress.org/books/9780822967903/</a></p>",
+      "url": "https://upittpress.org/books/9780822967903/"
+    },
+    {
       "id": "https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement",
       "content_html": "<h1>New Book Added:</h1><p>Multilingual Writing in Entanglement: Becoming With Others Through Chronotopic Figuring and Unpredictable Encounters by Xiqiao Wang. Published on 01-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement\">https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement</a></p>",
       "url": "https://upcolorado.com/utah-state-university-press/multilingual-writing-in-entanglement"
