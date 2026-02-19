@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://ccdigitalpress.org/visualizing-captions",
+      "content_html": "<h1>New Book Added:</h1><p>Visualizing Captions and Subtitles: The Embodiment of Accessible Multimodal Communication by Janine Butler. Published on 02-17-2026.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/visualizing-captions\">https://ccdigitalpress.org/visualizing-captions</a></p>",
+      "url": "https://ccdigitalpress.org/visualizing-captions"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/international/plurilingual/",
       "content_html": "<h1>New Book Added:</h1><p>Plurilingual Perspectives on Scholarly Writing for Publication: Within, Através y au-delà des Frontières \"nas Américas\" by James N. Corcoran, Caroline Payant, Simone Sarmento, Laura Colombo, Mario E. López-Gopar, Lorena Córdova-Hernández, and Fiona Patterson. Published on 02-06-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/international/plurilingual/\">https://wacclearinghouse.org/books/international/plurilingual/</a></p>",
       "url": "https://wacclearinghouse.org/books/international/plurilingual/"
