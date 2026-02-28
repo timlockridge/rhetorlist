@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/tpc/liminality/",
+      "content_html": "<h1>New Book Added:</h1><p>Liminality: The Work of Resilience in Technical Communication by Miriam F. Williams and Lisa Melonçon. Published on 02-19-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/tpc/liminality/\">https://wacclearinghouse.org/books/tpc/liminality/</a></p>",
+      "url": "https://wacclearinghouse.org/books/tpc/liminality/"
+    },
+    {
       "id": "https://ccdigitalpress.org/visualizing-captions",
       "content_html": "<h1>New Book Added:</h1><p>Visualizing Captions and Subtitles: The Embodiment of Accessible Multimodal Communication by Janine Butler. Published on 02-17-2026.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/visualizing-captions\">https://ccdigitalpress.org/visualizing-captions</a></p>",
       "url": "https://ccdigitalpress.org/visualizing-captions"
