@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://manifold.as.uky.edu/projects/can-i-ask-a-question",
+      "content_html": "<h1>New Book Added:</h1><p>Can I Ask a Question? A Dialog About Sonic Rhetoric, Professional Writing, Creative-Critical Scholarship, and Process by Benjamin Lauren and Kyle D. Stedman. Published on 03-12-2026.</p><p>Link to book: <a href=\"https://manifold.as.uky.edu/projects/can-i-ask-a-question\">https://manifold.as.uky.edu/projects/can-i-ask-a-question</a></p>",
+      "url": "https://manifold.as.uky.edu/projects/can-i-ask-a-question"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/swr/recollections/",
       "content_html": "<h1>New Book Added:</h1><p>Recollections from Our Common Places: 4C21-23 Documentarian Tales by Bump Halbritter, Julie Lindquist, and Bree Straayer. Published on 02-27-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/swr/recollections/\">https://wacclearinghouse.org/books/swr/recollections/</a></p>",
       "url": "https://wacclearinghouse.org/books/swr/recollections/"
