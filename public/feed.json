@@ -5,6 +5,16 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/lwr/madeline/",
+      "content_html": "<h1>New Book Added:</h1><p>Madeline Was Our Sister: Writing, Storytelling, and Truth by Robert P. Yagelski. Published on 03-12-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/lwr/madeline/\">https://wacclearinghouse.org/books/lwr/madeline/</a></p>",
+      "url": "https://wacclearinghouse.org/books/lwr/madeline/"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/perspectives/generating/",
+      "content_html": "<h1>New Book Added:</h1><p>Writing Centers and AI: Generating Early Conversations by Elisabeth H. Buck and Joshua Botvin. Published on 03-18-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/perspectives/generating/\">https://wacclearinghouse.org/books/perspectives/generating/</a></p>",
+      "url": "https://wacclearinghouse.org/books/perspectives/generating/"
+    },
+    {
       "id": "https://manifold.as.uky.edu/projects/can-i-ask-a-question",
       "content_html": "<h1>New Book Added:</h1><p>Can I Ask a Question? A Dialog About Sonic Rhetoric, Professional Writing, Creative-Critical Scholarship, and Process by Benjamin Lauren and Kyle D. Stedman. Published on 03-12-2026.</p><p>Link to book: <a href=\"https://manifold.as.uky.edu/projects/can-i-ask-a-question\">https://manifold.as.uky.edu/projects/can-i-ask-a-question</a></p>",
       "url": "https://manifold.as.uky.edu/projects/can-i-ask-a-question"
