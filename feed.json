@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/practice/storied/",
+      "content_html": "<h1>New Book Added:</h1><p>Storied Practices: Positionality in Writing Studies by Kristine Acosta, Michelle Cowan, Rebecca Rickly, Nancy Small, and Erica M. Stone. Published on 03-19-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/storied/\">https://wacclearinghouse.org/books/practice/storied/</a></p>",
+      "url": "https://wacclearinghouse.org/books/practice/storied/"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/lwr/madeline/",
       "content_html": "<h1>New Book Added:</h1><p>Madeline Was Our Sister: Writing, Storytelling, and Truth by Robert P. Yagelski. Published on 03-12-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/lwr/madeline/\">https://wacclearinghouse.org/books/lwr/madeline/</a></p>",
       "url": "https://wacclearinghouse.org/books/lwr/madeline/"
