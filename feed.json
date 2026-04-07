@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://press.umich.edu/Books/O/On-Visual-Rhetoric",
+      "content_html": "<h1>New Book Added:</h1><p>On Visual Rhetoric by Christa J. Olson and Brandee Easter. Published on 03-30-2026.</p><p>Link to book: <a href=\"https://press.umich.edu/Books/O/On-Visual-Rhetoric\">https://press.umich.edu/Books/O/On-Visual-Rhetoric</a></p>",
+      "url": "https://press.umich.edu/Books/O/On-Visual-Rhetoric"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/practice/storied/",
       "content_html": "<h1>New Book Added:</h1><p>Storied Practices: Positionality in Writing Studies by Kristine Acosta, Michelle Cowan, Rebecca Rickly, Nancy Small, and Erica M. Stone. Published on 03-19-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/storied/\">https://wacclearinghouse.org/books/practice/storied/</a></p>",
       "url": "https://wacclearinghouse.org/books/practice/storied/"
