@@ -5,6 +5,16 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/practice/poetry/",
+      "content_html": "<h1>New Book Added:</h1><p>Research is the Poetry: Poetic Inquiry for Writing Studies Researchers by Sandra L. Tarabochia. Published on 05-08-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/poetry/\">https://wacclearinghouse.org/books/practice/poetry/</a></p>",
+      "url": "https://wacclearinghouse.org/books/practice/poetry/"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/empathy-and-the-other",
+      "content_html": "<h1>New Book Added:</h1><p>Empathy and the Other: Difference, Connection, and the Teaching of Writing by Lisa Blankenship and Eric Leake. Published on 05-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/empathy-and-the-other\">https://upcolorado.com/utah-state-university-press/empathy-and-the-other</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/empathy-and-the-other"
+    },
+    {
       "id": "https://upcolorado.com/utah-state-university-press/our-charge-to-keep",
       "content_html": "<h1>New Book Added:</h1><p>Our Charge to Keep: Writing Center and Writing Program Administration at Historically Black Colleges and Universities by Drs. Wonderful and Kendra Mitchell. Published on 05-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/our-charge-to-keep\">https://upcolorado.com/utah-state-university-press/our-charge-to-keep</a></p>",
       "url": "https://upcolorado.com/utah-state-university-press/our-charge-to-keep"
