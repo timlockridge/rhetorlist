@@ -5,6 +5,16 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://www.psupress.org/books/titles/978-0-271-10123-1.html",
+      "content_html": "<h1>New Book Added:</h1><p>Sensory Rhetorics: Sensation, Persuasion, and the Politics of Feeling by Steph Ceraso and Jonathan W. Stone. Published on 01-20-2026.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-10123-1.html\">https://www.psupress.org/books/titles/978-0-271-10123-1.html</a></p>",
+      "url": "https://www.psupress.org/books/titles/978-0-271-10123-1.html"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/gestural-listening-in-and-beyond-the-classroom",
+      "content_html": "<h1>New Book Added:</h1><p>Gestural Listening In and Beyond the Classroom by Laura Feibush. Published on 05-15-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/gestural-listening-in-and-beyond-the-classroom\">https://upcolorado.com/utah-state-university-press/gestural-listening-in-and-beyond-the-classroom</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/gestural-listening-in-and-beyond-the-classroom"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/perspectives/worldviews/",
       "content_html": "<h1>New Book Added:</h1><p>Writing Worldviews: Extended Scholarly Conversations from IWAC 2023 by Christopher Basgier, Terry Myers Zawacki, Magnus Gustafsson, Sue Hum, and Maureen Mathison. Published on 05-14-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/perspectives/worldviews/\">https://wacclearinghouse.org/books/perspectives/worldviews/</a></p>",
       "url": "https://wacclearinghouse.org/books/perspectives/worldviews/"
