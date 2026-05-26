@@ -5,6 +5,26 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication",
+      "content_html": "<h1>New Book Added:</h1><p>Undermining Risk and Technical Communication: Extractive Industry, Cascading Disaster, and the Global Climate Crisis by Timothy R. Amidon, Ehren Helmut Pflugfelder, Daniel P. Richards and Donnie Johnson Sackey. Published on 06-31-2026.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication\">https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication</a></p>",
+      "url": "https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication"
+    },
+    {
+      "id": "https://sunypress.edu/Books/V/Visual-Vestiges",
+      "content_html": "<h1>New Book Added:</h1><p>Visual Vestiges: Time, Rhetoric, and Information Design by Charles Kostelnick. Published on 03-01-2026.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/V/Visual-Vestiges\">https://sunypress.edu/Books/V/Visual-Vestiges</a></p>",
+      "url": "https://sunypress.edu/Books/V/Visual-Vestiges"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/perspectives/bad/",
+      "content_html": "<h1>New Book Added:</h1><p>Bad Ideas about AI and Writing: Generative Practices for Teaching, Learning, and Communication by Christopher Basgier, Anna Mills, Mandy Olejnik, Miranda Rodak, and Shyam Sharma. Published on 05-26-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/perspectives/bad/\">https://wacclearinghouse.org/books/perspectives/bad/</a></p>",
+      "url": "https://wacclearinghouse.org/books/perspectives/bad/"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/where-we-start",
+      "content_html": "<h1>New Book Added:</h1><p>Where We Start: A Practical Guide to Technical Communication Program Administration by K. Alex Ilyasova and Sean D. Williams. Published on 05-19-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/where-we-start\">https://upcolorado.com/utah-state-university-press/where-we-start</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/where-we-start"
+    },
+    {
       "id": "https://www.psupress.org/books/titles/978-0-271-10123-1.html",
       "content_html": "<h1>New Book Added:</h1><p>Sensory Rhetorics: Sensation, Persuasion, and the Politics of Feeling by Steph Ceraso and Jonathan W. Stone. Published on 01-20-2026.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-10123-1.html\">https://www.psupress.org/books/titles/978-0-271-10123-1.html</a></p>",
       "url": "https://www.psupress.org/books/titles/978-0-271-10123-1.html"
