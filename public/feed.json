@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://upittpress.org/books/9780822968047/",
+      "content_html": "<h1>New Book Added:</h1><p>AI Through the Experts’ Eyes: Communicating Complex Ideas by John R. Gallagher. Published on 09-01-2026.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822968047/\">https://upittpress.org/books/9780822968047/</a></p>",
+      "url": "https://upittpress.org/books/9780822968047/"
+    },
+    {
       "id": "https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication",
       "content_html": "<h1>New Book Added:</h1><p>Undermining Risk and Technical Communication: Extractive Industry, Cascading Disaster, and the Global Climate Crisis by Timothy R. Amidon, Ehren Helmut Pflugfelder, Daniel P. Richards and Donnie Johnson Sackey. Published on 06-31-2026.</p><p>Link to book: <a href=\"https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication\">https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication</a></p>",
       "url": "https://sunypress.edu/Books/U/Undermining-Risk-and-Technical-Communication"
