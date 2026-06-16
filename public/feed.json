@@ -5,6 +5,26 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders",
+      "content_html": "<h1>New Book Added:</h1><p>Writing Center Administrators as Campus Leaders by Candis Bond, Joy Bracewell, Dr. Wonderful, Stacia Moroski-Rigney & Kem Roper. Published on 08-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders\">https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders"
+    },
+    {
+      "id": "https://www.press.uillinois.edu/books/?id=p089329",
+      "content_html": "<h1>New Book Added:</h1><p>Latter-day Eloquence: Two Centuries of Mormon Oratory by Richard Benjamin Crosby and Isaac James Richards. Published on 06-02-2026.</p><p>Link to book: <a href=\"https://www.press.uillinois.edu/books/?id=p089329\">https://www.press.uillinois.edu/books/?id=p089329</a></p>",
+      "url": "https://www.press.uillinois.edu/books/?id=p089329"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/writing-emergencies",
+      "content_html": "<h1>New Book Added:</h1><p>Writing Emergencies: Composing (Ourselves) in Times of Crisis by Holly Hassel and Kate Pantelides. Published on 06-15-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/writing-emergencies\">https://upcolorado.com/utah-state-university-press/writing-emergencies</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/writing-emergencies"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/benevolent-gaslight",
+      "content_html": "<h1>New Book Added:</h1><p>The Benevolent Gaslight: A Technology of Race-Making by Louis M. Maraj and Pritha Prasad. Published on 06-15-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/benevolent-gaslight\">https://upcolorado.com/utah-state-university-press/benevolent-gaslight</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/benevolent-gaslight"
+    },
+    {
       "id": "https://upittpress.org/books/9780822968047/",
       "content_html": "<h1>New Book Added:</h1><p>AI Through the Experts’ Eyes: Communicating Complex Ideas by John R. Gallagher. Published on 09-01-2026.</p><p>Link to book: <a href=\"https://upittpress.org/books/9780822968047/\">https://upittpress.org/books/9780822968047/</a></p>",
       "url": "https://upittpress.org/books/9780822968047/"
