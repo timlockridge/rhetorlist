@@ -5,6 +5,21 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://manifold.sc.edu/projects/the-gods-themselves",
+      "content_html": "<h1>New Book Added:</h1><p>The Gods Themselves: Rhetoric and Myth in Sumer, Egypt, and Greece Before 355 BCE by Shawn D. Ramsey. Published on 06-20-2026.</p><p>Link to book: <a href=\"https://manifold.sc.edu/projects/the-gods-themselves\">https://manifold.sc.edu/projects/the-gods-themselves</a></p>",
+      "url": "https://manifold.sc.edu/projects/the-gods-themselves"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/international/fast-changing/",
+      "content_html": "<h1>New Book Added:</h1><p>Academic Publishing in a Fast-Changing World by Catalina Neculai, James N. Corcoran and Bojana Petrić. Published on 07-02-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/international/fast-changing/\">https://wacclearinghouse.org/books/international/fast-changing/</a></p>",
+      "url": "https://wacclearinghouse.org/books/international/fast-changing/"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/perspectives/raciolinguistic/",
+      "content_html": "<h1>New Book Added:</h1><p>On Response: Raciolinguistic Justice and Responding to Student Writing by Shane A. Wood and Emily K. Suh. Published on 06-25-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/perspectives/raciolinguistic/\">https://wacclearinghouse.org/books/perspectives/raciolinguistic/</a></p>",
+      "url": "https://wacclearinghouse.org/books/perspectives/raciolinguistic/"
+    },
+    {
       "id": "https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders",
       "content_html": "<h1>New Book Added:</h1><p>Writing Center Administrators as Campus Leaders by Candis Bond, Joy Bracewell, Dr. Wonderful, Stacia Moroski-Rigney & Kem Roper. Published on 08-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders\">https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders</a></p>",
       "url": "https://upcolorado.com/utah-state-university-press/writing-center-administrators-as-campus-leaders"
