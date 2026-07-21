@@ -5,6 +5,21 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://wacclearinghouse.org/books/wac-repository/wrstl/",
+      "content_html": "<h1>New Book Added:</h1><p>Writing and Rhetoric Studies in the Loop: A GenAI Prompt Library by Anuj Gupta and Brian Gogan. Published on 07-20-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/wac-repository/wrstl/\">https://wacclearinghouse.org/books/wac-repository/wrstl/</a></p>",
+      "url": "https://wacclearinghouse.org/books/wac-repository/wrstl/"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/swr/disability/",
+      "content_html": "<h1>New Book Added:</h1><p>Disability, Access, and the Teaching of Writing by Stephanie K. Wheeler, Tracy Ann Morse, Brenda Jo Brueggemann, Molly E. Ubbesen, Craig A. Meyer, Elizabeth Brewer, Lauren Obermark, Bre Garrett, and Dev K. Bose. Published on 07-20-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/swr/disability/\">https://wacclearinghouse.org/books/swr/disability/</a></p>",
+      "url": "https://wacclearinghouse.org/books/swr/disability/"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/writing-opportunities",
+      "content_html": "<h1>New Book Added:</h1><p>Writing Opportunities: Writing, Learning, and Rightful Presence in College Transitions by Brad Jacobson. Published on 07-16-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/writing-opportunities\">https://upcolorado.com/utah-state-university-press/writing-opportunities</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/writing-opportunities"
+    },
+    {
       "id": "https://manifold.sc.edu/projects/the-gods-themselves",
       "content_html": "<h1>New Book Added:</h1><p>The Gods Themselves: Rhetoric and Myth in Sumer, Egypt, and Greece Before 355 BCE by Shawn D. Ramsey. Published on 06-20-2026.</p><p>Link to book: <a href=\"https://manifold.sc.edu/projects/the-gods-themselves\">https://manifold.sc.edu/projects/the-gods-themselves</a></p>",
       "url": "https://manifold.sc.edu/projects/the-gods-themselves"
