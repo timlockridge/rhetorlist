@@ -508,5 +508,43 @@
     "description": [
       "Writing and Rhetoric Studies in the Loop: A GenAI Prompt Library is an open-access, peer-reviewed collection designed to align expert knowledge about writing with the practice of writing prompts for generative artificial intelligence (GenAI) platforms. The library showcases 16 prompts, each of which have been designed for and tested across multiple GenAI platforms. The editors and contributors to the collection advance and amplify new ways for members of the writing and rhetoric field—broadly defined as scholars and teachers of language use, from composition to technical and professional communication and beyond—to activate their expertise and uphold their values when engaging with GenAI platforms. Rather than engaging in a winner-takes-all existential struggle that pits human writing against machine writing, they wrestle with GenAI platforms in ways that provide us with opportunities to stay in the loop and, doing so, offer writers and writing instructors agency to enact humanistic values and uphold disciplinary expertise."
     ]
+  },
+  {
+    "title": "Research Practice in Technical and Professional Communication",
+    "author": "Michelle McMullin, Valerie Smith, and Lisa Melonçon",
+    "publicationDate": "08-01-2026",
+    "publisher": "WAC Clearinghouse/UP Colorado",
+    "publisherURL": "https://wacclearinghouse.org/books/tpc/research-practice/",
+    "openAccess": "yes",
+    "coverImage": "covers/mcmullin2026.jpg",
+    "description": [
+      "The stories we tell about what happens in the course of our research require more attention. The complications, decision points, pivots, and challenges we navigate as we establish research questions, determine methods, and carry out research are rarely visible in published research. Yet it is those stories that are often most instructive to others. This collection brings together stories from researchers at all levels of experience—graduate students, early career scholars, and experienced researchers—to emphasize the importance of sharing the knowledge-making that happens in the moment as we decide, struggle, fail, and regroup throughout the normal course of conducting research. The researchers who share their stories in this collection describe how they arrived at their research questions, determined methods, recruited participants, made decisions or shifted focus during the course of their research, and made use of data that wasn’t what they expected or hoped to find. This focus on the how of research helps us to make these conversations about process more visible in the field of technical and professional communication, allowing them to serve effectively as teaching tools as we mentor students and colleagues, as we strengthen our own research practices, and as we encounter similar complications in our own work."
+    ]
+  },
+  {
+    "title": "Writing Whiteness: Uprooting White Language Supremacy in First-Year Writing Programs",
+    "author": "Bethany Davila",
+    "publicationDate": "08-11-2026",
+    "publisher": "Studies in Writing and Rhetoric",
+    "publisherURL": "https://bookshop.org/p/books/writing-whiteness-uprooting-white-language-supremacy-in-first-year-writing-programs-bethany-davila/6d6d274db9710a9b?ean=9780814103043&bkshp-astro=t",
+    "openAccess": "no",
+    "coverImage": "covers/davila2026.jpg",
+    "description": [
+      "Writing Whiteness invites readers to reimagine writing program practices that center equity, inclusion, diversity, and justice. Drawing on data from more than one hundred institutions to identify practices and language patterns that prevent educators from enacting racial linguistic justice, Bethany Davila lays out the ways that White language supremacy (WLS) takes root, proliferates, and obstructs growth in college writing programs.",
+      "The book challenges these barriers to achieving racial linguistic justice, including institutional representations of students and writing, ubiquitous key concepts valued by the field, and ways that people may unknowingly mask or justify inaction. Davila then offers a disruptive reading practice (for writing programs, materials, and values) that readers of this book can use to uproot WLS in their own institutions and programs. The book also includes a heuristic and multiple approaches for uprooting whiteness in various contexts and situations.",
+      "Davila urges readers to disrupt the status quo, challenge dominant narratives, and create opportunities for marginalized voices to be heard and respected."
+    ]
+  },
+  {
+    "title": "Jesuit Rhetoric across Space and Time",
+    "author": "Sophie Conte, Cinthia Gannett, John Brereton, Manfred Krauss, Elizabethada Wright, and Bartosz Awianowicz",
+    "publicationDate": "02-12-2026",
+    "publisher": "Brill",
+    "publisherURL": "https://brill.com/edcollbook/title/73212",
+    "openAccess": "no",
+    "coverImage": "covers/conte2026.jpg",
+    "description": [
+      "A product of Renaissance educational thought, Jesuit rhetoric has trained generations of churchmen and lay citizens right up to the present day. This book aims to show the wealth of current international research on Jesuit rhetoric, in its pedagogical dimension (from sixteenth-century manuals to today's university writing courses), its practical implementation (in speeches, music or theology). Its chapters span both religious contexts—engagements with Protestants, Jews, Orthodox Christians, and Dominicans—and geographical ones, including encounters between Europe and regions such as Sri Lanka, China, and Japan."
+    ]
   }
 ]
