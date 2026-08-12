@@ -5,6 +5,21 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://brill.com/edcollbook/title/73212",
+      "content_html": "<h1>New Book Added:</h1><p>Jesuit Rhetoric across Space and Time by Sophie Conte, Cinthia Gannett, John Brereton, Manfred Krauss, Elizabethada Wright, and Bartosz Awianowicz. Published on 02-12-2026.</p><p>Link to book: <a href=\"https://brill.com/edcollbook/title/73212\">https://brill.com/edcollbook/title/73212</a></p>",
+      "url": "https://brill.com/edcollbook/title/73212"
+    },
+    {
+      "id": "https://bookshop.org/p/books/writing-whiteness-uprooting-white-language-supremacy-in-first-year-writing-programs-bethany-davila/6d6d274db9710a9b?ean=9780814103043&bkshp-astro=t",
+      "content_html": "<h1>New Book Added:</h1><p>Writing Whiteness: Uprooting White Language Supremacy in First-Year Writing Programs by Bethany Davila. Published on 08-11-2026.</p><p>Link to book: <a href=\"https://bookshop.org/p/books/writing-whiteness-uprooting-white-language-supremacy-in-first-year-writing-programs-bethany-davila/6d6d274db9710a9b?ean=9780814103043&bkshp-astro=t\">https://bookshop.org/p/books/writing-whiteness-uprooting-white-language-supremacy-in-first-year-writing-programs-bethany-davila/6d6d274db9710a9b?ean=9780814103043&bkshp-astro=t</a></p>",
+      "url": "https://bookshop.org/p/books/writing-whiteness-uprooting-white-language-supremacy-in-first-year-writing-programs-bethany-davila/6d6d274db9710a9b?ean=9780814103043&bkshp-astro=t"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/tpc/research-practice/",
+      "content_html": "<h1>New Book Added:</h1><p>Research Practice in Technical and Professional Communication by Michelle McMullin, Valerie Smith, and Lisa Melonçon. Published on 08-01-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/tpc/research-practice/\">https://wacclearinghouse.org/books/tpc/research-practice/</a></p>",
+      "url": "https://wacclearinghouse.org/books/tpc/research-practice/"
+    },
+    {
       "id": "https://wacclearinghouse.org/books/wac-repository/wrstl/",
       "content_html": "<h1>New Book Added:</h1><p>Writing and Rhetoric Studies in the Loop: A GenAI Prompt Library by Anuj Gupta and Brian Gogan. Published on 07-20-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/wac-repository/wrstl/\">https://wacclearinghouse.org/books/wac-repository/wrstl/</a></p>",
       "url": "https://wacclearinghouse.org/books/wac-repository/wrstl/"
