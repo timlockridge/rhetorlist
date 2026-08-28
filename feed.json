@@ -5,6 +5,16 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://upcolorado.com/utah-state-university-press/precariously-centered",
+      "content_html": "<h1>New Book Added:</h1><p>Precariously Centered: The Experiences of Contingent Women Writing Center Administrators by Liliana M. Naydan, Maggie M. Herb, and Clint Gardner. Published on 08-28-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/precariously-centered\">https://upcolorado.com/utah-state-university-press/precariously-centered</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/precariously-centered"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/practice/pretty/",
+      "content_html": "<h1>New Book Added:</h1><p>Reclaiming “Pretty Girl”: A Critical Reflection on Heritage Chinese Voices, Identities, and Third Places by Charissa Che. Published on 08-18-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/practice/pretty/\">https://wacclearinghouse.org/books/practice/pretty/</a></p>",
+      "url": "https://wacclearinghouse.org/books/practice/pretty/"
+    },
+    {
       "id": "https://brill.com/edcollbook/title/73212",
       "content_html": "<h1>New Book Added:</h1><p>Jesuit Rhetoric across Space and Time by Sophie Conte, Cinthia Gannett, John Brereton, Manfred Krauss, Elizabethada Wright, and Bartosz Awianowicz. Published on 02-12-2026.</p><p>Link to book: <a href=\"https://brill.com/edcollbook/title/73212\">https://brill.com/edcollbook/title/73212</a></p>",
       "url": "https://brill.com/edcollbook/title/73212"
