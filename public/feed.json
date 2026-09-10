@@ -5,6 +5,16 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://upcolorado.com/utah-state-university-press/centering-student-activism",
+      "content_html": "<h1>New Book Added:</h1><p>Centering Student Activism: Feminist Rhetorical Interruptions of Sexual Assault Culture by Shari J. Stenberg. Published on 10-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/centering-student-activism\">https://upcolorado.com/utah-state-university-press/centering-student-activism</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/centering-student-activism"
+    },
+    {
+      "id": "https://wacclearinghouse.org/books/perspectives/radical/",
+      "content_html": "<h1>New Book Added:</h1><p>Radical Frameworks for Writing Transfer: Toward Epistemological Justice in Academic Writing Contexts by Lisa Tremain and Libbi R. Miller. Published on 09-09-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/perspectives/radical/\">https://wacclearinghouse.org/books/perspectives/radical/</a></p>",
+      "url": "https://wacclearinghouse.org/books/perspectives/radical/"
+    },
+    {
       "id": "https://upcolorado.com/utah-state-university-press/precariously-centered",
       "content_html": "<h1>New Book Added:</h1><p>Precariously Centered: The Experiences of Contingent Women Writing Center Administrators by Liliana M. Naydan, Maggie M. Herb, and Clint Gardner. Published on 08-28-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/precariously-centered\">https://upcolorado.com/utah-state-university-press/precariously-centered</a></p>",
       "url": "https://upcolorado.com/utah-state-university-press/precariously-centered"
