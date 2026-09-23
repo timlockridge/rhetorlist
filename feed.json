@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://www.uapress.ua.edu/9780817322687/disgustatory/",
+      "content_html": "<h1>New Book Added:</h1><p>Disgustatory! A Gothic Rhetoric of Consumption by Jeremy Tirrell and Kate Maddalena. Published on 07-15-2026.</p><p>Link to book: <a href=\"https://www.uapress.ua.edu/9780817322687/disgustatory/\">https://www.uapress.ua.edu/9780817322687/disgustatory/</a></p>",
+      "url": "https://www.uapress.ua.edu/9780817322687/disgustatory/"
+    },
+    {
       "id": "https://upcolorado.com/utah-state-university-press/centering-student-activism",
       "content_html": "<h1>New Book Added:</h1><p>Centering Student Activism: Feminist Rhetorical Interruptions of Sexual Assault Culture by Shari J. Stenberg. Published on 10-01-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/centering-student-activism\">https://upcolorado.com/utah-state-university-press/centering-student-activism</a></p>",
       "url": "https://upcolorado.com/utah-state-university-press/centering-student-activism"
