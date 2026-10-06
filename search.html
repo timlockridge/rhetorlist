@@ -102,7 +102,14 @@
                 var searchText = document.getElementById('searchInput').value.toLowerCase();
                 var searchTerms = searchText.split(" ");
                 var searchResults = [];
-                var fileNames = ['2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+                // Build the list of year files dynamically: next year (for forthcoming
+                // books) down to the first year of the archive. Files that don't exist
+                // yet are skipped below, so no manual update is needed each January.
+                const FIRST_YEAR = 2018;
+                var fileNames = [];
+                for (let year = new Date().getFullYear() + 1; year >= FIRST_YEAR; year--) {
+                    fileNames.push(year + '.json');
+                }
 
                 // Get search field preferences
                 var searchInTitle = document.getElementById('searchTitle').checked;
@@ -119,6 +126,10 @@
                 for (let file of fileNames) {
                     try {
                         let response = await fetch(file);
+                        if (!response.ok) {
+                            // Year file doesn't exist yet (e.g. next year's); skip it quietly
+                            continue;
+                        }
                         let data = await response.json();
                         searchResults = searchResults.concat(data.filter(item => {
                             // Build searchable text based on selected fields
