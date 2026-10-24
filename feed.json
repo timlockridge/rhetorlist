@@ -5,6 +5,61 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://ohiostatepress.org/books/titles/9780814216170.html",
+      "content_html": "<h1>New Book Added:</h1><p>Ordinary Abortion: Reproductive Choice in Twenty-First-Century Women's Writing by Mary Thompson. Published on 01-01-2026.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814216170.html\">https://ohiostatepress.org/books/titles/9780814216170.html</a></p>",
+      "url": "https://ohiostatepress.org/books/titles/9780814216170.html"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/the-reluctant-supervisor",
+      "content_html": "<h1>New Book Added:</h1><p>The Reluctant Supervisor: Recognizing and Rethinking Power in Writing Center Supervisory Practices by Rachel Azima, Katie Levin, Meredith Steck, and Jasmine Kar Tang. Published on 10-15-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/the-reluctant-supervisor\">https://upcolorado.com/utah-state-university-press/the-reluctant-supervisor</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/the-reluctant-supervisor"
+    },
+    {
+      "id": "https://upcolorado.com/utah-state-university-press/enacting-empathy",
+      "content_html": "<h1>New Book Added:</h1><p>Enacting Empathy: Stories and Strategies from the Writing Classroom by Lisa Blankenship and Eric Leake. Published on 05-21-2026.</p><p>Link to book: <a href=\"https://upcolorado.com/utah-state-university-press/enacting-empathy\">https://upcolorado.com/utah-state-university-press/enacting-empathy</a></p>",
+      "url": "https://upcolorado.com/utah-state-university-press/enacting-empathy"
+    },
+    {
+      "id": "https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html",
+      "content_html": "<h1>New Book Added:</h1><p>The Empathy Paradox: Rhetoric, Media, and the Trouble with Identification by Rachel McCabe. Published on 08-06-2026.</p><p>Link to book: <a href=\"https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html\">https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html</a></p>",
+      "url": "https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html"
+    },
+    {
+      "id": "https://doi.org/10.61162/9781643366968",
+      "content_html": "<h1>New Book Added:</h1><p>Affective Rhetorics: Reembodying Circulation in Digital Spaces by Jessica L. Ouellette. Published on 08-20-2026.</p><p>Link to book: <a href=\"https://doi.org/10.61162/9781643366968\">https://doi.org/10.61162/9781643366968</a></p>",
+      "url": "https://doi.org/10.61162/9781643366968"
+    },
+    {
+      "id": "https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323",
+      "content_html": "<h1>New Book Added:</h1><p>Rhetorics and Tactics of Antiwork: Writing the Great Resignation by Josh Chase and Leah Heilig. Published on 12-01-2026.</p><p>Link to book: <a href=\"https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323\">https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323</a></p>",
+      "url": "https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323"
+    },
+    {
+      "id": "https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee",
+      "content_html": "<h1>New Book Added:</h1><p>Peer Feedback in Second Language Writing: Learner Cognition and Engagement by Shulin Yu and Icy Lee. Published on 09-02-2026.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee\">https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee</a></p>",
+      "url": "https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee"
+    },
+    {
+      "id": "https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain",
+      "content_html": "<h1>New Book Added:</h1><p>Sustainable Academic Writing Centers in the Age of Artificial Intelligence by Kimberly A. Bain. Published on 09-23-2026.</p><p>Link to book: <a href=\"https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain\">https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain</a></p>",
+      "url": "https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain"
+    },
+    {
+      "id": "https://www.psupress.org/books/titles/978-0-271-10217-7.html",
+      "content_html": "<h1>New Book Added:</h1><p>Transnational Feminist Rhetorics: Remobilizing Solidarities by Belinda Walzer, Mais T. Al-Khateeb, Jennifer Nish, and Sweta Baniya. Published on 10-01-2026.</p><p>Link to book: <a href=\"https://www.psupress.org/books/titles/978-0-271-10217-7.html\">https://www.psupress.org/books/titles/978-0-271-10217-7.html</a></p>",
+      "url": "https://www.psupress.org/books/titles/978-0-271-10217-7.html"
+    },
+    {
+      "id": "https://ohiostatepress.org/books/titles/9780814216149.html",
+      "content_html": "<h1>New Book Added:</h1><p>At Risk: Rhetoric, Deviance, and the Politics of HIV Prevention by McKinley Green. Published on 05-01-2026.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814216149.html\">https://ohiostatepress.org/books/titles/9780814216149.html</a></p>",
+      "url": "https://ohiostatepress.org/books/titles/9780814216149.html"
+    },
+    {
+      "id": "https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826",
+      "content_html": "<h1>New Book Added:</h1><p>Generative AI for Second Language Writing Feedback, Assessment, and Instruction by Mimi Li, Jining Han, and Gouda Taha. Published on 07-31-2026.</p><p>Link to book: <a href=\"https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826\">https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826</a></p>",
+      "url": "https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826"
+    },
+    {
       "id": "https://www.press.jhu.edu/books/title/54003/start-factory",
       "content_html": "<h1>New Book Added:</h1><p>The Start-Up Factory: How Entrepreneurialism Captured Higher Education by James Rushing Daniel. Published on 11-17-2026.</p><p>Link to book: <a href=\"https://www.press.jhu.edu/books/title/54003/start-factory\">https://www.press.jhu.edu/books/title/54003/start-factory</a></p>",
       "url": "https://www.press.jhu.edu/books/title/54003/start-factory"
