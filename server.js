@@ -323,17 +323,12 @@ app.post('/api/covers/match', async (req, res) => {
             });
         }
 
-        // JSON files to search
-        const jsonFiles = [
-            'public/2025.json',
-            'public/2024.json',
-            'public/2023.json',
-            'public/2022.json',
-            'public/2021.json',
-            'public/2020.json',
-            'public/2019.json',
-            'public/2018.json'
-        ];
+        // Every year file in public/, newest first
+        const jsonFiles = (await fs.readdir(path.join(__dirname, 'public')))
+            .filter((f) => /^20\d\d\.json$/.test(f))
+            .sort()
+            .reverse()
+            .map((f) => path.join('public', f));
 
         // Call Python matcher
         const python = spawn('python3', [

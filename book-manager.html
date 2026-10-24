@@ -1217,9 +1217,12 @@ This is the second paragraph."></textarea>
                     matchList.innerHTML = '<p style="text-align:center; color:#666;">No automatic matches found. Please enter book information manually.</p>';
                     // In Add mode, just go back to empty state
                     if (BookManager.mode === 'add') {
+                        this.setState('matches');
                         setTimeout(() => this.setState('empty'), 3000);
+                        return;
                     }
-                    return;
+                    // In Edit mode, fall through so the manual-entry option shows
+                    // and the "Finding Matches" spinner is dismissed
                 }
 
                 // Add each match
@@ -1236,6 +1239,21 @@ This is the second paragraph."></textarea>
                     `;
                     matchList.appendChild(div);
                 });
+
+                // In Edit mode with a book selected, offer to apply the cover to that book
+                // (this is the usual case when the filename does not match the title)
+                if (BookManager.mode === 'edit' && BookManager.currentBookIndex !== null && BookManager.currentBook) {
+                    const currentDiv = document.createElement('div');
+                    currentDiv.className = 'match-item';
+                    currentDiv.innerHTML = `
+                        <input type="radio" name="bookMatch" id="matchCurrent" value="current"${this.matches.length === 0 ? ' checked' : ''}>
+                        <label for="matchCurrent">
+                            <strong>Use for the selected book</strong>
+                            <span class="match-meta">${BookManager.currentBook.title}</span>
+                        </label>
+                    `;
+                    matchList.appendChild(currentDiv);
+                }
 
                 // Add manual entry option
                 const manualDiv = document.createElement('div');
@@ -1267,6 +1285,12 @@ This is the second paragraph."></textarea>
                     // Manual entry - clear the temp file and go back
                     await this.cleanupTemp();
                     this.setState('empty');
+                    return;
+                }
+
+                if (selected.value === 'current') {
+                    // Edit mode: apply the uploaded cover to the book that is open in the form
+                    await this.processForCurrentBook();
                     return;
                 }
 
