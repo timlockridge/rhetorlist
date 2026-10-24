@@ -23,12 +23,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Utah State University Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://upcolorado.com/utah-state-university-press/enacting-empathy"
+    "landingURL": "https://upcolorado.com/utah-state-university-press/enacting-empathy",
+    "statusChanged": "2026-10-24T13:13:27.039Z"
   },
   {
     "id": "doi:10.7330/9781646429301",
@@ -54,12 +55,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Utah State University Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://www.degruyterbrill.com/document/doi/10.7330/9781646429301/html"
+    "landingURL": "https://www.degruyterbrill.com/document/doi/10.7330/9781646429301/html",
+    "statusChanged": "2026-10-24T13:14:22.324Z"
   },
   {
     "id": "doi:10.37514/atd-b.2026.3118",
@@ -86,12 +88,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "The WAC Clearinghouse; University Press of Colorado",
     "titleMustMatch": false,
     "alwaysRelevant": true,
-    "landingURL": "https://wacclearinghouse.org/books/atd/writing-fellows/"
+    "landingURL": "https://wacclearinghouse.org/books/atd/writing-fellows/",
+    "statusChanged": "2026-10-24T13:12:40.447Z"
   },
   {
     "id": "doi:10.26818/9780814216170",
@@ -116,11 +119,12 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "The Ohio State University Press",
     "titleMustMatch": false,
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:15:45.733Z"
   },
   {
     "id": "doi:10.26818/9780814216149",
@@ -145,12 +149,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "The Ohio State University Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://kb.osu.edu/items/2e9cedf0-97a8-4fcd-bfa0-2be751e843e0"
+    "landingURL": "https://kb.osu.edu/items/2e9cedf0-97a8-4fcd-bfa0-2be751e843e0",
+    "statusChanged": "2026-10-24T13:01:37.346Z"
   },
   {
     "id": "doi:10.26818/9780814216217",
@@ -175,12 +180,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "The Ohio State University Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://kb.osu.edu/items/98582972-2538-44f1-8711-c761cc6e560e"
+    "landingURL": "https://kb.osu.edu/items/98582972-2538-44f1-8711-c761cc6e560e",
+    "statusChanged": "2026-10-24T13:02:16.528Z"
   },
   {
     "id": "doi:10.5325/b.20269855",
@@ -205,11 +211,12 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Penn State University Press",
     "titleMustMatch": false,
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:14:35.710Z"
   },
   {
     "id": "doi:10.5325/b.20269879",
@@ -237,12 +244,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Penn State University Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://www.psupress.org/books/titles/978-0-271-10217-7.html"
+    "landingURL": "https://www.psupress.org/books/titles/978-0-271-10217-7.html",
+    "statusChanged": "2026-10-24T13:03:56.450Z"
   },
   {
     "id": "doi:10.61162/9781643366937",
@@ -267,12 +275,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "University of South Carolina Press",
     "titleMustMatch": false,
     "alwaysRelevant": false,
-    "landingURL": "https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html"
+    "landingURL": "https://www.degruyterbrill.com/document/doi/10.61162/9781643366937/html",
+    "statusChanged": "2026-10-24T13:12:05.833Z"
   },
   {
     "id": "doi:10.61162/9781643366968",
@@ -297,11 +306,12 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "University of South Carolina Press",
     "titleMustMatch": false,
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:10:50.541Z"
   },
   {
     "id": "doi:10.4324/9781003653264",
@@ -328,12 +338,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003653264/adam-smith-methodology-jorge-l%C3%B3pez-lloret"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003653264/adam-smith-methodology-jorge-l%C3%B3pez-lloret",
+    "statusChanged": "2026-10-24T13:05:00.898Z"
   },
   {
     "id": "doi:10.4324/9781003792819",
@@ -360,12 +371,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003792819/market-impact-wartime-political-rhetoric-maksym-filatov-edoardo-pagliarin"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003792819/market-impact-wartime-political-rhetoric-maksym-filatov-edoardo-pagliarin",
+    "statusChanged": "2026-10-24T13:03:59.679Z"
   },
   {
     "id": "doi:10.4324/9781003409069",
@@ -392,12 +404,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003409069/reviving-rhetoric-across-curriculum-arlene-holmes-henderson-kat-howard"
+    "landingURL": "https://www.taylorfrancis.com/books/oa-mono/10.4324/9781003409069/reviving-rhetoric-across-curriculum-arlene-holmes-henderson-kat-howard",
+    "statusChanged": "2026-10-24T13:08:10.095Z"
   },
   {
     "id": "doi:10.4324/9781003792680",
@@ -425,12 +438,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/edit/10.4324/9781003792680/rhetorical-argumentation-extremism-christopher-tindale"
+    "landingURL": "https://www.taylorfrancis.com/books/edit/10.4324/9781003792680/rhetorical-argumentation-extremism-christopher-tindale",
+    "statusChanged": "2026-10-24T13:07:20.269Z"
   },
   {
     "id": "doi:10.4324/9781003785057",
@@ -457,12 +471,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003785057/rhetorical-public-speaking-nathan-crick"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003785057/rhetorical-public-speaking-nathan-crick",
+    "statusChanged": "2026-10-24T13:06:31.877Z"
   },
   {
     "id": "doi:10.4324/9781003662242",
@@ -490,12 +505,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003662242/guide-writing-speaking-fellows-elisabeth-miller-maureen-mcbride"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003662242/guide-writing-speaking-fellows-elisabeth-miller-maureen-mcbride",
+    "statusChanged": "2026-10-24T13:06:20.329Z"
   },
   {
     "id": "doi:10.1201/9781042014705",
@@ -525,12 +541,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.1201/9781042014705/sustainable-academic-writing-centers-age-artificial-intelligence-kimberly-bain",
+    "statusChanged": "2026-10-24T13:06:58.775Z"
   },
   {
     "id": "doi:10.4324/9781003776185",
@@ -558,12 +575,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003776185/linguistic-complexity-english-academic-writing-qingshun-qianqian-zhang"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003776185/linguistic-complexity-english-academic-writing-qingshun-qianqian-zhang",
+    "statusChanged": "2026-10-24T13:04:59.681Z"
   },
   {
     "id": "doi:10.4324/9781003592709",
@@ -591,12 +609,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee"
+    "landingURL": "https://www.taylorfrancis.com/books/edit/10.4324/9781003592709/peer-feedback-second-language-writing-shulin-yu-icy-lee",
+    "statusChanged": "2026-10-24T13:07:51.883Z"
   },
   {
     "id": "doi:10.1201/9781003650379",
@@ -624,12 +643,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "CRC Press",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.1201/9781003650379/engineering-reports-liability-dennis-filler"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.1201/9781003650379/engineering-reports-liability-dennis-filler",
+    "statusChanged": "2026-10-24T13:04:03.677Z"
   },
   {
     "id": "doi:10.4324/9781003643340",
@@ -658,12 +678,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Routledge",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003643340/developing-writing-teachers-terry-locke-lucinda-mcknight"
+    "landingURL": "https://www.taylorfrancis.com/books/mono/10.4324/9781003643340/developing-writing-teachers-terry-locke-lucinda-mcknight",
+    "statusChanged": "2026-10-24T13:05:51.810Z"
   },
   {
     "id": "doi:10.1007/978-3-031-95991-2",
@@ -692,12 +713,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Springer Nature Switzerland",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/978-3-031-95991-2?error=cookies_not_supported&code=a58185d6-2292-4914-a675-e30f8f968ecc"
+    "landingURL": "https://link.springer.com/book/10.1007/978-3-031-95991-2?error=cookies_not_supported&code=a58185d6-2292-4914-a675-e30f8f968ecc",
+    "statusChanged": "2026-10-24T13:09:31.983Z"
   },
   {
     "id": "doi:10.1007/978-3-032-24607-3",
@@ -725,12 +747,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Springer Nature Switzerland",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-24607-3?error=cookies_not_supported&code=458fd8a5-6f94-4aad-9049-75b2cc227ed6"
+    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-24607-3?error=cookies_not_supported&code=458fd8a5-6f94-4aad-9049-75b2cc227ed6",
+    "statusChanged": "2026-10-24T13:09:34.184Z"
   },
   {
     "id": "doi:10.1007/978-3-032-26254-7",
@@ -758,12 +781,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Springer Nature Switzerland",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-26254-7?error=cookies_not_supported&code=8cebe5f2-2840-4c63-b35c-0ca1e1bd43f3"
+    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-26254-7?error=cookies_not_supported&code=8cebe5f2-2840-4c63-b35c-0ca1e1bd43f3",
+    "statusChanged": "2026-10-24T13:09:37.926Z"
   },
   {
     "id": "doi:10.1007/978-3-032-26012-3",
@@ -791,12 +815,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Springer Nature Switzerland",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323"
+    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-26012-3?error=cookies_not_supported&code=e54c0cfb-661c-40f2-9a90-08ed8cbd3323",
+    "statusChanged": "2026-10-24T13:09:23.076Z"
   },
   {
     "id": "doi:10.1007/979-8-8688-2931-4",
@@ -824,12 +849,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Apress",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/979-8-8688-2931-4?error=cookies_not_supported&code=d2c9ec67-d309-4fd9-9e02-f315e975c2de"
+    "landingURL": "https://link.springer.com/book/10.1007/979-8-8688-2931-4?error=cookies_not_supported&code=d2c9ec67-d309-4fd9-9e02-f315e975c2de",
+    "statusChanged": "2026-10-24T13:09:39.294Z"
   },
   {
     "id": "doi:10.1007/978-3-032-37089-1",
@@ -857,12 +883,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Springer Nature Switzerland",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-37089-1?error=cookies_not_supported&code=2fafcf10-283a-4fcc-b5b8-697222903ba7"
+    "landingURL": "https://link.springer.com/book/10.1007/978-3-032-37089-1?error=cookies_not_supported&code=2fafcf10-283a-4fcc-b5b8-697222903ba7",
+    "statusChanged": "2026-10-24T13:09:29.885Z"
   },
   {
     "id": "doi:10.1017/9781009638128",
@@ -889,12 +916,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Cambridge University Press",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.cambridge.org/core/elements/rhetoric-and-reality/70C7BB1D04241A02D6FD49FEEA6FAF25"
+    "landingURL": "https://www.cambridge.org/core/elements/rhetoric-and-reality/70C7BB1D04241A02D6FD49FEEA6FAF25",
+    "statusChanged": "2026-10-24T13:00:08.173Z"
   },
   {
     "id": "doi:10.1017/9781009755528",
@@ -922,12 +950,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Cambridge University Press",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.cambridge.org/core/books/michael-psellos-chronographia/1D226390F903DFE551952854FB5787DF"
+    "landingURL": "https://www.cambridge.org/core/books/michael-psellos-chronographia/1D226390F903DFE551952854FB5787DF",
+    "statusChanged": "2026-10-24T13:00:10.380Z"
   },
   {
     "id": "doi:10.1017/9781009657334",
@@ -960,12 +989,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "added",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Cambridge University Press",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826"
+    "landingURL": "https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826",
+    "statusChanged": "2026-10-24T13:00:02.427Z"
   },
   {
     "id": "doi:10.5040/9781350529601",
@@ -999,12 +1029,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Bloomsbury Publishing Plc",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9781350529601"
+    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9781350529601",
+    "statusChanged": "2026-10-24T12:59:06.369Z"
   },
   {
     "id": "doi:10.5040/9798216199090",
@@ -1038,12 +1069,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Bloomsbury Publishing Plc",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9798216199090"
+    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9798216199090",
+    "statusChanged": "2026-10-24T12:59:09.142Z"
   },
   {
     "id": "doi:10.5040/9798216199250",
@@ -1072,12 +1104,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Bloomsbury Publishing Inc",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9798216199250"
+    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9798216199250",
+    "statusChanged": "2026-10-24T12:59:12.082Z"
   },
   {
     "id": "doi:10.5040/9780755657476",
@@ -1108,12 +1141,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "Bloomsbury Publishing Plc,",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9780755657476"
+    "landingURL": "https://www.bloomsburycollections.com/monograph?docid=b-9780755657476",
+    "statusChanged": "2026-10-24T12:59:13.307Z"
   },
   {
     "id": "doi:10.3998/mpub.12761961",
@@ -1141,12 +1175,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "University of Michigan Press/ELT",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://press.umich.edu/Books/A/Academic-Writing-for-Graduate-Students"
+    "landingURL": "https://press.umich.edu/Books/A/Academic-Writing-for-Graduate-Students",
+    "statusChanged": "2026-10-24T13:09:41.251Z"
   },
   {
     "id": "doi:10.3998/mpub.12840136",
@@ -1174,12 +1209,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "University of Michigan Press/ELT",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://press.umich.edu/Books/C/Commentary-for-Academic-Writing-for-Graduate-Students2"
+    "landingURL": "https://press.umich.edu/Books/C/Commentary-for-Academic-Writing-for-Graduate-Students2",
+    "statusChanged": "2026-10-24T13:09:43.026Z"
   },
   {
     "id": "doi:10.3998/mpub.14522490",
@@ -1208,12 +1244,13 @@
     ],
     "bucket": "likely",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
     "crossrefPublisher": "University of Michigan Press/ELT",
     "titleMustMatch": true,
     "alwaysRelevant": false,
-    "landingURL": "https://press.umich.edu/Books/T/Technology-for-the-Process"
+    "landingURL": "https://press.umich.edu/Books/T/Technology-for-the-Process",
+    "statusChanged": "2026-10-24T13:10:06.625Z"
   },
   {
     "id": "ol:/works/OL45611527W",
@@ -1238,9 +1275,10 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:12:16.779Z"
   },
   {
     "id": "ol:/works/OL42429643W",
@@ -1265,9 +1303,10 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:12:12.858Z"
   },
   {
     "id": "ol:/works/OL42553020W",
@@ -1292,9 +1331,10 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:12:11.887Z"
   },
   {
     "id": "ol:/works/OL44578950W",
@@ -1319,9 +1359,10 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:12:10.623Z"
   },
   {
     "id": "ol:/works/OL44583230W",
@@ -1346,8 +1387,9 @@
     ],
     "bucket": "possible",
     "llm": null,
-    "status": "new",
+    "status": "dismissed",
     "firstSeen": "2026-10-24",
-    "alwaysRelevant": false
+    "alwaysRelevant": false,
+    "statusChanged": "2026-10-24T13:14:30.369Z"
   }
 ]
