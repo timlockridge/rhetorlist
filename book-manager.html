@@ -525,6 +525,154 @@
                 flex-direction: column;
             }
         }
+
+        /* ===== Candidate review panel ===== */
+        .candidates-panel {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+        }
+        .candidates-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .candidates-meta {
+            font-size: 14px;
+            color: #555;
+            flex: 1 1 320px;
+        }
+        .candidates-meta pre {
+            margin: 8px 0 0;
+            max-height: 160px;
+            overflow: auto;
+            font-size: 12px;
+            background: #f6f6f6;
+            padding: 8px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        .candidates-controls {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .candidates-controls select {
+            padding: 6px 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .candidates-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-height: 520px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+        .candidate {
+            display: grid;
+            grid-template-columns: 64px 1fr auto;
+            gap: 14px;
+            align-items: start;
+            padding: 12px;
+            border: 1px solid #e6e6e6;
+            border-radius: 6px;
+            background: #fafafa;
+        }
+        .candidate.selected {
+            border-color: #ED553B;
+            background: #fff7f5;
+        }
+        .candidate-cover img, .candidate-nocover {
+            width: 64px;
+            height: 92px;
+            object-fit: cover;
+            border-radius: 3px;
+            background: #e9e9e9;
+            display: block;
+        }
+        .candidate-title {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.3;
+        }
+        .candidate-byline {
+            font-size: 13px;
+            color: #555;
+            margin-top: 3px;
+        }
+        .candidate-tags {
+            margin-top: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+            font-size: 12px;
+            color: #777;
+        }
+        .pill {
+            display: inline-block;
+            padding: 1px 8px;
+            border-radius: 10px;
+            background: #e8e8e8;
+            color: #444;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .pill-likely { background: #d8f0dc; color: #1f6b33; }
+        .pill-possible { background: #fff0c2; color: #7a5a00; }
+        .pill-unlikely { background: #f3d9d4; color: #8a2a1a; }
+        .candidate-note {
+            margin-top: 6px;
+            font-size: 12px;
+            color: #8a2a1a;
+        }
+        .candidate-links {
+            margin-top: 6px;
+            font-size: 13px;
+        }
+        .candidate-links a { margin-right: 10px; }
+        .candidate-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .candidate-actions button {
+            padding: 6px 12px;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .candidates-empty {
+            padding: 24px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+        .mode-btn .count-badge {
+            display: inline-block;
+            min-width: 18px;
+            padding: 0 6px;
+            margin-left: 6px;
+            border-radius: 9px;
+            background: #ED553B;
+            color: #fff;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+        }
+        .mode-btn.active .count-badge {
+            background: #fff;
+            color: #ED553B;
+        }
     </style>
 </head>
 <body>
@@ -543,6 +691,28 @@
             <button class="mode-btn active" data-mode="add" onclick="BookManager.switchMode('add')">
                 Add New Book
             </button>
+            <button class="mode-btn" data-mode="review" onclick="BookManager.switchMode('review')">
+                Review Candidates<span class="count-badge" id="candidateCount" style="display:none;">0</span>
+            </button>
+        </div>
+
+        <!-- Candidate review panel (Review Candidates mode) -->
+        <div id="candidatesPanel" class="candidates-panel" style="display: none;">
+            <div class="candidates-toolbar">
+                <div class="candidates-meta" id="candidatesMeta">Loading candidates…</div>
+                <div class="candidates-controls">
+                    <select id="candidateBucketFilter" onchange="Candidates.setBucket(this.value)" title="Relevance bucket">
+                        <option value="all">All buckets</option>
+                        <option value="likely">Likely in field</option>
+                        <option value="possible">Possibly in field</option>
+                    </select>
+                    <select id="candidatePublisherFilter" onchange="Candidates.setPublisher(this.value)" title="Publisher">
+                        <option value="">All publishers</option>
+                    </select>
+                    <button class="btn-secondary" id="runDiscoveryBtn" onclick="Candidates.run()">Run discovery</button>
+                </div>
+            </div>
+            <div id="candidatesList" class="candidates-list"></div>
         </div>
 
         <!-- Year Selector (Edit Mode Only) -->
@@ -550,14 +720,6 @@
             <label for="yearSelect">Select Year:</label>
             <select id="yearSelect">
                 <option value="">-- Choose Year --</option>
-                <option value="2025.json" selected>2025</option>
-                <option value="2024.json">2024</option>
-                <option value="2023.json">2023</option>
-                <option value="2022.json">2022</option>
-                <option value="2021.json">2021</option>
-                <option value="2020.json">2020</option>
-                <option value="2019.json">2019</option>
-                <option value="2018.json">2018</option>
             </select>
         </div>
 
@@ -1226,6 +1388,261 @@ This is the second paragraph."></textarea>
             }
         };
 
+        // ===== DISCOVERY CANDIDATES =====
+        // Review queue written by discovery/discover.py and served by /api/candidates
+        const Candidates = {
+            items: [],
+            bucket: 'all',
+            publisher: '',
+            lastRun: null,
+            lastStats: null,
+            running: false,
+            selectedId: null,
+
+            esc(text) {
+                return String(text == null ? '' : text)
+                    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            },
+
+            // '2026-06-03' / '2026-06' / '2026' -> 'MM-DD-YYYY' (missing parts become 01)
+            toRhetorlistDate(iso) {
+                if (!iso) return '';
+                const [y, m = '01', d = '01'] = iso.split('-');
+                if (!/^\d{4}$/.test(y)) return '';
+                return `${m.padStart(2, '0')}-${d.padStart(2, '0')}-${y}`;
+            },
+
+            async load() {
+                try {
+                    const res = await fetch('/api/candidates');
+                    const data = await res.json();
+                    this.items = data.candidates || [];
+                    this.lastRun = data.lastRun;
+                    this.lastStats = data.lastStats;
+                    this.running = data.running;
+                } catch (error) {
+                    console.warn('Could not load candidates:', error);
+                    this.items = [];
+                }
+                this.render();
+            },
+
+            setBucket(value) { this.bucket = value; this.render(); },
+            setPublisher(value) { this.publisher = value; this.render(); },
+
+            visible() {
+                const order = { likely: 0, possible: 1, unlikely: 2 };
+                return this.items
+                    .filter(c => this.bucket === 'all' || c.bucket === this.bucket)
+                    .filter(c => !this.publisher || c.publisher === this.publisher)
+                    .sort((a, b) => (order[a.bucket] ?? 9) - (order[b.bucket] ?? 9)
+                        || a.publisher.localeCompare(b.publisher)
+                        || (b.publicationDate || '').localeCompare(a.publicationDate || ''));
+            },
+
+            render() {
+                // Count badge on the mode button
+                const badge = document.getElementById('candidateCount');
+                badge.textContent = this.items.length;
+                badge.style.display = this.items.length ? 'inline-block' : 'none';
+
+                // Publisher filter options
+                const pubSelect = document.getElementById('candidatePublisherFilter');
+                const publishers = [...new Set(this.items.map(c => c.publisher))].sort();
+                pubSelect.innerHTML = '<option value="">All publishers</option>' +
+                    publishers.map(p => `<option value="${this.esc(p)}"${p === this.publisher ? ' selected' : ''}>${this.esc(p)} (${this.items.filter(c => c.publisher === p).length})</option>`).join('');
+
+                // Summary line
+                const meta = document.getElementById('candidatesMeta');
+                const when = this.lastRun ? new Date(this.lastRun).toLocaleString() : 'never';
+                const stats = this.lastStats
+                    ? ` Last run fetched ${this.lastStats.fetched} records, ${this.lastStats.already} already listed, ${this.lastStats.new} new.`
+                    : '';
+                meta.textContent = `${this.items.length} candidate${this.items.length === 1 ? '' : 's'} waiting for review. Last discovery run: ${when}.${stats}`;
+                if (this.running) {
+                    meta.textContent += ' A discovery run is in progress.';
+                }
+
+                // List
+                const list = document.getElementById('candidatesList');
+                const rows = this.visible();
+                if (!rows.length) {
+                    list.innerHTML = `<div class="candidates-empty">${this.items.length ? 'Nothing matches the current filters.' : 'No candidates waiting. Run discovery to look for new books.'}</div>`;
+                    return;
+                }
+                list.innerHTML = rows.map(c => {
+                    const index = this.items.indexOf(c);
+                    const cover = c.coverURL
+                        ? `<img src="${this.esc(c.coverURL)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'candidate-nocover'}))">`
+                        : '<div class="candidate-nocover"></div>';
+                    const why = (c.scoreReasons || []).slice(0, 3).join(', ');
+                    const llm = c.llm ? `<span class="pill">Claude: ${c.llm.inField ? 'in field' : 'not in field'}</span>` : '';
+                    const links = [
+                        (c.landingURL || c.url) ? `<a href="${this.esc(c.landingURL || c.url)}" target="_blank" rel="noopener">Book page →</a>` : '',
+                        c.searchURL ? `<a href="${this.esc(c.searchURL)}" target="_blank" rel="noopener">Search publisher site →</a>` : ''
+                    ].join('');
+                    return `
+                    <div class="candidate${c.id === this.selectedId ? ' selected' : ''}" data-id="${this.esc(c.id)}">
+                        <div class="candidate-cover">${cover}</div>
+                        <div class="candidate-body">
+                            <div class="candidate-title">${this.esc(c.title)}</div>
+                            <div class="candidate-byline">${this.esc(c.author || 'Author unknown')} · ${this.esc(c.publisher)} · ${this.esc(c.publicationDate || 'date unknown')}</div>
+                            <div class="candidate-tags">
+                                <span class="pill pill-${this.esc(c.bucket)}">${this.esc(c.bucket)}</span>
+                                <span class="pill">${this.esc(c.source)}</span>
+                                ${llm}
+                                <span class="candidate-why">${this.esc(why)}</span>
+                            </div>
+                            ${c.note ? `<div class="candidate-note">${this.esc(c.note)}</div>` : ''}
+                            <div class="candidate-links">${links}</div>
+                        </div>
+                        <div class="candidate-actions">
+                            <button class="btn-primary" onclick="Candidates.loadIntoForm(${index})">Load into form</button>
+                            <button class="btn-secondary" onclick="Candidates.dismiss(${index})">Dismiss</button>
+                        </div>
+                    </div>`;
+                }).join('');
+            },
+
+            highlight(id) {
+                this.selectedId = id;
+                document.querySelectorAll('#candidatesList .candidate').forEach(el => {
+                    el.classList.toggle('selected', el.dataset.id === id);
+                });
+            },
+
+            async loadIntoForm(index) {
+                const c = this.items[index];
+                if (!c) return;
+
+                await BookManager.clearForm();
+                BookManager.currentCandidateId = c.id;
+                this.highlight(c.id);
+
+                const set = (id, value) => {
+                    const el = document.getElementById(id);
+                    el.value = value || '';
+                    el.dispatchEvent(new Event('input', { bubbles: true }));
+                    el.dispatchEvent(new Event('change', { bubbles: true }));
+                };
+                set('bookTitle', c.title);
+                set('bookAuthor', c.author);
+                set('bookPubDate', this.toRhetorlistDate(c.publicationDate));
+                set('bookPublisher', c.publisher);
+                set('bookPublisherURL', c.landingURL || c.url || '');
+                set('bookOpenAccess', c.openAccess || '');
+                set('descriptionTextarea', (c.description || []).join('\n\n'));
+
+                BookManager.checkTitleStatus();
+                BookManager.checkPublisherStatus();
+                BookManager.updatePreview();
+
+                if (c.coverURL) {
+                    await this.fetchCover(c.coverURL);
+                }
+
+                document.querySelector('.editor-layout').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            },
+
+            // Pull the publisher's cover image into the same temp folder uploads use,
+            // so it is processed when the book is saved exactly like an uploaded file
+            async fetchCover(url) {
+                CoverUploader.setState('matching');
+                document.getElementById('matchingPreview').src = url;
+                try {
+                    const res = await fetch('/api/covers/fetch', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ url })
+                    });
+                    const data = await res.json();
+                    if (!res.ok || !data.success) {
+                        throw new Error(data.error || 'Download failed');
+                    }
+                    CoverUploader.tempFilename = data.filename;
+                    CoverUploader.currentCoverImage = 'temp';
+                    document.getElementById('coverPreview').src = url;
+                    document.getElementById('coverFilename').textContent = url.split('/').pop().split('?')[0];
+                    document.getElementById('coverDimensions').textContent = 'Fetched from the publisher - processed when the book is saved';
+                    CoverUploader.setState('set');
+                } catch (error) {
+                    console.warn('Cover fetch failed:', error);
+                    CoverUploader.setState('empty');
+                    BookManager.showError(`Cover could not be fetched (${error.message}). Upload one manually if you like.`);
+                }
+            },
+
+            async setStatus(id, status) {
+                const res = await fetch('/api/candidates/status', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id, status })
+                });
+                if (!res.ok) {
+                    const data = await res.json().catch(() => ({}));
+                    throw new Error(data.error || `Server answered ${res.status}`);
+                }
+                this.items = this.items.filter(c => c.id !== id);
+                if (this.selectedId === id) this.selectedId = null;
+                this.render();
+            },
+
+            async dismiss(index) {
+                const c = this.items[index];
+                if (!c) return;
+                try {
+                    await this.setStatus(c.id, 'dismissed');
+                    if (BookManager.currentCandidateId === c.id) {
+                        BookManager.currentCandidateId = null;
+                    }
+                } catch (error) {
+                    BookManager.showError('Could not dismiss candidate: ' + error.message);
+                }
+            },
+
+            async markAdded(id) {
+                try {
+                    await this.setStatus(id, 'added');
+                } catch (error) {
+                    console.warn('Could not mark candidate as added:', error);
+                }
+            },
+
+            async run() {
+                if (this.running) return;
+                const classify = confirm(
+                    'Run discovery now? This queries Crossref, Parlor Press, Open Library and publisher feeds and takes a few minutes.\n\n' +
+                    'OK = also ask Claude to judge relevance (needs ANTHROPIC_API_KEY and the anthropic package).\n' +
+                    'Cancel = keyword scoring only.'
+                );
+                const button = document.getElementById('runDiscoveryBtn');
+                this.running = true;
+                button.disabled = true;
+                button.textContent = 'Running discovery…';
+                document.getElementById('candidatesMeta').textContent = 'Discovery is running. This usually takes two to five minutes; the list refreshes when it finishes.';
+                try {
+                    const res = await fetch('/api/discover', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ classify })
+                    });
+                    const data = await res.json();
+                    await this.load();
+                    const meta = document.getElementById('candidatesMeta');
+                    const summary = (data.log || '').trim().split('\n').filter(l => /^fetched|^wrote|failed|error/i.test(l.trim())).join('\n');
+                    const pre = document.createElement('pre');
+                    pre.textContent = (data.success ? 'Finished.\n' : `Exited with code ${data.exitCode}.\n`) + (summary || data.log || data.error || '');
+                    meta.appendChild(pre);
+                } catch (error) {
+                    document.getElementById('candidatesMeta').textContent = 'Discovery failed: ' + error.message;
+                } finally {
+                    this.running = false;
+                    button.disabled = false;
+                    button.textContent = 'Run discovery';
+                }
+            }
+        };
+
         // ===== BOOK MANAGER =====
         const BookManager = {
             mode: 'add', // 'edit' or 'add' - default to add mode
@@ -1233,16 +1650,26 @@ This is the second paragraph."></textarea>
             currentBookIndex: null,
             currentYearFile: null,
             books: [],
+            years: [],
+            reviewMode: false,
+            currentCandidateId: null,
             allPublishers: new Set(),
             allTitles: new Set(),
 
             async switchMode(newMode) {
-                this.mode = newMode;
+                // 'review' behaves like 'add' (new books get created) with the candidate panel open
+                this.reviewMode = newMode === 'review';
+                this.mode = this.reviewMode ? 'add' : newMode;
 
                 // Update mode button states
                 document.querySelectorAll('.mode-btn').forEach(btn => {
                     btn.classList.toggle('active', btn.dataset.mode === newMode);
                 });
+
+                document.getElementById('candidatesPanel').style.display = this.reviewMode ? 'block' : 'none';
+                if (this.reviewMode) {
+                    Candidates.load();
+                }
 
                 // Show/hide year selector and book selector
                 document.getElementById('yearSelectorContainer').style.display =
@@ -1258,8 +1685,26 @@ This is the second paragraph."></textarea>
                 await this.clearForm();
             },
 
+            async loadYears() {
+                try {
+                    const res = await fetch('/api/years');
+                    const data = await res.json();
+                    this.years = data.years || [];
+                } catch (error) {
+                    console.warn('Could not list year files, using defaults:', error);
+                    this.years = ['2026.json', '2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+                }
+                const select = document.getElementById('yearSelect');
+                select.innerHTML = '<option value="">-- Choose Year --</option>' +
+                    this.years.map(f => `<option value="${f}">${f.replace('.json', '')}</option>`).join('');
+                if (this.years.length) {
+                    select.value = this.years[0];
+                    this.loadBooks(this.years[0]);
+                }
+            },
+
             async loadAllPublishers() {
-                const jsonFiles = ['2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
+                const jsonFiles = this.years.length ? this.years : ['2026.json', '2025.json', '2024.json', '2023.json', '2022.json', '2021.json', '2020.json', '2019.json', '2018.json'];
                 this.allPublishers = new Set();
                 this.allTitles = new Set();
 
@@ -1422,6 +1867,8 @@ This is the second paragraph."></textarea>
 
                 CoverUploader.setState('empty');
                 this.currentBook = null;
+                this.currentCandidateId = null;
+                Candidates.highlight(null);
 
                 if (this.mode === 'edit') {
                     this.currentBookIndex = null;
@@ -1581,6 +2028,12 @@ This is the second paragraph."></textarea>
                 // Add new title to the list
                 if (book.title && book.title.trim()) {
                     this.allTitles.add(book.title.trim().toLowerCase());
+                }
+
+                // If this book came from the discovery queue, retire the candidate
+                if (this.currentCandidateId) {
+                    await Candidates.markAdded(this.currentCandidateId);
+                    this.currentCandidateId = null;
                 }
 
                 this.showSuccess(`Book created successfully in ${yearFile}!`);
@@ -1796,14 +2249,12 @@ This is the second paragraph."></textarea>
             // Setup drag and drop
             setupDragAndDrop();
 
-            // Load all publishers for autocomplete
+            // Year files drive the edit-mode menu and the publisher/title autocomplete
+            await BookManager.loadYears();
             await BookManager.loadAllPublishers();
 
-            // Auto-load 2025
-            const yearSelect = document.getElementById('yearSelect');
-            if (yearSelect.value === '2025.json') {
-                BookManager.loadBooks('2025.json');
-            }
+            // Discovery queue (fills the count badge on the Review Candidates button)
+            Candidates.load();
         });
     </script>
 </body>

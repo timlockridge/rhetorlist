@@ -1,0 +1,166 @@
+{
+  "_comment": "Sources for discovery/discover.py. Crossref 'member' IDs come from api.crossref.org/members. mode 'all' pulls every book the member deposited in the window (small presses); mode 'keywords' runs the keyword queries below against large publishers. 'label' is the publisher name as Rhetorlist spells it; 'label_rules' override it when the Crossref publisher field matches a regex. 'publisher_match' keeps only records whose Crossref publisher field matches (needed for aggregators like JSTOR).",
+
+  "keyword_queries": [
+    "rhetoric",
+    "rhetorical",
+    "writing studies",
+    "composition studies",
+    "writing pedagogy",
+    "technical communication",
+    "professional communication",
+    "literacy studies",
+    "writing center",
+    "writing program",
+    "digital rhetoric",
+    "multimodal composition"
+  ],
+
+  "relevance": {
+    "strong": [
+      "rhetoric", "rhetorical", "rhetorics", "composition studies", "writing studies",
+      "technical communication", "professional communication", "technical writing",
+      "writing program", "writing center", "writing centers", "writing across the curriculum",
+      "writing in the disciplines", "first-year writing", "first-year composition",
+      "teaching of writing", "teaching writing", "writing pedagogy", "writing instruction",
+      "literacy studies", "literacies", "digital rhetoric", "multimodal composition", "multimodal writing",
+      "multimodal literacy", "multimodal literacies", "composition and rhetoric",
+      "rhetoric and composition", "writing assessment", "writing research", "academic writing",
+      "second language writing", "translingual", "writing program administration",
+      "basic writing", "writing teachers", "writing classroom", "discourse studies"
+    ],
+    "medium": [
+      "writing", "literacy", "discourse", "argument", "argumentation", "pedagogy", "genre", "multimodal",
+      "persuasion", "composition", "public address", "communication", "english studies",
+      "writers", "authorship", "publishing", "feminist", "decolonial", "activism",
+      "accessibility", "disability", "user experience", "ux", "documentation", "ai", "artificial intelligence"
+    ],
+    "negative": [
+      "poems", "poetry", "a novel", "novel", "fiction", "memoir", "short stories", "cookbook",
+      "field guide", "archaeology", "archaeological", "geology", "birds", "hiking",
+      "mathematics", "physics", "chemistry", "engineering handbook", "nursing", "medicine",
+      "clinical", "finance", "accounting", "music theory", "chess"
+    ],
+    "likely_threshold": 3,
+    "possible_threshold": 1
+  },
+
+  "sources": [
+    {
+      "id": "upcolorado", "type": "crossref", "member": 3910, "mode": "all",
+      "label": "University Press of Colorado",
+      "label_rules": [{"match": "Utah State", "label": "Utah State University Press"}],
+      "search_url": "https://upcolorado.com/search?q={title}"
+    },
+    {
+      "id": "wac", "type": "crossref", "member": 23835, "mode": "all",
+      "label": "WAC Clearinghouse/UP Colorado", "always_relevant": true, "open_access": "yes",
+      "search_url": "https://wacclearinghouse.org/?s={title}"
+    },
+    {
+      "id": "osu", "type": "crossref", "member": 7412, "mode": "all",
+      "label": "Ohio State University Press",
+      "search_url": "https://ohiostatepress.org/search.html?q={title}"
+    },
+    {
+      "id": "psu", "type": "crossref", "member": 3287, "mode": "all",
+      "label": "Penn State University Press",
+      "label_rules": [{"match": "Transdisciplinary Rhetoric", "field": "series", "label": "RSA Series in Transdisciplinary Rhetoric/Penn State University Press"}],
+      "search_url": "https://www.psupress.org/search_results.html?searchtext={title}"
+    },
+    {
+      "id": "usc", "type": "crossref", "member": 39527, "mode": "all",
+      "label": "University of South Carolina Press",
+      "search_url": "https://uscpress.com/search?q={title}"
+    },
+    {
+      "id": "msu", "type": "crossref", "member": 5556, "mode": "all",
+      "label": "Michigan State University Press",
+      "search_url": "https://msupress.org/?s={title}"
+    },
+    {
+      "id": "jstor-presses", "type": "crossref", "member": 1121, "mode": "all",
+      "publisher_match": "Pittsburgh|Alabama|Southern Illinois|State University of New York|Mississippi|Illinois Press|Kentucky|West Virginia",
+      "label": "JSTOR-distributed press",
+      "label_rules": [
+        {"match": "Pittsburgh", "label": "University of Pittsburgh Press"},
+        {"match": "Alabama", "label": "University of Alabama Press"},
+        {"match": "Southern Illinois", "label": "Southern Illinois University Press"},
+        {"match": "State University of New York", "label": "SUNY Press"},
+        {"match": "Mississippi", "label": "University Press of Mississippi"},
+        {"match": "Illinois Press", "label": "University of Illinois Press"},
+        {"match": "Kentucky", "label": "University Press of Kentucky"},
+        {"match": "West Virginia", "label": "West Virginia University Press"}
+      ],
+      "search_url": "https://www.google.com/search?q={title}+{publisher}"
+    },
+    {
+      "id": "routledge", "type": "crossref", "member": 301, "mode": "keywords",
+      "label": "Routledge",
+      "search_url": "https://www.routledge.com/search?kw={title}"
+    },
+    {
+      "id": "peterlang", "type": "crossref", "member": 2030, "mode": "keywords",
+      "label": "Peter Lang",
+      "search_url": "https://www.peterlang.com/search?q={title}"
+    },
+    {
+      "id": "springer", "type": "crossref", "member": 297, "mode": "keywords",
+      "label": "Springer",
+      "label_rules": [{"match": "Palgrave", "label": "Palgrave Macmillan"}],
+      "search_url": "https://link.springer.com/search?query={title}"
+    },
+    {
+      "id": "cambridge", "type": "crossref", "member": 56, "mode": "keywords",
+      "label": "Cambridge University Press",
+      "search_url": "https://www.cambridge.org/core/search?q={title}"
+    },
+    {
+      "id": "bloomsbury", "type": "crossref", "member": 2984, "mode": "keywords",
+      "label": "Bloomsbury Academic",
+      "search_url": "https://www.bloomsbury.com/us/search/?q={title}"
+    },
+    {
+      "id": "michigan", "type": "crossref", "member": 2393, "mode": "keywords",
+      "label": "University of Michigan Press",
+      "label_rules": [{"match": "Sweetland|Digital Rhetoric Collaborative", "field": "any", "label": "Sweetland Digital Rhetoric Collaborative/UMich Press"}],
+      "search_url": "https://press.umich.edu/Search-Results?search={title}"
+    },
+    {
+      "id": "parlor", "type": "shopify", "base_url": "https://parlorpress.com",
+      "label": "Parlor Press", "always_relevant": true,
+      "skip_tags": ["Free Verse Editions", "Illuminations", "poetry", "Poetry", "Glassbead Books", "fiction", "Fiction"]
+    },
+    {
+      "id": "siu-openlibrary", "type": "openlibrary", "publisher": "Southern Illinois University Press",
+      "label": "Southern Illinois University Press",
+      "search_url": "https://www.siupress.com/search-results/?keyword={title}"
+    },
+    {
+      "id": "ncte-openlibrary", "type": "openlibrary", "publisher": "National Council of Teachers of English",
+      "label": "NCTE",
+      "search_url": "https://ncte.org/?s={title}"
+    },
+    {
+      "id": "pitt-news", "type": "rss", "url": "https://upittpress.org/feed/", "label": "University of Pittsburgh Press"
+    },
+    {
+      "id": "alabama-news", "type": "rss", "url": "https://www.uapress.ua.edu/feed/", "label": "University of Alabama Press"
+    },
+    {
+      "id": "drc-news", "type": "rss", "url": "https://www.digitalrhetoriccollaborative.org/feed/", "label": "Sweetland Digital Rhetoric Collaborative/UMich Press"
+    }
+  ],
+
+  "manual_checks": [
+    {"label": "Southern Illinois University Press (rhetoric & composition)", "url": "https://www.siupress.com/subjects/rhetoric-and-composition/"},
+    {"label": "NCTE / CCCC Studies in Writing and Rhetoric", "url": "https://ncte.org/books/"},
+    {"label": "Enculturation Intermezzo", "url": "https://intermezzo.enculturation.net/"},
+    {"label": "Computers and Composition Digital Press", "url": "https://ccdigitalpress.org/"},
+    {"label": "Sweetland Digital Rhetoric Collaborative books", "url": "https://www.digitalrhetoriccollaborative.org/drc-book-series/"},
+    {"label": "ATTW Series (Routledge)", "url": "https://www.routledge.com/ATTW-Series-in-Technical-and-Professional-Communication/book-series/ATTW"},
+    {"label": "Lexington Books (rhetoric)", "url": "https://rowman.com/Action/SERIES/_/LEXRHE/Lexington-Studies-in-Contemporary-Rhetoric"},
+    {"label": "SUNY Press (rhetoric)", "url": "https://sunypress.edu/Search-Results?search=rhetoric"},
+    {"label": "Elon Center for Engaged Learning open access books", "url": "https://www.centerforengagedlearning.org/books/"}
+  ]
+}

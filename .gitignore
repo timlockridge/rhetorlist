@@ -4,6 +4,7 @@ node_modules/
 # Development files
 to-process/
 .claude/
+__pycache__/
 
 # OS files
 .DS_Store

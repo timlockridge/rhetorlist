@@ -466,6 +466,147 @@ app.delete('/api/covers/temp/:filename', async (req, res) => {
     }
 });
 
+// ===== DISCOVERY: candidate queue produced by discovery/discover.py =====
+const DISCOVERY_DIR = path.join(__dirname, 'discovery');
+const CANDIDATES_PATH = path.join(DISCOVERY_DIR, 'candidates.json');
+const DISCOVERY_STATE_PATH = path.join(DISCOVERY_DIR, 'state.json');
+const DISCOVERY_UA = 'rhetorlist-discovery/1.0 (+https://rhetorlist.net; mailto:timlockridge@gmail.com)';
+let discoveryRun = null; // { startedAt, log } while a run is in progress
+
+async function readJsonOr(filePath, fallback) {
+    try {
+        return JSON.parse(await fs.readFile(filePath, 'utf8'));
+    } catch (err) {
+        if (err.code === 'ENOENT') return fallback;
+        throw err;
+    }
+}
+
+// Year files that exist in public/, newest first (book manager builds its menus from this)
+app.get('/api/years', async (req, res) => {
+    try {
+        const files = (await fs.readdir(path.join(__dirname, 'public')))
+            .filter((f) => /^20\d\d\.json$/.test(f))
+            .sort()
+            .reverse();
+        res.json({ success: true, years: files });
+    } catch (error) {
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+// Pending candidates plus the last run's summary
+app.get('/api/candidates', async (req, res) => {
+    try {
+        const candidates = await readJsonOr(CANDIDATES_PATH, []);
+        const state = await readJsonOr(DISCOVERY_STATE_PATH, {});
+        res.json({
+            success: true,
+            candidates: candidates.filter((c) => c.status === 'new'),
+            lastRun: state.lastRun || null,
+            lastStats: state.lastStats || null,
+            running: Boolean(discoveryRun)
+        });
+    } catch (error) {
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+// Mark a candidate added or dismissed so it leaves the queue and never comes back
+app.post('/api/candidates/status', async (req, res) => {
+    try {
+        const { id, status } = req.body;
+        if (!id || !['new', 'added', 'dismissed'].includes(status)) {
+            return res.status(400).json({ success: false, error: 'Need id and a status of new, added or dismissed' });
+        }
+        const candidates = await readJsonOr(CANDIDATES_PATH, []);
+        const candidate = candidates.find((c) => c.id === id);
+        if (!candidate) {
+            return res.status(404).json({ success: false, error: 'Candidate not found' });
+        }
+        candidate.status = status;
+        candidate.statusChanged = new Date().toISOString();
+        await fs.writeFile(CANDIDATES_PATH, JSON.stringify(candidates, null, 2), 'utf8');
+
+        const state = await readJsonOr(DISCOVERY_STATE_PATH, { lastRun: null, seen: {} });
+        state.seen = state.seen || {};
+        state.seen[id] = status === 'new' ? 'candidate' : status;
+        await fs.writeFile(DISCOVERY_STATE_PATH, JSON.stringify(state, null, 2), 'utf8');
+
+        res.json({ success: true, remaining: candidates.filter((c) => c.status === 'new').length });
+    } catch (error) {
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+// Run discovery/discover.py and wait for it (a full run takes a few minutes)
+app.post('/api/discover', async (req, res) => {
+    if (discoveryRun) {
+        return res.status(409).json({ success: false, error: 'A discovery run is already in progress' });
+    }
+    const args = [path.join(DISCOVERY_DIR, 'discover.py')];
+    if (req.body && req.body.classify) args.push('--classify');
+    if (req.body && req.body.noEnrich) args.push('--no-enrich');
+
+    discoveryRun = { startedAt: new Date().toISOString(), log: '' };
+    const child = spawn('python3', args, { cwd: __dirname });
+    const timer = setTimeout(() => child.kill('SIGTERM'), 20 * 60 * 1000);
+    child.stdout.on('data', (d) => { discoveryRun.log += d.toString(); });
+    child.stderr.on('data', (d) => { discoveryRun.log += d.toString(); });
+    child.on('error', (err) => {
+        clearTimeout(timer);
+        const log = discoveryRun ? discoveryRun.log : '';
+        discoveryRun = null;
+        res.status(500).json({ success: false, error: `Could not start python3: ${err.message}`, log });
+    });
+    child.on('close', async (code) => {
+        clearTimeout(timer);
+        const log = discoveryRun ? discoveryRun.log : '';
+        discoveryRun = null;
+        if (res.headersSent) return;
+        const state = await readJsonOr(DISCOVERY_STATE_PATH, {});
+        res.json({
+            success: code === 0,
+            exitCode: code,
+            log: log.split('\n').slice(-40).join('\n'),
+            lastRun: state.lastRun || null,
+            lastStats: state.lastStats || null
+        });
+    });
+});
+
+// Download a cover image from a URL into the same temp folder uploads use,
+// so the normal "process when the book is saved" flow applies
+app.post('/api/covers/fetch', async (req, res) => {
+    try {
+        const { url } = req.body;
+        if (!url || !/^https?:\/\//i.test(url)) {
+            return res.status(400).json({ success: false, error: 'A full http(s) image URL is required' });
+        }
+        const response = await fetch(url, { headers: { 'User-Agent': DISCOVERY_UA, Accept: 'image/*' } });
+        if (!response.ok) {
+            return res.status(502).json({ success: false, error: `Image server answered ${response.status}` });
+        }
+        const type = (response.headers.get('content-type') || '').toLowerCase();
+        const ext = type.includes('png') ? '.png' : type.includes('webp') ? '.webp' :
+                    type.includes('avif') ? '.avif' : type.includes('jpeg') || type.includes('jpg') ? '.jpg' : null;
+        if (!ext) {
+            return res.status(415).json({ success: false, error: `Not an image we can process (${type || 'unknown type'})` });
+        }
+        const buffer = Buffer.from(await response.arrayBuffer());
+        if (buffer.length > 10 * 1024 * 1024) {
+            return res.status(413).json({ success: false, error: 'Image is larger than 10MB' });
+        }
+        await fs.mkdir('/tmp/uploads', { recursive: true });
+        const filename = `fetched-${Date.now()}-${Math.random().toString(36).slice(2, 8)}${ext}`;
+        await fs.writeFile(path.join('/tmp/uploads', filename), buffer);
+        res.json({ success: true, filename, size: buffer.length, contentType: type });
+    } catch (error) {
+        console.error('Error fetching cover:', error);
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
 // Function to open URL in default browser
 function openBrowser(url) {
     const command = process.platform === 'darwin' ? 'open' :
