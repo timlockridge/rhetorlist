@@ -5,6 +5,11 @@
   "feed_url": "https://rhetorlist.net/feed.json",
   "items": [
     {
+      "id": "https://ccdigitalpress.org/sonic-abundance",
+      "content_html": "<h1>New Book Added:</h1><p>Sonic Abundance by Crystal VanKooten and Harley Ferris. Published on 10-21-2026.</p><p>Link to book: <a href=\"https://ccdigitalpress.org/sonic-abundance\">https://ccdigitalpress.org/sonic-abundance</a></p>",
+      "url": "https://ccdigitalpress.org/sonic-abundance"
+    },
+    {
       "id": "https://ohiostatepress.org/books/titles/9780814216170.html",
       "content_html": "<h1>New Book Added:</h1><p>Ordinary Abortion: Reproductive Choice in Twenty-First-Century Women's Writing by Mary Thompson. Published on 01-01-2026.</p><p>Link to book: <a href=\"https://ohiostatepress.org/books/titles/9780814216170.html\">https://ohiostatepress.org/books/titles/9780814216170.html</a></p>",
       "url": "https://ohiostatepress.org/books/titles/9780814216170.html"
@@ -59,7 +64,7 @@
       "content_html": "<h1>New Book Added:</h1><p>Generative AI for Second Language Writing Feedback, Assessment, and Instruction by Mimi Li, Jining Han, and Gouda Taha. Published on 07-31-2026.</p><p>Link to book: <a href=\"https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826\">https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826</a></p>",
       "url": "https://www.cambridge.org/core/elements/abs/generative-ai-for-second-language-writing-feedback-assessment-and-instruction/895B73EE7CB0C563A65494B923F4E826"
     },
-  {
+    {
       "id": "https://wacclearinghouse.org/books/atd/writing-fellows/",
       "content_html": "<h1>New Book Added:</h1><p>Writing Fellows: A Research- and Practice-Based Guide for Program Administrators, Faculty, and Tutors by Pam Bromley, Eliana Schonberg, and Scott Whiddon. Published on 10-03-2026.</p><p>Link to book: <a href=\"https://wacclearinghouse.org/books/atd/writing-fellows/\">https://wacclearinghouse.org/books/atd/writing-fellows/</a></p>",
       "url": "https://wacclearinghouse.org/books/atd/writing-fellows/"
